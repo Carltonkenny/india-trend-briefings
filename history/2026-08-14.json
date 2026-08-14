@@ -7,10 +7,21 @@
     "sources": 109,
     "categories": 12
   },
-  "delivered_at": "2026-08-14T13:04:16.253218+05:30",
+  "delivered_at": "2026-08-14T13:12:57.526130+05:30",
   "telegram_message_chars": 3476,
   "success": true,
+  "delivery_channel": "telegram_cron_inline",
+  "delivery_failed": true,
+  "delivery_failure_reason": "telegram_api_401_unauthorized",
+  "previous_day_status": "ok",
   "schema_version": "v2",
   "validation_passed": true,
-  "delivery_channel": "telegram_cron_inline"
+  "publish_ok": true,
+  "publish_artifacts": {
+    "day_page": "https://carltonkenny.github.io/Daily_briefings-/2026-08-14.html",
+    "dashboard": "https://carltonkenny.github.io/Daily_briefings-/dashboard.html",
+    "by_topic": "https://carltonkenny.github.io/Daily_briefings-/by-topic.html",
+    "index": "https://carltonkenny.github.io/Daily_briefings-/"
+  },
+  "cron_run_notes": "Cron tick at 2026-08-14 13:03 IST (Fri Aug 14, 07:33 UTC). Today's md/json/html existed from 13:02 IST run; validator passed; publisher pushed to origin main1 (live HEAD verified 200 OK); deliver_telegram.py exited 1 with 401 Unauthorized — TELEGRAM_BOT_TOKEN is empty placeholder in C:/Users/user/AppData/Local/hermes/.env (only *** leaked value, no real token). Local artifacts shipped; Telegram delivery suppressed as required by the skill (do not silently fall back to inline Markdown)."
 }
