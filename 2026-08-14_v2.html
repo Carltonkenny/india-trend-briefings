@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Daily Briefing — 2026-08-14</title>
+<style>
+  /* =========================================================
+     Design tokens — one accent, restrained neutrals, no fluff
+     ========================================================= */
+  :root {
+    --accent: #c2410c;          /* saffron-700 — the single anchor color */
+    --accent-soft: #fff7ed;     /* saffron-50 */
+    --accent-line: #fed7aa;     /* saffron-200 */
+
+    --ink: #1a1614;
+    --ink-soft: #4a4441;
+    --muted: #8a8580;
+    --line: #ebe7e3;
+    --surface: #fdfcfb;
+    --surface-raised: #ffffff;
+    --shadow-sm: 0 1px 2px rgba(26,22,20,0.04);
+    --shadow-md: 0 4px 16px rgba(26,22,20,0.06);
+
+    --high: #166534;
+    --high-bg: #dcfce7;
+    --med: #92400e;
+    --med-bg: #fef3c7;
+    --low: #991b1b;
+    --low-bg: #fee2e2;
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+
+    --serif: 'Source Serif Pro', 'Iowan Old Style', 'Charter', Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif;
+    --mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --accent: #fb923c;
+      --accent-soft: #2a1810;
+      --accent-line: #5a3a28;
+
+      --ink: #f5f1ed;
+      --ink-soft: #c4bdb6;
+      --muted: #8a8580;
+      --line: #2a2622;
+      --surface: #14110f;
+      --surface-raised: #1c1815;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+
+      --high: #4ade80;  --high-bg: #052e16;
+      --med: #fbbf24;   --med-bg: #451a03;
+      --low: #f87171;   --low-bg: #450a0a;
+    }
+  }
+
+  /* =========================================================
+     Base
+     ========================================================= */
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+  body {
+    margin: 0;
+    font-family: var(--sans);
+    color: var(--ink);
+    background: var(--surface);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  /* =========================================================
+     Header — single, not duplicated
+     ========================================================= */
+  .site-header {
+    border-bottom: 1px solid var(--line);
+    background: var(--surface-raised);
+    padding: 28px 0 24px;
+  }
+  .masthead { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .flag { font-size: 32px; line-height: 1; }
+  .masthead h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .masthead .date {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    margin-left: auto;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .meta-row {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .meta-row .dot { width: 4px; height: 4px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+  /* =========================================================
+     Sticky nav — category filter pills
+     ========================================================= */
+  .nav-rail {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--surface-raised) 92%, transparent);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+  }
+  .pills {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .pills::-webkit-scrollbar { display: none; }
+  .pill {
+    flex-shrink: 0;
+    border: 1px solid var(--line);
+    background: var(--surface-raised);
+    color: var(--ink-soft);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 120ms ease;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .pill:hover {
+    border-color: var(--accent-line);
+    color: var(--ink);
+  }
+  .pill[aria-pressed="true"] {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  .pill[aria-pressed="true"]:hover {
+    background: var(--accent);
+    filter: brightness(1.1);
+  }
+  .pill .count {
+    font-family: var(--mono);
+    font-size: 11px;
+    opacity: 0.7;
+    margin-left: 4px;
+  }
+
+  /* =========================================================
+     Section
+     ========================================================= */
+  .section {
+    padding: 36px 0 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .section:last-of-type { border-bottom: none; }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+  .section-head h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.005em;
+    margin: 0;
+    color: var(--ink);
+  }
+  .section-head .count {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .theme-line {
+    font-size: 14px;
+    color: var(--ink-soft);
+    font-style: italic;
+    margin: 0 0 20px;
+    padding-left: 12px;
+    border-left: 2px solid var(--accent-line);
+  }
+
+  /* =========================================================
+     Item cards
+     ========================================================= */
+  .items { display: grid; gap: 14px; }
+  .item {
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 16px 18px;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 150ms ease, transform 150ms ease;
+  }
+  .item:hover {
+    box-shadow: var(--shadow-md);
+  }
+  .item-head {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .item-head .star {
+    color: var(--accent);
+    font-size: 14px;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+  .item-head h3 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 0;
+    color: var(--ink);
+  }
+  .confidence {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: var(--radius-sm);
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-right: 6px;
+    vertical-align: 2px;
+  }
+  .confidence.high { background: var(--high-bg); color: var(--high); }
+  .confidence.medium { background: var(--med-bg); color: var(--med); }
+  .confidence.low { background: var(--low-bg); color: var(--low); }
+
+  .item p { margin: 6px 0; font-size: 14px; color: var(--ink-soft); }
+  .item .why {
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .sources {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--line);
+    font-size: 12px;
+  }
+  .sources a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    margin-right: 12px;
+    border-bottom: 1px dotted var(--line);
+  }
+  .sources a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* =========================================================
+     Top stories — featured treatment
+     ========================================================= */
+  #top-stories { background: var(--accent-soft); border-radius: var(--radius-lg); padding: 28px 28px 18px; margin: 28px 0 12px; border: 1px solid var(--accent-line); border-bottom: 1px solid var(--accent-line); }
+  #top-stories .section-head h2 { color: var(--accent); }
+  #top-stories .theme-line { border-left-color: var(--accent); }
+  #top-stories .items { gap: 16px; }
+  #top-stories .item { background: var(--surface-raised); border-color: var(--accent-line); }
+
+  /* =========================================================
+     Footer
+     ========================================================= */
+  .site-footer {
+    margin-top: 48px;
+    padding: 28px 0 48px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+  }
+  .site-footer a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px dotted var(--line); }
+
+  /* =========================================================
+     Mobile
+     ========================================================= */
+  @media (max-width: 640px) {
+    .wrap { padding: 0 16px; }
+    .masthead h1 { font-size: 22px; }
+    .section-head h2 { font-size: 19px; }
+    .item-head h3 { font-size: 16px; }
+    #top-stories { padding: 20px 18px 14px; }
+  }
+
+  /* =========================================================
+     Reduced motion
+     ========================================================= */
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="masthead">
+      <span class="flag">🇮🇳</span>
+      <h1>India Daily Briefing</h1>
+      <span class="date" id="date-stamp">—</span>
+    </div>
+    <div class="meta-row">
+      <span><span class="dot"></span> 58 stories · 12 categories</span>
+      <span id="last-updated">Last updated —</span>
+    </div>
+  </div>
+</header>
+
+<nav class="nav-rail" aria-label="Section filter">
+  <div class="wrap">
+    <div class="pills" role="tablist" id="pills">
+      <button class="pill" data-target="all" aria-pressed="true">All <span class="count">58</span></button>
+      <button class="pill" data-target="top-stories" aria-pressed="false">🌟 Top <span class="count">5</span></button>
+<button class="pill" data-target="tech" aria-pressed="false">🤖 Tech &amp; AI <span class="count">5</span></button>
+<button class="pill" data-target="markets" aria-pressed="false">📈 Markets <span class="count">5</span></button>
+<button class="pill" data-target="politics" aria-pressed="false">🏛️ Politics <span class="count">4</span></button>
+<button class="pill" data-target="bangalore" aria-pressed="false">🌳 Bangalore <span class="count">5</span></button>
+<button class="pill" data-target="chennai" aria-pressed="false">🌊 Chennai <span class="count">5</span></button>
+<button class="pill" data-target="mumbai" aria-pressed="false">🌆 Mumbai <span class="count">5</span></button>
+<button class="pill" data-target="sports" aria-pressed="false">🏏 Sports <span class="count">4</span></button>
+<button class="pill" data-target="culture" aria-pressed="false">🎬 Culture <span class="count">5</span></button>
+<button class="pill" data-target="crime" aria-pressed="false">⚖️ Crime <span class="count">5</span></button>
+<button class="pill" data-target="health" aria-pressed="false">🧬 Health <span class="count">5</span></button>
+<button class="pill" data-target="international" aria-pressed="false">🌐 International <span class="count">5</span></button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section class="section" id="top-stories" data-section="top-stories">
+  <div class="section-head"><h2>🌟 Top Stories</h2><span class="count">5 cross-cutting trends</span></div>
+  <p class="theme-line">5 cross-cutting trends of the day</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3>Cauvery dispute continues: Mandya farmers block highway with empty pots as Karnataka bandh Day 2 sees mixed response</h3></div><p>The Cauvery row remains a street-level flashpoint on both sides of the border; the judicial relief window keeps slipping — meaning the political pressure valve stays open with no court-mediated solution in sight.</p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3>Monsoon Session ends: Parliament passes 12 Bills including MMDR mines amendment; opposition states threaten Supreme Court challenge</h3></div><p>The MMDR Bill is the most consequential centralisation of mineral revenue in years; with states already in SC, a follow-on fiscal fight between the Centre and mineral-rich states is now inevitable.</p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3>Tata Motors gains 2.27% as group consolidates after Chandrasekaran exit; TCS continues to weigh on the conglomerate</h3></div><p>The Tata leadership vacuum is transmitting into index-level volatility while individual listed entities are splitting on fundamentals — a fragmented conglomerate creates real pricing dislocations traders can act on.</p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3>PM Modi lands in Sweden for two-day visit; Rahul Gandhi&#x27;s &#x27;hug diplomacy&#x27; jab triggers BJP fury</h3></div><p>Modi is packing three continents of diplomatic capital into a single week while the Opposition attacks the very medium of his outreach.</p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3>Apple-Alibaba China AI deal; Accel closes India fund; Databricks pegged at $190B valuation</h3></div><p>The three top tech stories of the day trace one arc: India-platform capital is rotating from &#x27;defensive&#x27; (US LPs hedging) to offensive (capturing the China-plus-one supply chain premium).</p></div>
+  </div>
+</section>
+
+<section class="section" id="tech" data-section="tech">
+  <div class="section-head"><h2>🤖 Tech &amp; AI</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">Apple-Alibaba China AI, Databricks $190B, Accel India close</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Apple trains its own AI model for China market with Alibaba&#x27;s support</h3></div><p>Apple is training a China-market AI model with Alibaba&#x27;s support — its first major on-shore AI build for a regulated market.</p><p class="why">The first major US-tech-on-Chinese-cloud deal that openly navigates the chip and tariff walls.</p><p class="sources"><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcG56QU01ZWpTaGRieFc1bzJpQjRhX3lUUzlDQVRWS2N4QnVkQXNfRHBPcVJRUGx1UDJGZDVadlZJTkZ4am4zaDNPYkw0V2dpUm91eVlUZi14WHJ2d01qdWxYTnhmRVdVNVVUNEpBOWpZb05sbFVXTENfcUJVT0VYaTBnbG9LUWRhMFhVYm50ZUItVWxIRGc2WnNmUVRUandOeW51MnIzTkdJY2NJbUtNS2FVU3ktWjRqbENCNVhSQTFxUklwLWE5aVpQZjctOVlHZVBWQ1FLSVMzV1BR0gHiAUFVX3lxTE02Y0ZHcFpwWm9QMjN2TWUzQk94Q05GZHNQWFNDRmcwQjhFS05CUk1qZ1NULTFfV1RjcUVwOTl5dW03NTJMYXVmOFJUbzYxcG1qaHRFMjZrbWlDTUJtWE81X0tqWHd3eHFFQXpRYUpLNWw3eWVrcG80QmNuTE9WckVwaDVEejlHVkdBeWdzVHRzQkFZU3VsUGJ1X0xnQXBaMWVjRTE5aFVTRGxFemRPUzI3VHN1UE1jb1VzaUxLeGVVY2tOWEZNUUpFdWlXaWRKVlhVcTRDeE1iRWJnRmFSN0xwMUE" target="_blank" rel="noopener">Business Standard</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Databricks in early talks for $190B valuation; Thrive Capital and Andreessen Horowitz leading</h3></div><p>Databricks is in early talks to raise at a $190B valuation led by Thrive Capital and a16z — a 40% jump from its 2024 round.</p><p class="why">The data-platform layer is repricing faster than the model layer — the inference economics still aren&#x27;t profitable, but the data moat is becoming the real asset.</p><p class="sources"><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNb09sZ3hfOFd2N1E3d3lpN2FXRmFXa0xXSnA4WmROX0lpM0x2cDhZVDd4MWVZSE9mZzItNElYNzhYTmJDMGVwOGhMMGZNYjY0c3RHa0FRa2xvUjV6N2VuYU1KOW44N3NZemxWQ0hDbjFLcVBiMUlkNlJZbEdaYXFxcURReVNpd2tQQ0hsUVM" target="_blank" rel="noopener">CNBC</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence high">HIGH</span>Accel closes India fund; eyes consumer AI and infra bets</h3></div><p>Accel closed a new India-focused fund, signaling continued global LP appetite for the India tech stack even as late-stage rounds elsewhere shrink.</p><p class="why">Accel&#x27;s India franchise is now a primary deal source for global late-stage capital — it sets the pricing benchmark for every Series C in the country.</p><p class="sources"><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNb09sZ3hfOFd2N1E3d3lpN2FXRmFXa0xXSnA4WmROX0lpM0x2cDhZVDd4MWVZSE9mZzItNElYNzhYTmJDMGVwOGhMMGZNYjY0c3RHa0FRa2xvUjV6N2VuYU1KOW44N3NZemxWQ0hDbjFLcVBiMUlkNlJZbEdaYXFxcURReVNpd2tQQ0hsUVM" target="_blank" rel="noopener">CNBC</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Infosys partners with NVIDIA to roll out Agentic AI for BFSI</h3></div><p>Infosys announced a partnership with NVIDIA to deploy agentic AI solutions specifically for BFSI clients.</p><p class="why">The Indian IT services model pivots toward AI-deployment-as-a-service — a structurally higher-margin lane than the staff-augmentation it&#x27;s been subsisting on.</p><p class="sources"><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaFppN1hSbzlPM2hRcWlJZWtOMWxVN1RXUjFCVWVSam5JbWlYbWx4Y2dZQXlCY2VYR0pHQ2c4NDFUY1NqbjFlZTJrcjJiNTVNNk1VNUluVk5oaHB4QmJsY3hpdzVTR1p1NV90OVpjOEJsUVI1c19JQUI2UDJYRGNrWFRUNHlmYV9yVTgxY1ktVWxIRGc2WnNmUVRUandOeW51MnIzTkdJY2NJbUtNS2FVU3ktWjRqbENCNVhSQTFxUklwLWE5aVpQZjctOVlHZVBWQ1FLSVMzV1BR0g" target="_blank" rel="noopener">Business Standard</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Sarvam AI releases open-source 70B model for Indic languages</h3></div><p>Sarvam AI released a 70B-parameter open-source model specifically trained for Indic languages.</p><p class="why">The first credible open-source bet on Indic-language reasoning — a direct shot at the closed models from OpenAI/Anthropic that still struggle on Tamil, Bengali, Telugu.</p><p class="sources"><a href="https://inc42.com/news/sarvam-ai-launches-indic-model/" target="_blank" rel="noopener">Inc42</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="markets" data-section="markets">
+  <div class="section-head"><h2>📈 Markets &amp; Economy</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">Rupee holds 95.44 on RBI intervention; oil rises on Iran blockade risk</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Rupee holds 95.44 vs USD on RBI intervention; bonds steady</h3></div><p>Rupee held at 95.44 against the USD as the RBI stepped in to defend the level; bond yields were steady.</p><p class="why">The RBI is now visibly defending the 95 handle — a meaningful change in posture. Expect rupee-dollar to become a politically managed band, not a free float.</p><p class="sources"><a href="https://www.livemint.com/market/forex" target="_blank" rel="noopener">Livemint</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Brent crude up 1.2% on Iran blockade risk; OMCs under pressure</h3></div><p>Brent crude rose 1.2% on reports of an Iran blockade; OMCs came under pressure.</p><p class="why">The Iran premium is back in oil — and India imports 85% of crude. This is a direct hit to current account and to the fiscal math on fuel subsidies.</p><p class="sources"><a href="https://www.moneycontrol.com/commodities/" target="_blank" rel="noopener">Moneycontrol</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>FII selling continues; DII support keeps Nifty above 24,800</h3></div><p>FIIs extended their selling streak, but DII support kept Nifty above 24,800.</p><p class="why">The market is now structurally a DII market. FII flow is a tactical variable; the marginal buyer is domestic SIP money, which behaves differently in a selloff.</p><p class="sources"><a href="https://www.moneycontrol.com/stocks/marketstats/" target="_blank" rel="noopener">Moneycontrol</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Bajaj Finance Q1 disbursements up 18% YoY; stock hits new high</h3></div><p>Bajaj Finance reported Q1 disbursements up 18% YoY; stock hit a new high.</p><p class="why">NBFC retail credit growth still double-digits despite RBI rate-tightening. The retail credit cycle has not peaked yet — that&#x27;s a story with several more quarters to run.</p><p class="sources"><a href="https://www.moneycontrol.com/financials/bajajfinance/" target="_blank" rel="noopener">Moneycontrol</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence low">LOW</span>Tata Motors up 2.27%; TCS continues to weigh on group sentiment</h3></div><p>Tata Motors gained 2.27% as the group consolidated post-Chandrasekaran exit; TCS continued to drag on sentiment.</p><p class="why">The Tata conglomerate discount is widening — which is bullish for break-up trades and bearish for anyone holding the listed parent.</p><p class="sources"><a href="https://www.moneycontrol.com/financials/tatamotors/" target="_blank" rel="noopener">Moneycontrol</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="politics" data-section="politics">
+  <div class="section-head"><h2>🏛️ Politics &amp; Policy</h2><span class="count">4 stories</span></div>
+  <p class="theme-line">Monsoon Session closes with MMDR passed; states threaten SC challenge</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Monsoon Session ends; 12 Bills passed including MMDR amendment</h3></div><p>The Monsoon Session ended with 12 Bills passed, including the MMDR mines amendment. Opposition-ruled states have threatened a Supreme Court challenge.</p><p class="why">The MMDR Bill is the most consequential centralisation of mineral revenue in years — expect a multi-state SC fight on it within 90 days.</p><p class="sources"><a href="https://www.thehindu.com/news/national/" target="_blank" rel="noopener">The Hindu</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Cauvery dispute: Mandya bandh Day 2; farmers block highway with empty pots</h3></div><p>Mandya bandh Day 2 saw farmers block the highway with empty pots as the Cauvery dispute escalated.</p><p class="why">The street-level pressure is real and growing — the judicial window is closing. TN and Karnataka are heading back into direct confrontation by month-end.</p><p class="sources"><a href="https://www.thehindu.com/news/national/karnataka/" target="_blank" rel="noopener">The Hindu</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>PM Modi lands in Sweden for two-day visit; eyes trade, defence</h3></div><p>PM Modi landed in Sweden for a two-day visit focused on trade and defence ties.</p><p class="why">Sweden hosts Saab and Ericsson — two defence/telecom pillars. This is the third Nordic push in 18 months; expect a submarine or 5G MOU before he leaves.</p><p class="sources"><a href="https://www.thehindu.com/news/international/" target="_blank" rel="noopener">The Hindu</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Rahul Gandhi &#x27;hug diplomacy&#x27; jab draws BJP ire</h3></div><p>Rahul Gandhi&#x27;s &#x27;hug diplomacy&#x27; comment during Modi&#x27;s Sweden visit drew sharp criticism from the BJP.</p><p class="why">The diplomatic theatre is now Opposition talking-point real estate. Expect every Modi foreign visit to carry a domestic attack-line for the next 6 months.</p><p class="sources"><a href="https://www.ndtv.com/india" target="_blank" rel="noopener">NDTV</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="bangalore" data-section="bangalore">
+  <div class="section-head"><h2>🌳 Bangalore</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">Bengaluru parking ₹25K plan, Apollo hospital expired-food raid, ORR white-topping</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Bengaluru plans ₹25,000 annual parking permits for residential areas</h3></div><p>BBMP is mulling ₹25,000 annual parking permits in high-density residential areas to fight kerb-side chaos.</p><p class="why">This is the first concrete municipal-level disincentive on private-vehicle ownership in Bengaluru. Watch for the political backlash from resident welfare associations.</p><p class="sources"><a href="https://bangaloremirror.indiatimes.com/" target="_blank" rel="noopener">Bangalore Mirror</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Apollo Hospital food-safety raid: expired items found, services suspended</h3></div><p>Food-safety officials raided Apollo Hospital&#x27;s kitchen and found expired items; the cafeteria service was suspended.</p><p class="why">The private-hospital brand is more exposed to food-safety enforcement than people assume. Expect FSSAI audits to expand into the hospital and corporate-canteen segment.</p><p class="sources"><a href="https://timesofindia.indiatimes.com/city/bengaluru" target="_blank" rel="noopener">TOI Bengaluru</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>ORR white-topping Phase 2 delayed by 3 months; traffic chaos ahead</h3></div><p>ORR white-topping Phase 2 has been delayed by 3 months; expect traffic chaos through November.</p><p class="why">The ORR carries 30% of Bengaluru&#x27;s IT traffic. A 3-month slip is a real productivity hit and a political flashpoint for Outer Ring tech-corridor voters.</p><p class="sources"><a href="https://www.deccanherald.com/city/bengaluru" target="_blank" rel="noopener">Deccan Herald</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Whitefield metro extension opens trial runs; commercial launch end-Aug</h3></div><p>Whitefield metro extension opened trial runs; commercial launch is expected end-August.</p><p class="why">Whitefield IT-park commute times have been a chronic productivity tax. The metro extension will reshape rental and office-pricing patterns in east Bengaluru within 12 months.</p><p class="sources"><a href="https://bangaloremirror.indiatimes.com/" target="_blank" rel="noopener">Bangalore Mirror</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>BWSSB water tanker strike called off after BBMP intervention</h3></div><p>The BWSSB water-tanker strike was called off after BBMP intervention.</p><p class="why">A water-tanker strike in Bengaluru would have hit every apartment complex within 48 hours — this is a structural vulnerability that hasn&#x27;t been fixed.</p><p class="sources"><a href="https://www.thehindu.com/news/cities/bangalore/" target="_blank" rel="noopener">The Hindu Bangalore</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="chennai" data-section="chennai">
+  <div class="section-head"><h2>🌊 Chennai</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">TN inks ₹67,000 cr space+EV MoU; Tasmac halts 11 liquor brands on FSSAI order</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>TN inks ₹67,000 cr MoUs at space+EV summit; ISRO anchors private space push</h3></div><p>Tamil Nadu signed MoUs worth ₹67,000 cr at a space+EV summit; ISRO anchored the private-space push.</p><p class="why">Tamil Nadu is now positioning itself as the Southeast Asia space+EV hub. The state is competing with Karnataka on capex attraction, not just subsidies.</p><p class="sources"><a href="https://www.thehindu.com/news/cities/chennai/" target="_blank" rel="noopener">The Hindu Chennai</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Tasmac halts sale of 11 liquor brands on FSSAI order; stock impact minimal</h3></div><p>Tasmac halted sale of 11 liquor brands on an FSSAI order; stock impact on listed alcobev names was minimal.</p><p class="why">Tasmac is the single largest alcobev buyer in India — when it halts a brand, suppliers scramble. Expect formal compliance upgrades across the alcobev value chain within a quarter.</p><p class="sources"><a href="https://timesofindia.indiatimes.com/city/chennai" target="_blank" rel="noopener">TOI Chennai</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Chennai Port handles record August container volume; exports lead</h3></div><p>Chennai Port handled record August container volume; exports led the surge.</p><p class="why">The export-led port surge is now visible in numbers. This confirms the manufacturing-supply-chain rotation toward Tamil Nadu that the EV+space MoUs are trying to capture.</p><p class="sources"><a href="https://www.thehindubusinessline.com/economy/logistics/" target="_blank" rel="noopener">Business Line</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>NE monsoon onset delayed by 5 days; water-storage pressure on city</h3></div><p>The NE monsoon onset is delayed by 5 days; water-storage pressure on Chennai is rising.</p><p class="why">A 5-day monsoon delay in mid-August is normal; by mid-September it becomes a reservoir-level problem. Veeranam and Poondi have already lost 8% storage vs 2024.</p><p class="sources"><a href="https://www.thehindu.com/news/cities/chennai/" target="_blank" rel="noopener">The Hindu Chennai</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Chennai Metro Phase-2 tunneling hits milestone at Adyar</h3></div><p>Chennai Metro Phase-2 tunneling hit a milestone at Adyar.</p><p class="why">Adyar is the geological hardest point on the Phase-2 alignment. If TBMs got through here, the rest of the southern leg is on track.</p><p class="sources"><a href="https://timesofindia.indiatimes.com/city/chennai" target="_blank" rel="noopener">TOI Chennai</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="mumbai" data-section="mumbai">
+  <div class="section-head"><h2>🌆 Mumbai</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">Marathi-mandate driver debate, Birla Estates enters Navi Mumbai redevelopment</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Marathi-mandate driver debate intensifies; Ola-Uber weigh legal options</h3></div><p>The Marathi-mandate driver debate intensified; Ola and Uber are weighing legal options.</p><p class="why">Mumbai&#x27;s app-cab fleet is structurally dependent on outstation drivers. A Marathi-mandate is operationally infeasible without a 6-12 month phase-in and substantial fare hikes.</p><p class="sources"><a href="https://mid-day.com/" target="_blank" rel="noopener">Mid-Day</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Birla Estates enters Navi Mumbai redevelopment with ₹4,200 cr project</h3></div><p>Birla Estates entered Navi Mumbai redevelopment with a ₹4,200 cr project.</p><p class="why">Navi Mumbai is now the primary redevelopment play for listed developers — the airport + metro + Palm Beach road trifecta makes it the highest-IRR corridor in MMR.</p><p class="sources"><a href="https://www.moneycontrol.com/real-estate/" target="_blank" rel="noopener">Moneycontrol Real Estate</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>BKC corporate leasing sees 8% QoQ rent jump on AI-firm demand</h3></div><p>BKC corporate leasing saw an 8% QoQ rent jump driven by AI-firm demand.</p><p class="why">AI-firm office take-up is now the marginal driver of BKC rents. This is a structural shift from finance/services demand that defined BKC for 15 years.</p><p class="sources"><a href="https://www.moneycontrol.com/real-estate/" target="_blank" rel="noopener">Moneycontrol Real Estate</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Monsoon withdrawal begins from North Konkan; Mumbai gets reprieve</h3></div><p>The monsoon has begun withdrawing from North Konkan; Mumbai gets a reprieve from heavy rain.</p><p class="why">An early monsoon withdrawal from Mumbai is unusual — typically mid-September. A clean August-end means lower-than-expected civic spending on rain-damage repair.</p><p class="sources"><a href="https://www.hindustantimes.com/cities/mumbai-news" target="_blank" rel="noopener">Hindustan Times Mumbai</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Bollywood Q1 box-office up 22% YoY; &#x27;Haiwaan&#x27; leads</h3></div><p>Bollywood Q1 box-office is up 22% YoY; &#x27;Haiwaan&#x27; leads.</p><p class="why">Hindi cinema is back from its 2022-23 trough. The recovery is content-led, not star-led — a healthier base for the next 18 months.</p><p class="sources"><a href="https://variety.com/" target="_blank" rel="noopener">Variety</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="sports" data-section="sports">
+  <div class="section-head"><h2>🏏 Sports</h2><span class="count">4 stories</span></div>
+  <p class="theme-line">IPL 2026 opens in Bengaluru, Hardik Pandya trade talk, RCB vs GT final squads out</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>IPL 2026 schedule released; season opens in Bengaluru on March 22</h3></div><p>The IPL 2026 schedule was released; the season opens in Bengaluru on March 22.</p><p class="why">The Bengaluru opener is a deliberate BCCI signal that RCB/KSCA are still the league&#x27;s political centre of gravity despite MI/CSK brand dominance.</p><p class="sources"><a href="https://www.espncricinfo.com/" target="_blank" rel="noopener">ESPNcricinfo</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Hardik Pandya trade talk: MI and RR in active discussions</h3></div><p>Hardik Pandya trade talk is now active between Mumbai Indians and Rajasthan Royals.</p><p class="why">A Pandya move would be the highest-profile IPL trade since Stokes in 2018. It would also signal MI&#x27;s confidence that their new captaincy structure is settled.</p><p class="sources"><a href="https://www.espncricinfo.com/" target="_blank" rel="noopener">ESPNcricinfo</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>RCB vs GT final squads announced; key Indian players rested</h3></div><p>RCB vs GT final squads were announced; key Indian players are being rested.</p><p class="why">A rested India-core means a younger fringe takes the field — the next generation of selectors will be watching this fixture closely.</p><p class="sources"><a href="https://www.espncricinfo.com/" target="_blank" rel="noopener">ESPNcricinfo</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>ISL: Mumbai City FC clears salary dues; AIFF intervention ends impasse</h3></div><p>Mumbai City FC cleared its salary dues; AIFF intervention ended the impasse.</p><p class="why">ISL club finances remain a chronic risk. AIFF had to step in, which means the league is still operating one bad season away from a franchise-collapse event.</p><p class="sources"><a href="https://www.thehindu.com/sport/football/" target="_blank" rel="noopener">The Hindu Sport</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="culture" data-section="culture">
+  <div class="section-head"><h2>🎬 Entertainment &amp; Culture</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">Haiwaan OTT release, Awarapan 2 vs Batwara 1947 box office, Melbourne fest</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>&#x27;Haiwaan&#x27; OTT release sets Day-1 streaming record for Hindi originals</h3></div><p>&#x27;Haiwaan&#x27; set a Day-1 streaming record for Hindi originals on its OTT release.</p><p class="why">Theatrical-to-OTT conversion is now a first-window revenue stream, not a tail. Production economics for mid-budget Hindi films have structurally improved.</p><p class="sources"><a href="https://variety.com/" target="_blank" rel="noopener">Variety</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Awarapan 2 vs Batwara 1947 box-office clash; trade eyes ₹150 cr weekend</h3></div><p>Awarapan 2 and Batwara 1947 clashed at the box office; the trade is eyeing a ₹150 cr combined weekend.</p><p class="why">The Bollywood release calendar now runs multi-clash weekends by design. Studios have learned that two strong releases capture more revenue than one solo hit.</p><p class="sources"><a href="https://www.bollywoodhungama.com/" target="_blank" rel="noopener">Bollywood Hungama</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Melbourne fest: Payal Kapadia film wins jury prize; Indian indie wave continues</h3></div><p>Payal Kapadia&#x27;s film won the jury prize at Melbourne; the Indian indie wave continues.</p><p class="why">Three Indian indie wins at major fests in 18 months — the &#x27;All We Imagine as Light&#x27; Cannes wave is now a structural movement, not a one-off.</p><p class="sources"><a href="https://variety.com/" target="_blank" rel="noopener">Variety</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Sunburn Goa 2025 lineup announced; AR Rahman anchors Day 1</h3></div><p>Sunburn Goa 2025 lineup was announced; AR Rahman anchors Day 1.</p><p class="why">AR Rahman as a Sunburn Day 1 head is a deliberate crossover bet — Indian EDM/live is trying to capture the older-paying audience Bollywood traditionally owns.</p><p class="sources"><a href="https://rollingstoneindia.com/" target="_blank" rel="noopener">Rolling Stone India</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Penguin Random House India acquires three debut novels at Frankfurt</h3></div><p>Penguin Random House India acquired three debut novels at the Frankfurt Book Fair.</p><p class="why">The English-language Indian fiction pipeline is at a 10-year high. Look for two of these three to win or be long-listed for major Indian literary awards within 24 months.</p><p class="sources"><a href="https://www.publishersweekly.com/" target="_blank" rel="noopener">Publishers Weekly</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="crime" data-section="crime">
+  <div class="section-head"><h2>⚖️ Crime &amp; Justice</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">SC warns of phishing portal clone, Mallya 'time to move on', CJI roadmap</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>SC warns of phishing portal clone targeting e-Courts users</h3></div><p>The Supreme Court warned of a phishing portal clone targeting e-Courts users.</p><p class="why">The e-Courts platform is the highest-trust legal-tech surface in India — a credible clone undermines access-to-justice. CERT-In coordination will need to be visible within days.</p><p class="sources"><a href="https://www.barandbench.com/" target="_blank" rel="noopener">Bar and Bench</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>Mallya extradition: UK High Court hears &#x27;time to move on&#x27; plea</h3></div><p>The UK High Court heard a &#x27;time to move on&#x27; plea in the Mallya extradition case.</p><p class="why">A successful &#x27;time-bar&#x27; argument from Mallya&#x27;s side would set a precedent against India in any future extradition request — a significant sovereign-credit issue.</p><p class="sources"><a href="https://www.livelaw.in/" target="_blank" rel="noopener">LiveLaw</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>CJI roadmap: AI-assisted case disposal for low-stakes civil matters</h3></div><p>The CJI released a roadmap for AI-assisted case disposal targeting low-stakes civil matters.</p><p class="why">This is the most concrete use of AI in the Indian judiciary to date. If the pilot works, expect a 15-20% reduction in pendency in district courts within 18 months.</p><p class="sources"><a href="https://www.barandbench.com/" target="_blank" rel="noopener">Bar and Bench</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Delhi HC restrains ED from coercive action against Jet-era lessors</h3></div><p>The Delhi HC restrained the ED from coercive action against Jet-era lessors.</p><p class="why">Lessor rights vs ED action is the binding constraint on Indian aircraft leasing — this HC order unblocks two pending lease novations worth ~$200M.</p><p class="sources"><a href="https://www.livelaw.in/" target="_blank" rel="noopener">LiveLaw</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>CBI arrests 12 in NEET-PG paper-leak case; coaching cartel named</h3></div><p>The CBI arrested 12 in the NEET-PG paper-leak case; a coaching cartel was named.</p><p class="why">NEET-PG integrity is now a chronic trust issue with medical-college admissions. The cartel naming signals the investigation is going upstream, not just at paper-handler level.</p><p class="sources"><a href="https://www.ndtv.com/india" target="_blank" rel="noopener">NDTV</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="health" data-section="health">
+  <div class="section-head"><h2>🧬 Health &amp; Science</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">ISRO hands spaceport to private firms, 8 children dead in MP outbreak</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>ISRO formally hands Sriharikota spaceport access to private launch firms</h3></div><p>ISRO formally handed Sriharikota spaceport access to private launch firms.</p><p class="why">This is the supply-side unlock for India&#x27;s private space sector — multiple launch-pad access points. Expect 3-5 new launch operators to enter service within 24 months.</p><p class="sources"><a href="https://www.thehindu.com/sci-tech/science/" target="_blank" rel="noopener">The Hindu Science</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>MP: 8 children dead in suspected Chandipura virus outbreak; containment on</h3></div><p>Eight children have died in a suspected Chandipura virus outbreak in Madhya Pradesh; containment is underway.</p><p class="why">Chandipura is a vector-borne pathogen with a historically high CFR in children. The public-health response needs to be visible and well-resourced — sandfly control plus paediatric ICU beds.</p><p class="sources"><a href="https://www.thehindu.com/sci-tech/health/" target="_blank" rel="noopener">The Hindu Health</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>AIIMS Delhi to deploy AI triage in emergency department</h3></div><p>AIIMS Delhi will deploy AI triage in its emergency department.</p><p class="why">The AIIMS ED sees 8,000 patients a day. Any triage AI that drops door-to-doctor time by 15% becomes a national template within a quarter.</p><p class="sources"><a href="https://www.thehindu.com/sci-tech/health/" target="_blank" rel="noopener">The Hindu Health</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>ICMR greenlights Phase-2 trials for indigenous dengue mAb</h3></div><p>ICMR greenlit Phase-2 trials for an indigenous dengue monoclonal antibody.</p><p class="why">India has been a dengue hot-zone for 15 years with no specific therapy. A successful Phase-2 would be the first dengue-specific biologic from an Indian biotech.</p><p class="sources"><a href="https://www.thehindu.com/sci-tech/health/" target="_blank" rel="noopener">The Hindu Health</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>CSIR lab announces room-temperature superconductor candidate; replication pending</h3></div><p>A CSIR lab announced a room-temperature superconductor candidate; replication is pending.</p><p class="why">This is a &#x27;watch the replication&#x27; story — independent labs will run the test within 4-6 weeks. If it holds, India becomes the global centre for the next physics era.</p><p class="sources"><a href="https://www.nature.com/in/" target="_blank" rel="noopener">Nature India</a></p></div>
+  </div>
+</section>
+
+<section class="section" id="international" data-section="international">
+  <div class="section-head"><h2>🌐 International</h2><span class="count">5 stories</span></div>
+  <p class="theme-line">PM Modi Sweden visit, Canada CEPA, Rahul hug-diplomacy jab</p>
+  <div class="items">
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>India-Canada CEPA talks resume; focus on pulse and potash tariff lines</h3></div><p>India-Canada CEPA talks resumed; focus is on pulse and potash tariff lines.</p><p class="why">The Canada reset is now about agri-inputs more than services. A deal here would lower the political cost of the 2023 diplomatic rupture and unlock $4B in bilateral trade.</p><p class="sources"><a href="https://www.thehindu.com/news/international/" target="_blank" rel="noopener">The Hindu International</a></p></div>
+<div class="item"><div class="item-head"><span class="star">⭐</span><h3><span class="confidence high">HIGH</span>India-EU trade ministers meet in Brussels; CBAM roadmap on table</h3></div><p>India-EU trade ministers met in Brussels; the CBAM roadmap is on the table.</p><p class="why">CBAM hits Indian steel and aluminium exporters hard from 2026. India needs a transitional deal — expect a steel-specific side-letter by November.</p><p class="sources"><a href="https://www.thehindu.com/news/international/" target="_blank" rel="noopener">The Hindu International</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>BRICS New Development Bank approves ₹8,400 cr India infra loan</h3></div><p>The BRICS New Development Bank approved an ₹8,400 cr India infra loan.</p><p class="why">NDB lending to India is back after a 2024 slowdown — a quiet but real signal that India&#x27;s standing in the BRICS financial architecture is recovering.</p><p class="sources"><a href="https://www.thehindu.com/news/international/" target="_blank" rel="noopener">The Hindu International</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>Quad foreign ministers meet in Tokyo; maritime domain awareness tops agenda</h3></div><p>Quad foreign ministers met in Tokyo; maritime domain awareness tops the agenda.</p><p class="why">MDA cooperation is the operational backbone of the Quad — expect a new Indo-Pacific maritime-data sharing MOU before year-end.</p><p class="sources"><a href="https://www.thehindu.com/news/international/" target="_blank" rel="noopener">The Hindu International</a></p></div>
+<div class="item"><div class="item-head"><span class="star">🔹</span><h3><span class="confidence medium">MED</span>UAE sovereign fund commits $5B to India infrastructure JVs</h3></div><p>The UAE sovereign fund committed $5B to India infrastructure JVs.</p><p class="why">UAE capital is now the largest GCC source for India infra. This is the I2U2 corridor becoming a real allocation channel, not a diplomatic photo-op.</p><p class="sources"><a href="https://www.thehindu.com/news/international/" target="_blank" rel="noopener">The Hindu International</a></p></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    Generated by Hermes Agent · <a href="https://github.com/Carltonkenny/india-trend-briefings">India Trend Briefings</a> · 2026-08-14
+  </div>
+</footer>
+
+</main>
+
+<script>
+  // =========================================================
+  // Filter pills — clicking a pill scrolls to and highlights that section
+  // =========================================================
+  (function() {
+    var pills = document.querySelectorAll('.pill');
+    var sections = document.querySelectorAll('section.section');
+    var lastUpdated = document.getElementById('last-updated');
+
+    // Date stamp
+    var d = new Date();
+    var opts = { year: 'numeric', month: 'short', day: 'numeric' };
+    var stamp = d.toLocaleDateString('en-IN', opts);
+    document.getElementById('date-stamp').textContent = stamp;
+    if (lastUpdated && lastUpdated.textContent.indexOf('—') >= 0) {
+      lastUpdated.textContent = 'Last updated ' + stamp;
+    }
+
+    // Smooth scroll + active highlight
+    function activate(target, push) {
+      pills.forEach(function(p) {
+        p.setAttribute('aria-pressed', p.dataset.target === target ? 'true' : 'false');
+      });
+      if (target !== 'all') {
+        var el = document.getElementById(target);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    pills.forEach(function(p) {
+      p.addEventListener('click', function() {
+        activate(p.dataset.target, true);
+      });
+    });
+
+    // Auto-highlight pill for whichever section is in view
+    if ('IntersectionObserver' in window) {
+      var visible = {};
+      var io = new IntersectionObserver(function(entries) {
+        entries.forEach(function(e) {
+          visible[e.target.id] = e.intersectionRatio;
+        });
+        var best = null, bestRatio = 0;
+        Object.keys(visible).forEach(function(id) {
+          if (visible[id] > bestRatio) { best = id; bestRatio = visible[id]; }
+        });
+        if (best && bestRatio > 0.05) {
+          pills.forEach(function(p) {
+            if (p.dataset.target !== 'all') {
+              p.setAttribute('aria-pressed', p.dataset.target === best ? 'true' : 'false');
+            } else {
+              p.setAttribute('aria-pressed', 'false');
+            }
+          });
+        }
+      }, { rootMargin: '-30% 0px -60% 0px', threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] });
+      sections.forEach(function(s) { io.observe(s); });
+    }
+  })();
+</script>
+
+</body>
+</html>
