@@ -1349,6 +1349,14 @@
   var pills = document.querySelectorAll('.pill');
   var sections = document.querySelectorAll('section.section');
 
+  // Lock to suppress scroll-spy updates for SCROLL_LOCK_MS after a manual click.
+  // Without this, the IO callback overwrites the click-set aria-pressed while
+  // the smooth scroll is still in flight.
+  var SCROLL_LOCK_MS = 700;
+  // Lock is armed from page load until SCROLL_LOCK_MS after the first scroll/click.
+  // This prevents the IO callback from immediately flipping the "All" pill on load.
+  var scrollLockUntil = Date.now() + 2000;
+
   function activate(target) {
     pills.forEach(function(p) {
       p.setAttribute('aria-pressed', p.dataset.target === target ? 'true' : 'false');
@@ -1359,31 +1367,27 @@
     } else {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+    scrollLockUntil = Date.now() + SCROLL_LOCK_MS;
   }
 
   pills.forEach(function(p) {
     p.addEventListener('click', function() { activate(p.dataset.target); });
   });
 
-  // Auto-highlight pill for section in view
+  // Auto-highlight pill for section in view (suppressed during scroll-lock window)
   if ('IntersectionObserver' in window) {
     var visible = {};
     var io = new IntersectionObserver(function(entries) {
       entries.forEach(function(e) { visible[e.target.id] = e.intersectionRatio; });
+      if (Date.now() < scrollLockUntil) return;  // respect the manual click
       var best = null, bestRatio = 0;
       Object.keys(visible).forEach(function(id) {
         if (visible[id] > bestRatio) { best = id; bestRatio = visible[id]; }
       });
-      if (best && bestRatio > 0.05) {
-        pills.forEach(function(p) {
-          var pressed = p.dataset.target === best;
-          if (p.dataset.target !== 'all') {
-            p.setAttribute('aria-pressed', pressed ? 'true' : 'false');
-          } else {
-            p.setAttribute('aria-pressed', 'false');
-          }
-        });
-      }
+      if (!best || bestRatio <= 0.05) return;
+      pills.forEach(function(p) {
+        p.setAttribute('aria-pressed', p.dataset.target === best ? 'true' : 'false');
+      });
     }, { rootMargin: '-30% 0px -60% 0px', threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] });
     sections.forEach(function(s) { io.observe(s); });
   }
