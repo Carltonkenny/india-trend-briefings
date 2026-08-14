@@ -1,0 +1,645 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T19:34:00+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "totals": {
+    "raw": 64,
+    "kept": 36,
+    "sources": 32,
+    "categories": 12
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "headline": "Indian Express investigation flags ₹2,192-crore deep-tech fund allocation to panel-linked firms",
+        "summary": "Investigation alleges grants from a government technology fund went to private firms tied to members of the expert panel that selected them.",
+        "why_it_matters": "A flagship science/tech funding scheme now faces a conflict-of-interest cloud the day after the Indian Express daily catch-up ran it as lead story.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/express-exclusive/government-tech-fund-goes-to-private-firms-linked-to-panel-that-selected-them-10821494/"},
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/india/daily-catch-up-tech-fund-probe-neet-leak-prashant-kishor-bihar-10823025/"}
+        ],
+        "timestamp": "2026-08-07T22:01:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.95
+      },
+      {
+        "rank": 2,
+        "headline": "Sensex ends 456 points lower as banking and crude drag; Nifty slips below 24,600",
+        "summary": "Sensex closed 0.58% lower at 78,499 while Nifty 50 shed 65 points to 24,570.65; Trent fell 4%, Jio Financial 2%.",
+        "why_it_matters": "Banks, Brent crude ($83.45) and weak global cues pulled benchmarks into the red on closing-auction day 5, weighing on retail sentiment.",
+        "sources": [
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-lic-trent-share-price-07-august-2026/liveblog/133019031.cms"},
+          {"source": "The Hindu", "url": "https://www.thehindu.com/business/markets/stock-markets-decline-dragged-by-banks-elevated-crude-oil-prices/article71317292.ece"}
+        ],
+        "timestamp": "2026-08-07T17:05:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.92
+      },
+      {
+        "rank": 3,
+        "headline": "RBI orders banks to stop harassing borrowers; new recovery rules effective Jan 1, 2027",
+        "summary": "RBI barred recorded calls, night-time recovery calls and coercive tactics; breaches attract penalties.",
+        "why_it_matters": "Trended nationwide (2,000+ searches). Tightens a long-running pain point for retail borrowers and revives the digital lending reform agenda.",
+        "sources": [
+          {"source": "Dinamalar", "url": "https://www.dinamalar.com/news/india-tamil-news/rbi-orders-banks-not-to-threaten-borrowers-not-to-call-at-night/4289281"},
+          {"source": "Goodreturns Tamil", "url": "https://tamil.goodreturns.in/news/rbi-new-loan-recovery-rules-from-january-1-2027-no-harassment-recorded-calls-and-stricter-recover-081489.html"},
+          {"source": "Indian Express Tamil", "url": "https://tamil.indianexpress.com/explained/rbi-loan-recovery-rules-bank-loan-default-phone-lock-loan-emi-default-phone-lock-digital-loan-recovery-guidelines-12238966"}
+        ],
+        "timestamp": "2026-08-07T20:20:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.9
+      },
+      {
+        "rank": 4,
+        "headline": "PM Modi foreign trips cost ₹7,458 crore since 2021, RTI reveals",
+        "summary": "RTI data compiled by Kannada Prabha shows ₹180 crore in 2025 alone; the 2021-26 cumulative spend is the highest ever.",
+        "why_it_matters": "Made PM Modi the day's #1 trending search in India. The numbers will sharpen opposition attacks during the Parliament session.",
+        "sources": [
+          {"source": "Kannada Prabha", "url": "https://www.kannadaprabha.com/nation/2026/Aug/06/pm-modis-foreign-visits-cost-over-rs-7458-crore-so-far-in-2026"},
+          {"source": "Prajavani", "url": "https://www.prajavani.net/explainer/digest/narendra-modi-foreign-trips-expenditure-in-numbers-explained-4178955"},
+          {"source": "Asianet News Kannada", "url": "https://kannada.asianetnews.com/gallery/india-news/pm-modi-foreign-trips-cost-180-crore-parliament-data-mea-san-ssgkcrb"}
+        ],
+        "timestamp": "2026-08-07T21:10:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 1.62
+      },
+      {
+        "rank": 5,
+        "headline": "Both Houses of Parliament adjourned amid Opposition protests over NEET, Ram Mandir donations",
+        "summary": "Day 15 of Monsoon Session: Congress issued a whip for next week, MSME and FCRA bills still on the table.",
+        "why_it_matters": "Persistent washout blocks FCRA and MSME amendment bills; the political pressure raises the prospect of a session extension debate.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/india/parliament-monsoon-session-opposition-protest-msme-bill-fcra-bill-kashmiri-pandits-bill-shashi-tharoor-10821803/"},
+          {"source": "PRS India", "url": "https://prsindia.org/sessiontrack/monsoon-session-2026/bill-legislation"}
+        ],
+        "timestamp": "2026-08-07T21:10:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.86
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "UPI merchant charges debate moves into policy focus",
+        "summary": "Payments Council of India backs UPI merchant charges, says users and small businesses stay exempt.",
+        "why_it_matters": "Sets the stage for the next round of UPI monetisation talks without spooking the small-merchant base.",
+        "sources": [
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/tech/technology/payments-council-backs-upi-merchant-charges-says-users-small-businesses-will-remain-exempt/articleshow/133037949.cms"}
+        ],
+        "timestamp": "2026-08-07T22:30:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 1.0
+      },
+      {
+        "rank": 2,
+        "headline": "Government-Meta talks enter technical round on deepfakes",
+        "summary": "Talks centre on watermarking, traceability and election-period deepfake controls.",
+        "why_it_matters": "Ahead of Bihar bypolls, the round tests whether platforms and government can converge on a workable framework.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T22:25:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.95
+      },
+      {
+        "rank": 3,
+        "headline": "Ola Electric narrows June-quarter loss to ₹336 crore",
+        "summary": "Loss narrows sequentially; revenue still pressured as the EV maker scales PLI-backed manufacturing.",
+        "why_it_matters": "Shows operational discipline but the path to break-even depends on a clean Q3 product launch.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T22:20:00+05:30",
+        "region": "Bengaluru",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 4,
+        "headline": "India Medical Device 2026 expo opens at Vigyan Bhawan",
+        "summary": "9th edition runs Aug 7-8 with biopharma and health-tech focus; industry seeks faster approvals.",
+        "why_it_matters": "Anchors the week's MedTech conversation and feeds into the National Health Research Policy draft.",
+        "sources": [
+          {"source": "PIB", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2226614"}
+        ],
+        "timestamp": "2026-08-07T10:00:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.85
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "Sensex ends 455.59 points lower; Nifty closes below 24,600",
+        "summary": "Sensex at 78,499.17; Nifty at 24,570.65. Brent crude above $83.45 pressured financials and energy.",
+        "why_it_matters": "Banks and oil were the twin drag; closing-auction divergence continued to widen Sensex-Nifty spreads.",
+        "sources": [
+          {"source": "The Hindu", "url": "https://www.thehindu.com/business/markets/stock-markets-decline-dragged-by-banks-elevated-crude-oil-prices/article71317292.ece"},
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-lic-trent-share-price-07-august-2026/liveblog/133019031.cms"}
+        ],
+        "timestamp": "2026-08-07T15:49:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.7
+      },
+      {
+        "rank": 2,
+        "headline": "Rupee settles almost flat at ₹95.2075 against the U.S. dollar",
+        "summary": "RBI's calibrated intervention held the pair within a tight band; previous close was 95.22.",
+        "why_it_matters": "Stability ahead of the FII flow print and RBI's January loan-recovery reset matters for bond and currency desks.",
+        "sources": [
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-lic-trent-share-price-07-august-2026/liveblog/133019031.cms"}
+        ],
+        "timestamp": "2026-08-07T15:49:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.45
+      },
+      {
+        "rank": 3,
+        "headline": "REC accepts ₹6,346 crore in 3-year and 15-year bonds at 7.28%-7.49%",
+        "summary": "REC, a state-run financier, raised ₹30bn short and ₹33.46bn long tenor.",
+        "why_it_matters": "Sets the benchmark for new public-sector bond issuances into next week.",
+        "sources": [
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-lic-trent-share-price-07-august-2026/liveblog/133019031.cms"}
+        ],
+        "timestamp": "2026-08-07T16:27:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 1.2
+      },
+      {
+        "rank": 4,
+        "headline": "Titan Q1 profit jumps 65% YoY to ₹1,699 crore on revenue of ₹18,101 crore",
+        "summary": "Tanishq and watches lifted the quarter; revenue up 24%.",
+        "why_it_matters": "A read-through for discretionary demand; supports the bullish consumer staples narrative.",
+        "sources": [
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-lic-trent-share-price-07-august-2026/liveblog/133019031.cms"}
+        ],
+        "timestamp": "2026-08-07T15:38:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 1.05
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "Congress issues whip, asks MPs to be present in Parliament without fail from Monday",
+        "summary": "Whip covers pending MSME, FCRA and anti-paper-leak bills; opposition protests likely to intensify.",
+        "why_it_matters": "Signals a coordinated floor strategy as Day 15 of Monsoon Session closes.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/india/parliament-monsoon-session-opposition-protest-msme-bill-fcra-bill-kashmiri-pandits-bill-shashi-tharoor-10821803/"}
+        ],
+        "timestamp": "2026-08-07T21:10:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.55
+      },
+      {
+        "rank": 2,
+        "headline": "Prashant Kishor-Pawar meeting sparks fresh Maharashtra political speculation",
+        "summary": "Jan Suraj Party founder met Sunetra and Parth Pawar, prompting talk of a third front.",
+        "why_it_matters": "Comes hot on Bankipur bypoll gains; the political pulse column flagged it as a likely game-changer.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/political-pulse/prashant-kishor-meeting-sunetra-parth-pawar-10821465/"}
+        ],
+        "timestamp": "2026-08-07T22:00:00+05:30",
+        "region": "Maharashtra",
+        "confidence": "high",
+        "final_score": 1.45
+      },
+      {
+        "rank": 3,
+        "headline": "CBI details how NEET paper leak relied on handwritten notes and memory",
+        "summary": "Investigation finds no digital breach of question papers; accused used chits and recall at exam centres.",
+        "why_it_matters": "Reframes the NEET probe narrative and could harden the anti-paper-leak amendment push.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/india/experts-relied-on-chits-memory-to-leak-neet-questions-cbi-probe-10821504/"}
+        ],
+        "timestamp": "2026-08-07T22:00:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 4,
+        "headline": "Premalatha Vijayakanth spars with Tamil Nadu government over river water dispute",
+        "summary": "DMDK leader warned the state assembly the issue would not be compromised.",
+        "why_it_matters": "Keeps inter-state water politics on the front pages as Karnataka-TN talks quietly continue.",
+        "sources": [
+          {"source": "Hindu Tamil Thisai", "url": "https://www.hindutamil.in/news/tamilnadu/dmdk-leader-premalatha-speech-in-tn-assembly"}
+        ],
+        "timestamp": "2026-08-07T21:00:00+05:30",
+        "region": "Tamil Nadu",
+        "confidence": "medium",
+        "final_score": 1.0
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "Nearly half of Bengaluru voters flagged for deletion in Karnataka SIR draft roll",
+        "summary": "Draft electoral roll due Aug 17; voters without enumeration forms may be struck off.",
+        "why_it_matters": "Trended statewide (1,000+ searches). Could reshape Bengaluru civic elections and party strategy.",
+        "sources": [
+          {"source": "NDTV", "url": "https://www.ndtv.com/india-news/karnataka-sir-nearly-half-of-bengalurus-voters-face-deletion-from-voter-rolls-in-sir-11876068"},
+          {"source": "Deccan Herald", "url": "https://www.deccanherald.com/india/karnataka/bengaluru/karnataka-sir-nearly-every-second-voter-in-bengaluru-flagged-for-deletion-in-electoral-rolls-4102258"},
+          {"source": "Bangalore Mirror", "url": "https://bangaloremirror.indiatimes.com/bangalore/others/voter-purge-half-of-bengaluru-flagged/articleshow/133012831.cms"}
+        ],
+        "timestamp": "2026-08-07T15:00:00+05:30",
+        "region": "Karnataka",
+        "confidence": "high",
+        "final_score": 1.85
+      },
+      {
+        "rank": 2,
+        "headline": "Swiggy agrees to refund unauthorised campaign fees to Bengaluru hotels",
+        "summary": "Hotels await a wider payout resolution; refund window starts September 1.",
+        "why_it_matters": "Sets a precedent for platform-led restaurant marketing practices.",
+        "sources": [
+          {"source": "Economic Times", "url": "https://economictimes.indiatimes.com/tech/technology/swiggy-agrees-to-refund-unauthorised-campaign-fees-bengaluru-hotels-to-wait-till-september-1/articleshow/133034725.cms"}
+        ],
+        "timestamp": "2026-08-07T22:00:00+05:30",
+        "region": "Karnataka",
+        "confidence": "medium",
+        "final_score": 1.1
+      },
+      {
+        "rank": 3,
+        "headline": "Japanese national awarded compensation after Bengaluru jail case",
+        "summary": "Karnataka court grants damages after the man spent time in Bengaluru prison.",
+        "why_it_matters": "Highlights consular and procedural gaps in foreign national detentions.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/cities/bangalore/japanese-national-bengaluru-jail-compensation-karnataka-10822266/"}
+        ],
+        "timestamp": "2026-08-07T19:00:00+05:30",
+        "region": "Karnataka",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 4,
+        "headline": "KSRTC launches Bengaluru-Jog Falls package bus tour at ₹3,300 per adult",
+        "summary": "Tourism push ahead of the Independence Day long weekend.",
+        "why_it_matters": "Supports weekend footfalls at Jog Falls after monsoon revitalised the cascade.",
+        "sources": [
+          {"source": "Deccan Herald", "url": "https://www.deccanherald.com/india/karnataka/ksrtc-launches-bengaluru-jog-falls-package-bus-tour-4100947"}
+        ],
+        "timestamp": "2026-08-07T08:00:00+05:30",
+        "region": "Karnataka",
+        "confidence": "low",
+        "final_score": 0.5
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Chennai petrol and diesel prices remain unchanged at ₹107.77 and ₹99.55",
+        "summary": "OMC price hold continues for a sixth day; international crude pressure yet to pass through.",
+        "why_it_matters": "Stability is rare; consumers use the breather to plan long-weekend travel.",
+        "sources": [
+          {"source": "DT Next", "url": "https://www.dtnext.in/amp/story/news/chennai/check-out-petrol-and-diesel-prices-in-chennai-on-august-7-2026-3"}
+        ],
+        "timestamp": "2026-08-07T10:00:00+05:30",
+        "region": "Tamil Nadu",
+        "confidence": "medium",
+        "final_score": 0.7
+      },
+      {
+        "rank": 2,
+        "headline": "Chennai weather: light drizzle and 92% humidity, high of 33°C",
+        "summary": "Patchy rain in the morning, partly cloudy later; IMD forecasts similar conditions for the weekend.",
+        "why_it_matters": "Keeps the civic machinery alert but no major disruption expected.",
+        "sources": [
+          {"source": "LatestLY", "url": "https://www.latestly.com/india/news/chennai-weather-forecast-update-for-today-friday-07-august-2026-expect-light-drizzle-and-high-humidity-high-of-33c-7548702.html"},
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/weather/chennai-weather-forecast-today/"}
+        ],
+        "timestamp": "2026-08-07T08:00:00+05:30",
+        "region": "Tamil Nadu",
+        "confidence": "high",
+        "final_score": 1.0
+      },
+      {
+        "rank": 3,
+        "headline": "Tamil Nadu CM Joseph Vijay pitches Bengaluru talks as his own idea on Karnataka-Cauvery dispute",
+        "summary": "CM defends direct outreach to Karnataka counterpart as government-led initiative.",
+        "why_it_matters": "Shifts political optics around the Karnataka-TN water dialogue.",
+        "sources": [
+          {"source": "The Hindu", "url": "https://www.facebook.com/thehindu/posts/tamil-nadu-chief-minister-c-joseph-vijay-on-friday-august-7-2026-said-it-was-his/1376135028051211/"}
+        ],
+        "timestamp": "2026-08-07T18:00:00+05:30",
+        "region": "Tamil Nadu",
+        "confidence": "low",
+        "final_score": 0.6
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Maharashtra drafts tighter SOP for minority-status educational institutions",
+        "summary": "New SOP proposes IAS supervision and expert review panels for granting minority status.",
+        "why_it_matters": "Reshapes compliance for schools and colleges claiming minority rights; could invite legal challenge.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/cities/mumbai/maharashtra-minority-status-new-sop-educational-institutions-10821733/"}
+        ],
+        "timestamp": "2026-08-07T10:45:00+05:30",
+        "region": "Maharashtra",
+        "confidence": "medium",
+        "final_score": 0.95
+      },
+      {
+        "rank": 2,
+        "headline": "IIT Bombay canteens receive food safety notices after FDA inspections",
+        "summary": "Maharashtra FDA issued notices over FSSAI compliance gaps.",
+        "why_it_matters": "High-profile target; the institute has two weeks to respond or escalate.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/cities/mumbai/iit-bombay-canteens-maharashtra-fda-fssai-notices-10821821/"}
+        ],
+        "timestamp": "2026-08-07T22:00:00+05:30",
+        "region": "Maharashtra",
+        "confidence": "high",
+        "final_score": 1.45
+      },
+      {
+        "rank": 3,
+        "headline": "Mumbai monsoon: light to moderate rain, no orange alert",
+        "summary": "Cloudy skies and gusty winds continue; no major disruption reported.",
+        "why_it_matters": "Civic agencies can stay in routine mode after weeks of heavy showers.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/weather/mumbai-weather-forecast-today/"}
+        ],
+        "timestamp": "2026-08-07T08:00:00+05:30",
+        "region": "Maharashtra",
+        "confidence": "medium",
+        "final_score": 0.7
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "Indian judokas win first-ever Commonwealth Games gold medals",
+        "summary": "India collected two golds, one silver and one bronze on a breakthrough day.",
+        "why_it_matters": "Doubles the previous best CWG judo medal haul and validates the TOPS funding pipeline.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/sports/india-judo-gold-medal-cwg-harsh-singh-asmita-dey-gary-hall-iis-10822944/"}
+        ],
+        "timestamp": "2026-08-07T21:56:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.7
+      },
+      {
+        "rank": 2,
+        "headline": "India warm-up tour match against Sri Lanka XI begins in Colombo",
+        "summary": "Three-day fixture is the team's last tune-up before the Sri Lanka Test series.",
+        "why_it_matters": "Selectors are weighing Kuldeep Yadav's inclusion in the playing XI per Deep Dasgupta.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/sports/cricket/ind-vs-sl-kuldeep-yadav-has-to-be-in-the-playing-xi-says-deep-dasgupta-10814211/"},
+          {"source": "Cricinfo", "url": "https://www.cricinfo.com/series/india-in-sri-lanka-2026-1543999/sri-lanka-cricket-xi-vs-india-tour-match-1548444/live-cricket-score"}
+        ],
+        "timestamp": "2026-08-07T14:30:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.55
+      },
+      {
+        "rank": 3,
+        "headline": "Tanvi Sharma wins Taipei Open badminton title",
+        "summary": "Indians continue to dominate the BWF tour as Tanvi beats a higher-ranked opponent in the final.",
+        "why_it_matters": "Confirms the post-Sindhu/Pusarla bench strength ahead of the BWF Worlds.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/sports/badminton/tanvi-sharma-wins-taipei-open-with-exquisite-timing-on-her-smash-in-tai-tzu-land-10814318/"}
+        ],
+        "timestamp": "2026-08-07T18:00:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.4
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "Suriya's Vishwanath & Sons trailer drops to a strong reception",
+        "summary": "Family drama pairs Suriya with Mamitha Baiju; release date and music launch to follow.",
+        "why_it_matters": "Vishwanath and Sons trended at 500+ as Tamil fans track Suriya's return to a family-drama register.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/article/entertainment/tamil/vishwanath-and-sons-trailer-suriya-mamitha-baiju-promise-age-gap-romance-and-family-drama-10822739/"},
+          {"source": "AP7am", "url": "https://www.ap7am.com/en/133130/suriyas-vishwanath-sons-trailer-packed-with-emotions"}
+        ],
+        "timestamp": "2026-08-07T20:00:00+05:30",
+        "region": "Tamil Nadu",
+        "confidence": "high",
+        "final_score": 1.55
+      },
+      {
+        "rank": 2,
+        "headline": "Vadhandhi Season 2 review: smart whodunit that outgrows its cliches",
+        "summary": "Sasikumar-Anagha Maruthora thriller streams on Prime Video; controversy over a Jallikattu reference resolved.",
+        "why_it_matters": "Trended at 2,000+ searches; sets up Prime Video's Tamil-language slate for the second half.",
+        "sources": [
+          {"source": "The Hindu", "url": "https://www.thehindu.com/entertainment/movies/vadhandhi-season-2-the-mystery-of-mani-review-sasikumar-anagha-maruthora-prime-video/article71300881.ece"},
+          {"source": "NDTV", "url": "https://www.ndtv.com/entertainment/vadhandhi-the-mystery-of-mani-review-sasikumar-starrer-succeeds-in-delivering-an-engaging-crime-thriller-11878578"}
+        ],
+        "timestamp": "2026-08-07T20:40:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.65
+      },
+      {
+        "rank": 3,
+        "headline": "Harshvardhan Rane and Sanjeeda Shaikh dating rumours resurface after Pune vacation",
+        "summary": "Matching vacation photos fuel relationship speculation; no official confirmation.",
+        "why_it_matters": "Trending at 500+ searches; tests Bollywood PR machinery ahead of Rane's next release slate.",
+        "sources": [
+          {"source": "Jansatta", "url": "https://www.jansatta.com/entertainment/sanjeeda-sheikh-harshvardhan-rane-fuels-dating-rumours-with-vacation-photos/4652042/"},
+          {"source": "Navbharat Times", "url": "https://navbharattimes.indiatimes.com/tv/news/sanjeeda-shaikh-harshvardhan-rane-are-dating-vacation-photos-reignite-rumors-fans-react/articleshow/133034886.cms"}
+        ],
+        "timestamp": "2026-08-07T20:30:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 1.0
+      },
+      {
+        "rank": 4,
+        "headline": "India marks 12th National Handloom Day",
+        "summary": "Government reaffirms handloom sector revival plan; events held across states.",
+        "why_it_matters": "Anchor story for the day; 'governor' trended at 5,000+ as state-level events dominate regional search.",
+        "sources": [
+          {"source": "Vision IAS", "url": "https://visionias.in/current-affairs/news-today/2026-08-07/culture/india-is-celebrating-the-12th-national-handloom-day"},
+          {"source": "The Hindu", "url": "https://www.thehindu.com/news/national/telangana/govt-working-on-revival-of-handlooms-sector-tummala/article71318251.ece"}
+        ],
+        "timestamp": "2026-08-07T12:00:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.2
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Atiq Ahmed's son Aaban dies in Jhansi road accident",
+        "summary": "Engine parts penetrated his skull; UP jail authorities allowed both sons to attend the burial.",
+        "why_it_matters": "Trended nationwide (500+) under 'दुर्घटना'. Closes a chapter in a long-running mafia saga with political overtones.",
+        "sources": [
+          {"source": "Aaj Tak", "url": "https://www.aajtak.in/india/news/story/atiq-ahmed-son-aaban-car-accident-books-the-idiot-stationery-shop-of-tehran-ali-story-ntc-mnrd-smsr-rpti-2617342-2026-08-07"},
+          {"source": "Dainik Bhaskar", "url": "https://www.bhaskar.com/local/uttar-pradesh/prayagraj/news/atiq-ahmed-son-aban-death-road-accident-jhansi-buried-kasari-masari-graveyard-prayagraj-live-updates-138655207.html"},
+          {"source": "Live Hindustan", "url": "https://www.livehindustan.com/national/what-did-atiq-ahmed-son-aban-say-just-before-his-death-up-jhansi-road-accident-creta-car-201786072996307.html"}
+        ],
+        "timestamp": "2026-08-07T20:20:00+05:30",
+        "region": "Uttar Pradesh",
+        "confidence": "high",
+        "final_score": 1.85
+      },
+      {
+        "rank": 2,
+        "headline": "SC directions target digital-arrest fraud networks",
+        "summary": "Supreme Court ruled bail will not be granted in digital-arrest cases without 'extraordinary grounds'.",
+        "why_it_matters": "Tightens the legal net on the fastest-growing cybercrime category and amplifies CBI's nationwide probe.",
+        "sources": [
+          {"source": "LiveLaw", "url": "https://www.instagram.com/reel/DTkcBlbjUat/"},
+          {"source": "ORF", "url": "https://www.orfonline.org/expert-speak/digital-arrest-scams-and-the-limits-of-domestic-enforcement"}
+        ],
+        "timestamp": "2026-08-07T09:16:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.55
+      },
+      {
+        "rank": 3,
+        "headline": "Patna road-mishap protest turns violent; vehicles torched",
+        "summary": "Crowd set fire to vehicles after a fatal accident; police restored order.",
+        "why_it_matters": "Tests local policing ahead of the Bihar bypoll cycle.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T21:50:00+05:30",
+        "region": "Bihar",
+        "confidence": "low",
+        "final_score": 0.65
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "India Medical Device 2026 expo opens at Vigyan Bhawan",
+        "summary": "Two-day event covers biopharma, health-tech and the LIGO-India extramural research call.",
+        "why_it_matters": "Houses the public launch of India's revised MedTech standards and the next round of health research grants.",
+        "sources": [
+          {"source": "PIB", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2226614"},
+          {"source": "ICMR", "url": "https://www.facebook.com/ICMROrganisation/posts/india-is-shaping-its-future-health-research-roadmapand-your-suggestions-can-infl/1341463598099066/"}
+        ],
+        "timestamp": "2026-08-07T10:00:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 2,
+        "headline": "ISRO completes 1,000-hour life test of Stationary Plasma Thruster",
+        "summary": "The thruster is destined for next-generation electric propulsion on Indian satellites.",
+        "why_it_matters": "Sets up future commercial deep-space and constellation missions.",
+        "sources": [
+          {"source": "ISRO", "url": "https://www.isro.gov.in/"}
+        ],
+        "timestamp": "2026-08-07T11:00:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.1
+      },
+      {
+        "rank": 3,
+        "headline": "Over 70 people fall ill after Odisha housewarming feast",
+        "summary": "Food poisoning suspected; district health teams investigating the venue.",
+        "why_it_matters": "Tests the food-safety regime during festival-cluster season.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T20:12:00+05:30",
+        "region": "Odisha",
+        "confidence": "low",
+        "final_score": 0.6
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "India renews push to bring back Bhojshala's Vagdevi idol at BRICS meet",
+        "summary": "Cultural restitution request raised at the ministerial; no formal response yet.",
+        "why_it_matters": "Ties together domestic heritage politics with India's wider civilisational diplomacy push.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T09:00:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.85
+      },
+      {
+        "rank": 2,
+        "headline": "Indian-origin astronaut Anil Menon completes first NASA spacewalk",
+        "summary": "Menon became the fourth Indian-origin astronaut to walk in space; duration and tasks undisclosed.",
+        "why_it_matters": "Continues India's diaspora-led footprint in human spaceflight programmes.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T08:45:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.85
+      },
+      {
+        "rank": 3,
+        "headline": "Centre notifies act paving way for ST reservation in Goa Assembly",
+        "summary": "Notification extends reservation to scheduled tribes ahead of next year's elections.",
+        "why_it_matters": "Closes a long-standing demand in Goa politics.",
+        "sources": [
+          {"source": "Indian Express", "url": "https://indianexpress.com/section/india/"}
+        ],
+        "timestamp": "2026-08-07T07:30:00+05:30",
+        "region": "Goa",
+        "confidence": "low",
+        "final_score": 0.55
+      }
+    ]
+  },
+  "top_5_trends": [
+    {
+      "rank": 1,
+      "headline": "Government deep-tech fund linked to panel members — IE investigation",
+      "why_it_matters": "Conflict-of-interest cloud over a flagship ₹2,192-crore scheme"
+    },
+    {
+      "rank": 2,
+      "headline": "Sensex ends 456 pts lower; Nifty slips below 24,600",
+      "why_it_matters": "Banks and Brent crude above $83 drove a risk-off close"
+    },
+    {
+      "rank": 3,
+      "headline": "RBI orders banks to stop harassing borrowers from Jan 1, 2027",
+      "why_it_matters": "Bans recorded calls, night-time collection; penalties for breaches"
+    },
+    {
+      "rank": 4,
+      "headline": "Modi's foreign trips cost ₹7,458 crore since 2021 — RTI data",
+      "why_it_matters": "PM Modi #1 trending search; opposition to weaponise in Parliament"
+    },
+    {
+      "rank": 5,
+      "headline": "Bengaluru voters: nearly half flagged in Karnataka SIR draft roll",
+      "why_it_matters": "Draft roll due Aug 17; could reshape Bengaluru civic elections"
+    }
+  ],
+  "summary": "An Indian Express investigation cast a shadow over a flagship science fund; equity benchmarks fell as banks and crude weighed; RBI drew the line on borrower harassment; the Karnataka SIR draft has flagged nearly half of Bengaluru voters; PM Modi's foreign-travel spend topped the day's search trends."
+}

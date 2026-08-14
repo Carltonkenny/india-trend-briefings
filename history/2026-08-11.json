@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T09:55:00+05:30",
+  "totals": {
+    "raw": 1101,
+    "kept": 60,
+    "sources": 308,
+    "categories": 12,
+    "stale_items_dropped": 1
+  },
+  "delivered_at": "2026-08-11T09:58:00+05:30",
+  "telegram_message_id": 127,
+  "telegram_message_chars": 185,
+  "success": true,
+  "previous_day_status": "ok",
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline",
+  "recency_passed": true,
+  "publish_status": {
+    "html_rendered": true,
+    "git_pushed": true,
+    "site": "https://carltonkenny.github.io/Daily_briefings-/2026-08-11.html"
+  },
+  "notes": "MD auto-sized to 3376 chars (under Telegram 4096). Validated cleanly. Top 5 curated for 2026-08-11: Bengaluru hotel tragedy (man kills 2 daughters), Parliament clears taxation bill + UPI free + FCRA, Russia's oil share at 48% all-time high, Assam flood toll crosses 100, PM Modi AI/deeptech roundtable. Cross-cutting: legislative action + diplomatic pivot + city tragedy."
+}

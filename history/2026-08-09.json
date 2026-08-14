@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T15:29:49.778235+05:30",
+  "totals": {
+    "raw": 577,
+    "kept": 60,
+    "sources": 138,
+    "categories": 12,
+    "stale_items_dropped": 10
+  },
+  "delivered_at": "2026-08-09T15:32:42.622973+05:30",
+  "telegram_message_chars": 3427,
+  "success": true,
+  "update_type": "afternoon_refresh",
+  "previous_delivery": "2026-08-09T12:26:56+05:30",
+  "previous_day_status": "ok",
+  "delivery_channel": "telegram_cron_inline",
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_method": "telegram_cron_inline",
+  "items_per_category_final_md": "1-2 per non-Top category; URLs omitted from MD to fit Telegram 4096 limit (HTML has clickable links)",
+  "url_resolution": "DDG rate-limited/blocked; only 2/571 URLs resolved. Most articles use Google News redirects in JSON/HTML.",
+  "recency_passed": true,
+  "stale_items_dropped": 5,
+  "publish_status": {
+    "pdf_rendered": true,
+    "git_pushed": true,
+    "site": "https://carltonkenny.github.io/Daily_briefings-/2026-08-09.html"
+  }
+}

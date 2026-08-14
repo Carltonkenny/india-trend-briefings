@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T11:06:22.618913+05:30",
+  "totals": {
+    "raw": 5442,
+    "kept": 58,
+    "sources": 366,
+    "categories": 12,
+    "stale_items_dropped": 2520,
+    "unique_in_window": 2609,
+    "distinct_outlets_cited": 14,
+    "distinct_urls_cited": 67
+  },
+  "delivered_at": "2026-08-13T11:52:11.685241+05:30",
+  "telegram_message_chars": 3476,
+  "success": true,
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline",
+  "delivery_failed": true,
+  "delivery_failure_reason": "telegram_api_401_unauthorized",
+  "previous_day_status": "ok"
+}

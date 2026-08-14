@@ -1,0 +1,3 @@
+# Helper scripts live in the agent's workspace, not in the repo
+# push.sh is staged here once for visibility but ignored afterward
+/push.sh

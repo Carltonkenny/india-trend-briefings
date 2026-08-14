@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T10:34:22.864292+05:30",
+  "totals": {
+    "raw": 908,
+    "kept": 60,
+    "sources": 227,
+    "categories": 12,
+    "stale_items_dropped": 6
+  },
+  "delivered_at": "2026-08-12T10:34:23.624449+05:30",
+  "telegram_message_chars": 2998,
+  "success": true,
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline",
+  "previous_day_status": "ok",
+  "telegram_message_id": 139,
+  "publish_status": {
+    "html_rendered": true,
+    "git_pushed": true,
+    "site": "https://carltonkenny.github.io/Daily_briefings-/2026-08-12.html"
+  },
+  "notes": "MD 60 kept of 908 raw items, 227 unique sources. Validation passed. Top 5 curated for 2026-08-12: Mumbai Kurla landslide (2 dead), Accel $550M India AI fund, TN CM Vijay delimitation Assembly resolution, Prajwal Revanna phone-in-jail security breach, US 100% tariff-Russia oil (Navarro). Cross-cutting: monsoon tragedy + VC capital return + political delimitation + jail security lapse + diplomatic tariff showdown."
+}

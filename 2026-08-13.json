@@ -1,0 +1,1068 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T11:06:22.618913+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "totals": {
+    "raw": 5442,
+    "kept": 58,
+    "sources": 366,
+    "categories": 12,
+    "stale_items_dropped": 2520,
+    "unique_in_window": 2609,
+    "distinct_outlets_cited": 14,
+    "distinct_urls_cited": 67
+  },
+  "window": {
+    "from": "2026-08-12T10:59:34.529950+05:30",
+    "to": "2026-08-13T10:59:34.529950+05:30"
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "headline": "Karnataka bandh over Cauvery water dispute: 20+ detained, bandh impact limited",
+        "summary": "Vatal Nagaraj's day-long Karnataka bandh over Cauvery water-sharing went ahead on Aug 13 with limited effect — schools, banks and BMTC buses ran normally after most organisations offered only moral support. Over 20 protesters were detained after attempting a highway blockade at Attibele; 51 arrests were reported in Tamil Nadu over the same dispute.",
+        "why_it_matters": "The Cauvery row is back as a street-level flashpoint on both sides of the border, and the Supreme Court hearing has now slipped to Aug 17 after a judge fell ill — meaning the political pressure valve stays open with no judicial relief in sight.",
+        "sources": [
+          {
+            "source": "News18",
+            "url": "https://www.news18.com/india/karnataka-bandh-over-20-detained-after-protesters-attempt-highway-blockade-at-attibele-ws-kl-10270071.html"
+          },
+          {
+            "source": "The Indian Express",
+            "url": "https://indianexpress.com/article/cities/bangalore/karnataka-bandh-cauvery-water-dispute-open-closed-today-10830790/"
+          },
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/cauvery-dispute-posted-to-august-17-as-judge-down-with-viral-fever/article71335351.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:36:00+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 1.9
+      },
+      {
+        "rank": 2,
+        "headline": "₹44,000 crore wiped off Tata group stocks as Chandrasekaran exit rattles investors",
+        "summary": "A day after N. Chandrasekaran resigned as Tata Sons chairman ahead of the AGM, Tata group stocks shed roughly ₹44,000 crore in market value, with TCS accounting for about 81% of the fall. Analysts warn the exit puts the group's ~$120 billion spending plan at risk. Tata Motors CV was the exception, jumping over 6% on strong Q1 profit and a Nomura upgrade.",
+        "why_it_matters": "Tata Sons is India's most systemically important private conglomerate. A leadership vacuum at the top of a group spanning IT, autos, steel, airlines and semiconductors transmits directly into index-level volatility and freezes capex decisions across sectors.",
+        "sources": [
+          {
+            "source": "Business Standard",
+            "url": "https://www.business-standard.com/markets/news/rs-44-000-crore-wiped-out-in-tata-group-stocks-tcs-accounts-for-81-of-fall-126081300543_1.html"
+          },
+          {
+            "source": "Business Standard",
+            "url": "https://www.business-standard.com/companies/news/tata-chief-chandrasekaran-s-exit-puts-120-billion-spending-plan-at-risk-126081300547_1.html"
+          },
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/business/Industry/the-marathoner-technocrat-who-gave-new-direction-to-tata-group/article71337151.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:21:00+05:30",
+        "region": "Mumbai",
+        "confidence": "high",
+        "final_score": 1.85
+      },
+      {
+        "rank": 3,
+        "headline": "Parliament Monsoon Session ends in standoff; Centre softens FCRA Bill, sends it to JPC",
+        "summary": "The Monsoon Session closed on Day 19 with Amit Shah declaring he was ready to 'answer all questions' while the Opposition slammed an 'undemocratic' time limit on the debate over student protests. The Centre softened its stance on the contested FCRA Amendment Bill after appeals from minority groups and referred it to a Joint Parliamentary Committee.",
+        "why_it_matters": "The FCRA climbdown shows organised minority and civil-society lobbying can still force the government to blink on foreign-funding rules — but routing it to a JPC also parks the bill past the session, deferring rather than resolving the fight.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/parliament-monsoon-session-2026-live-august-13-2026/article71339498.ece"
+          },
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/centre-softens-stance-on-fcra-bill-following-appeals-by-minority-groups/article71337440.ece"
+          },
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/india-news/parliament-monsoon-session-live-updates-amit-shah-rahul-gandhi-fcra-police-action-student-protest-cjp-bjp-congress-101786594848156.html"
+          }
+        ],
+        "timestamp": "2026-08-13T10:27:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.8
+      },
+      {
+        "rank": 4,
+        "headline": "Rupee slides to 95.40/$ as FII selling and Iran war risk weigh; Sensex, Nifty trade lower",
+        "summary": "The rupee fell 7 paise to 95.40 against the dollar in early trade on FII selling and geopolitical risk, while Sensex and Nifty traded lower — Nifty below 24,350 — despite positive global cues and soft US inflation data. July CPI came within the RBI's target band and brokerages now expect the RBI to stay on hold through 2026 with inflation above 4%.",
+        "why_it_matters": "A 95-handle rupee plus an on-hold RBI means imported inflation has nowhere to go but into margins, and the Iran war premium on crude removes the one tailwind that had been cushioning India's import bill.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-7-paise-to-9540-against-us-dollar-in-early-trade/article71339548.ece"
+          },
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-13th-august-2026/article71337670.ece"
+          },
+          {
+            "source": "Business Standard",
+            "url": "https://www.business-standard.com/markets/capital-market-news/nifty-trades-below-24-350-mark-media-shares-rally-126081300570_1.html"
+          }
+        ],
+        "timestamp": "2026-08-13T10:50:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.75
+      },
+      {
+        "rank": 5,
+        "headline": "Iran war economics: Trump bets on pressure as Putin courts India on Northern Sea Route",
+        "summary": "As the West Asia conflict continued, Trump was reported to be making a 'low-key' bet on economic pressure against Iran, with US refiners ramping up buybacks as the war boosts fuel margins. Separately, Putin said India and China are among key partners interested in the Northern Sea Route, and Ten fishermen from Rameswaram were held by the Sri Lankan Navy near Katchatheevu.",
+        "why_it_matters": "India is being pulled three ways at once — a crude shock from the Gulf, a Russian Arctic shipping offer that cuts against US pressure on Moscow, and an unresolved fisherman dispute with Colombo. Every one of them lands on the same trade and energy balance sheet.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/international/iran-us-war-west-asia-live-updates-donald-trump-august-13-2026/article71339299.ece"
+          },
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/news/world/putin-says-india-china-among-key-partners-interested-in-northern-sea-route/article71339307.ece"
+          },
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/tamil-nadu/ten-fishermen-from-rameswaram-held-by-lankan-navy/article71339334.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:32:00+05:30",
+        "region": "International",
+        "confidence": "high",
+        "final_score": 1.7
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "ReNew plans ₹85,000-crore green data centre in Andhra Pradesh with global partners",
+        "summary": "India's largest single green-DC commitment yet — AI compute demand is now driving power-infra deals.",
+        "why_it_matters": "India's largest single green-DC commitment yet — AI compute demand is now driving power-infra deals.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/news/national/andhra-pradesh-renew-plans-to-team-up-with-global-players-for-85000-cr-green-data-center/article71339552.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:23:00+05:30",
+        "region": "Andhra Pradesh",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 2,
+        "headline": "Anthropic in talks to buy AI startup Decart for $6 billion",
+        "summary": "Frontier-lab consolidation accelerates; sets a valuation marker Indian deeptech founders will be benchmarked against.",
+        "why_it_matters": "Frontier-lab consolidation accelerates; sets a valuation marker Indian deeptech founders will be benchmarked against.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/news/world/anthropic-said-to-be-in-talks-to-buy-startup-decart-for-6-billion/article71339455.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:31:00+05:30",
+        "region": "International",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 3,
+        "headline": "Mirae Asset's MAVI raises ₹1,125 crore in first close of Venture Opportunity Fund II",
+        "summary": "Second India-dedicated fund close this week — foreign LPs are back on Indian venture after the 2023–24 reset.",
+        "why_it_matters": "Second India-dedicated fund close this week — foreign LPs are back on Indian venture after the 2023–24 reset.",
+        "sources": [
+          {
+            "source": "YourStory",
+            "url": "https://yourstory.com/2026/08/mirae-asset-mavi-rs-1125-cr-venture-opportunity-fund-ii"
+          }
+        ],
+        "timestamp": "2026-08-13T10:01:00+05:30",
+        "region": "India",
+        "confidence": "medium",
+        "final_score": 1.05
+      },
+      {
+        "rank": 4,
+        "headline": "Bluehill.VC closes maiden deeptech fund at ₹400 crore, eyes 15 bets",
+        "summary": "Domestic frontier-tech capital is forming its own pool rather than waiting on global crossover funds.",
+        "why_it_matters": "Domestic frontier-tech capital is forming its own pool rather than waiting on global crossover funds.",
+        "sources": [
+          {
+            "source": "Mint",
+            "url": "https://www.livemint.com/companies/news/bluehill-vc-raises-rs-400-crore-deeptech-fund-india-11786592288209.html"
+          }
+        ],
+        "timestamp": "2026-08-13T10:49:00+05:30",
+        "region": "India",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 5,
+        "headline": "SBI raises $500 million overseas as strong investor demand sharply cuts spread",
+        "summary": "Cheapest offshore funding window in months for India's largest lender — a credit-cycle tell.",
+        "why_it_matters": "Cheapest offshore funding window in months for India's largest lender — a credit-cycle tell.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/money-and-banking/sbi-raises-500-million-overseas-as-strong-investor-demand-sharply-cuts-spread/article71339456.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:03:00+05:30",
+        "region": "India",
+        "confidence": "high",
+        "final_score": 1.2
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "Milky Mist ₹1,553-crore IPO booked ~3x on final day; Shiprocket fully subscribed",
+        "summary": "Retail appetite is holding up even in a down-tape session — the IPO window is not closing yet.",
+        "why_it_matters": "Retail appetite is holding up even in a down-tape session — the IPO window is not closing yet.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/milky-mist-ipo-gmp-day-3-subscription-status-live-updates-shiprocket-ipo-day-2-live-news/article71339509.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:32:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 2,
+        "headline": "Four Indian stocks added, three removed in MSCI's August index rejig",
+        "summary": "Passive flows will mechanically rebalance into the additions — a short-term bid unrelated to fundamentals.",
+        "why_it_matters": "Passive flows will mechanically rebalance into the additions — a short-term bid unrelated to fundamentals.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/four-indian-stocks-to-be-added-three-removed-from-key-global-index-in-mscis-august-rejig/article71339448.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:06:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 3,
+        "headline": "Muthoot Fincorp files draft papers for ₹3,000-crore IPO; Gaja Alternative IPO to open Aug 19",
+        "summary": "The NBFC and asset-manager pipeline is refilling — capital formation is shifting to non-bank credit.",
+        "why_it_matters": "The NBFC and asset-manager pipeline is refilling — capital formation is shifting to non-bank credit.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/muthoot-fincorp-files-draft-papers-for-3000-crore-ipo-to-boost-capital-base/article71339580.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:30:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 4,
+        "headline": "Crude oil futures fall as OPEC and IEA both predict weaker 2026 demand",
+        "summary": "The one piece of good news for India's import bill, cutting against the Iran-war risk premium.",
+        "why_it_matters": "The one piece of good news for India's import bill, cutting against the Iran-war risk premium.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-as-opec-iea-predict-decline-in-demand-in-2026/article71339521.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:33:00+05:30",
+        "region": "International",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 5,
+        "headline": "Gold and silver lacklustre on MCX despite soft US inflation data as dollar, yields stay elevated",
+        "summary": "Bullion is no longer trading off CPI — real yields and the dollar are back in the driver's seat.",
+        "why_it_matters": "Bullion is no longer trading off CPI — real yields and the dollar are back in the driver's seat.",
+        "sources": [
+          {
+            "source": "Mint",
+            "url": "https://www.livemint.com/market/commodities/gold-and-silver-prices-today-rates-lacklustre-on-mcx-despite-soft-us-inflation-data-elevated-dollar-bond-yields-weigh-11786591359947.html"
+          }
+        ],
+        "timestamp": "2026-08-13T09:07:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 1.05
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "Mamata calls delimitation 'BJP's tool to divide Bengal and India' as WB passes civic delimitation bills",
+        "summary": "The delimitation fight has jumped from the southern states to Bengal — it is now a pan-opposition plank.",
+        "why_it_matters": "The delimitation fight has jumped from the southern states to Bengal — it is now a pan-opposition plank.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/west-bengal/delimitation-is-the-bjps-tool-to-divide-bengal-and-india-says-mamata/article70861964.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:31:00+05:30",
+        "region": "West Bengal",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 2,
+        "headline": "Congress demands Assam floods be declared a 'national problem'",
+        "summary": "A funding-formula fight dressed as a relief demand; sets up the pre-election Assam narrative.",
+        "why_it_matters": "A funding-formula fight dressed as a relief demand; sets up the pre-election Assam narrative.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/assam/congress-demands-declaring-assam-floods-as-national-problem/article71339583.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:34:00+05:30",
+        "region": "Assam",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 3,
+        "headline": "India said to seek 60 transport aircraft in $10-billion tender",
+        "summary": "One of the largest defence procurements in years; a live test of the make-in-India offset regime.",
+        "why_it_matters": "One of the largest defence procurements in years; a live test of the make-in-India offset regime.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/companies/india-said-to-seek-60-transport-aircraft-in-10-billion-tender/article71339458.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:21:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 4,
+        "headline": "Rajya Sabha adjourned amid row over 'lungiwala' remark against CPI(M) MP John Brittas",
+        "summary": "Regional-identity slurs in the Upper House keep the North–South fault line raw during a delimitation session.",
+        "why_it_matters": "Regional-identity slurs in the Upper House keep the North–South fault line raw during a delimitation session.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/rajya-sabha-adjourned-amid-row-over-lungiwala-remark-against-cpim-mp-john-brittas/article71336195.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T06:31:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.96
+      },
+      {
+        "rank": 5,
+        "headline": "Panel seeks review of FDI in private hospitals, warns of aggressive corporatisation and rising costs",
+        "summary": "A parliamentary push to re-regulate health capital — direct risk to hospital-chain valuations.",
+        "why_it_matters": "A parliamentary push to re-regulate health capital — direct risk to hospital-chain valuations.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/panel-seeks-review-of-fdi-in-private-hospitals-warns-of-aggressive-corporatisation-rising-healthcare-costs/article71335824.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:27:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.2
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "Karnataka bandh: schools, banks open; police warn against forcing shops shut",
+        "summary": "The bandh's practical failure is itself the story — Vatal Nagaraj's mobilising power has thinned.",
+        "why_it_matters": "The bandh's practical failure is itself the story — Vatal Nagaraj's mobilising power has thinned.",
+        "sources": [
+          {
+            "source": "News18",
+            "url": "https://www.news18.com/cities/bengaluru-news/karnataka-bandh-today-august-13-schools-banks-open-police-warn-against-force-to-close-shops-ws-l-10270068.html"
+          }
+        ],
+        "timestamp": "2026-08-13T09:49:00+05:30",
+        "region": "Bengaluru",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 2,
+        "headline": "Prajwal Revanna's jail phone had Netflix, WhatsApp, Instagram and Prime Video installed",
+        "summary": "The security breach is worse than first reported — a rape convict ran full consumer apps from a Bengaluru cell.",
+        "why_it_matters": "The security breach is worse than first reported — a rape convict ran full consumer apps from a Bengaluru cell.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/india-news/rape-convict-ex-mp-prajwal-revannas-phone-in-bengaluru-jail-had-netflix-whatsapp-insta-prime-video-101786596324138.html"
+          }
+        ],
+        "timestamp": "2026-08-13T10:25:00+05:30",
+        "region": "Bengaluru",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 3,
+        "headline": "Special Intensive Revision: unauthorised apps and fraud calls surface after ASDDO list goes public",
+        "summary": "Voter-roll revision has created a live phishing surface and the CEO's office has not acted.",
+        "why_it_matters": "Voter-roll revision has created a live phishing surface and the CEO's office has not acted.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/cities/bangalore/special-intensive-revision-unauthorised-apps-fraud-calls-emerge-after-asddo-list-goes-public-no-action-from-ceo-yet/article71336975.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:50:00+05:30",
+        "region": "Bengaluru",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 4,
+        "headline": "Bengaluru extends deadline for vacant-site owners to clear properties to August 22",
+        "summary": "Pre-monsoon vector-control enforcement slipping again — dengue season risk carried forward.",
+        "why_it_matters": "Pre-monsoon vector-control enforcement slipping again — dengue season risk carried forward.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-deadline-for-vacant-site-owners-to-clean-properties-extended-to-august-22/article71336917.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:15:00+05:30",
+        "region": "Bengaluru",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 5,
+        "headline": "Bengaluru woman flags surging Uber and Rapido fares: 'I had to pay double'",
+        "summary": "Ride-hailing price escalation in the bandh week becomes a cost-of-living talking point for the city's young workforce.",
+        "why_it_matters": "Ride-hailing price escalation in the bandh week becomes a cost-of-living talking point for the city's young workforce.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/trending/bengaluru-woman-flags-rising-uber-rapido-fares-asks-how-youngsters-can-manage-on-budget-i-had-to-pay-double-101786593059358.html"
+          }
+        ],
+        "timestamp": "2026-08-13T09:26:00+05:30",
+        "region": "Bengaluru",
+        "confidence": "medium",
+        "final_score": 0.9
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Tamil Nadu to sign pacts for ₹15,050 crore in new projects by overseas firms",
+        "summary": "A ₹15,000-crore FDI tranche lands as TN's investment machine keeps outpacing the political noise.",
+        "why_it_matters": "A ₹15,000-crore FDI tranche lands as TN's investment machine keeps outpacing the political noise.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/news/national/tamil-nadu-to-sign-pacts-for-15050-crore-in-new-projects-by-overseas-firms-source-says/article71339546.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:46:00+05:30",
+        "region": "Chennai",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 2,
+        "headline": "NIA searches 13 locations across Tamil Nadu and Mizoram after methamphetamine seizure",
+        "summary": "A trans-state meth pipeline running through TN ports — a significant narcotics-network case.",
+        "why_it_matters": "A trans-state meth pipeline running through TN ports — a significant narcotics-network case.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/nia-searches-13-locations-in-tamil-nadu-and-mizoram-after-meth-seizure/article71337632.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T07:12:00+05:30",
+        "region": "Chennai",
+        "confidence": "high",
+        "final_score": 0.96
+      },
+      {
+        "rank": 3,
+        "headline": "Ten fishermen from Rameswaram held by Sri Lankan Navy over Katchatheevu fishing",
+        "summary": "The recurring Palk Strait arrest cycle, and a standing irritant in India–Sri Lanka relations.",
+        "why_it_matters": "The recurring Palk Strait arrest cycle, and a standing irritant in India–Sri Lanka relations.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/tamil-nadu/ten-fishermen-from-rameswaram-held-by-lankan-navy/article71339334.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:32:00+05:30",
+        "region": "Chennai",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 4,
+        "headline": "Tamil Nadu passes Assembly resolution against delimitation",
+        "summary": "The southern bloc's seat-freeze demand is now formal legislative record in TN.",
+        "why_it_matters": "The southern bloc's seat-freeze demand is now formal legislative record in TN.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/india-news/tamil-nadu-passes-resolution-against-delimitation-101786563159975.html"
+          }
+        ],
+        "timestamp": "2026-08-13T08:57:00+05:30",
+        "region": "Chennai",
+        "confidence": "medium",
+        "final_score": 0.84
+      },
+      {
+        "rank": 5,
+        "headline": "Wild elephant and calf fatally struck by train near Walayar on Kerala–Tamil Nadu border",
+        "summary": "Another elephant-corridor death on a stretch flagged repeatedly for speed restrictions.",
+        "why_it_matters": "Another elephant-corridor death on a stretch flagged repeatedly for speed restrictions.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/kerala/wild-elephant-calf-fatally-struck-by-train-near-walayar/article71339425.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:35:00+05:30",
+        "region": "Chennai",
+        "confidence": "high",
+        "final_score": 1.2
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Mumbai lake levels cross 90% again after heavy rain; IMD forecasts more showers",
+        "summary": "The city's water year is effectively secured — and the flood risk profile rises with it.",
+        "why_it_matters": "The city's water year is effectively secured — and the flood risk profile rises with it.",
+        "sources": [
+          {
+            "source": "NDTV Profit",
+            "url": "https://www.ndtvprofit.com/india/mumbai-s-water-supplying-lakes-cross-90-mark-again-after-heavy-rain-imd-forecasts-more-showers-this-week-11903012#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-13T09:53:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 2,
+        "headline": "Three Domino's outlets in Mumbai lose licences after FDA flags hygiene violations; 13 suspended statewide",
+        "summary": "Maharashtra's FDA is now hitting national QSR brands, not just local kitchens — a compliance-cost shift.",
+        "why_it_matters": "Maharashtra's FDA is now hitting national QSR brands, not just local kitchens — a compliance-cost shift.",
+        "sources": [
+          {
+            "source": "NDTV Profit",
+            "url": "https://www.ndtvprofit.com/business/three-dominos-pizza-outlets-in-mumbai-lose-licence-after-fda-flags-hygiene-violations-11901155#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-13T10:01:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 3,
+        "headline": "Kurla landslide: 12 years after Malin, relocation policy faces a reality check",
+        "summary": "Yesterday's deaths reopen the unimplemented hill-slum relocation policy — the follow-through story.",
+        "why_it_matters": "Yesterday's deaths reopen the unimplemented hill-slum relocation policy — the follow-through story.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/kurla-landslide-12-yrs-after-malin-relocation-policy-faces-reality-check-101786561715990.html"
+          }
+        ],
+        "timestamp": "2026-08-13T08:36:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.72
+      },
+      {
+        "rank": 4,
+        "headline": "Audit reveals BOAT Mumbai diverted ₹17.3 crore SC/ST grant to pay General-quota stipends",
+        "summary": "A documented misuse of reserved-category apprenticeship funds inside a central training body.",
+        "why_it_matters": "A documented misuse of reserved-category apprenticeship funds inside a central training body.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/india-news/audit-reveals-boat-mumbai-diverted-rs-17-3-crore-sc-st-grant-to-pay-general-quota-stipend-101786593137116.html"
+          }
+        ],
+        "timestamp": "2026-08-13T09:53:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 5,
+        "headline": "Maharashtra transport minister warns non-Marathi-speaking drivers: 'blend in or face legal action'",
+        "summary": "Language enforcement is being extended to livelihood licensing — a fresh migrant-rights flashpoint.",
+        "why_it_matters": "Language enforcement is being extended to livelihood licensing — a fresh migrant-rights flashpoint.",
+        "sources": [
+          {
+            "source": "News18",
+            "url": "https://www.news18.com/cities/mumbai-news/learn-marathi-or-face-action-after-august-15-says-transport-minister-sarnaik-10269998.html"
+          }
+        ],
+        "timestamp": "2026-08-13T10:24:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.9
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "India begin Sri Lanka Test tour at Galle with Gill and Gambhir facing an ultimate spin test",
+        "summary": "A WTC-cycle opener where the captain-coach pair's transition project gets its hardest examination.",
+        "why_it_matters": "A WTC-cycle opener where the captain-coach pair's transition project gets its hardest examination.",
+        "sources": [
+          {
+            "source": "Sportstar",
+            "url": "https://sportstar.thehindu.com/cricket/ind-vs-sl-test-series-2026-gill-gambhir-transition-preview/article71339586.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:24:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 2,
+        "headline": "Sri Lanka captain warns India: 'We have the upper hand' ahead of Galle Test",
+        "summary": "Home-conditions confidence from a side that has beaten India in Galle before.",
+        "why_it_matters": "Home-conditions confidence from a side that has beaten India in Galle before.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/we-have-the-upper-hand-sri-lanka-captains-warning-to-india-ahead-of-galle-test/articleshow/133196043.cms"
+          }
+        ],
+        "timestamp": "2026-08-13T07:59:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.72
+      },
+      {
+        "rank": 3,
+        "headline": "Gill's injury struggles a concern for 'Indian cricket's health', says ex-bowler",
+        "summary": "Workload management of the Test captain is now an openly contested selection issue.",
+        "why_it_matters": "Workload management of the Test captain is now an openly contested selection issue.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://indianexpress.com/article/sports/cricket/shubman-gill-injury-concern-indian-cricket-health-ind-vs-sl-kartik-10830822/"
+          }
+        ],
+        "timestamp": "2026-08-13T09:01:00+05:30",
+        "region": "India",
+        "confidence": "medium",
+        "final_score": 1.05
+      },
+      {
+        "rank": 4,
+        "headline": "Gautam Gambhir's head-coach job safe or unsafe? BCCI decision made, two factors in play",
+        "summary": "The coach's tenure is being decided as the Galle Test starts — a live selection-politics story.",
+        "why_it_matters": "The coach's tenure is being decided as the Galle Test starts — a live selection-politics story.",
+        "sources": [
+          {
+            "source": "NDTV Sports",
+            "url": "https://sports.ndtv.com/cricket/gautam-gambhirs-head-coach-job-safe-or-unsafe-bccis-decision-made-2-major-factors-in-play-11902212#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-13T06:52:00+05:30",
+        "region": "India",
+        "confidence": "medium",
+        "final_score": 0.72
+      },
+      {
+        "rank": 5,
+        "headline": "Girl of Belagavi origin wins UK chess title",
+        "summary": "India's chess pipeline keeps producing titles abroad, now from tier-2 Karnataka.",
+        "why_it_matters": "India's chess pipeline keeps producing titles abroad, now from tier-2 Karnataka.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/karnataka/girl-of-belagavi-origin-wins-uk-chess-title/article71337366.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:39:00+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 1.2
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "'Haiwaan' teaser: Akshay Kumar–Saif Ali Khan film promises mystery and psychological tension",
+        "summary": "A rare two-star Bollywood thriller pairing, positioned against the franchise-heavy slate.",
+        "why_it_matters": "A rare two-star Bollywood thriller pairing, positioned against the franchise-heavy slate.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/entertainment/movies/haiwaan-teaser-akshay-kumar-saif-ali-khan-film-promises-mystery-and-psychological-tension/article71336155.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T17:10:00+05:30",
+        "region": "India",
+        "confidence": "high",
+        "final_score": 0.36
+      },
+      {
+        "rank": 2,
+        "headline": "Kangana Ranaut questions Bollywood: 'When will this love affair with Pakistan end?'",
+        "summary": "The industry's cross-border collaboration debate reignites during a Gulf-war news cycle.",
+        "why_it_matters": "The industry's cross-border collaboration debate reignites during a Gulf-war news cycle.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://indianexpress.com/article/entertainment/bollywood/kangana-ranaut-bollywood-love-affair-with-pakistan-end-10830838/"
+          }
+        ],
+        "timestamp": "2026-08-13T09:35:00+05:30",
+        "region": "India",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 3,
+        "headline": "Row over 'shuddhikaran' of venue after Mallikarjun Kharge's rally in Uttarakhand",
+        "summary": "A ritual-purification gesture aimed at the Congress president escalates into a caste-politics flashpoint.",
+        "why_it_matters": "A ritual-purification gesture aimed at the Congress president escalates into a caste-politics flashpoint.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://www.ndtv.com/india-news/row-over-shuddhikaran-of-venue-after-mallikarjun-kharges-rally-in-uttarakhand-haldwani-11900969#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-13T09:07:00+05:30",
+        "region": "Uttarakhand",
+        "confidence": "medium",
+        "final_score": 1.05
+      },
+      {
+        "rank": 4,
+        "headline": "Jr NTR gives update after shoulder surgery for 'Dragon' set injury: 'I am overwhelmed'",
+        "summary": "A lead-actor injury with schedule implications for one of Telugu cinema's biggest productions.",
+        "why_it_matters": "A lead-actor injury with schedule implications for one of Telugu cinema's biggest productions.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/entertainment/telugu-cinema/jr-ntr-to-undergo-shoulder-surgery-for-dragon-injury-at-hyderabad-hospital-team-promises-fans-updates-on-recovery-101786520153456.html"
+          }
+        ],
+        "timestamp": "2026-08-13T13:45:00+05:30",
+        "region": "Hyderabad",
+        "confidence": "medium",
+        "final_score": 0.27
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Rape survivors don't need court approval to terminate pregnancies up to 24 weeks: MP High Court",
+        "summary": "A significant MTP-Act reading that removes judicial gatekeeping from time-critical medical decisions.",
+        "why_it_matters": "A significant MTP-Act reading that removes judicial gatekeeping from time-critical medical decisions.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/madhya-pradesh/rape-survivors-dont-need-court-approval-to-terminate-pregnancies-up-to-24-weeks-madhya-pradesh-high-court/article71337419.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:28:00+05:30",
+        "region": "Madhya Pradesh",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 2,
+        "headline": "Air India Phuket–Delhi altitude-loss incident: preliminary report in 10–15 days, DGCA weighs action",
+        "summary": "Multiple hydraulic failures were logged — the regulator's response sets the precedent for AI's safety record.",
+        "why_it_matters": "Multiple hydraulic failures were logged — the regulator's response sets the precedent for AI's safety record.",
+        "sources": [
+          {
+            "source": "The Hindu BusinessLine",
+            "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-phuket-delhi-flight-altitude-loss-incident-preliminary-report-expected-in-10-15-days-dgca-to-decide-on-action/article71339459.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:41:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 3,
+        "headline": "Indian teenager charged with murdering mother and younger brother in Massachusetts",
+        "summary": "A diaspora case that will draw sustained Indian-media and consular attention.",
+        "why_it_matters": "A diaspora case that will draw sustained Indian-media and consular attention.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/international/indian-teenager-charged-with-murdering-mother-younger-brother-in-massachusetts/article71339497.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T09:49:00+05:30",
+        "region": "International",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 4,
+        "headline": "Bombay High Court interprets Supreme Court order on law-exam protection",
+        "summary": "Clarifies how far the apex court's interim protection extends for law aspirants mid-cycle.",
+        "why_it_matters": "Clarifies how far the apex court's interim protection extends for law aspirants mid-cycle.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/cities/mumbai/bombay-high-court-interprets-supreme-court-order-on-law-exam-protection/article71335700.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:24:00+05:30",
+        "region": "Mumbai",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 5,
+        "headline": "No GST arrests without communicating the order and 'reasons to believe': Supreme Court",
+        "summary": "A real constraint on tax-enforcement arrest powers that thousands of GST notices now have to satisfy.",
+        "why_it_matters": "A real constraint on tax-enforcement arrest powers that thousands of GST notices now have to satisfy.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/india-news/no-gst-arrests-without-communicating-order-reasons-to-believe-supreme-court-101786585811962.html"
+          }
+        ],
+        "timestamp": "2026-08-13T08:13:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.72
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "Outbreak kills seven tribal children in Madhya Pradesh as faith healing obstructs response",
+        "summary": "Seven paediatric deaths where the barrier is not drug supply but access — a public-health delivery failure.",
+        "why_it_matters": "Seven paediatric deaths where the barrier is not drug supply but access — a public-health delivery failure.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/madhya-pradesh/faith-healing-poses-challenge-to-authorities-as-outbreak-kills-seven-tribal-children-in-madhya-pradesh/article71337123.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T10:28:00+05:30",
+        "region": "Madhya Pradesh",
+        "confidence": "high",
+        "final_score": 1.2
+      },
+      {
+        "rank": 2,
+        "headline": "Apollo Hospitals beats estimates for Q1FY27 with net profit up 34% to ₹581 crore",
+        "summary": "Hospital-chain margins keep expanding — the exact trend the FDI review panel is now questioning.",
+        "why_it_matters": "Hospital-chain margins keep expanding — the exact trend the FDI review panel is now questioning.",
+        "sources": [
+          {
+            "source": "Mint",
+            "url": "https://www.livemint.com/companies/apollo-hospitals-beats-estimates-for-q1fy27-net-profit-up-34-11786547873029.html"
+          }
+        ],
+        "timestamp": "2026-08-13T21:45:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.27
+      },
+      {
+        "rank": 3,
+        "headline": "NASA invites ISRO to join its Moon Base programme",
+        "summary": "A step up from Artemis-adjacent cooperation to surface-infrastructure participation.",
+        "why_it_matters": "A step up from Artemis-adjacent cooperation to surface-infrastructure participation.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/sci-tech/science/nasa-invites-isro-to-join-moon-base-programme/article71332292.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T17:59:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.36
+      },
+      {
+        "rank": 4,
+        "headline": "NASA hosts Perseid meteor shower 2026 watch party live on YouTube",
+        "summary": "Peak-visibility window is tonight IST — the accessible science story of the day.",
+        "why_it_matters": "Peak-visibility window is tonight IST — the accessible science story of the day.",
+        "sources": [
+          {
+            "source": "Mint",
+            "url": "https://www.livemint.com/news/world/nasa-hosts-perseid-meteor-shower-2026-watch-party-live-on-youtube-heres-when-and-how-people-across-world-can-join-11786595415700.html"
+          }
+        ],
+        "timestamp": "2026-08-13T10:15:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.9
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "US refiners ramp up buybacks as the Iran war boosts fuel margins",
+        "summary": "The war is transferring value to US refining — and raising the landed cost of India's fuel imports.",
+        "why_it_matters": "The war is transferring value to US refining — and raising the landed cost of India's fuel imports.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-refiners-ramp-up-buybacks-as-iran-war-boosts-fuel-margins/articleshow/133197769.cms"
+          }
+        ],
+        "timestamp": "2026-08-13T10:00:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 2,
+        "headline": "Iran warns Mideast war may continue past Trump's term with a 'pay a cost' message",
+        "summary": "Signals a long-war scenario, which is the worst case for India's crude and remittance exposure.",
+        "why_it_matters": "Signals a long-war scenario, which is the worst case for India's crude and remittance exposure.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://www.ndtv.com/world-news/us-iran-war-to-continue-till-2029-mojtaba-khamenei-aides-mohammad-reza-naqdi-warning-to-us-donald-trump-11902968#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-13T09:16:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 3,
+        "headline": "Karoline Leavitt steps down as White House Press Secretary; succession contest opens",
+        "summary": "A comms shake-up at the top of the administration India is negotiating tariffs with.",
+        "why_it_matters": "A comms shake-up at the top of the administration India is negotiating tariffs with.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://www.hindustantimes.com/world-news/us-news/who-will-replace-karoline-leavitt-alina-habba-others-in-contention-as-white-house-press-secretary-steps-down-101786593695855.html"
+          }
+        ],
+        "timestamp": "2026-08-13T09:50:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 4,
+        "headline": "Media groups sue over Truth Social's paid early access to Trump's posts",
+        "summary": "A market-moving-information access fight with direct implications for global trading desks.",
+        "why_it_matters": "A market-moving-information access fight with direct implications for global trading desks.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/see-trumps-posts-first-media-groups-sue-over-truth-socials-paid-access/articleshow/133196875.cms"
+          }
+        ],
+        "timestamp": "2026-08-13T09:12:00+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.9
+      },
+      {
+        "rank": 5,
+        "headline": "RSS's economic wing urges the Centre to resist US tariff pressure",
+        "summary": "The ideological parent body is publicly boxing in the government's room to concede on a trade deal.",
+        "why_it_matters": "The ideological parent body is publicly boxing in the government's room to concede on a trade deal.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://www.thehindu.com/news/national/rsss-economic-wing-urges-centre-to-resist-us-tariff-pressure/article71337970.ece"
+          }
+        ],
+        "timestamp": "2026-08-13T03:28:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.6
+      }
+    ]
+  },
+  "cross_refs": {
+    "Politics & Policy": [
+      [
+        "Karnataka bandh",
+        "Top Stories #1"
+      ],
+      [
+        "Tamil Nadu delimitation resolution",
+        "Chennai #1"
+      ]
+    ],
+    "Markets & Economy": [
+      [
+        "Tata group stocks ₹44,000 cr wipeout",
+        "Top Stories #2"
+      ]
+    ],
+    "Bangalore": [
+      [
+        "Cauvery bandh detentions",
+        "Top Stories #1"
+      ]
+    ],
+    "International": [
+      [
+        "Putin Northern Sea Route / Iran war economics",
+        "Top Stories #5"
+      ]
+    ],
+    "Chennai": [
+      [
+        "Rameswaram fishermen held by Sri Lankan Navy",
+        "Top Stories #5"
+      ]
+    ]
+  },
+  "themes": {
+    "Tech & AI": "Green DC megadeal; two India VC fund closes; Anthropic's $6B bid.",
+    "Markets & Economy": "Rupee 95.40, Nifty sub-24,350 — but IPO books 3x covered.",
+    "Politics & Policy": "Session ends deadlocked; delimitation spreads to Bengal.",
+    "Bangalore": "Cauvery bandh fizzles, 20+ detained; Revanna jail phone worse.",
+    "Chennai": "₹15,050cr overseas pacts; NIA meth sweep; fishermen held.",
+    "Mumbai": "Lakes past 90%; FDA pulls Domino's licences; Kurla reckoning.",
+    "Sports": "Galle Test opens with Gill under fire, Gambhir's job in play.",
+    "Entertainment & Culture": "'Haiwaan' teaser lands; Kangana reopens Pakistan row.",
+    "Crime & Justice": "MP HC eases MTP access; DGCA weighs Air India action.",
+    "Health & Science": "7 tribal children dead in MP outbreak; hospital FDI reviewed.",
+    "International": "Iran-war economics reprice fuel; RSS says resist US tariffs."
+  },
+  "dedup": {
+    "cross_day_source": "2026-08-12.json",
+    "notes": "Kurla landslide (yesterday Top #1) kept only as today's relocation-policy follow-up in Mumbai; Prajwal Revanna kept only as the new phone-contents detail in Bangalore; TN delimitation resolution retained in Chennai as cross-ref, not repeated in Politics."
+  },
+  "summary": "Karnataka's Cauvery bandh fizzled with 20+ detentions, ₹44,000 crore was wiped off Tata stocks after Chandrasekaran's exit, Parliament's Monsoon Session ended with FCRA sent to a JPC, the rupee slid to 95.40/$, and Iran-war economics reshaped India's energy and diplomatic calculus."
+}
