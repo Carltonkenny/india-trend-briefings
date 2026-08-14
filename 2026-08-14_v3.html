@@ -1352,7 +1352,7 @@
   // Lock to suppress scroll-spy updates for SCROLL_LOCK_MS after a manual click.
   // Without this, the IO callback overwrites the click-set aria-pressed while
   // the smooth scroll is still in flight.
-  var SCROLL_LOCK_MS = 700;
+  var SCROLL_LOCK_MS = 1500;
   // Lock is armed from page load until SCROLL_LOCK_MS after the first scroll/click.
   // This prevents the IO callback from immediately flipping the "All" pill on load.
   var scrollLockUntil = Date.now() + 2000;
