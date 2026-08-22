@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T10:12+05:30",
+  "totals": {
+    "raw": 1178,
+    "kept": 61,
+    "sources": 150,
+    "categories": 12
+  },
+  "delivered_at": null,
+  "telegram_message_chars": 0,
+  "success": false,
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline",
+  "delivery_failed": true,
+  "delivery_failure_reason": "telegram_api_401_unauthorized",
+  "delivery_failure_detail": "deliver_telegram.py exited 1: Telegram HTTP 401. Token in C:/Users/user/AppData/Local/hermes/.env is invalid or revoked. Same recurring failure since at least 2026-08-17. Needs token rotation: get a fresh TELEGRAM_BOT_TOKEN from @BotFather, then `setx TELEGRAM_BOT_TOKEN <new_token>` (User scope) and restart Hermes. Verify with: python .tg_check.py",
+  "publish_ok": true,
+  "publish_artifacts": {
+    "day_page": "https://carltonkenny.github.io/Daily_briefings-/2026-08-22.html",
+    "dashboard": "https://carltonkenny.github.io/Daily_briefings-/dashboard.html",
+    "by_topic": "https://carltonkenny.github.io/Daily_briefings-/by-topic.html",
+    "index": "https://carltonkenny.github.io/Daily_briefings-/"
+  },
+  "publish_verified": true,
+  "publish_verified_at": "2026-08-22T10:27+05:30",
+  "publish_http_status": 200,
+  "previous_day_status": "ok",
+  "telegram_message_md_chars": 3381
+}

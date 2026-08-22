@@ -1,0 +1,1388 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T10:12+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "totals": {
+    "raw": 1178,
+    "kept": 61,
+    "sources": 150,
+    "categories": 12
+  },
+  "window": {
+    "from": "2026-08-21T10:12+05:30",
+    "to": "2026-08-22T10:12+05:30"
+  },
+  "themes": {
+    "Top Stories": "IISc Bengaluru student suicide (2nd in 15 days); SC cuts civil-judge practice from 3y to 1y; Mumbai FDA suspends 7 food outlets + BEST strike; India-Brazil telecom/AI/6G MoU; H1N1 1,700-case Delhi spike + Nadda review.",
+    "Tech & AI": "India-Brazil 5G/6G/AI MoU; IISc gold medallist AI cancer-detection tool; Inc42 $233 mn weekly tracker; Zomato founder's brain wearable; Starcloud orbital data centre $2.3 bn.",
+    "Markets & Economy": "RBI hawkish minutes commentary — margin narrowing; bonds worst week in FY27 on FCNR end; forex reserves $716.9 bn; ₹2.5 trn VRRR drain; gold up on weak dollar; Tempsens IPO 21.65x; Poonam Gupta 7% growth call.",
+    "Politics & Policy": "SC cuts civil-judge practice from 3y to 1y; Lok Sabha refers Corporate Laws (Amendment) Bill to JPC; Karnataka Assembly deadlock Day 5; Transgender Persons (Amendment) Bill passed; Polygamy back before SC.",
+    "Bangalore": "IISc MTech suicide — 2nd in 15 days; IIM-Bangalore + Tata Trusts UG school MoU; GCC office leasing leads; KIA user-development fee from Sept 1; government-school headmaster suicide.",
+    "Chennai": "Chennai Metro concert venue for Madras Day Aug 22; ADB $230 mn Chennai water loan; Chennai Port auto-export milestone; drone survey of 44 canals; Sivakarthikeyan 'Future CM' tag.",
+    "Mumbai": "FDA suspends 7 food establishments (cockroaches/fake cheese); new bridge cuts 90-min commute to 10 min; Aarey debris-dumping alert; Maharashtra SIR Bhiwandi East/Colaba/Khadakwasla; BMC coastal committee cleared.",
+    "Sports": "SRH vs LSG 10th IPL 2026 match; Kuldeep skips India training pre-2nd Test; Sarfaraz Khan likely in XI vs Sri Lanka; Arjun Tendulkar to continue with Goa.",
+    "Entertainment & Culture": "Welcome to the Jungle ₹90 cr OTT deal after ₹196 cr theatrical; Aug 22–28 OTT slate (Jana Nayagan, Toy Story 5); Bhansali Love and War wrap + Madhubala biopic; profit-share trend among top stars.",
+    "Crime & Justice": "SC cuts civil-judge practice 3y→1y; polygamy back before SC; Uttarakhand HC relocation verdict reserved; Indian national arrested in US elderly fraud; retired colonel duped in digital-arrest scam.",
+    "Health & Science": "H1N1 1,700 cases in Delhi + Nadda review; IISc gold medallist AI cancer-detection tool; Mankind Pharma Insulin Analogues deal; Zydus USFDA nod for Ascorbic acid; Congo Ebola on track to surpass history's largest.",
+    "International": "India-Brazil telecom/AI/5G/6G MoU; US 50% tariff threat with Canada retaliation; India-South Korea $50 bn trade target by 2030; ₹4,896 cr FDI unlocked after Chinese stake rule easing; TikTok $400 mn child-privacy settlement."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "headline": "IISc Bengaluru MTech student dies by suicide — second case on campus in 15 days",
+        "summary": "An MTech student at the Indian Institute of Science, Bengaluru, was found dead in a hostel room on Friday — the second student suicide on the elite research campus in just 15 days. The student cited personal reasons in a recovered note; the institute has not yet issued a public statement on mental-health protocols.",
+        "why_it_matters": "Two IISc suicides in 15 days put elite STEM-campus mental-health frameworks under a national microscope — academic pressure, hostel-support structures and PhD/MTech grievance mechanisms are now governance flashpoints.",
+        "sources": [
+          {
+            "source": "ThePrint",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORkhHeHJhWkE4QUVPN2owUE9BNndxVi1hLXlHMUdxenRuRm13LW0wMWtidUNrbnB1eXg3NVlQLTVONy1PNmRCS1UzLVdseXZicXp2Q1RzNlpEQXNYakg4VHZOMk1oVy1NRGs3TWlKeEdwQkpqanRtc0gtd282VzBUMzFMa0NWRFZjajdONTRhWDItY1RJMFHSAZsBQVVfeXFMTm5kZkRSWndkcDd6aDBnWnRlWE9IZ08tMGVLQVgtZk1BWUxDd0VYWWowTkZVNk9kSFlLQ3diSHhIY3dTUF9sVnJvZTlMRFBPR0FYN1JrMFJ2cm16T0UxeG5teWRqQm50MTVaWEJiMHlrNXdTNzBMVHVUdlhFdGpCWDRqUlpqbHpzU0s2UExuUUJlbHdYY2NxeXdnbzg?oc=5"
+          },
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSnBXR1B4LU9qS1dnSmVzMDM1YV82Sk9teU9NdEJaNjJPMFNCNTFnU041ZHpncUQ3ME9VRkZfQXB5LUZ0N01Mb2I4RXZjS0dXZlJTQWk3ZFpkWDE0VTg0cV84ZVpNTjdWMEhBeVByMldjS2dZTFlMVkR3ZzFucXFuU2g1LTlZYjRfSFc2dXFoVEhBUVRkOXg2QUlNa3J0UE4wdlc2V2FvcVNwVVV6RXFpQ0F30gG4AUFVX3lxTFByREVEWDZPVUxXV0kxVUlvUzE4eENKdkp2aEJ1R29HME5qeklqYlNrRGxMUWxXSndNTGs4M3pKNmdwWkI1eklDbG8xWTFTRVFWOXp5QU1iV2JHVmN2X2xxTEczRzV5amptYXc0N1VEb1YwbGp1YlJCMWs1NVdVQ3ZpRkNGbURvYVFyVFozODhXS3JaTG1GSHRQamd2YmVoU1d5aDY0TVBCaWY4dlRobXNzU3JwSFhPU3c?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUzEyT20wN0xHMmQwVWZDeHdNc1pSbnB4dzZMX1JEeDRuWGtTc21PYkxMdTJBZFVSYzJja2U2dnBlWk9Wbl94Zjd6Rkoyd053RGhlTVh5bm1kamxCd2ZzY1l0UzlhM3lySVJlRVVKSEdWdVF4eFlaOTVVaWstYWVJVldkSUl3MzRyVy1LRFZoOUN2QmdpX1BiWTh6NlVYMmE2TnJxZjhnMlFiZEpWT21hWlp6bFJtU3FPSXJsM3Q4TVhOUdIBzwFBVV95cUxOMVFmYVdXWmhkR3lUeGgxaV96X3hYTHhNM1VYY3BOZU1qMFlTM3JuM0V5VUh3eS1IVWNZRkhUbU1hYTFoY2dOV25qTVJHTy1IOURfbjhtRFBhbGRLUnYyaTl5clNpRlk4bFZGdHk0RmNOLThzSzBVVFJnSXZWSmFqTlJ6NC0wa1drai1Qbi05ZmhaclEwUFhraU9ydjNabDJRX3VSV2t0b3M0dUp1Vm9DMWZoNU0xWG5ib3IyaG8wbzFTLWw0R3docXNqMUZKNEE?oc=5"
+          },
+          {
+            "source": "Deccan Herald",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZWhEOHE3SjdtM1hjcW1ZWk8zbXUxXzRxb2F0V2pHVXRsNkpMSWo2Q3RhcVdHZl9ZdHB6VGF0TG9FVmVmQ2lMQXZ6MlZYdHFuTlk2Zy11VGU0eFV4cXpIOVpIX3NWOXktZWNRY0hUNkFFdWJVN2ZORXJxZVpXTkhBRDB5dTBMTWdfaW1USEhDRkNON2FVbC1fbjZMMU92V0c2UGtiUE9jeGpKWjdBc2IzLVBET1lIQUNBRGxONmdWbnJJYkZ1dUE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:26:41+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 2,
+        "headline": "Supreme Court cuts mandatory practice period for civil judges from 3 years to 1",
+        "summary": "The Supreme Court reduced the mandatory practice requirement for entry into the civil-judicial service from three years to one year, modifying its earlier 3-year mandatory rule. Bar associations have welcomed the move; some judicial-service commissions are reviewing entry-test design.",
+        "why_it_matters": "A 3-to-1 year mandatory-practice cut is the largest civil-judicial entry barrier reform in two decades — pipeline expansion could ease district-court pendency but lower the bar for fast-track appointments.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbUVtOUxmV0ZtMHh0M01NWDRQN0ItVlNBd3ZvZVI0bUJLRnEyT3p2Xy1Hb1N6ZDdmME1LVUt6NzRkNzVyTmdydGxQS3VkSm5iTWY4N0JOWThfLWw0Y0VxVkFDSTZrSzhSZHNiZFZpQmVaai1JOUFqQVQ2MmNNREVRTGI2YTJ0NmVYY1VPSHNoc1g2bWxRU01jMFVtWWNtMVJpWXFMbmhWOA?oc=5"
+          },
+          {
+            "source": "Live Law",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQakszcUVZMXZlWlNNUUpHN0dfc3NtMWMzbkd3Ry0xdEswT1lrMlFsamFZUTFWTnhkcm9odnZfVk4ycUxBQ3ozMXlwZUFpWkVab2NYOERWaXI4cWVveW1JNXNhVzhscG9HOWZRWFNpNHZ1N1pVMzIwX2h3Y3lORUNIYXlsMDFUQXQ3OXJhamo2aGNPTkRRTUdQdzJnMWZiR3Izck43enFEQ2ZYQllTYldWR2R3QmJwczkybnFWOVd5UHhFUdIBxwFBVV95cUxQNTFwcFpPNzRqaUFhWEEyOTJvOWdWTTk0WTZvVWJjTTMxaWJvVWFUMFNoVkczamV3VVVxdkVKVjNvTHVfcXlVWlRRZzV4aTlxT2h6ZURHT3lSX3Y1NWwzN3h0TjlxNGQzMGx1djVMODJTRy0tUTYtZ0NPaGpkNVBMTXhTMk8yVFp1ZkJ3RWtnSWdJVVZ5eVZ0OHBwcHp6VXI3MkVPSkczeDg2b3RsU1Y4RHpkN1kxSkxxY3NYTEppNFZ5aGNPTVZR?oc=5"
+          },
+          {
+            "source": "Bar and Bench",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY0FhZ1hxWUliamh6Wl9xQVItUlNMMFF4LVBWalRhaGdRLVZXMDB2RjlSOVlXZFZQQ1JwQTlycVFxTS1wczlvNnQ2c3lQSDM5OWNjZE9uSzJTczd0MWw3SmgxMDh3WW1DWXowd1FuTmd3ZWtwOFhVTmhpdHkxVUwydkYwQlZKalA4azYwMnNXV29EQlJCNUVMVFhtVml4YVc2VFd5NF9hYS14bkgydlFYOW1tcEUtb0JmSFJkSDI1RTV6WmlHNmc?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZk00NmY1ZTMyal9TdzQzN01ET2I4bnFfRVcyNGpWVGk0VjRQb1dqcFo4RHhfcUZMYjhrQXBKUlc3am9BSVdnRDladUU4VDQ4R2U2NXlvbHVnMHJObEVHTXN5R0ZXdnZEUFFHM3VYelFHbnVhcW5mOXNGUEVtRnVXUjcxM25taVJxTUtkVGtfLXM4dDZFUjBOOGlCaURkSS1hRzU0RUo5WXB0a1RNZ1HSAbsBQVVfeXFMTjFxeW01NVpCM203dlpFR25KaE84UnJTanJubmFTVll1OWtkTGZ4RkxLVGZiSDNxUEczOG9ZRjliNjMwMU9meDlMeEprRU1vX0o2V1c3UlZQNC1vMnpYNGlCVlN1Y3lqTzZldm9mZ1ZLNERHeEZNN0duS01ZQlBldFpWUGp5cnFXNEY0azI5X195WHh1OHFNS0pvS0VNY2lhWXl1d0JwdWdWMDFOVmk5R2V5RHhGdVBNTUhBMA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:11:45+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 2.72
+      },
+      {
+        "rank": 3,
+        "headline": "Mumbai FDA suspends 7 food establishments over cockroaches, fake cheese; BEST strike, rail blocks hit city",
+        "summary": "Maharashtra FDA suspended licences of seven Mumbai food establishments after inspections found cockroaches, fake cheese and filthy kitchens. Separately, a BEST strike threat and rail-traffic blocks added to Mumbai's morning disruptions.",
+        "why_it_matters": "A coordinated FDA suspension sweep + BEST strike + rail blocks is a triple-stress test for Mumbai's daily-rhythm governance — civic compliance, public transport and rail-operations all hit on the same morning.",
+        "sources": [
+          {
+            "source": "The Statesman",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR2Q2cEVfdjVWSmNMaGNfMDlfb3hPclpOZDFDRW4yR3pFOXZtYzR6OWR0WHFYM1JYMWVYYloxVnJmOTNvT1o0V05QSzhFM0NxM0NrVk1nbWF6T1QyOEx1SFdyYnpFMnVDYTV5aUkzeVVkUTZxVXlyLVVpWEdLeGhkQkNIdGh6aGg3eUN3RWtBTWJLelhZdkNrUVJZS2k4M3ZlNnpIM0NhbEZWX3pYS3hSTHZFelBwUERBcjJkWXFtRGZPZjV3NmdfcFkxQ0rSAdIBQVVfeXFMUGZ2MnlJTk9QM1pmSmVVUVhWUThFbFZUdERmUUpvWG1Pak9sZEwtQ1BpeWI3Vm1Pd1U2RVhvWFIxSnJpMTRtU3p4QlNWU2FsdGZVVjZSaWpyc0ZqbldmTW1NdFR1Y0JYUXg1SUs5R29zbGZWTE9oaDhYMlJkci1reWFUdER3TnA0OGZyZXZudmRoaW1kZHRHVkJlM3BOaHRSeXpOWjV3MUFDcHQzdl9sYXY2MVhqblVlQk5iWDExMUF5NEo3T3VXVW1wa28zN0JqMEhB?oc=5"
+          },
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOZkk0ODl4ajJVT0NYX0gwUl8tc2U3NXlIYTdnYnZhWGFWZldDM3dHQTZwaHdVN3ZCYzFOSFhiSkZ2X0NYbVMwODRteWpwV1JDTm5XRjEzNk9KWDkzMVRhc1k3a3RKeTNlQWxJZHlLNzFNVHJQMXprMGQ5TXJhbTllYm9DS2s1N2hGbGNsQnVsRDIxUUpILUpSc3lJUTZIblFOZkY4b1o5RWJhMjdTNjB4NmQwUmFiODAzWDdPdTlLdTRVUGlhanYyRzJwX2xaeDZsSmZYaUZ3cTV1M0hZeTdlcG0zWFNxeXIta2FtOGhDbVBia1NHeXp6ZXZHcFpGTzN5b1M1RW9vclNONnMxVWRpbkdvaGpzMVE1X1NWODFwcFp6Rjh5cXBhN21PemZ4X1BNZW0yd0lzNi1Lc1E1NWZZ0gHbAUFVX3lxTE9FT3l0TlhWOTdDb1RJY05rZ3VYdUs3TjQtX2hHUWFGLUt5U3NhSmZxNmhmOXF4c2s3U25qR0dWNWdDQ1RENGRzN1lFY1Q1bXA0LTktempaMi1qMU9mYkwtSElJRHJrdS1paTVzSEdsd2NFb1NhR2VKZnJpS0c2SGc2QUhESUltS245bFRRVWtyb01Dd0E0N3R1RVNGZFg4WnE1RmRxUlFJMXhnSWNPa1JVTTFOT2dwVUgxUVdXYmUtSTRHWkVKWEVuN0hMOFcwNlNyYzdfT3ZmQUVfRQ?oc=5"
+          },
+          {
+            "source": "LatestLY",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbTVQQ3pzVjVaZExtN1pCc3JENVpaQmxZUTJtVVNVbmRocV9qMjJ0MUw1ajNWTnozRFJzbmQ0Mmotel93em96RVhRYy01aVhJMWl3VUozdDRSaW1MWXRDZGlaOXl0VVVxcFMyWWtWLTA2Ry1qOGVQSUpIRFQwR1Qtc2d1TmhEUkF1UHlEbkxGRkkxNUlHdFhKRjRhUUItNVYtNy1kcjNwS2ZzanE5RU5OLU5VT3dkYURqRGtDaEdHakktU0lTX3BFd3lBM3JUWUw1dmJaV1JxdkRHMFU?oc=5"
+          },
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWHh4WWtfaEIyaUw5RkpyWThnT1FPZ25rQUMwSmRiX2F1eXhvYTM1MEVoWjV6cjdCRFVMeFZzeXRLcXNVVXNPVDFYcDhQbGRNN2NUclpNRFlHUnRkc1czVUtGYlF0WkpDVXppblAwbTFOaF9wLS1aRFl1WndzTzJ4UmRSSU0tdUVkUVlPSE1GX1dfU0V0MjF0VjM3cHlOZkdUREVReWlEN3ZHWHR5bjhsTldtZXhlS1AzaThzaW16dGV6anNLOU91VkRTQ2lPX3lCdDBsV250a1FIOEN5b2s0b0VuNGY2Z03SAe4BQVVfeXFMUHV3SEJ1SkhDdmJWQ0lnUHlkUnMwelN3b0tvMGhUU1dJbDZ4SXhjNG1tTnpUT0FzNmhVcXotSGxHX00zVW43cHZ1c3R1TFNmOExveTQzX21hWWxhU0lESVlURFJYNzIwSjQ2TG5zbG1zYnp5Y3B3d1lDbTRzaDY0Q0ZnY1M5WHhRb3FJZFdGR21Bc0FTd0xBOGlrdVctTVU1NE1hT1Nscm5ZWTE2SC15c3o5VWt0cjhocnN1ZUlxZmJrMjRLNlFILTNPcFBDb015dUpTUjk2V09Da3FpLUZQNkxWanRsbEN6Sm0xMEVWQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:29:00+05:30",
+        "region": "Mumbai",
+        "confidence": "high",
+        "final_score": 1.12
+      },
+      {
+        "rank": 4,
+        "headline": "India, Brazil sign MoU to deepen cooperation in telecom, ICT, AI, 5G, 6G and emerging digital tech",
+        "summary": "India and Brazil signed an MoU to deepen cooperation in telecom, ICT, AI, 5G, 6G and other emerging digital technologies — covering research, standards and skill development. The pact was signed during the Brazil-India technology dialogue.",
+        "why_it_matters": "An India-Brazil telecom/AI/6G MoU formalises the BRICS digital-axis partnership ahead of the Kazan summit — Global-South tech-stack coordination now has a binding inter-government framework.",
+        "sources": [
+          {
+            "source": "DD News",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2RzR2RXSjl5LWpPZW9YbW05NHRDWmJaTEJtZ2p6dTZUd3hEeVkxQ25QS1dGNHVWQllIWXBqMW5LQ2tFaU5HSkREZUNfYVN0alpnQ2ZLc0dEcWtaMTFsTTN4OEdrbWpjTEV3Vjg5NjhlaXBaV3NwTzU2YjBxSVc3eXNRU2FqOW5wR0JvblBDVzE5cFNoMXJrY05EQW1sQ3pNVXBLZ3NHRmxCUVZZcld5YUpR?oc=5"
+          },
+          {
+            "source": "Swarajya",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSGx1cXFHWWFGY1FwWnhWVTFaaVFmQU02X04xVEhZS2FYUVkycWtkbWdmV1cyYVhRY2ROS0FlZHd6M2lwVGxFdnhhSU9fOC1sZl9mbmNmV0s5cVhYVXhIZnY2TXQtb0p0RkIyUld6V1FyZUttNHhOakZEc3JodUJacTdhRjY1aTRWMFJ2bl9KSmpCamtHdnExbHFCRElSY0ZPTm8xYjNxNW1hRnAxT1huamRtWV9hUVVqSnVPVXgyVXQ4anR5cy01TEZn0gHaAUFVX3lxTE03RVl5ekNvTWlPQUFYa3MxdlVuWDFQbjVKOG9FY0pINVU1cXpZeGp4VVAyM09nTGVwemJBR2xQc2t5anNnOEJkNk1MT2dYV1MwUmVGRXRPQnVKVldhUjNRWk5YaEFNRjhYek5XYmF5R21PVVdLM3JwdW9RVWJBVENtRGVxM1EzbUstdkQ5U2d3akZTZ2Fya05VUmY3dElNWFM1RHg5NHB6eDAzS0d4aFF5TmpEM2NjdFIwdHFZNzRadnFwY0V4dkdSYk5PNjVTLTZkU1Z2TEpoQkpR?oc=5"
+          },
+          {
+            "source": "Business Upturn",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaHkxcE5yd3o0cHNUb0ltcWUyY0FZOHY3TDctNkhNMVJ1MFZGcXZMb291WEQ4VnB0VTRJbzVXNGQtWVBJRHhtZGZBZ1VKMmhGby1Ob0tsUXdtVW9aQjVoZjBvYlVYNzl3VV9tSWlmbmNZSVhiWUt6VHRMRllMYlAwd3lsUkhaTmhuMkZfOGZJM0g5Nkg2Rk5UMXAyY2pGaUo1c3JORUpPSUY3ZmIzdkEtdWlfWlNWUEJN?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPT0YyYlV3TGdMMnBwVEZjeFdLc2k2Qnc0QVZxaTFRcWRlSWNGNkdhTnprdTF5VFVhbzJEZS1rNk4xZkNBcXlaS1dYS2FRczdKREF0XzVwUm9HQ2RKMDJlcmszR0szOE8xem5TZGNiY2FkUGttSjI1S3IyT3FWTU1wMnJxbFU1eUo0WkV6OXdENi12LXBMaWVJUnNVVEVRaVN3azlqVHRSbkx3MU15Vi1fV3VYSmdJaERDNUJISUo4UVYwTHFRampkWUdBcTB0bHZORzlHYXg0Y0JUYW9vNHJhTE1zWk1IYXpDVVlnY2lsUUFnYW5ZNmfSAYMCQVVfeXFMTmRCUW5IdTBTSHg3NUQtWUFDUlR3azFwZ3FPVUllMjk5NldyclM5WVJZa2ExYlBtdUtZWktIUVhFOUFMWkpKTzBEakQtYUszQ2ZwVUJHdjBZWGVpY0RlLUtkU1FYMVNLeUNuTnk2djZabGFXZVdRMTJOc0RhN2diRm43WXU2aHEtb3Nyem1zTmJsUjFwQU9BbDVjYzFYTjB1WjlSb2JOQnZWaEVjdXJxemhpSDdpYWhfWnVWU2FIeExhNEtRYXRITzdCQWxmdGNUS2NYX045bUhJV2FUcTVvLVdhRi1DVS1nUC10ZDZHc0lHd0tZLUIwamFUMlBEY0VRcktvSQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:17:42+05:30",
+        "region": "International",
+        "confidence": "high",
+        "final_score": 1.4
+      },
+      {
+        "rank": 5,
+        "headline": "H1N1 cases touch 1,700 in Delhi; Union Health Minister Nadda reviews surveillance",
+        "summary": "Delhi's H1N1 swine-flu caseload touched 1,700 with Union Health Minister J.P. Nadda reviewing national surveillance and hospital preparedness. Multiple states have reported clusters; schools and outpatient departments are on alert.",
+        "why_it_matters": "A 1,700-case H1N1 spike in monsoon is the first national outbreak test of India's post-Covid surveillance infrastructure — Nadda's review signals a top-level central-government push on respiratory-season readiness.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQ2V0ZW5vLVIxUllwa21MWjRHdmltM2dIQ0JBTG1XVE41TnJkbzBub21UTlZFS1NHQ0dGbU1lUGcxQzdRZjBWRVRKcjd0SWlUTFV6RTY1a0FpLWlDNjFtQjRJTTY1bEJkZkNKZ0haMnJxcDBrSGZpcndtNWItSHVLQ0NtdjVCZ0NoT081a3o0YU5CS2dMM1QyWlN0V01sOVJESXlJZ0ZoaVJaaDhOVHVXeW4zNXJaYURuNHhvdWVtcmVqcmxEOF9zQkFoRUI2eWxpR0w3dG1vbUJIRXBPc0dzd3gxU3V4QdIB5gFBVV95cUxQQ2V0ZW5vLVIxUllwa21MWjRHdmltM2dIQ0JBTG1XVE41TnJkbzBub21UTlZFS1NHQ0dGbU1lUGcxQzdRZjBWRVRKcjd0SWlUTFV6RTY1a0FpLWlDNjFtQjRJTTY1bEJkZkNKZ0haMnJxcDBrSGZpcndtNWItSHVLQ0NtdjVCZ0NoT081a3o0YU5CS2dMM1QyWlN0V01sOVJESXlJZ0ZoaVJaaDhOVHVXeW4zNXJaYURuNHhvdWVtcmVqcmxEOF9zQkFoRUI2eWxpR0w3dG1vbUJIRXBPc0dzd3gxU3V4QQ?oc=5"
+          },
+          {
+            "source": "The Indian Awaaz",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQzJZMGdzSGV3bTRPaXk1R2Yzc0dmT1VLQVNMLVAwd0tXbzJJOGZlSDhsN0tJQnpFY2FlNlU2OXo2aTVqN0pSY2dJQi1fWEotWC1ETGxCSGk5ekxJZWd6X2x5blk5OVBTLWFhS1lXZ21NRm82TEVQa1pVRUtLV3NjZGowUUFvN1VwanJ4dGY5cUtEdDNFUTR5TlpGaFJNZw?oc=5"
+          },
+          {
+            "source": "The Tribune",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQclJBRldlVFNEeTYzR0pzR01IVTFFOWNNcnZDRGw4MWFhNlN3TDBET1I4YWFyOF9OTm50ZzQyczdfeDR6OE5WU041QUVCdllKRHFBajFxQ0FLeTF1OEh0ZFc0X1UwLWI5dEZIaVZJX1lTSlRRNHVlSHZZanVjeGx5UkpRbENwT2NjY05kdUF4M0xPa0pDdUtpcDZIdmNiSTlHTjVBMkhrUHFEazMzVV9GTUFxeGNxbXd1RHFZT08ycWRXeHhSVEMtVUNXcXpoWURfQkxWQlJR0gHWAUFVX3lxTFByUkFGV2VUU0R5NjNHSnNHTUhVMUU5Y01ydkNEbDgxYWE2U3dMMERPUjhhYXI4X05ObnRnNDJzN194NHo4TlZTTjVBRUJ2WUpEcUFqMXFDQUt5MXU4SHRkVzRfVTAtYjl0RkhpVklfWVNKVFE0dWVIdllqdWN4bHlSSlFsQ3BPY2NjTmR1QXgzTE9rSkN1S2lwNkh2Y2JJOUdONUEySGtQcURrMzNVX0ZNQXF4Y3Ftd3VEcVlPTzJxZFd4eFJUQy1VQ1dxemhZRF9CTFZCUlE?oc=5"
+          },
+          {
+            "source": "globalgovernancenews.com",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUpjaS1QN082d25UOC1uQnNDU09SWC1lZ1h4R29lWDhaWmd1OWtuUnIweWxmcjEtSG9Jdjc1MmRZai1NR1haeE85QWZNWnZKYk5CWENScVY4THFRTURLa1c1bk9pVlVrN0c1SVRnQmFnYkk3UmlQdUt0UnhHWEdXU0VldjA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T07:28:19+05:30",
+        "region": "Delhi",
+        "confidence": "high",
+        "final_score": 0.896
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 2,
+        "headline": "IISc gold medallist uses AI to build low-cost breast-cancer detection tool",
+        "summary": "A gold medallist from IISc Bengaluru developed an AI-driven, low-cost breast-cancer detection tool after two cousins died of late-detected breast cancer.",
+        "why_it_matters": "A gold-medallist-built AI cancer-detection tool out of IISc is the strongest talent-and-application story from Bengaluru's deeptech ecosystem — read-through for healthcare-AI startup valuations.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPUTZvQmJUOFh5WkIzWFA0RWVJYU5qU2FTS0MtLVV6UV9BMXFGSHM2bmZRZTdwei0wb0VNejhRbFpKTTNFSGRiOE5LZC0zZ212N0NPaWV6VjVfZjZOV1FQVTFabzFoaHZHYjM2NDNlYWNLVmxRNTJkQWZaWEJaaG5yd1VJX3pCQW1fM3FKWkdIaHdnbXQ1V1E4dUlIUEhpbENSRElpRE9EOWhPdmdXRXN0Yy1LNFBCbWVHa1F5QzZGMnpnUmhuX3h5cmEwTUx2TnB0TmltamZMMkh3NUU4RElDQ0tNVktNZ0hFcFM2X3phSVp4TTg2bmhVU09NMzlrMHdyWi1SUk1iOGNqckFUYkZJLUhjVDN5VlhXQTB4Y1hSZ0w5Tm5wTlHSAasCQVVfeXFMTmhkbVUwZzd6M0dPR0o5N0hKY18tME0xWnhxeHRZRk9odkFtUUp4N2tIY25uMTVLZXZuNy01Q1lXM2dpek5rQjd4ZHpIeFNPbENqSFRQUDNadlRZb1FtX2twZVVWbFMtNTA2RDNMNkNkblprN3lodzBMWEdibk9OS25jRHdwRnRVUXBHU1VCZWNPcTh0aW5JTWhaY1VlNm1hZEhQSGlDSXhiLTZDRW9ZY25mNzVPVXJDcm9KZGNPbHhLaW85QzA2b1pIdkFiaGZNR2hYQS1RcnRIZkVuaFpGb0lQUXk0b0ZjdlBSN3UteElSRFV6UmRsc2ktZ2RlaEg5Y2xVMV8tMmNlSzBud2JXMGhLRWFQcmkyUWJVRGQwaWNZN1ZsUW9RdW1WeDA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:14:00+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 0.7
+      },
+      {
+        "rank": 3,
+        "headline": "$233 mn raised by Indian startups this week — Navi, BookMyShow lead",
+        "summary": "Indian startups raised over $233 million this week, led by Navi and BookMyShow — Inc42's weekly tracker reported.",
+        "why_it_matters": "A $233 mn weekly funding print with Navi and BookMyShow as headline rounds is a mid-cycle cap-table reset — read-through for late-stage fintech and consumer-tech.",
+        "sources": [
+          {
+            "source": "Inc42",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQR0FvblF5WEY4Ukk3dnZENldzVGRkS1d3MUxQTzVUdjc3eHhqZWNWbHp3MExPSzZZdlh1eVBZb2l6TnlBbllPX0RpajVVUWV5MTBXbU1FV1RlWUFTMDJfRWNhNVlJeVZwWjEyZ0QxZ1E1ZzhUX3BjVmVCYkp4d21yb2xwV3g3aHV1Vm5sZzlFMVU2SkxBQUZZ?oc=5"
+          },
+          {
+            "source": "Indian Startup News",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLThDeTlZaFhlQ2lpZnI2Q3dPbUVhZEhBVGNOU01qNjhjR29BVk9Xak9YT0cwNmlOZkZQemlCVWw1Y2t6OV9FamxmUzJtMU1MZWRwdHpkcEZ4WUh6ZmlNaTlISTBmaEllUW00TFVManVsdXVDOGNMenFscE1iNHpJWHRmWlNzdFhuT3JWbWpSSXFvQzlHd2NOc0RFRzRvSnR3ZUpuMFFaOEYtcU9Ld0dOUXhBOEU4QmFRNEppbDBlY2huR0Y2ekw1R2hkR0xSdlQ5Z3NBXw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:00:14+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.84
+      },
+      {
+        "rank": 4,
+        "headline": "Bruno Milano raises ₹7.5 cr to accelerate D2C watch expansion",
+        "summary": "Bruno Milano raised ₹7.5 crore to accelerate its direct-to-consumer watch expansion in India.",
+        "why_it_matters": "A ₹7.5 cr D2C watch raise is a signal that the premium-accessories segment is back in funding favour — small but a category marker.",
+        "sources": [
+          {
+            "source": "Indian Startup News",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd1UwU1BSTFNDa25TTW1PenZXYVY3QUxWTTZCaC1aN2cycjFCNy1PS2hsM3BaSHZOMVVCUHFoYl80MjhvaEM3QWFYaFpuQUE3NkdnYTFxaUVwVDJ0cVFlaVZkNHJhbXdsUGV3ZWlsREpkNTV2ZTY1dXE4S0VvUzJEWjdLWUNvQmdIRVRyWHUtVG1RWW5TRWJZbnRydkhINl9TVVRheGVIeFFRQ3BuM1NSZWR4N3ZwWl84eGfSAboBQVVfeXFMTndVMFNQUkxTQ2tuU01tT3p2V2FWN0FMVk02QmgtWjdnMnIxQjctT0tobDNwWkh2TjFVQlBxaGJfNDI4b2hDN0FhWGhabkFBNzZHZ2ExcWlFcFQydHFRZWlWZDRyYW13bFBld2VpbERKZDU1dmU2NXVxOEtFb1MyRFo3S1lDb0JnSEVUclh1LVRtUVluU0ViWW50cnZISDZfU1VUYXhlSHhRUUNwbjNTUmVkeDd2cFpfOHhn?oc=5"
+          },
+          {
+            "source": "D2c Insider Pulse",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjVveXBwLWk5NHB1S2g0T1FKSFpPdDVqTEZIZk5wYnFQZy12SmlCbWh3Rm85T1JYR2xSSG1rYW53SlR4eGM5Vjk2dWIyd0pQM3dWSE5qaE5HTENCZHRNOXgxejk1MERlSHUzUjE2al85LXNESlNpejZVNVhucGpESGZtMW1pd2FLUTQ5RTZGb19YT2RDS0I0N0RkNjFvQkdi?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:27:32+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.48
+      },
+      {
+        "rank": 5,
+        "headline": "Orbital data centre startup Starcloud valued at $2.3 bn",
+        "summary": "US-based orbital data-centre startup Starcloud was valued at $2.3 bn in its latest funding round — read-through for India's spacetech stack.",
+        "why_it_matters": "A $2.3 bn orbital-data-centre valuation reframes the spacetech category ceiling — India-readthrough for Skyroot, Pixxel, Bellatrix valuations.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdG96QlFZZFVYMzVVcjU4SHVzOVZmdFN0SXY0c1o2NEdJcV9GUnJJUjlwZzhyU1gzeXVwenV5R0ttMW5rQl82RDUxZC10N3lUaF96N0pPbk11Qjl1bkxGNkxsWWExTmdUOUJ6RWFncjQ3cThXU3JJM0sxOFRIckVKRjhDOTVqM01jcld2ZFhhMGpzUUlkeENMd3F2RHF6OUNMVDhNMk1wTUJVaEd1R0RzUWFtRTNwUVFWTHJaWU5OcjlRR0IyN0FjNXZvNGQ3WHYtOG9CNlVYQVV6SFFuZzBUeW9wOG5NQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:33:00+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 0.7
+      },
+      {
+        "rank": 6,
+        "headline": "Zomato founder's brain wearable is (almost) here",
+        "summary": "Zomato founder Deepinder Goyal's brain-wearable startup is (almost) shipping — first production batch imminent.",
+        "why_it_matters": "A founder-led brain-wearable launch from Zomato's Deepinder Goyal signals consumer-neurotech is the next India-tech category to watch.",
+        "sources": [
+          {
+            "source": "Dailyhunt",
+            "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPbU51R21EWFhCUUc3SzNQbjFxQzlzZjNmR2xXSGNzT2pTUnpoVElxOThUd1A2R3NaemxVbTk2dW1mU0swVEVURnJqTG9YQVlqVFBiSkxqd2FzSW94akhBVlpKNXQ2S3BwZkc0Y3RNaGdZY3h4YkIwZzVQTF9DYXFuVWUza0RvMGpoOEM5U083Zl9Sam9HcUpObzhxSmE4ZVRVQkhLWjBsWGVhc0x5Rk5jcS1zdmRzQTFMWWxNcTBRR04xM2VibzRGUW5UelltUTZZenpWdldpaHlPWVV5QTdjMDdHRFB1MnlCZFhBVXIxQ3N2bW5JaVR5UU1KcVJIWk5tVVJidFR2UlllNUxZZDJXTEQ5enIwN2xSeTJOaU5tMUpHSDQtVURNN21yYno4amM?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T07:56:53+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 0.56
+      },
+      {
+        "rank": 7,
+        "headline": "DPIIT issues guidelines for ₹10,000 cr Startup India Fund of Funds 2.0",
+        "summary": "DPIIT issued operational guidelines for the ₹10,000 crore Startup India Fund of Funds 2.0.",
+        "why_it_matters": "A ₹10,000 cr Fund-of-Funds-2.0 with new DPIIT guidelines is the most consequential 2026 policy push for early-stage VC — capital-deployment cadence is now anchored.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSXRHdzdzdlRIVTdxVlFKQ2ZCRUhJQ0c0YWZJMlZiTFRXb0ZrVV8tUDhhRkZXbEV4UkRpZ1hTSlR1UGJBVE1TdTBoOHY5cmMwOHVSNlpzOExZc29JdjRnVFR3OEU0TGREN0JlZ21RZS1OSWhZZmUxY25TX081MW9aNE1VdjlIWVNBTndJU09pOGZ1cTFsMmJJdDh2eGNTQkdCVVVqSUppci1IZw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T06:16:58+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.8
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "RBI's margin for error is narrowing on rate path",
+        "summary": "The Financial World argues RBI's margin for error on the rate path is narrowing.",
+        "why_it_matters": "An analyst-framing of narrowing-RBI-margin is a positioning signal — markets should expect less dovish surprise from here on.",
+        "sources": [
+          {
+            "source": "The Financial World",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tT0Vrb2t5Z2xpdEp2TmVQOUJVU25GQVlwNHhqc252ejVnU2tua1dVSzVPNXpaTWZEbHNJZXF2VWNwd1lZdk9VSkMtV1c5aGZaYXlXcDVXX2dzR0Jpa3JDT19JZjhSM3V2a1NCZDlMZ3k4TFh4MmV0Zw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:33:24+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.4
+      },
+      {
+        "rank": 2,
+        "headline": "Gold regains momentum on weak dollar and seasonal buying",
+        "summary": "Gold prices regained momentum as a weak US dollar, safe-haven demand and seasonal buying supported prices.",
+        "why_it_matters": "A gold rally on dollar-weakness + seasonal buying is a fresh anchor for India's jewellery-Akshaya-Tritya and wedding-season demand cycle.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWENtVmtlS01YNmRkcFlDbjVIXy1lcHI3WjFudUNJYWE3bFFaRDlVY21ubUtuNjNrcGJqdDRTVndtSzNyMXpqdWZ1bVo4QnlwQ1EwVEJHX1hTaGJIRlRobE9QeFdCZ2hlOUZDUEtwNjZkaDhJcXJfekx4Z3lpX285a2VTM0xsNXlXS281aTJJa3hwVHNnT2RNNFEtYVcwRUFuOF8zOG5PY2N0dGpwR0t2WjlyODRXdHVhMnhKZVRDX0VaTmxicHd3Tm1HS0U1bjZxcDhyZUlhb3lJZU1HbU9IVHJOQjZNRE8yQldWa0N4QTA1OGpCaTZuOUZ0U1XSAYICQVVfeXFMTXdLVS1TQjVReXlVeExXVUF4MFZYMk5PV2VOekJvQVNUTkdlaG9uY21OamFGOTJnWWVCdUw4RTdyeDRRNFNKUEFfM1dncUpHVTV2OTF6SmcydlNqb3FfTE5EcDVzRFhWR09vWmV5YmNYY21DT3VITFYtaThRMEk3d0pjeFRyVlF6Mm4wMFF6ZDVyUTllRWQwcjlnMnpwMGZFaHJvR1EySFl0UmVZTmdFTm5iY082Z09lbHBJT0E0enJzbVlfOFVUX0hkcXpfQTFEcHltMHpUcWJ3eHo3V2JmU2xXbWxmalBUZHVVSmhLRlRiNnl6MXFJNV9FYV9CMUkyTzFR?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:48:50+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.7
+      },
+      {
+        "rank": 3,
+        "headline": "India bonds log worst week in FY27 on RBI surprise U-turns",
+        "summary": "India's government bond market logged its worst week in FY27 on surprise RBI policy U-turns.",
+        "why_it_matters": "A worst-FY27-week bond rout is a credibility tax on RBI's communication — bank treasury desks are repricing into a higher-for-longer regime.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONWdaWS1hWTU3MWw2bGJCWDN3dFhRQ01aNzZMcDR4eUNYNmtxbHJXTTBUSURYNloxQU9ja1ZrRFNEMUJlblN5TlE1cmtkNzdJekwtNlhCSGlZM1dmMHp0Y3JBaE9lQm1ZUlZxRmdkMmJ4Q0t2bTNuR3J5QVU0aXY5WTNONThLOXBhUXJrNjRRRWF3ZUE5RldEMjNoa0ZVd3ZOUE1DblJqRTJrSXEtQ0RjVzczZTg1aGhsTzE5N19aWnYyNUZKOHhoQXN30gHKAUFVX3lxTE41Z1pZLWFZNTcxbDZsYkJYM3d0WFFDTVo3NkxwNHh5Q1g2a3FscldNMFRJRFg2WjFBT2NrVmtEU0QxQmVuU3lOUTVya2Q3N0l6TC02WEJIaVkzV2YwenRjckFoT2VCbVlSVnFGZ2QyYnhDS3ZtM25HcnlBVTRpdjlZM041OEs5cGFRcms2NFFFYXdlQTlGV0QyM2hrRlV3dk5QTUNuUmpFMmtJcS1DRGNXNzNlODVoaGxPMTk3X1padjI1Rko4eGhBc3c?oc=5"
+          },
+          {
+            "source": "Business Standard",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPckhPZTBZaHFZRWktWlk3UlkwYzdPdzFOcjl0X05zX0htQlFnSTVoS1p4V1g1cnlNYmxIOXEtdm1vWExsbTVaRENKVnhTWDYtNi12bXhqZDFMel9DZElEbVZKS2lpNnR6Tjd4WnVFT21WcFVSa2VFZXJPYXpXWUhyeGJSWFF3NTlrUlR6enJ2QnU1NksxdnN0QXp6Z0Q5MmJHUmxhV3B2SVRndXRCR3BEZ3pOTGJYUDluYnZ5UDgxeDM1akp0cnVheXVUUVlLTlBTNEtaRjhiRUNlT2st0gHcAUFVX3lxTE9ySE9lMFlocVlFaS1aWTdSWTBjN093MU5yOXRfTnNfSG1CUWdJNWhLWnhXWDVyeU1ibEg5cS12bW9YTGxtNVpEQ0pWeFNYNi02LXZteGpkMUx6X0NkSURtVkpLaWk2dHpON3hadUVPbVZwVVJrZUVlck9heldZSHJ4YlJYUXc1OWtSVHp6cnZCdTU2SzF2c3RBenpnRDkyYkdSbGFXcHZJVGd1dEJHcERnek5MYlhQOW5idnlQODF4MzVqSnRydWF5dVRRWUtOUFM0S1pGOGJFQ2VPay0?oc=5"
+          },
+          {
+            "source": "bfsi.economictimes.indiatimes.com",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMWsxUXFWMlkxbmdnUFJ6eHd1X29mVVVnOXJ1QW55elMzUGJJLWhWT05TY0hCNVQydWZaMFNnZEVHcHlWcjhIVi1laHU3N29YM1dBMGlYWEZOdWZqSTJfVzJldDFQSGdDR1NXSml6OVVIUi1QSjR0a0pKSkE5MXY2NnNpYkMwZWJZTzhjaVdhSHBfdUhSSjBPSGRja1ZoTjI0eXdxc1FpOVpVNXVYcktuckJlekdpZzNtMG5SWmNmLXBYX096RGtxc043VVdiM1l5WXp1dtIB1AFBVV95cUxQMWsxUXFWMlkxbmdnUFJ6eHd1X29mVVVnOXJ1QW55elMzUGJJLWhWT05TY0hCNVQydWZaMFNnZEVHcHlWcjhIVi1laHU3N29YM1dBMGlYWEZOdWZqSTJfVzJldDFQSGdDR1NXSml6OVVIUi1QSjR0a0pKSkE5MXY2NnNpYkMwZWJZTzhjaVdhSHBfdUhSSjBPSGRja1ZoTjI0eXdxc1FpOVpVNXVYcktuckJlekdpZzNtMG5SWmNmLXBYX096RGtxc043VVdiM1l5WXp1dg?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T19:01:12+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.168
+      },
+      {
+        "rank": 4,
+        "headline": "India forex reserves jump $9.9 bn to $716.9 bn",
+        "summary": "India's forex reserves jumped $9.9 bn to $716.9 bn for the week ending August 14.",
+        "why_it_matters": "A $9.9 bn forex-reserves jump is the strongest external-balance signal RBI has sent in months — gives more headroom against a hawkish-Fed scenario.",
+        "sources": [
+          {
+            "source": "Business Standard",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc01oVUxNME5zMnFtTWtBY3cycm1GTHFNYjZJclRwcW1EMzN6azU1dU9nTHNlT3BWS2RmM28tVXBCa2RJd2UtYjMxRjhKY2hyeGZkeWtHVDdSeG9HSUtuSU55dHU3VjhaZnBSYVB6OUxabGlhbzFiY0puckFLejFJdVBHdjVBdFUzdGxzRWw1MjU5TVZPdUFxOUdxZTN6N2NlaTBhNFhmV1ZYa3g1QWxpS0RWeWN5RU94XzNqM1ZmZk9JdWdTRmwtUm1iMFdmV0pVM041MnRR0gHWAUFVX3lxTE1zTWhVTE0wTnMycW1Na0FjdzJybUZMcU1iNklyVHBxbUQzM3prNTV1T2dMc2VPcFZLZGYzby1VcEJrZEl3ZS1iMzFGOEpjaHJ4ZmR5a0dUN1J4b0dJS25JTnl0dTdWOFpmcFJhUHo5TFpsaWFvMWJjSm5yQUt6MUl1UEd2NUF0VTN0bHNFbDUyNTlNVk91QXE5R3FlM3o3Y2VpMGE0WGZXVlhreDVBbGlLRFZ5Y3lFT3hfM2ozVmZmT0l1Z1NGbC1SbWIwV2ZXSlUzTjUydFE?oc=5"
+          },
+          {
+            "source": "CryptoRank",
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBGNGthVS1DX1labnJfbHdxUXlUOXI4SUtKd2RGNExZVnhrNDhmZzJnRE1jMWxYUlJXZ05QRDVTMTNLZTZuOWwyN3hBeTNjMlVRRkhvTkZDNWFNVklydURkSnp3c1NTQ2d2YTFfejl1c3BFcnRONHh6Z1BicUEzUQ?oc=5"
+          },
+          {
+            "source": "Bitcoin World",
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55aTZ0SlN5anN4dzhtbGpfMl9fSEc0bGJDSjgwV2xBaFdkU09zYk03S3BYc0ktUnVXUjhZN3FoRVVVdDY5R2VwRng5N3RDajNKNS1jWmtJSW85TUxaRWpIcVR2RHFSVDdlcFpHUlFpU3c?oc=5"
+          },
+          {
+            "source": "Rediff MoneyWiz",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQckZzaEtETTR0OFdreENVLUJLQ2V0T01wMjN5MkE5alg2aFFla0xkeEhpQ0ZfUVplTGVKbVlRb3N5TzJQTXNNSFJGQmpPdE5wazltUlJGTXpWR21MQ0ZTUW9VV2xnX0d5S0xPU29jUlNjSlEtTnNoTFVwYWFSVlZhaG1kb3AyMzl1c1lpcDBFZUNOWklpV2d6RHlkeThIVU9HV2NrSmJabmRISXhzNmNB0gGvAUFVX3lxTFByRnNoS0RNNHQ4V2t4Q1UtQktDZXRPTXAyM3kyQTlqWDZoUWVrTGR4SGlDRl9RWmVMZUptWVFvc3lPMlBNc01IUkZCak90TnBrOW1SUkZNelZHbUxDRlNRb1VXbGdfR3lLTE9Tb2NSU2NKUS1Oc2hMVXBhYVJWVmFobWRvcDIzOXVzWWlwMEVlQ05aSWlXZ3pEeWR5OEhVT0dXY2tKYlpuZEhJeHM2Y0E?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T04:47:33+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.512
+      },
+      {
+        "rank": 5,
+        "headline": "RBI to absorb ₹2.5 trillion via 7-day VRRR auction",
+        "summary": "RBI plans to absorb ₹2.5 trillion via a seven-day VRRR auction on Monday.",
+        "why_it_matters": "A ₹2.5 trillion VRRR drain is the cleanest signal yet that RBI wants liquidity tight ahead of the next policy review — bond yields should stay sticky.",
+        "sources": [
+          {
+            "source": "Business Standard",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZVZuWjJvZU9Zc0J1R1QyQl8zcWZwcUVERHNTUXZsdzIzSzY3cmRqMU5TcldYbjE1NXQ2OWF2ZHlkdVk3WEdmNC16MHRJWDBNSl81Sk1MTy15NU0zVmVzOFloQm5yLXVJRGtOWnVRUWFEanZTeFJ6Yktod2tjWnRzREJYSV84cFJpUE40ZEZZSUdwRTFiZGFTV3RTOUlxM3F6ZVFlSDc3ZjhyZFN3bFVUdDRrc044Y0xyRjJsdEc3bE42a3NEclpGMV9SVVA5MkcxalpHYjl30gHWAUFVX3lxTE1lVm5aMm9lT1lzQnVHVDJCXzNxZnBxRUREc1NRdmx3MjNLNjdyZGoxTlNyV1huMTU1dDY5YXZkeWR1WTdYR2Y0LXowdElYME1KXzVKTUxPLXk1TTNWZXM4WWhCbnItdUlEa05adVFRYURqdlN4UnpiS2h3a2NadHNEQlhJXzhwUmlQTjRkRllJR3BFMWJkYVNXdFM5SXEzcXplUWVINzdmOHJkU3dsVVR0NGtzTjhjTHJGMmx0RzdsTjZrc0RyWkYxX1JVUDkyRzFqWkdiOXc?oc=5"
+          },
+          {
+            "source": "Whalesbook",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRVRadnktRTBNUjloNjktYUQ1cUFDel9EX3diM2pGcDRocktiaDBIZ0YwQUl0em1zRWlEVFBmbnF4MlJuaS1IWWRYV1A5RkJyX1hsb1EwVmZSRzRISlo4N1F1eVR2dTYxRnE5T25RdWp0M1dENGdLYlh0ZDJSMk4zWnVPT05yYkhPRGhqTGhlRng0dzdEQVI5YW5FbnZmQjNyRUlZUUZ6VEFUNFpld0hhREFCd2pBUFBZYXpYcHNHZDhSMVlJamctTjdWZ2VPNUw3SFNFQ0N4THIwM2s?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T22:01:49+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.144
+      },
+      {
+        "rank": 6,
+        "headline": "India growth may near 7%, says RBI's Poonam Gupta",
+        "summary": "RBI deputy governor Poonam Gupta said India's growth could near 7% on strong services and capex momentum.",
+        "why_it_matters": "An on-record 7% growth call from inside the RBI is a fiscal-confidence anchor — it dovetails with the FY27 GVA revision and lifts the medium-term bond curve.",
+        "sources": [
+          {
+            "source": "BW Businessworld",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUhRVEZIT2xUZkp3d0FNbG1RemJZQ1F4WkpsSUp6M01MbmVzcG81UnNlOG9UaEhYRlNrRFJwQjZhZHRPcWxGSVNtLW5Ma2RKZmpoTWNXcjlieEItclZjd283S3pSSzBDanFjSFhpdTFZMmVpSXZhNVBlZU5tdGRYdTJGR0JUUXBfcnljRXA1S1VLOVIzYVE?oc=5"
+          },
+          {
+            "source": "Free Press Journal",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSGQ2aHR0amVwTEVyZTJRT0JMVFNYdzcxRzByZU1fMXZwTXJrRGpid2FzWE9iTU9uMnlrcm1nY05XQzhQUzZseTdTcnB5b3JOQi1IOXR4dU5obzFZbXJiTDBPY3BfYnZmc1BlUEFqbW9JYVdCa2pBNlBGcDlFSGJxWU51YUFGWlZ1QWtaTWE2aTktUm0yOXRvaGpRNVZtVVVucWJkbHdtdC1TTVlwZEZNcnpuZVNHWlltcGZNUWlkZmt6c2d3d2x1Z9IByAFBVV95cUxQSGQ2aHR0amVwTEVyZTJRT0JMVFNYdzcxRzByZU1fMXZwTXJrRGpid2FzWE9iTU9uMnlrcm1nY05XQzhQUzZseTdTcnB5b3JOQi1IOXR4dU5obzFZbXJiTDBPY3BfYnZmc1BlUEFqbW9JYVdCa2pBNlBGcDlFSGJxWU51YUFGWlZ1QWtaTWE2aTktUm0yOXRvaGpRNVZtVVVucWJkbHdtdC1TTVlwZEZNcnpuZVNHWlltcGZNUWlkZmt6c2d3d2x1Zw?oc=5"
+          },
+          {
+            "source": "Business Standard",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUVVWcGRvdzRsaXlRWUItRHZNaXR0SnptZy1zdHVIWjgtWWw1bFo4ZGtJMTdHNmdXVk9YWmJ2RkxlRWlacEw3MS1UX213NmJqSTZSdklONkxHV1JIMDExXzZmcHFaTWRORFFUUzdnWEdWWHpNX2tpdnZkSURNOEY5NGFnaENUNHRUNVR1RlVOT0FjWTJ1RGlhdUM3OHRyVDBFNnlidlFsSlZLLUx2czBQLVRkM1lHbHRTMzBULXQ4Sm5Tb2FMalVzLTlOYzRoYVBYN3FKM3Bic9IB3AFBVV95cUxQODlYcF9UZmpJdDk3bHdoaTJrRzUtR1h1SXlmSm4wQXJfbmNVaU9RaUdkYXYxdXpJeXRhcXpxbThYczg5dUJrMC1XWkV4OVBsMDh0TDMzTk92Y05ZOU5qeHAtXzZJcWhqeXdwYWRXbGR2Nkk0V3I0c3FPODNBQjdoTm1qWTQwcVFkcXk3RHVjTElEeDVZOVZGMmFpcFJiTy1BMWVhQ3ZaaTVGYUN2dmFQRGxJdmkxakpuOVFXSFQ1RXZ2NFhmaUJENXZza2Z1cHZfWUI5S0F3VTVQUk5i?oc=5"
+          },
+          {
+            "source": "Business Today",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSUw0MElSNVNWUzJJUnk1Tjcxc3Izc2dQWm1VRmdER3NzUlRiUnQxZFBNMWR4LW04WUFLcTNxemdfZE9VY19WSTR4UC15VThyMVluQllEUGhDZExCbUhFcVFlTHpWdHk2clZEUWg0MTFMcGxPYjlPbEFiNEdLeWkzQXBIV3AwYVJVRnlHV0JDdUlLOENEdTM0WlFYdDhfVFAtT0R5UU5KNVJhODhCRUVHaWZsc195NFJlMWJYSlFHanB5b0ZFSzVJaDUwVUNZUjJCUEFuRzc5U3ZiMlJoa1h3VU1vc3Nodm5kdHN6OG9QZUV6dkXSAfMBQVVfeXFMUElMNDBJUjVTVlMySVJ5NU43MXNyM3NnUFptVUZnREdzc1JUYlJ0MWRQTTFkeC1tOFlBS3EzcXpnX2RPVWNfVkk0eFAteVU4cjFZbkJZRFBoQ2RMQm1IRXFRZUx6VnR5NnJWRFFoNDExTHBsT2I5T2xBYjRHS3lpM0FwSFdwMGFSVUZ5R1dCQ3VJSzhDRHUzNFpRWHQ4X1RQLU9EeVFOSjVSYTg4QkVFR2lmbHNfeTRSZTFiWEpRR2pweW9GRUs1SWg1MFVDWVIyQlBBbkc3OVN2YjJSaGtYd1VNb3NzaHZuZHRzejhvUGVFenZF?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:57:36+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.63
+      },
+      {
+        "rank": 7,
+        "headline": "Tempsens Instruments India IPO oversubscribed 21.65x",
+        "summary": "Tempsens Instruments India's IPO was oversubscribed 21.65 times as bids crossed 32.86 crore shares.",
+        "why_it_matters": "A 21.65x IPO subscription for an instrumentation mid-cap is the cleanest 2026 primary-market signal — read-through for upcoming SME and mainboard listings.",
+        "sources": [
+          {
+            "source": "vinanet.vn",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRHlZV0N4REhsRk1BYTkzVE9DcHhVTUlnWC13aVlubDh4dFBFakRNM1dfcnE4TlEtQzNpWnBkMjZ1NXdTM0NHVndaVzZNWUxqMlBOSFQwUnhsRDhqR081eDVYVExnVWlDd0hkUzJTT05pdlJuaDM2dmNKNTRQVTZ1MURYQmtIeDJHQU9JdmprU3M3Mkc4RUpSYkctVVdsQ05hUFVOWnVjR2x3WUhYZm5HMUc3VkU?oc=5"
+          },
+          {
+            "source": "Rediff MoneyWiz",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNEFGbXN4Y2pNQWFVengyWlZHTDN4RS1Lem9jOTVleXBJdE55aUFmd3BWdlJ0b3U5VTZveW40eHFudlNhZlZTb0c4eHg0X2RINGM3WS0wUk9nRWFlNDh6cWZnVkRkaEg4VEFXc1gxOW43cWNWelZNVUFYelhXVmczTnVOUHNmSEtqZkc5ZWxXYlctdzM3eFNxeGZQY1hNZzdmT3RQbGtB0gGrAUFVX3lxTE40RFdXQjBMd3RuTWpfUFRtX2ZIcThnOTdrZVRqT3R1NDkwM2FPOW1SazRxQlBBbVNSZ3hkeGVHVERIUkJBNWtVSG8tNnN4cGNoNTdfQnRUZVZRQk1JS2l4QktlX2pDTHMwRXQ4UVNfWU42NFUyWFRpYm1LYnNudHBIWEdoTGZPUnA1UGN1a0dXMkxkakdoWXNRT3ZsamhudmsyMy1NZVVfd255Zw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T03:34:19+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.24
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 2,
+        "headline": "Lok Sabha refers Corporate Laws (Amendment) Bill to JPC",
+        "summary": "Lok Sabha referred the Corporate Laws (Amendment) Bill to a Joint Parliamentary Committee for further scrutiny.",
+        "why_it_matters": "A JPC reference for the Corporate Laws Amendment Bill is a parliamentary pause — corporate-governance reforms are now subject to cross-party review, slowing the legislative calendar.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa2NxY1lHR1lnVVZuMmg2dGVqY3BCZkdfWWlQZExXcVNDWTYyWm0zbnZ6SzNjRkl4RlBfdUJJLXFvbXM3QWpUelNfUTZiQ0x2bHUzSTFNcmd0YUFvVmRvOHA3ck1DX1BVaUNBQVIzU3d4OXNDT1JNNGVmdklmWFlpbU9KaHFxSWpMeWhjT2ZzaUNMRzNZU01VTFdpRmRSd2dINzgwU3JGQkMxdTlnbHpVVEQwSHJzNlhvbXc?oc=5"
+          },
+          {
+            "source": "LawStreet Journal",
+            "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYmh2Q1lGRl9MZl9GQXhhcC0wdUp6UjVqYzNhWTlweVREWEY4YVZET2otREs3NnQyZF9xTHIza09LS3QyUVJUek5pLU1xNDdicDVIR3Bsb2ZQTFpoTnhZcUd5VmQ1LVk2QlRJMHBmS1BwcUs3VFBtYTUtQWEzcG1Oekw5enFBOTBzYW40OFFmcWxmMzh4Ykd5UUQ2ZzB0TXFGczNXa3R5VkR5YzJLSzAzUEFNMjdJeFhMdTN1elJISjdJaWpjZWE0ZDJjVnFpYWdYU0J6dUI2YkYxODlNaFNjTkZGOVhmTVMwVnZSSElwQkdHbVVKMVVXd0Fodkl6bzdmZXNPZkV0VG9FU3c1V241R3R0bHNkQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T04:31:07+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.96
+      },
+      {
+        "rank": 3,
+        "headline": "Karnataka Assembly deadlock continues for fifth straight day",
+        "summary": "Karnataka Assembly's deadlock continued for the fifth straight day with both Houses seeing no business.",
+        "why_it_matters": "A 5-day Karnataka-Assembly deadlock signals the government-Opposition trust deficit is widening — budget-passing and bill-clearance timelines are now under threat.",
+        "sources": [
+          {
+            "source": "Deccan Herald",
+            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSWZoQjVTNExvbDBNZWVrVXB0dGJRSUpvMXVENU83ckF2dWtjNloxa0p1elVzMU45N19EcFlaSzdhSENhal9Ea1RfZUVBQ1RQbVFwcGNLdF9yRUctY01HbTREQ3M3WkNNWXRtMkFfemx2SjZ6a0V1YmxxTkZvS29LeTQzNVhzY3dhOGVkQURZVmtuM3VUWWM5Qi1sOW1YbW9tZTBrbjlGUnVyZGU0MFNoMjhXdlFqTldoUTRpcEFvUkZyQ3BzNmIwR05lVVlROUtpNU1qcHl5NDJreGxEa2JFaktYZw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T04:29:00+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 0.56
+      },
+      {
+        "rank": 4,
+        "headline": "Parliament passes Transgender Persons (Amendment) Bill 2026",
+        "summary": "Parliament passed the Transgender Persons (Amendment) Bill, 2026 with Rajya Sabha approval.",
+        "why_it_matters": "Transgender-rights amendment passage closes a long legislative loop — implementation rules and state-level rules will now determine the on-ground impact.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS1Y3RmZzYUVKcWZEU082Q3J2S210X3k5NEVLdmVkbTY2TlBsNFZIR2FoWFBrQTFaMDYwcXE3clIzTDN4VV83US1LUmxwd2FVeVZsNW5YeVZHU0ZMUnJLZjhTVjBnRFE2Y2ZpZTMtOWVqYU1TX3BNTHRvZjhscE1yT1JsRjVFYnFITm9GbVVkNEdkVjFrSTNvYldVUU1zSjlGaVZoZDE3T0x1Vmx5VW5ONnNvc0xxQU5kTlkw?oc=5"
+          },
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQNXpRNHU2V1BjSWEtOFBPNmgxanJmRXlrRVc1STVGelhNakFKbmEwV2V3T2pxUUs4bjlxY1hBMHJKMXN0bXItVk1sSzUwaHdUeGhaNndwWWJMUU8yYkxTd0djUnhqQkxqdk1od3BYcHpoM0plRFpUU2FTOHQtNkJ1cjRjbkdvU3dmS2hKR1JuWGJnRTVwVXRSUUQzNHdUaEVlMEVjSE15cjRrLTV2Vk8xaV92b1FLbVhfa3B3bEVHU2lSdkQtTlBOdE54T3FOdTZtSWxreWE4cGJvcnFBdi1fZG5OTzJXOG9rbUY3XzlyVk16NnRHallkWHNNbnZqSzA1MUpYVHN5THl2a1VnOEZrWTI0QmdxUHdSTDFWTklzNGFQc0FrMmRoN3lGdXRMZ3ZGVUQtVlI1TzVqZUFnUVdHZNIBxgJBVV95cUxNQ1Uyel80LW04NVgxb0VoVE1QRC1OSVhqRi1ZTEpUbGFRNmNndXE2TndybkN3c2dHajNvdC1QSHYyMzdsVG10SXRjaG90X00zclBOOWhhWkZobXFqbkJyQXFTTGxGUzZVNWVNU0RsbDBITHR4ZWsxMl8wUGxyX3JOel85eGFJWDNWRVV4bnVNM2Q2YjZuYXNRY3dseXNtV2xHZDNhSXQ1S0NCLU1rZHpBWFI5OFh0cUI3eHktY2dtZnJrZXYyZnNXbmFoWnNmS1A5azA1OGc5d21PMEkzNGYtbHJFamRHd0hiekhjeWhqdkdWQTc4eHZtXzgzWEcybENaTXJhT245SmNFSERNMXRNRnNKNVRHYnRnYkI1OVdTVHE5Q2lGWXBFU0h2WFNTUnU0STdQdGdCNDJLeTBFaTdvTUEwblFwUQ?oc=5"
+          },
+          {
+            "source": "LawStreet Journal",
+            "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYmh2Q1lGRl9MZl9GQXhhcC0wdUp6UjVqYzNhWTlweVREWEY4YVZET2otREs3NnQyZF9xTHIza09LS3QyUVJUek5pLU1xNDdicDVIR3Bsb2ZQTFpoTnhZcUd5VmQ1LVk2QlRJMHBmS1BwcUs3VFBtYTUtQWEzcG1Oekw5enFBOTBzYW40OFFmcWxmMzh4Ykd5UUQ2ZzB0TXFGczNXa3R5VkR5YzJLSzAzUEFNMjdJeFhMdTN1elJISjdJaWpjZWE0ZDJjVnFpYWdYU0J6dUI2YkYxODlNaFNjTkZGOVhmTVMwVnZSSElwQkdHbVVKMVVXd0Fodkl6bzdmZXNPZkV0VG9FU3c1V241R3R0bHNkQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:27:31+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.7
+      },
+      {
+        "rank": 5,
+        "headline": "'Polygamy' back before Supreme Court nearly 9 years after Triple Talaq verdict",
+        "summary": "Polygamy is back before the Supreme Court nearly nine years after the Triple Talaq verdict.",
+        "why_it_matters": "A post-Triple-Talaq polygamy revisit is a constitutional-law flashpoint — Uniform-Civil-Code politics are now back in judicial play.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbUVtOUxmV0ZtMHh0M01NWDRQN0ItVlNBd3ZvZVI0bUJLRnEyT3p2Xy1Hb1N6ZDdmME1LVUt6NzRkNzVyTmdydGxQS3VkSm5iTWY4N0JOWThfLWw0Y0VxVkFDSTZrSzhSZHNiZFZpQmVaai1JOUFqQVQ2MmNNREVRTGI2YTJ0NmVYY1VPSHNoc1g2bWxRU01jMFVtWWNtMVJpWXFMbmhWOA?oc=5"
+          },
+          {
+            "source": "Live Law",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQakszcUVZMXZlWlNNUUpHN0dfc3NtMWMzbkd3Ry0xdEswT1lrMlFsamFZUTFWTnhkcm9odnZfVk4ycUxBQ3ozMXlwZUFpWkVab2NYOERWaXI4cWVveW1JNXNhVzhscG9HOWZRWFNpNHZ1N1pVMzIwX2h3Y3lORUNIYXlsMDFUQXQ3OXJhamo2aGNPTkRRTUdQdzJnMWZiR3Izck43enFEQ2ZYQllTYldWR2R3QmJwczkybnFWOVd5UHhFUdIBxwFBVV95cUxQNTFwcFpPNzRqaUFhWEEyOTJvOWdWTTk0WTZvVWJjTTMxaWJvVWFUMFNoVkczamV3VVVxdkVKVjNvTHVfcXlVWlRRZzV4aTlxT2h6ZURHT3lSX3Y1NWwzN3h0TjlxNGQzMGx1djVMODJTRy0tUTYtZ0NPaGpkNVBMTXhTMk8yVFp1ZkJ3RWtnSWdJVVZ5eVZ0OHBwcHp6VXI3MkVPSkczeDg2b3RsU1Y4RHpkN1kxSkxxY3NYTEppNFZ5aGNPTVZR?oc=5"
+          },
+          {
+            "source": "Bar and Bench",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY0FhZ1hxWUliamh6Wl9xQVItUlNMMFF4LVBWalRhaGdRLVZXMDB2RjlSOVlXZFZQQ1JwQTlycVFxTS1wczlvNnQ2c3lQSDM5OWNjZE9uSzJTczd0MWw3SmgxMDh3WW1DWXowd1FuTmd3ZWtwOFhVTmhpdHkxVUwydkYwQlZKalA4azYwMnNXV29EQlJCNUVMVFhtVml4YVc2VFd5NF9hYS14bkgydlFYOW1tcEUtb0JmSFJkSDI1RTV6WmlHNmc?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZk00NmY1ZTMyal9TdzQzN01ET2I4bnFfRVcyNGpWVGk0VjRQb1dqcFo4RHhfcUZMYjhrQXBKUlc3am9BSVdnRDladUU4VDQ4R2U2NXlvbHVnMHJObEVHTXN5R0ZXdnZEUFFHM3VYelFHbnVhcW5mOXNGUEVtRnVXUjcxM25taVJxTUtkVGtfLXM4dDZFUjBOOGlCaURkSS1hRzU0RUo5WXB0a1RNZ1HSAbsBQVVfeXFMTjFxeW01NVpCM203dlpFR25KaE84UnJTanJubmFTVll1OWtkTGZ4RkxLVGZiSDNxUEczOG9ZRjliNjMwMU9meDlMeEprRU1vX0o2V1c3UlZQNC1vMnpYNGlCVlN1Y3lqTzZldm9mZ1ZLNERHeEZNN0duS01ZQlBldFpWUGp5cnFXNEY0azI5X195WHh1OHFNS0pvS0VNY2lhWXl1d0JwdWdWMDFOVmk5R2V5RHhGdVBNTUhBMA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:11:45+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 2.64
+      },
+      {
+        "rank": 6,
+        "headline": "Will Rahul call Vijay traitor: TVK's delimitation stand stirs row",
+        "summary": "Tamil Nadu CM Vijay's TVK delimitation stance at an Amit Shah meet has triggered a BJP-Congress row — 'Will Rahul call Vijay traitor' framing.",
+        "why_it_matters": "A TVK delimitation reframe inside the BJP-Congress row keeps the 2026 delimitation fight alive — southern-bloc opposition remains the central political chess.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUVMa1lwdWthV1E5RFRfSi1rdmRsOHZTN25NYnZ0NEl4SHdQVktEOHUtTGhObTlGTHE5MTduSjhURlQwdnhQZ2FCRzFGaGxNOEhFdU1oOFZNaEF2YTVsZ2Q5dFpJY0ZrdnBETEhEUFJhOWNFeGxocmctYXR3T1o0S0VrT0x5Z0l5R2dfeWFhZFJQSlMtc0ZXZDRWRzFGdTByN180UTlQWEI3ajd0bGpmYtIBuAFBVV95cUxQNjJzaENlYk1zek42UnQwZTJ0TlhUWlZjTXpNbmVLX2p1VldNbTlvREZoazhnaVU5QXR0Q1U5ckRBeHY4TmFUQXdtaWt1QzNoTG5mekJZcUoxd0pfdE5MV05KZXFnc0lpbms3NFJiR0ozckVGak5aR3E0VUN2dzBBWElxYWdtY0ZjWnFCVVp1Znh0S19oZ1BRZjZzZTRQYUc1X18ycnY5bE42SFM3S2ZmUVZsRlVOWlBY?oc=5"
+          },
+          {
+            "source": "Dailyhunt",
+            "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxOV1psSDV4c1BheVc3Ni1CNFNZM0hFbkFpNi0xRlJ5eVUwZk1MN1U4WDVXN1hjd0RndDY4UnJ4TzFtbVBqU3hGcVI1alNBMF9lM19ucDVGUFhvVWVPZ1FYd0dwdXZTZ0tKTmhsWHFjX1haZExwRFZSTDFWTXhrcGhIdVFQZV9JOTk3bVNpY01mRi16RFR3MldyWHByeWQzX2tJLWdlNlFhaFhxeURwUkxHUWlwbVp0eWxrZ1ZXYThmY2lMMjA1MEt2MjBDZTY3UGc3Q2wwTkpLenRFR3Q0QkJOZ1llRTdqWHJPVklNUnNNN3JybFZ1T2xZY2JNV1JPSG9jZzRCdEdReTNmU3RidWlGRUo2R1ZhYkdxNjQyMThzRTdoZVdlTzlkbEhKMmJFNFZ1VWFSQlhua2pTaG9mYmhLV2pJQlpvanBXS2FrU3hfU2ozRmIyYnhybUhqS3ZIbmRlZnV0cS1DbTFwZDczMF9JRDFEY293bnBka2pmZEZSMGowNExNT0kxVm1pVFQ?oc=5"
+          },
+          {
+            "source": "WION",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLW1fNmxUekF2VzJwQ3ZzRUpGTTZFRHRtNjQzU0NFVklFRlBWbXhQcUstbnBwYVVEaHVCTjRERjJqcFc5MjhTM1dPNnEycEdTck5yZlI0Q19XSHVCMXBfVFZRaTYzRkVqVHY0WllqLWxzbjZMd2d4dzRDWlUxWUFkRFJKYnBsQlAzTjM0bGtXQlc0SDUtcG5nNVQwdGVSNDVDS1lZcdIBpAFBVV95cUxNLW1fNmxUekF2VzJwQ3ZzRUpGTTZFRHRtNjQzU0NFVklFRlBWbXhQcUstbnBwYVVEaHVCTjRERjJqcFc5MjhTM1dPNnEycEdTck5yZlI0Q19XSHVCMXBfVFZRaTYzRkVqVHY0WllqLWxzbjZMd2d4dzRDWlUxWUFkRFJKYnBsQlAzTjM0bGtXQlc0SDUtcG5nNVQwdGVSNDVDS1lZcQ?oc=5"
+          },
+          {
+            "source": "India Today",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSS1UY2JEZERZS2Y1YjFYejlOQi1UeUF3U0NJMDhKU2ZjUkF1aHNidzFyR0tvdEtMdHE5Qkk5Z1hfMmJQZC1lREZubXdMcVRBeWM2S0ZxZndjRkpTU0VNU3ZyOXVqYWdCQWk4cnpFVExxcHhYcjRRYmNMV3VjRVhidUM4MmpuMVpkSnE2V0c1WWNVclo2dzFaNURPZlhHeDF1VVhHa05vM19pYmZoNW5YdC1LdzZaSUxHYk00?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T14:05:09+05:30",
+        "region": "Chennai",
+        "confidence": "medium",
+        "final_score": 0.462
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 2,
+        "headline": "IIM-Bangalore, Tata Trusts ink MoU to set up School of UG Studies",
+        "summary": "IIM-Bangalore and Tata Trusts signed an MoU to set up a School of Undergraduate Studies.",
+        "why_it_matters": "An IIM-B-Tata Trusts UG-school partnership is the first IIM-led undergraduate business programme in India — read-through for IIM-Calcutta, IIM-Ahmedabad.",
+        "sources": [
+          {
+            "source": "ThePrint",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZU15WkJodFJQUUU1SDlsT3hGZTlVNTBsODN5ODRnN1gxUUJOcTI4ajJpdWtpb2EwM2pOTlNMZVprUHpVdTJwb1dycC1id2RFTW9TWkJ1bWJLeGlPTE1CYmlIMzNBUWV2aEdpNFFkTVZuUTlYNXJValQwbFhvcnNhRzBjYTZLNTFQSDhvQTNtWWhNTGYxMWJrbmprVXdaa1NhMk9RYkw5aFlKbUxyYzZ5UUctODNoR0ljb0h0dFNzMVB4c2o5OUHSAcsBQVVfeXFMUGJEWE1ZTHVyenpTS3VHUHFOQl9RUDg0bFR2T1FkVE5LLVhKUUJzVExWd2JvSFllbUpCN1FaZm1lT0ZocTJ2dDJkQ3dWdG9Ta0FfcnhZQy1TY084b0ZkNHpwNmM1eEhqVUduM1dOZ1BORlZfS3B4S196eEwxczZjdGtkQ2NTS3ZsX1dOZ2s5WGpUMzdiS2s1NDdYMnpPYXlEQ2JEZ0lBYUpIcUFSdjhEZi00cUFYLXRLdGxVaUV4SkFJRkpLNlhTZ0RPUVk?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQmxhRVJlWUV5RUZGUWVPeG84bGZhWHo1cllqQVp5SkJoN3FWc0ZrUTkyaExIR09UcTVkdUp6clVrTEdTcVctNkJTNU1WM0FlNnFQdnFYSEVNa3hGbFR2WUF3X2ZaQkhwT0NlQ1hpQk9GNkx6N3pWMmpIYzhLUDl3Z0NZSzcxRjYxZjFHWFJVaExvdEJCRVhrdGVzVlhUREdUamx0VzdDRG1RWVdzM056enBNMjJqcHVpWU9QX1JyV3dCSzRj0gHSAUFVX3lxTFBVWXZ3dmR6anh6ZnNzR3k3RUZDdzVLbjl4eDA5SWNCTUFnMjN2cndZU1RPYlNtZmdadmRvYnB0NVVXR1ltektXcFBfRmo3aDYyWFVEWmw0TlRTZnhtVnBFOU1RdDViT2sxMm5OMEZxM3VpcUVxNlpyR1pycGtUTHo4RXVGR1VYTW45UDhLQW56c3RlV0tBc2ZGWHNrZjlnVWRpd0VlZFQ2UlVWQkg2WWFsd041aldtS3ZPVTlZWlVLaGZPT2FORlpWMnd0a19lMHRIdw?oc=5"
+          },
+          {
+            "source": "The Federal",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTWwyc1VDTnVidjVuODQtaGhydlI1YmlxbW14QTFISGp6TklDRjVYRXMzX1JwSXJESUU0emRHQXpHaUZ5NnFxY3pUNXE4Vk9YT1hqSzQySTl0LVJMWUNZYXNxV1RFbVV6dDJ1SEJnYnJMbGlNV2tSWWhISXhBaG4wZEVFR2tXVnFiRFg1NVF0Um83akl0TEJyaHBSYVA3a01lTTVGY0VZSQ?oc=5"
+          },
+          {
+            "source": "TRIPURA STAR NEWS",
+            "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNeGRMdExPUmIwOXVaVGhsRkVpUUZhY3p1MXdwbXZvSExMcy1hNEhYbHlUUXkyelFQeXIwU1E5eGFzWmxLXzdjOUpTRmJyaHRld0lRM1NZQjF1emM1c2NZN1RRYzhod2RiaTFFNXBCT05kemdvNmxDTFk5ejJIYjQyaEE3T1hfY1FaejdQMHo0M3JFS2VJNjJrTXlyZnRhNzhrNzFNalptLURVN1AtZWxwRzZxLXAxM0JhLUJfRGlvQmFXNDhndW5aTWR1aXFlZ01sNl9wbEVUVVgxaU1rUzNIT2JkM1VjcTVvWHRsZEhaSmF3cHNta2lGS3hsSk5fMlRCaTBpTmpEUjAzX3RoaG10WA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:56:25+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 1.12
+      },
+      {
+        "rank": 3,
+        "headline": "GCCs keep India's office market buzzing, Bengaluru leads",
+        "summary": "Global Capability Centres kept India's office market activity strong — Bengaluru led leasing.",
+        "why_it_matters": "A Bengaluru-led GCC office-leasing print reinforces the city's tier-1 GCC status — REIT distributions and tech-park valuations have a fresh anchor.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ180SGNUUThkVWt2RnpTaTllU1g4eks1aVRrajZCc3VNeVRTemhKSm1GZHA4Rk05RHI5bmdWa2xDdU5jZ29JblZVNHZObG5uUzNyRE9DVkliVXQ5d2FrWFV6bzNibVk2NWlxVE56bnVJN0lmUVFZeGZfSDRzRVZUNmRNUW1ZaGRqVWpxN1VjQ01FNkN2LXhNQWtHNlZQLXJDV0RQcVhjOFF4d0FzM0dVQXBDN05pd0ExdVdxUlBsNUlfVGtnS0NjWE50cVREeXRBUHE3NVM1ZFpQUdIB3wFBVV95cUxPZUMwWlVQTWMzVUM1cndSaldzeV9vZDJ1OTFNRHJ0cVprSmhqS3p3MnBaSzY4dU9FOEtEay02ZUFRNEtOeGJHRklGV0gzVTRpdEVPa3ozbHJMaXFCX0lKcXRNcnpvYTV3U1Rra0UwSE4zYUY5REdIUkcwNkRsazlLUERYUldGYWNfOU5URFRRamlONHhLNTF5dmNWUm1ENnB1UDNwdlNsTV95VjAxLXdBRDFnSHNqbDMtNGtPSldiSjJYbWlzbkNhZ1c3bElZQ21yVDNDaS1mRVdiR1QwR2ZF?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:30:00+05:30",
+        "region": "Bangalore",
+        "confidence": "high",
+        "final_score": 0.7
+      },
+      {
+        "rank": 4,
+        "headline": "Bengaluru government school headmaster dies by suicide, note found",
+        "summary": "A Bengaluru government-school headmaster died by suicide; a note was recovered.",
+        "why_it_matters": "A government-school headmaster suicide is the latest governance-stress signal for Karnataka's school-education HR system.",
+        "sources": [
+          {
+            "source": "ANI News",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNemdQeDhiaUd2c0JybW9iOVBXRS1uSGxiYjZDRG5LS3YwbjBtdFRlUlJlbEdMUUJSMDcxNlZXUi1Od0V0Z05SdkwzalJORGdvaUl0aFc1dGpsZ3BlQjJSQmtqaWZ0QWQydVRIU05zNzhaYXd4dVdCWml0TzhSZkg2UUs3MVdCZkozaXAweTdISVVzUzQ1bjRoYjJxSTBVb2FUYkw3STVGM0NpX1hYbEh4WlQ1UnVIcGg2TG9XVGFGbVRBT0RhZThv?oc=5"
+          },
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMVVpMU5GWmJOWjg0emJHX0FBWTMyT2hFS1RrN3NhSTEyWU8xb0xOS09NR1A4NDZCQnM1Mko2Wnd4YkdTc2FYOXBYdlFHNU0yWjRNOGRoZUh5YWpac3BDeDZDRkM4VlV1Y244TVJWb2g5OHdGUDIteWFzMDdaWDh2TEU1QXNWX01qVkZTNG1VcnVxOThJaXlMajJuaw?oc=5"
+          },
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObHJfQm5ETDRHcXo0ay1fVmd2UWxGbVZPcEowLUctYXAxR1hFQXJmXy11WXJQX3EtSVBIc2tQSjlLYzFPcWg3TWljZnpLQWxGdWU2QWsyZHNlcEpqTFBYX2V4SFZhREJFYy1BZG9MRGJqeHVfRVNPZEplZ3lHUG1mVHJGUWdKNG4tX1JPYW9UbG9wTERyZWlCMG5Hcml6clA4VHQ4OG1lbE96WFctVGsxRzEwR29RV3JJN3hrb09YUkh5eTdDWm1VdWdyYWtFaTV5WHpJNlBQU0ZHUGlHM1F0NEs2RFY4V0FpZ1RvbjhNRjVlZVXSAfoBQVVfeXFMT21Kd2FJMjJveUVqLW0zRnBtWG02VjluR1I0Q0VMNW8xelo3NmhZNERBX0NMc1dHV3diek1NeUFlZWdMVW96ZllqOVIyS0lzaGpSeC00d0JjZFJWeXVXN2stZ0M2eDNUNVhDR2d3dXZMMjRmYWpLUGE4TUJlR0tEMHRhVzFHUkk3RFhhTktNRlRWYzJmbU53cmpHdlVCN1VsSXg1Y0RzbzVQb0JTd1JGZGZzX0JVWW9GZzY4NVZJaGlaSUktb012a1FuQ3o2NG56bkNjMUdnTlhYVVVEUHpVcXgwRzZBS2VsSUJkLU82Z1dyX09sZlViRzdPUQ?oc=5"
+          },
+          {
+            "source": "ThePrint",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORkhHeHJhWkE4QUVPN2owUE9BNndxVi1hLXlHMUdxenRuRm13LW0wMWtidUNrbnB1eXg3NVlQLTVONy1PNmRCS1UzLVdseXZicXp2Q1RzNlpEQXNYakg4VHZOMk1oVy1NRGs3TWlKeEdwQkpqanRtc0gtd282VzBUMzFMa0NWRFZjajdONTRhWDItY1RJMFHSAZsBQVVfeXFMTm5kZkRSWndkcDd6aDBnWnRlWE9IZ08tMGVLQVgtZk1BWUxDd0VYWWowTkZVNk9kSFlLQ3diSHhIY3dTUF9sVnJvZTlMRFBPR0FYN1JrMFJ2cm16T0UxeG5teWRqQm50MTVaWEJiMHlrNXdTNzBMVHVUdlhFdGpCWDRqUlpqbHpzU0s2UExuUUJlbHdYY2NxeXdnbzg?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:47:44+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 7.28
+      },
+      {
+        "rank": 5,
+        "headline": "KIA Bengaluru flyers to pay user development fee from Sept 1",
+        "summary": "From September 1, flyers landing at Kempegowda International Airport Bengaluru will have to pay a user development fee.",
+        "why_it_matters": "A KIA UDF rollout is the first Bengaluru-airport user-fee hike since the new terminal — read-through for airline-ticket pricing on the Bengaluru route.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObHJfQm5ETDRHcXo0ay1fVmd2UWxGbVZPcEowLUctYXAxR1hFQXJmXy11WXJQX3EtSVBIc2tQSjlLYzFPcWg3TWljZnpLQWxGdWU2QWsyZHNlcEpqTFBYX2V4SFZhREJFYy1BZG9MRGJqeHVfRVNPZEplZ3lHUG1mVHJGUWdKNG4tX1JPYW9UbG9wTERyZWlCMG5Hcml6clA4VHQ4OG1lbE96WFctVGsxRzEwR29RV3JJN3hrb09YUkh5eTdDWm1VdWdyYWtFaTV5WHpJNlBQU0ZHUGlHM1F0NEs2RFY4V0FpZ1RvbjhNRjVlZVXSAfoBQVVfeXFMT21Kd2FJMjJveUVqLW0zRnBtWG02VjluR1I0Q0VMNW8xelo3NmhZNERBX0NMc1dHV3diek1NeUFlZWdMVW96ZllqOVIyS0lzaGpSeC00d0JjZFJWeXVXN2stZ0M2eDNUNVhDR2d3dXZMMjRmYWpLUGE4TUJlR0tEMHRhVzFHUkk3RFhhTktNRlRWYzJmbU53cmpHdlVCN1VsSXg1Y0RzbzVQb0JTd1JGZGZzX0JVWW9GZzY4NVZJaGlaSUktb012a1FuQ3o2NG56bkNjMUdnTlhYVVVEUHpVcXgwRzZBS2VsSUJkLU82Z1dyX09sZlViRzdPUQ?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcGp3aDlJNmw3MjQ0QTQ0bThOVHNPM2tJdktWREFNN3Y1TEl5ellXYTJFcUZkUUZnYWZsdThxR3lZYjU1YVdnd0xxSGFUQXZhRU80cExNV1MySnlKM2pmdDRFZUhpVEJGenRoWEdKU0dvd1RySTU4bHZDalR3UFA2V0tNZjJ4WDhnTmNwcmdicWhPelE1dTJxQXBLT0dZN0tfRW9qTHBNa2pieHRkLUVOZ2pKSXd5UzN5NFltMTBfRXktalVEZ3I4UklBVnZQQjhhbGRtZdIB4gFBVV95cUxORXF6X2tCd0ozRXA2LUZXbklISWViLUhDSlFZeUp1Z01wd3VNRVkzay1UNUNndEMxa2w4cjl0dllsX2JGZUdzWldRTkFHUDRlY0JoVE5OYWJURG91Nk8weEZKZmstNTJlOVp3ZmczWllYdlA3NUxXU0hjVVNBS0JGa2J0RGRuRnR5aDRWWnVGTnBpbW9CSkNBckJka2ZlNVRlVlFBU2R0bTcyTlRBMEhSSVEyWUVmSEk4VnRfRno0TkxDZXk3ZEEzeVhfNnFKNXF5ZEhsWEpvRlZKYWtaa2JRTzFR?oc=5"
+          },
+          {
+            "source": "Daily Excelsior",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbllqNVgyV3FRaVpoMUZLVEJzN21FTV9ocG1Za2RkbTVac3M1aS1hR05renpvd0dBRDRFM0x6QmhBWDVOWjF4UVQ5Z3h4Y1htTzBmUXQzR213RHZwOHlvQmFSM0tOQk9ZYnlzbVJWMlBOWjlva1V6MlBkTjA0ZG50T284bHpkNnJfS0poV2ZaZzJPTnB6YUhRczl1REpNVlRmbHRaWnNFZ1VSR09TTkJXemtoX3VXOGtNdkdXNNIBvAFBVV95cUxQbllqNVgyV3FRaVpoMUZLVEJzN21FTV9ocG1Za2RkbTVac3M1aS1hR05renpvd0dBRDRFM0x6QmhBWDVOWjF4UVQ5Z3h4Y1htTzBmUXQzR213RHZwOHlvQmFSM0tOQk9ZYnlzbVJWMlBOWjlva1V6MlBkTjA0ZG50T284bHpkNnJfS0poV2ZaZzJPTnB6YUhRczl1REpNVlRmbHRaWnNFZ1VSR09TTkJXemtoX3VXOGtNdkdXNA?oc=5"
+          },
+          {
+            "source": "Deccan Chronicle",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZVQ5c2UtbEFzWXNrR1JRbXZyMHpqQjUxRWZvd0ZuVG4yc2VrMHpWV0RPMExGcjQ1bWNZTHVOYkIwM2pTUFJOWmc3UnZUcTRpdWxCVDk2ajVzbHA3b3dIQ0o5NlJpeF9HMm9OalBSdnd6RTBNLXNSelQ4aVp3THZINVBKLWtYQUpDSkRha25KUzVqNFNBb2dLbFhfTzVkSVZ4SktjSUlTeklGV1ptQ2t2WHNBNm5YejMtZGNMZHoxV2Nqdk04QWNFakNhNjM2V0stUEHSAdIBQVVfeXFMUGVUOXNlLWxBc1lza0dSUW12cjB6akI1MUVmb3dGblRuMnNlazB6VldETzBMRnI0NW1jWUx1TmJCMDNqU1BSTlpnN1J2VHE0aXVsQlQ5Nmo1c2xwN293SENKOTZSaXhfRzJvTmpQUnZ3ekUwTS1zUnpUOGlad0x2SDVQSi1rWEFKQ0pEYWtuSlM1ajRTQW9nS2xYX081ZElWeEpLY0lJU3pJRldabUNrdlhzQTZuWHozLWRjTGR6MVdjanZNOEFjRWpDYTYzNldLLVBB?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:29:46+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 1.26
+      },
+      {
+        "rank": 6,
+        "headline": "Bengaluru man body-shamed on restaurant bill, company reacts",
+        "summary": "A Bengaluru man was body-shamed on a restaurant bill — the company reacted publicly.",
+        "why_it_matters": "A restaurant-bill body-shaming row in Bengaluru is a viral-civic moment — service-sector customer-conduct codes are now being tested in the social-media age.",
+        "sources": [
+          {
+            "source": "India Today",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOTUwZVU3eWFmUU5oeDZQQkszQ3ljdXhaanVsSXpWQzZGdHFqODliNXNHN3dhZlZreEtERjE1S01WWEdMazM5dzZHWlhmamNRbjBucGluVGxCbU42d0hGdW1iRFVsQVhSQTEyOEVudm9uWnZDUll0b1Y1RWJkTk9fZm5jV1ZZS2pvRTNNTHdsOHZudzBJVWdDSDlQVE10eUc4Z1BMalRQTGJRLXZCbGN0QlBlNGFGZVIxQWplS1NGT2lBUlpVd2R5Z2NyRzczd0XSAdQBQVVfeXFMTXlwSk0zejJWQ29sVERCZkJXOUl4X2IxaWlqNzVzRzlYVWZFZ3pZa3hBanFMN1otWHJIWTBKc1BTSFlIUjNhZlZ4dXB0dkdQQzd3ak5HZjFrWDJGaVlrNWlpbWZMSUJ1ZG4yS3NqOWJiWmJ6Z3owY1JWSWJwNldTcWVOZFVOd3BlQW9jN3p4LXZVOGRUbGlaMTJpNXVGS3B5WXNKRmFaekFoc2tJLTh3SVVNNGxzcXZieER1RWdVTldOSElSZzdwcnBPTDN2eFowVTE4UUw?oc=5"
+          },
+          {
+            "source": "femina.in",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1QyVHY2S2I5Z1ZSVFZCVXpieHpWb3RndkdBLTlqTU1YMVFPT1hZZjBiWkRyOGtTY3pWTHpuTklVcDFBZmlnNWNKcGlzWFdwNU9rTkxXbnp5SDUwQmNSNVc1Q2pMUmtIZGpvOHE0VzF5YWk2c3lySVpUei1nZDVtd2lCdjUyVnRwcXFOWGlGb1RVWHdWMXFSdkVFNFdVZ1RsbEtDa2dQb9IBpgFBVV95cUxNbDlEd0IzZ3FPYWFpRHNvMHJyZnFOZEF4OU1Vd1JDUl9fQjdJYkdCTkU3MTJpaDVWTG5UemhESnJDNW00bTFlZW93MFlnaGRjVGdXeFVVYzdGbi1Jc3VveHNRYlNiZTZhYUxDY2toRHJFMTBSZnJyVV9BU3MzZlpITHBIckM4WU5XR2x4Uk5XYW14aUV0WktXQ2xXYklWN0s4NXhpQnVB?oc=5"
+          },
+          {
+            "source": "Chennai Patrika",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNk41bWVYdERHZ1hXYzhTOXNSTkh6X21oNl9Sek02cjZhblNFVmtPc1dHam5ZamdMa3R4V0NJcl8zcDlFal8yWkxBbFNIWHVrcGFSUG5aUmlqNXhHalA4dFRBNVhEN09GNG5vcDg1Rm1vS19HbW0xWE1vR2dwY0VWMTZ3REVGSDFjNG5jQWY3cVpqWTI5YzMzUGVQUXRRZk9Fb2FDbkJpaUpyd2w3MTRhRXFOOVVuemVUQ0tn?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:47:44+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 0.98
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Chennai Metro train to turn concert venue for Madras Day on Aug 22",
+        "summary": "A Chennai Metro train will be turned into a concert venue for Madras Day celebrations on August 22.",
+        "why_it_matters": "A metro-as-concert-venue is a creative Madras Day programming moment — transit agencies are now cultural-curation partners, a Chennai-led model.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQnFBTTRodE5xUjFaWFBsSU1SbWNUMmlOdG9RLWZtQklzTjdtWk8zYkNuaUNibDY1a3gycndqQWN1bGNFc1dLbDFtYWNYczZ5Vk1yV0VUQndzWVhnMHEwMFpPN0NYVzRiVTZOQzNJeVhVVmVUZUYxQXluMThxSkdCZjRZVW1UNzVlYVkzOFlNc2RhMXJMRHFfSllrT0VBZVFaaFBMRFM4UGk2NXNuNTZF0gG2AUFVX3lxTFBOaVptT1otcl8ya18zU1F3blpZMzNLcFlqbUJ5SEh3Q1A4aVVfOE1fYnA0OS1HeDQ2bkM1WnhZN1VtSEZTNTBsZWk5UkI3SThqQTBoZk1aWWlIdU41TUdBQ2R4ZFktemRTX0MtRmdpRHNZTU5zRlB5R0dvaWpmY3BxQmk0TmR1Tkk0ODJ5VFpTSXM3VkZsbHlmcV9KMkpqTVh2UjlwR2lyQzBvSXlCRlp2RlVOVXpB?oc=5"
+          },
+          {
+            "source": "Business Today",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOVWdxWnNqZXhmWmJsbnRNbU9RMjl1dkdTbjRhR0VvYWJVUlJJQjBZS3NqSjYyMklqX2VfcEppZjFKZFVPWkoxbFhvdTh1SmotbFBIeUh6ak1PeWhGdmNKQ2Z6Wlg2R2hiaEFETTZyVEs2d1pIcDlKdWk4RHNKbk5lamxuRnViUncwZ1RQYlNMYS1UQXVwZzdFOExJTGxJb1RqcVh1THFNV2tRLWJtb3drOTNLREdoR1V5N3lvUjZZS0MxbThHTzNab0k3TWFUY2E3T2xKZGVLTHVmdlp1Y0hUODlmX1FjX2N6b0VJc3ZSNkt1T3PSAfgBQVVfeXFMT2J5OUFEeVNWdXM5OGhJX2ZMRXNsM3ZWSnpBc2JXdDBsSmpXUFRjdlRUNGNPRFkzaUZLS0xjeHVOb3dLTDRUOVF0RV92d2MwQjlCSmsyM2pvdzZSZTRHZFFhUHlKVDZFbFpwaHhIZ2tGakRlNGc5aUhqcDFxQlFFNW5JMmpHaWQ1ajd5RzE2WVhxTzRGWG5EWk1LSWExWXRUN0g4U2s0ZllmcTh3NFNVdjBMSmhSclhxVHhVRHlUdUw5OEhXSVM5SGx2UUkxbnh6QUs1SDl1ZkFmbktLR3FibGp5S3NCd09yYVJlTGNGVzdqVkJhX0NIV2g?oc=5"
+          },
+          {
+            "source": "NDTV Profit",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONWtOLTR2UDNEZXpqVWZlbWxpREVOMzhlVmxUNjZCTWVTY2I4Q0xvZUNNOTdkbmQ2dTBfUlhEczRlanp1T2VTT0haX1pydmNnNU1sNFdvdWhKeTZaZFpWZjZZaEF3TGVuQlp4RHBpU2Y3QzIzdC1BZGxSTFJpREJzY2VacXdkVEpJVHd5UXFrUE5WTzUxOC1qVlBWMlQzZU9ncW9EUzR4VXBDeW1SQTlJeDRUOVp0bGxSRlhQY0lkSEhyY2k4UV83STFnQ3ZVblhLeW5idW9GWjJNRGfSAeMBQVVfeXFMT0JqUDVWQ2cwSjJ5eFZ2TkdxdHlhOVVUTWE1aWp0cHYtWlN6ZW5pbHdoMnZXRzdWQ0tNZWhUVFZoOWtsbmIzYmE5dzFtSXozam5TTzd5Q3JaOHB0ZnRDYTB4bGhzU3FYRi1uR2ppOFJjZEdLQTZQVFpQUmVHLV9STEhDTmh4VW5PbERwZ3NTOW9tOEk1RE5JVGFOcGIzWFdpTDdneG1ZWmQ0bjJtUnZSQ2gyYzZxMVozZmVCeUo4M09IeFpaVG5XX1p4ZEIyM1Myd2h2bmtHT0dqUjR5QUp4MWxsZDg?oc=5"
+          },
+          {
+            "source": "LatestLY",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNTZfR3R2LVIzVlZhYUhlTk0zYjlYNG8yLW1BUUJmaTRNTlFOb3pVbTZtUGQtajJISlRDUUVQeXdwVmVKeHg1cXh5QjFEVGRCUXhTd1NqX3dCUGhIdjhWYWxmenNUN2Y0R2ItWEVwOU9BNGJaNy1idzZZWC01TlI1NlJydkYyNDlMYU5HTC1HbHNWdVFEalF2eF9uUS1QanA3ZVJPTWpqaGJQRTVjbGdMRU1VdTdRZzVTODNROWRGZWVVTmFfUlBuS0tuelBmbmNMTUNRZEVMZ9IB3AFBVV95cUxQb1ktNHRVdF81bWtRZ2RrTmFUR3c0dFM4VjdUckk0MDBHZmk1UUk2Y2VuMW5RNDVSdUZtUVdCSERWQTRKbDRkZmxRZklUb0tLMFlQYXppOW5BVGYzNTVsRHhCc0xNdWZmVHNrWUpLNmozTDZUdTA5YkhuaGV1bGpFYXlybTNvekxJSkNoeXFQdFNrUnJLdldoQjRpTUZGNUg3SWFKYmtrSHpJdkk5UVhMczJmVVFQQ1p2YkltZ0Y0ZUZQekpEdFBJeTU3VnZRbm9yX0l4WTJ3LU5pSkp5?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:22:31+05:30",
+        "region": "Chennai",
+        "confidence": "high",
+        "final_score": 2.24
+      },
+      {
+        "rank": 2,
+        "headline": "ADB signs $230 mn financing pact for Chennai water overhaul",
+        "summary": "The Asian Development Bank signed a $230 million financing pact with the Indian government for Chennai's water-overhaul programme.",
+        "why_it_matters": "A $230 mn ADB-financed Chennai water overhaul is the largest multilateral water loan to a metro this fiscal — read-through for Coimbatore, Madurai pipelines.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTHZmODlHbmZPeHhqM1k2YVc3NGRtZ2lQbVVkMTFlc3U5ODUwOTZ6dExVWnRLMVhNc190VHVPS21Pbzk1Y1oxYUJhc1MycVE2X291cl9INndWYndkcmZJcFhTUWlBN19tYWJPQmpTTUd0Zmo5UHRQVUJ5RmVMZ29zTWZESFlaUW1MbEt0OG9pcklPQmo3NFF4NXZpakdNdlJvclZ2NW9YQVJBNzR3bUZuVDB1ZjdPeW93S0dQQ21IZVI?oc=5"
+          },
+          {
+            "source": "BW Businessworld",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVUZKaFA2NWdMSlMxcVA0cUNrTVk0eGVydDh5RnJ6YkJyWkxfSjFwQjV6TG55cjAxdkFHdEFwblI2dVp3R0FDdDVNcUc1ODUzRExxREhYeGIyNWEtLTRWV0Z0ZmlvYXNTYl9xU1dHNVdPTURTU3c3TjA3enlSRk9scHEySE91TlV6X0VNN1otMFpuU0ZuX2FQR3J6WG9WWGlpZ3ZYbFpaZjZOTHZLNFRMZ0lR?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:20:04+05:30",
+        "region": "Chennai",
+        "confidence": "high",
+        "final_score": 0.84
+      },
+      {
+        "rank": 3,
+        "headline": "Chennai Port achieves landmark milestone in automotive exports",
+        "summary": "Chennai Port achieved a landmark milestone in automotive exports.",
+        "why_it_matters": "A Chennai Port auto-export milestone reinforces the city's auto-export dominance — read-through for Kamarajar Port and Ennore logistics.",
+        "sources": [
+          {
+            "source": "Maritime Gateway",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUy1aZ2tnT1BKcjFCb1UyR3dIQWJCWllYVC1YWlcwa0V5d2t5SHQzRndmRHJGQXQ0RnhXb0RqanhiczI5TFh4ZU9YTGNoYnFkMHpjNVQwQUZPc3E0ZHlxaTJESEpaVUVHQVJnTDN2UTJ3X0tsSlZWejQxSGJjcXJINnJERkVmc2ZmZmFDT0hHOE5oX0l2X0pnTVotbw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:11:36+05:30",
+        "region": "Chennai",
+        "confidence": "medium",
+        "final_score": 0.32
+      },
+      {
+        "rank": 4,
+        "headline": "Drone survey of 44 canals in Chennai begins",
+        "summary": "A drone survey of 44 canals across Chennai has begun — part of a civic monsoon-readiness push.",
+        "why_it_matters": "A drone-survey of 44 canals is the first AI-driven civic-infrastructure audit in Chennai — read-through for Hyderabad and Bengaluru stormwater grids.",
+        "sources": [
+          {
+            "source": "Deccan Chronicle",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUGVqWjZGcmh2QlRzd3pERGNXRGFUZmR3QWhWeXpUaXg5Y05RV2VEZmlkaUZHa29ZQWJGYUl5M3BrMlFDMWVTazZuYjA2VV9ETkVPQnhXb0xZTTZkY2FVSVdOdjcyM1F2QlRxc1JBSGFsR3BqQTVGMW9VTjVaNHhRTVhTNi1CVjI2N1k1akk2bTFJYTcyU1piRzJ5QmM2NzJKNjBZTG5HTENZYU94Qjln0gG0AUFVX3lxTE9lTEtYSTZLX3ljd29jbDJVNkRTd3JtaWt6RnFGOWoxVWZwNk4yQjcyZEtFZXhTeXp0TTlYMmh4N3hRNWQtcktxOG9JS2lpUTFzRzhEaE1HbUFBMW0xVUIySVFNTHFvY0wwcUZ6RUJac2JRbS1hVTNNcTZZSE1taTNET0MtdWxUamQ0N0J6eFhDMWF5Z1NTWUpMNldHSzkwZmdxVnEzXzRMM2diMGJlQm91bk41Yg?oc=5"
+          },
+          {
+            "source": "DT Next",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSVlRVEpsaVNXSGRVUG0zcXpQaDNVWUxiZTdfaUg2enR3X1R5alRGNjRLMTdqZGNWS1p5WmJ0eUxPM3JqY3RIM21KbzJXRzc0SkdnRjdQWURNb3luSWZwMnRtMDYxZElUQlJuTkdwYXJjcXJCUEVzVE5HUjZfcVhuY0dKd0FjOWZpX2pNRTFaQkx4VzdXdjRXSUk3Q3dEaXdJU3p0UFp1V2tCY1Fwd2pFYXRKa9IBwAFBVV95cUxPdGFCMXlqYkIyT3ZlN2RITDQtUWtUam1LVmRnUGZRVW5MX3c1ZllRUE9hN3VVci1fWWE4d2xRX3dDRk1qMFpFTTNaMzRNb0JtNGh3UE1ILXQ2VTcyLUkwQkpoUWctaWFZcFh3cTJfLTc4c3g0R1NleFpBN0JGWjRkVlRwQkpfanRrMF9FUUhlUVlYUGFPUE9MUWNrZE1XdG0taFcwZkFBRUxMYmZiSWxmNUIyX1dnSmxLM2xuZk10T1c?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:19:15+05:30",
+        "region": "Chennai",
+        "confidence": "medium",
+        "final_score": 0.84
+      },
+      {
+        "rank": 5,
+        "headline": "Income Tax dept seizes Rs 9 crore from TN jeweller's SUV on Hosur Road",
+        "summary": "The Income Tax department seized ₹9 crore from a Tamil Nadu jeweller's SUV on Hosur Road.",
+        "why_it_matters": "A ₹9 cr cash seizure on Hosur Road is the highest-profile Tamil Nadu jeweller-tax-haul this quarter — read-through for Hosur-Bengaluru border cash-flow policing.",
+        "sources": [
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbktveUFYcEFYZnBwdUQxWnFrbkZVemdQcTU2WnBqUW9sbnZoRDNpOWVSNHNVR1NVZkxzUmxMYVdRNWROc1JLRVZCMmdGTmFvNjQwdkJwMGtQZXZvWERYSEJlSW1MTzRGZ2szSkJNRDVKVEkwU295OW5kMmFPTFpuSUtZeENxM3Y2R05JdG9QUjNicWdPaDA5RURMaThsTDNTcTRoRVRPeDBIVGJvV0twcXJ4clRqX2tGQXJEUENCMU1EUE1ldUQ1VHVaRTNEekc1RmY5MXc4S0rSAdgBQVVfeXFMTW5Lb3lBWHBBWGZwcHVEMVpxa25GVXpnUHE1NlpwalFvbG52aEQzaTllUjRzVUdTVWZMc1JsTGFXUTVkTnNSS0VWQjJnRk5hbzY0MHZCcDBrUGV2b1hEWEhCZUltTE80RmdrM0pCTUQ1SlRJMFNveTluZDJhT0xabklLWXhDcTN2NkdOSXRvUFIzYnFnT2gwOUVETGk4bEwzU3E0aEVUT3gwSFRib1dLcHFyeHJUal9rRkFyRFBDQjFNRFBNZXVENVR1WkUzRHpHNUZmOTF3OEtK?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:19:00+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 0.7
+      },
+      {
+        "rank": 6,
+        "headline": "Sivakarthikeyan reacts to 'Future CM' call during Chennai event",
+        "summary": "Actor Sivakarthikeyan reacted to being called 'Future CM' at a Chennai event.",
+        "why_it_matters": "A 'Future CM' tag for a leading Tamil actor in Chennai is a soft-power moment — TN cinema-political crossovers are back in focus.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMDZMUnpmSmxsRUJzT1loUjNVaG9UZ3l0RkZjSFpTajZIY242di12VkdUNEZURU9yWmFGaG1hOXAxaHdtUDR5ZzdPRmZETGpIcFU4Y18zM2FLMUNoM3RUbkt4NDNFTmExVHgxQjRtYUlpOWJfbWtsVDZCNkI3Y3Naal9ic2dCNmdPUFl0XzJwVkhocnZnN1RUVEIyY211eXVrVllTNlg5SmNjRV9CdzNVU2c4ZTdEbS1RNHFoU3NUN2JUbktERHdhTFFDbnN4RnFnUkppLXg4dUNpbG9MeUlqOUc4aWM1M2UtVDJv0gHwAUFVX3lxTFAtYmxORW9GN0JiVjZaejYwTVEyZVg3amxfcE80TXJaMGZ5NzFtMElNaW9TbDVWV0ExYTNPZVJBd2ZQYmpPWWN6SlNiU0llT1oxbWtIYTBtbmVnSEd5MXNmNWtlM1hnZms3ajdVWDZ5bVZjMlRfLVJVVzBDQ1U3a19wbVY3VGx6em9HQWNNdDRQMWlLeDZlT3l4a2pQODFxc0NlbHhSeUpxU04zVDJDVDViY2VHV0tscUV2czhnLXBENDRaUWQ5MzEwbjBWU1pEZ2o1X01ORGRCeE5RX05nSkZLZ2ZVWDczb0k2NkpWODZHTw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:03:00+05:30",
+        "region": "Chennai",
+        "confidence": "low",
+        "final_score": 0.56
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 2,
+        "headline": "Mumbai's new bridge could cut a 90-minute commute to just 10 minutes",
+        "summary": "Mumbai's new bridge could cut a 90-minute commute to just 10 minutes — NDTV reported.",
+        "why_it_matters": "A 90-to-10 minute commute-bridge is the strongest single-infrastructure-commute test for Mumbai this year — read-through for MMRDA's eastern-corridor expressway plans.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkt2cVRWa3VxQ0RQaGQ3NTYxcjNILVROYjliYXNtNDZyakNXYWNIZUQxWjJhV0RLTzdTQVY1NkZpRzBMc0RiVWlyMkJzdUdPc21yS3l2SmpPOTRMZ2p5SzF6aF8tNnpCWnlEQkIzN2hkT0pQQXpaYURLd1IySG9VdWo5RF9pZVo1RGIyb0txUTB3RU9qcVRSQ0p2MHVBM1BaX2lSNS1JMNIBrwFBVV95cUxORWRpbUM3dEdKMlcyX254cnpIS1NINVhyQnJLaTl0bkJzUTBOeUg0aTBBamdNWnhFeVd2VTFvajMtaVFrWkVtUGlZcXlYU015NGZoVmIyTXRpUzVQYzhzcUlGa2hzVHlMdEFXTXhrRWxCRVc0aXdzUk4zM3gyUW1mOHFfbmEtQU5NZHIzbllNb1hTX3FOMDUxdVFrNy10X2Jfc0lDa0NTVVk4VUFYeXhZ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:27:58+05:30",
+        "region": "Mumbai",
+        "confidence": "high",
+        "final_score": 0.7
+      },
+      {
+        "rank": 3,
+        "headline": "Illegal dumping threatens Aarey Eco-Sensitive Zone, Mumbai",
+        "summary": "Illegal dumping of debris and garbage is threatening the Aarey Eco-Sensitive Zone in Mumbai.",
+        "why_it_matters": "An Aarey debris-dumping alert is the latest test of Mumbai's eco-sensitive enforcement — Metro-7 corridor and Tansa wildlife connectivity are now in play.",
+        "sources": [
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWk9kV3FWNy1hMXlaeG9SRDhoT01QRHpVZHlscVZYcEwzWU5lZlgwU0VXd1N0ampzTEhYRm12cEJYeFNoSGtieXlqMGx4TUgwN0dxdmNRSVZjSFZOSDhpcGpxNHZ3Z2htVXE1dnNQNk9RZ2ZEaXAxSkVZazR5cGNLWnJ1LXZoQnJSekFlWUxfNGtlTzRwYllJcTdlbkdhOGNNbl9XbDZmbDcwVHdoRUh4SnJGdXh5MmJvbERZT2pKc9IBvwFBVV95cUxPWk9kV3FWNy1hMXlaeG9SRDhoT01QRHpVZHlscVZYcEwzWU5lZlgwU0VXd1N0ampzTEhYRm12cEJYeFNoSGtieXlqMGx4TUgwN0dxdmNRSVZjSFZOSDhpcGpxNHZ3Z2htVXE1dnNQNk9RZ2ZEaXAxSkVZazR5cGNLWnJ1LXZoQnJSekFlWUxfNGtlTzRwYllJcTdlbkdhOGNNbl9XbDZmbDcwVHdoRUh4SnJGdXh5MmJvbERZT2pKcw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:14:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.7
+      },
+      {
+        "rank": 4,
+        "headline": "Maharashtra SIR: Bhiwandi East, Colaba, Khadakwasla report highest uncollectible forms",
+        "summary": "Maharashtra's SIR saw Bhiwandi East, Colaba and Khadakwasla report the highest uncollectible forms.",
+        "why_it_matters": "A SIR uncollectible-form concentration in Bhiwandi East, Colaba and Khadakwasla signals Mumbai-Pune voter-roll revision is now a city-level exercise.",
+        "sources": [
+          {
+            "source": "Live Law",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORTA3bzNkOFNKVjJoM19fWWlaSzg3TEJPbmp6SUl6OFlxQVhLVFpMel9jUWNsRnJCWmphRUtkcUlwTHhSSmdUd3BLY3dvU245X1Y3dmQ0c3Fldy1sNXVPRnNDbk5LMWxYMTZ2YW1GeUU1ZmFCRXh4NzNLaU05bUwxVHRkZVZxcUFKTUNzSlJOcmhiMDdGQ1k5T29PckxEYmlIbGoxTl92bDZ6RUtBcjRrdWlTdDhaQl9Tb011YUx2TU5GbDZlVDM5ZWU0bGpxVWtiUkcxQlZZbk1FQWVPdzhQXzM2aXBCdk3SAewBQVVfeXFMT3FDY0V1TDAzbDE1MV9ud0s5cVFpMExaQTNOTEFZby1NTzQ4bWFDYVVmb3k1UmpweXRoSlpsS0xLWGM4WmVTbUZ3dFFRQVpPWUU3RGNiUm1GWjJadUVzUkxheVl5Qk8weVBRNG1aOWJIaXRXeG0wdUpMdnFKaU16VGktZEo2WEhtMTVtU0JfakpmckV5Y3hVa3pDazRPbUtKQ3ZZS0NfTGZCTmExU0Fsb1NfSHpmUFpiN0NNY19lUEctR3l3aFRYTjI3dGg3OUhVRUNJbV9RQ1hEbGg0ZW9rVVBhNTlpZGpWVnVYVE8?oc=5"
+          },
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOS14X2RldzhVMk1qSjJ2Zm1lY21CY19KSHFrWW5uc1FUa2FXcnZCWVhEUnR4b0pKaUcwbmtZVHVzUW9UaGNPTTFMZExDYTNZaEk1aGMwZU9sc1ZTTGNacFVTUWk0MjVodC1oUmRmZVhlNnJqa1pjR3VJTUcza01henozU0ZyNTNaUDRZMkE5dUVXRk4xb2plY2xyS2s2V0NEVTh3MVNGSExPU2YwTVowSGZNcktjY0tPLVhpQzYwNW1PSDlKLWlqVGFvT3NfeEl0RVBCM1ZB0gHbAUFVX3lxTE9FT3l0TlhWOTdDb1RJY05rZ3VYdUs3TjQtX2hHUWFGLUt5U3NhSmZxNmhmOXF4c2s3U25qR0dWNWdDQ1RENGRzN1lFY1Q1bXA0LTktempaMi1qMU9mYkwtSElJRHJrdS1paTVzSEdsd2NFb1NhR2VKZnJpS0c2SGc2QUhESUltS245bFRRVWtyb01Dd0E0N3R1RVNGZFg4WnE1RmRxUlFJMXhnSWNPa1JVTTFOT2dwVUgxUVdXYmUtSTRHWkVKWEVuN0hMOFcwNlNyYzdfT3ZmQUVfRQ?oc=5"
+          },
+          {
+            "source": "The News Mill",
+            "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUE1hYzJ1U0prcGxDcl91NzI2NFd4bmFYSVN5NldQOHl4VDAtd1FXa3YtdEREYjZLUU5aaWlOZ2cwVkZxZ1phTUlhanREYUEtY0NGTmZnUlBzSkZEYXdQYmVJWm9kZ2xKbjVqQmVfTWh1MTVMbnl1ZTRjQnAybVVlVnZmZGpJcDIxcUhpbmd5R2xmRlQ5TngxTWJTNnBMMTVaMkpmTDB5Y0dzME1CbHJhUGpBYWNrYUFkMTB6ZVZ1OUJ1QV8wWk1ITXZOVmw0Nnctell4RkZnaC1Lbl9JRGVLZjlZZWNqQXBEczI0cA?oc=5"
+          },
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeFh5cFNBSGpBQU1PVnpIZmlPWGFPMzNhcDVNVFV3b1BmV3V6Z3RRR3BrYzVFMTd4UVNyb1dRQVpGZlE2MUlPT0ttN21hdGVVNElXZE1XVlVJTThfSFV3ZllJTzR5OTBsYWdBOWRreWk2TmFuaHRBWTk0WlYxbXFteHFLUEtmOUR3akdyNF93RnNkb1djRVh5cWt6V08xMUgzQ3FBeWZac0FiSmxMSWhFWk9NT3E3d2YzVlUtQjlDTlF4cWctTnQyNlh3WWM0dGY1RDdaeHl4OGE5LVA0M0RJLXdR0gHnAUFVX3lxTE10Q2VEdjYxbUt1TjJkQVZWdWFmZW9tMVhkUDJZVDd4NXNFc1NMSjRKXy1TczlPbHpYR19XRjJFOU10NGo2N1JLcWNyRWNrRjRMMEFacHJNaUR3MTlIdU5Wa25sd21uR3RYcWZ1VGlmNG5rSXNZZWpkcVdTM3N6MDQzVVd4WkgtTWxuazNjOXEwSms0R2tWWEg3SnpEN2g2V0ItM2tITnNQbXMtMEk3VnNJRFpfNUtBQ2dUUXUxZkpnbGVhVFJTb3FHcE1DZ1ZMOTR2Z2Y3c0xBMThvU3l3ZlZONmoxTHRTaw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:03:12+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 1.82
+      },
+      {
+        "rank": 5,
+        "headline": "BMC clears proposal for coastal committee",
+        "summary": "BMC cleared a proposal for a coastal committee — part of Mumbai's coastline-management push.",
+        "why_it_matters": "A BMC coastal committee is the first governance signal for Mumbai's coastline-management framework — read-through for coastal-road and Marine Drive erosion plans.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXk2aVhLMHRaajhYYjRZd2VmZGVBdGstbHFYWXg0NGkwaGtiZFFCNTg4ZHpYSC1CakxhbWYzMXB6dzhIc090TUVoOG81TnNIWXp1al9Gc0lFRmJkallZblVsUXBvUElFQllIdlh2N25QU1BiblYtbzdKZjRfN2F6dFpyRnFFdVpYTTl5R1d3X1NPYi1UMUtrNTlqeFQ2ZmtTUHhKOUJIZjBwU2gyODNCMzNR0gG3AUFVX3lxTE91c1hOeVRFZUM4ak1JakZqX0M1LWJOMlE3WTZwQ050dGdWWEJNdEFUWlFCSk5NcG9qajcxWGNvd2NTOFJsS29IMFI3SzFKZVlqemNZNlo3YXRHRC1ULXlUNUxHTVdPTlY2RF9EQ3BidlJDTHdnU0JkM1ItdzZRblhFMXd2QjJMXzNvRjZyTV9NVDJFc19DMVlLajdMZEd3cDloVjdqRlJla1RzREhIc3duN2ZJNG5Zbw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:12:10+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.56
+      },
+      {
+        "rank": 6,
+        "headline": "CJP's 'School Thik Karo' drive runs into BMC roadblock in Mumbai",
+        "summary": "Citizens' jurist forum CJP's 'School Thik Karo' drive has run into BMC roadblock in Mumbai.",
+        "why_it_matters": "A CJP-vs-BMC school-infrastructure standoff is a civil-society governance flashpoint — read-through for Mumbai school-repair budgets.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR3k2QjdjQTRsTFFESE9HSXBMV19sSWtkSV9GazBQSDRORjR3anNWVjZqOGxtXzRZOU5hQXhWMHUzM0RrSFJTUlZTLWNXbUliYlBrYWs1Tmw5YVJDcV9NZ18zOFZleUtmVDU0OVB2SWx2dUk5YzdXbDN5YjQtU1pqY051UnRYLW8wVElzeERoY25SeDFWbEZMeDMxYUNrbjFQbl9UcGdDSkl0WUxMYnY1RjdqYnJpcm92R2xxdmdoUdIBxAFBVV95cUxNekF4Y2tybjRremxqU0RaVzlOdmV1RXhEd3U4ZjBEYnhRaHVQcDR0bHNsWVN0bGx4X3lKMmhnS09DX01NMGh4TjVpZXBJcHZLS0tSWHVxMTU4NzYxaEdwUDhzNmJPQTNkU0d4QTU5OF9vbHdOdkIzZlNqblJSNksxVUEwN0lHWXBoYkpwVlQ2bkg2OU5LMmpZcGZlT3VkM0M5eVNSb2hFRWxVX1FYdHNiZ3phVmVyY2F3eE02eUNNaklQNVFZ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:20:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.7
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "SRH vs LSG, 10th Match, IPL 2026 — live commentary",
+        "summary": "Sunrisers Hyderabad face Lucknow Super Giants in the 10th match of IPL 2026 — live commentary on Cricbuzz.",
+        "why_it_matters": "An SRH-vs-LSG mid-table clash is a momentum-match for both franchises — read-through for playoff qualification math and net-run-rate scenarios.",
+        "sources": [
+          {
+            "source": "Cricbuzz",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbFBtQ05WZVp4VS03QWlROTZyTUJqTnZ0bi1TLWFITTlKODg4UGFoZ0dDZlhCd19XUm5fOWhsRlpfOVRCZllQVGdWTENFMUk0dXd1Z0NDenpiV1BjeUF3QUpjWTdsNEh6dHI2dWVuYUZnVHZRZTZtSVdocHNrNV9qenJRc3FRLTVRTDVXZFVLRUtpY3M1Zm9hOHNJM3hhTE1JNUE?oc=5"
+          },
+          {
+            "source": "Mshale",
+            "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52T3hvSDlla29MaGlORUxYZHNZUm83YWxYd2x6dUVKT0V4b2JEeWZveWRZaUJLbVVmNk45Z0lBSDlWWGpRS3VyNUV4dk5xSENGTkxPVFJaZkowQ2M?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:33:08+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.84
+      },
+      {
+        "rank": 2,
+        "headline": "Highlights: Delhi Capitals vs Royal Challengers Bengaluru, IPL 2026",
+        "summary": "Highlights from the Delhi Capitals vs Royal Challengers Bengaluru IPL 2026 fixture.",
+        "why_it_matters": "An RCB-DC fixture highlights a Bengaluru-IPL-2026 storyline — franchise valuations and broadcast inventory are anchored to marquee matches.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPcktMenBvOWZHWlpWcl9Kc2EzOTdOZFVJUlZqT1B4Q1psVEV4amU0TnQwTkFPczMya3JRa2hHOEFKNkYtdjkzLWE3d0lFSjRsRF9MM3pINXFzdERGYU4wdGxsM2JMZExGRFN4cTZXZW9JaWlwN1RRZ0FVWnJGa0hoOVFndzMybFg2VGJheXlwMjJxTE92aFRzMEZSMmYyeEJBR05FZkVIMkprWG8zWVRrSWNoY3h4elpGOFN5c1pmWk9jNmNtUzN1N0tOZ2tRS09DWTBEOFZ1dmNPMjdOQlJjLVA5Z0E4RW1IeHdvUVpXMmdTalFpOXVPZF9udDTSAYICQVVfeXFMTXBNZUZoZWVsNWtlWmhkczVONWVQemJBNjRQXzIwREFPNXJnZndlUHNPY2V6Q2VReElqay1DVC1uZXVIdmljQkc3a1N4dUVfRzUzZWptYXFwVzdNdTNEVDFjdkJLOU5kQzd1M3RQQ0NYZ05xTldCT3RYTmV6bE0tajFvWmhYMEFJTS0tSGxYMHB4ZzdrX0FrZzhQZmVWTjRvcjBFdnFOTTZsU2tlU3J3Mnk1RE1vNTdralNCMnAtb0g5Z2FXMk9DRGFFMllzUTVtZDUydmtNUXcydTJsSTMxWUdHRVJRNGxHQmdJcVpUOWlsZEhWbDZXaWFfOFVhLUQ0cHBn?oc=5"
+          },
+          {
+            "source": "Cricbuzz",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVlhwN3ZfbmNiZUcybTF1ZWtHVlpILWRhbW1BTzF1WmxoSUpScC1kTUNIZXJ4bEdXbGtpbWZ6dW16OEhvV1RneGpUcXhsOTBNYkJiMjNqSkpXSHVWaS1WcVU0ZlhEbnRPSERydXhrWTlqREdOTVFUREk0SzloVTFvaVJaOXEtWjdscDRHNGFETFNuZlo1SmNOaG84TlNaWVR1?oc=5"
+          },
+          {
+            "source": "Sarkaritel.com",
+            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdENtSkh1TWFXWUxPdDlwQk8waDZ6ZnBDSktvTjRad0MtRVo2LWxob3lub2ZDWGpERkxuNWN3NmV3Q3k2U0RSNEs0eFkzTE9XMHVWY281RTRodVRydmRibTg0THJiNmxwSFNiWlpXYnZYQVBrOEwzWE1BWkxqNTVMOTJHeW5rY1dJc0E?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T06:21:10+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 0.784
+      },
+      {
+        "rank": 3,
+        "headline": "Kuldeep Yadav skips India's training session before 2nd Test vs Sri Lanka",
+        "summary": "Kuldeep Yadav skipped India's training session ahead of the 2nd Test against Sri Lanka.",
+        "why_it_matters": "A Kuldeep training-skip is the latest team-selection signal for the India-Sri Lanka 2nd Test — read-through for spin-bowling combination in Colombo.",
+        "sources": [
+          {
+            "source": "Cricket Addictor",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdDlCb3FXZ0U1cXIxQTNaemNvenF1Xzc2blNQNFdiSTNocWxTU2FGOXllak1sZTc2V29Wb18xam5CelJrcDJfWG4tTzV1Wm1JaS1JUmxWajNQYXhoUHhvMTdjTF9yVVJNOFk1NC11dTNKQ0p5WmFmcmYxdjNWQktZOXZzRlFQUmxjRHYwSXlWS3RqVy11c1pnSjltakwwLTMzWjMtblpmeVAxRjZoTUNneEhYUGRNZFh5a3UxSFln?oc=5"
+          },
+          {
+            "source": "Sportsdunia",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVEpjeDFDRVlmdjdEbDdGQ0pSRC05M3ZSakxWVl9PazkwWkVCTWFNRk9iRnRBSnlUTGdNLWNYb2Q5SVREcE9iMHJfTVRMWW9EZHlFanRPbHYwSG93VzJLTWtldUUyOTU3WjJodU40UlJXNlY5WF8zWk02N1hyOG9XY3E2MFpnQnhPU3VZOEFYX3pQUQ?oc=5"
+          },
+          {
+            "source": "Khel Now",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pWGNoU0hmYkhKVVFyZFhvX3U0Y2hHUjJlSmhtNERzcEhtTGo4bWJLeWRZVlBEWGNKS0xNWlNZYmwxcTdpYTJraHhxR2NRSE9BR05SYUc5SjdOZXBTZVBWaXoydmJlbWUwRVoyX3pDck9SNUZ6UGpwXw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T23:34:21+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.28
+      },
+      {
+        "rank": 4,
+        "headline": "Sarfaraz Khan likely in India's 2nd Test playing XI vs Sri Lanka",
+        "summary": "Sarfaraz Khan is likely in India's 2nd Test playing XI against Sri Lanka, with Kuldeep possibly dropped.",
+        "why_it_matters": "A probable Sarfaraz Khan selection is the first major Test XI test for the Shubman Gill-led India side — read-through for India's middle-order plans.",
+        "sources": [
+          {
+            "source": "Sportsdunia",
+            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVEpjeDFDRVlmdjdEbDdGQ0pSRC05M3ZSakxWVl9PazkwWkVCTWFNRk9iRnRBSnlUTGdNLWNYb2Q5SVREcE9iMHJfTVRMWW9EZHlFanRPbHYwSG93VzJLTWtldUUyOTU3WjJodU40UlJXNlY5WF8zWk02N1hyOG9XY3E2MFpnQnhPU3VZOEFYX3pQUQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T19:43:00+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.12
+      },
+      {
+        "rank": 5,
+        "headline": "Arjun Tendulkar to continue with Goa amid future speculation",
+        "summary": "Arjun Tendulkar is set to continue with Goa amid speculation about his cricket future.",
+        "why_it_matters": "An Arjun-Tendulkar Goa-commitment extension is a talent-development signal — read-through for Mumbai-Cricket-Association transition policy.",
+        "sources": [
+          {
+            "source": "Pragativadi",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNUFzYUpNNlpsT1VJRV9pRlR5ZHoyR3h4TktneTUyRjMweHpxcVhHem9VX3lnODdMZWs1VjdmUUJYSVN5SmVucUVGaG52T0pQS0dyMDI3X1I3X1kxUS1OMm9URDVMeFUteVFVbWJ6MFB4Nm5nTmFwbnl0dHo2UDFsN3hGZG1kY3k3OHozbGVR?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T02:26:43+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.2
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "Welcome to the Jungle scores ₹90 cr+ OTT deal after ₹196 cr theatrical run",
+        "summary": "Akshay Kumar's Welcome to the Jungle scored a ₹90 crore-plus OTT deal after a ₹196 crore theatrical run.",
+        "why_it_matters": "A ₹90 cr OTT deal for Welcome to the Jungle is the cleanest theatrical-to-digital windowing signal of 2026 — exhibitor economics are now under pressure.",
+        "sources": [
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdmg2dHFsa25XQnk0bTlJU3lUdEFIUXpOUVI5OG1Va2ZNaTFQdkhETjJQZU0yb1NnMk1FNTV1MlhTeXhkSWpxamVkQjUzdW1iN1diamgxbkMwSHlPY2hCVDhLMUM4MWRnMU5ON2hXYXJZcXBONEtjc0NydnJFeG5VWUpuNFUybWRhTHRhZ241REk5aDVUd3Jrang5TFN5MERuM0RfbVFUb2Z2RFVDVTFCY3dhMVNycEZpYVFjNTFxbFN5SXZYMFZWMUdRODFQcW1sZDhTStIB1AFBVV95cUxPdmg2dHFsa25XQnk0bTlJU3lUdEFIUXpOUVI5OG1Va2ZNaTFQdkhETjJQZU0yb1NnMk1FNTV1MlhTeXhkSWpxamVkQjUzdW1iN1diamgxbkMwSHlPY2hCVDhLMUM4MWRnMU5ON2hXYXJZcXBONEtjc0NydnJFeG5VWUpuNFUybWRhTHRhZ241REk5aDVUd3Jrang5TFN5MERuM0RfbVFUb2Z2RFVDVTFCY3dhMVNycEZpYVFjNTFxbFN5SXZYMFZWMUdRODFQcW1sZDhTSg?oc=5"
+          },
+          {
+            "source": "Filmibeat",
+            "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOVmdCOXR2OFZha3ktMHprRF9xNG0yeFVYLVBOdDhTRXd4WmR3dk9KMGRzaTZCa2NvX1dEV1pvR3pKQmtVZE1qNzVjUmlCS0xheVhzZEZXRUs0cFp1WWFWNmdfeEpraE04bXhtemNQN0JpRHZhWm02cDE1RzY4V0ZaeHRUdDhjSUtzWTNJZHdCd3c3eEJQOVoySi1zMGYwOUY3QTVjOC1xVmJodmFPUmhQUjM4QTExN2F3UXR3blFuMEZ4U2dCLWlFMEdHNVNuNjgtV1hfZHIxbHJ3V0dzV19URFBablFIVVJvOElOVnMwTEd4TnhsNDI0SmVYUUZYbWRLeXc?oc=5"
+          },
+          {
+            "source": "Mathrubhumi English",
+            "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOWGxTdl9fOWVWNXhBVkNCXzVpS1hPc0UtMFVmSGluMktSWDBPeUR0QjctelZhdkx6aXlKYWN4cl9mbEVYejBpNlB3d0EyZ21kSWVITHlMbHVEbWZLbEhsUXNwRUVnakpXVm50WGZfd3hpaU9oR3dIR2cxTDdpWjVzWGQ2NUtITVpwdnVFc25pVzFleXBLLWYxVENJQ09scFlwYjA1bURJbG1hUTdHXy1BcVNpR2ZpT3AzYjRPal9vX3Vpa215NWg0VkVIUWtxRlQyUEp4bjA0V2FHeFh6Z1FibWIzSENyNUFmSV9sRWdrX05hM3FTWkUxblh5ZElxQXd6eEpnZDZKT2F2WWvSAYsCQVVfeXFMTlhsU3ZfXzllVjV4QVZDQl81aUtYT3NFLTBVZkhpbjJLUlgwT3lEdEI3LXpWYXZMeml5SmFjeHJfZmxFWHowaTZQd3dBMmdtZEllSEx5TGx1RG1mS2xIbFFzcEVFZ2pKV1ZudFhmX3d4aWlPaEd3SEdnMUw3aVo1c1hkNjVLSE1acHZ1RXNuaVcxZXlwSy1mMVRDSUNPbHBZcGIwNW1ESWxtYVE3R18tQXFTaUdmaU9wM2I0T2pfb191aWtteTVoNFZFSFFrcUZUMlBKeG4wNFdhR3hYemdRYm1iM0hDcjVBZklfbEVna19OYTNxU1pFMW5YeWRJcUF3enhKZ2Q2Sk9hdllr?oc=5"
+          },
+          {
+            "source": "Fortune India",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUW8zZ2EyZlJKM2ZzUm90WkFRTE9Hdk9CMWVCd1l0a3J4MUVqcVdKbTZ5MjZfenh5VnluVnZaWkNXTXhocEhuSTZSb1FsSVh1SjNUYWlzTEljWlBLaUhaTkxqdHlmeFZpVlc2a2U5Yl8yMk5ocXZteGVrR0Vaa092cHRUdm15YU11cG1IdTE1SDA0UFN5Wk1vdThUWjJjcWdHYWJjc1VvLWxYdVNNenpVV0ItOWxiRVpleUMxY0h1XzJ0S1lWSWQ5ZDk5eTc2dE1zR3NCWXNQX2I0eUFvX2Zj0gHfAUFVX3lxTE9RbzNnYTJmUkozZnNSb3RaQVFMT0d2T0IxZUJ3WXRrcngxRWpxV0ptNnkyNl96eHlWeW5WdlpaQ1dNeGhwSG5JNlJvUWxJWHVKM1RhaXNMSWNaUEtpSFpOTGp0eWZ4VmlWVzZrZTliXzIyTmhxdm14ZWtHRVprT3ZwdFR2bXlhTXVwbUh1MTVIMDRQU3laTW91OFRaMmNxZ0dhYmNzVW8tbFh1U016elVXQi05bGJFWmV5QzFjSHVfMnRLWVZJZDlkOTl5NzZ0TXNHc0JZc1BfYjR5QW9fZmM?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T07:51:00+05:30",
+        "region": "Mumbai",
+        "confidence": "high",
+        "final_score": 1.904
+      },
+      {
+        "rank": 2,
+        "headline": "OTT releases this week (Aug 22–28): Jana Nayagan, Toy Story 5",
+        "summary": "This week's OTT releases (Aug 22–28) include Jana Nayagan, Toy Story 5 and several regional titles.",
+        "why_it_matters": "A stacked Aug 22–28 OTT slate including a Vijay-starrer and Toy Story 5 anchors the festive-content calendar — streaming-platform ARPU is now in play.",
+        "sources": [
+          {
+            "source": "Business Standard",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa1BEMTZRRkI2U2d3TTlKcF9XTl9BOHVROEgxcEUyLTNjUEJNQnJ1LUxPTWMyRGlEZjFQNTRyMWdGX2xSdUpFc3UtRk1DMVRuUTRoaTNsRkJ3eFpTNXpkZGY5amVWMWl2aUVockItZTk5X2NtTU1OdDJaTnM2Nlg0RnNlWUlfbHNGYkktOFRCaWJhdXptU2tGSGRreHBLZjhJbkV0aVNKZU84WnRrbFdVek0xZkpCNkgtcjBzTVdjUmZ6N09WVVcxR3dTRGxpNF9GYVk5a0lpX0JwMkXSAdsBQVVfeXFMT2tQRDE2UUZCNlNnd005SnBfV05fQTh1UThIMXBFMi0zY1BCTUJydS1MT01jMkRpRGYxUDU0cjFnRl9sUnVKRXN1LUZNQzFUblE0aGkzbEZCd3haUzV6ZGRmOWplVjFpdmlFaHJCLWU5OV9jbU1NTnQyWk5zNjZYNEZzZVlJX2xzRmJJLThUQmliYXV6bVNrRkhka3hwS2Y4SW5FdGlTSmVPOFp0a2xXVXpNMWZKQjZILXIwc01XY1JmejdPVlVXMUd3U0RsaTRfRmFZOWtJaV9CcDJF?oc=5"
+          },
+          {
+            "source": "livemint.com",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPLXpjeFhGQWszZnpxVVdMRzhGVXJOYXd3bTNvQjh1YUMtVWF0YWY1cTZKSDFzMjlTcnF3VkF5UDMtNjRka205azhoWnFCdmhsajhvOHk4eDV6U1NZMGFJejNhYUxMYjExdzU2YTZTZkl5MHZ3NzBtdUtIaG9OVjBfd2xURkFKb3Znb2tRVjdGN2ZWa3RLcnBramdBbllCekpGT29LR0ZtQW9LLTI1czA5T0ZVdnFEeHhDTlliQkRfRTVIdmMtTzRmRHhUNEhtT1d0MVExSGY4dWl4U3U5UmdqeC1xYm5ja0ZJQnoxdmw0NkdMcDctM1VtdVRjLXZGbktr0gGGAkFVX3lxTFBMNEI3YXBMZVI1bXBGRzJfdTJfRWpDLVVjOWJkbGVlemtaZWhUMXNtaUtQQTh5UGZjRUl2Y3d0M25MZVFPYkR4cHJSemxZaDI5dVB6NDdXeGc2N2M1Umo0VFhBNUZmY0ZFWHlSTFg3OV95enhGbzNSWjdFTkl4WUxCaVhwNVFVMTZ3cnNJcXZnYXJLdEUyV0h1OXdpSm5SZEtKendMVS1ZTUJPbjJhUUVMcnF0OGlqUVJYWTQ0ZnNjSjRCbzFkaUVqdzUwSFJfbzdwM0xwQXNtT3ZiWS1NRFFIeldMSjhrZ3J6am1RT09IUGdHS3JvOHM0aGExVWdzMXFiUFhDN3c?oc=5"
+          },
+          {
+            "source": "ETV Bharat",
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdGd0LW1ld3N4LV9HTEZvZE5DZGtVU3plSVJ2NnNMS1ltWkc5NzdYQWYxVjdrczFva0dUWi0yLUNZNjNyR202Qzg4Nk9JT0gtX3plbWFvX3YxYktDUTJWRUJDMEdtRlR3UkdveVJ4NTlqVXZ4Nmh4V2FQYk1QeXZwMGRUczZEcXdGUDJXMHJFUFBwNGVmMTY0Y3VDVGZ4UmxDOVRvYVh3bGN4TVdzRXNXT25aV0o4cTVwcUtQYUNlcFhScHJkUU9FVVVUelR5aWVPUDlrdWtDbjBiUXQ2dlpyd2J4XzZCSzNBMXZBRDM5QdIB9AFBVV95cUxPbF9RcW43MllsSEdGVl8xcmlDY3dIcmdDQ1UzRzhkc1R6dFRWZ0JNTVdkbHFtejlpMDJja1kwYVlqVGZsRnhaTW4zYnN2aDc1TE5XcWdkdV80R2xtbHN5M3Nnd0tYLXpFaktBMUtRR0lLd010eVI0b0dnejRraFAwZTlwSTgxVkdGV3FFdE9kckw1Qkp1azF4bmxsYzhFVmtLVG4xSm9TNWo0Snd5YjFQdVBqTS1FZWQxNk40X1BXaFNIMEpMV1Ffc3pCdExvM0ZMZl90Sm1DdXMzY0F2RmctY3dJQUJPb0dxdTZXc0hpZVFDVVFX?oc=5"
+          },
+          {
+            "source": "TelecomTalk",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMjJlYXFncDdhQk5najZ0UDAxaVNkRlBPVnNkSEhJNTZ4cDdGZWVVeDNEdVdFZDRJVjNudUZDNVNLM1Z6ZVFFZ19FLUF2ZUZrR0tHcnFIU1ZQdFNGWlpyTFlJeFAwNzcxNVJfYUs3X0ZrU1pmajFQN285Yzg1cFFPMGFNRnNkeW9kaDQw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:13:27+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.8
+      },
+      {
+        "rank": 3,
+        "headline": "Sanjay Leela Bhansali to wrap Love and War, begin Madhubala biopic shoot in September",
+        "summary": "Sanjay Leela Bhansali will wrap Love and War and begin shooting the Madhubala biopic in September.",
+        "why_it_matters": "A Bhansali Love-and-War wrap + Madhubala biopic greenlight is the strongest signal yet that the SLB-directorial engine is now on a multi-year cadence.",
+        "sources": [
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM0g0X1NFaFdjMmVpQlZVYkN5TTlDa1VuS04wWFM5MWJvRVllTjVUbnRRYS1oc3NVaEVIN1M4RDR3WjIxWmI5UjJpUGpfeGo2Ty1QanRURVhBMzRJZXBFUEtzRVJTT3BaV25sYUJGLVFZakVtNGEtV1hCcUo1RHFMdDZNRjBGMU9TNWxxVDVCeHpsT281aXdxT08zaDNIQl9tTkhhY2NLTUxZUU1UT1dhOFFySVFGLThUcWlHLTQycDFpT01iaHd1VWJIbXc5elROSFctRnVLRzVqdmF6c3lESdIB4AFBVV95cUxQM0g0X1NFaFdjMmVpQlZVYkN5TTlDa1VuS04wWFM5MWJvRVllTjVUbnRRYS1oc3NVaEVIN1M4RDR3WjIxWmI5UjJpUGpfeGo2Ty1QanRURVhBMzRJZXBFUEtzRVJTT3BaV25sYUJGLVFZakVtNGEtV1hCcUo1RHFMdDZNRjBGMU9TNWxxVDVCeHpsT281aXdxT08zaDNIQl9tTkhhY2NLTUxZUU1UT1dhOFFySVFGLThUcWlHLTQycDFpT01iaHd1VWJIbXc5elROSFctRnVLRzVqdmF6c3lESQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T07:44:00+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.56
+      },
+      {
+        "rank": 4,
+        "headline": "Why Indian celebs like Aamir Khan, Shah Rukh Khan, Yash are choosing profit share over fixed fees",
+        "summary": "Indian celebrities like Aamir Khan, Shah Rukh Khan and Yash are increasingly choosing profit-share over fixed-fee structures.",
+        "why_it_matters": "A profit-share-over-fees shift among top-tier Indian stars is the cleanest 2026 talent-economics signal — read-through for Bollywood actor-side unionisation pressure.",
+        "sources": [
+          {
+            "source": "Filmibeat",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdDllaURmdmVpRDlaTExWZ0ZaYks3SXVfV3RWRk1Na1ByOUpTejZNczFESlRlQnRvZXViZ01fU1pfcE5wMDUxaDA5Q2pkRzJNUEw0TzVkaVg3X2V2Rl9DZW9Vd1pGYURnTTRiYTZIWS1Hc3AwN0pZWjlCcFVrMmJhbm5WcnA0UlRYOGtmQzNyOHROdUhSenAyTlp3OVJlRzM5NHF3bFBDdXVvSTJJRFZ2alhLWjctTGQwSmJHWFlMSktMZ3BGRk5QTGpOc1JWQ19MRXNKSlJEcVVDMkd4ZDB6MzFrMXRwT0dpRHVZ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:29:35+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.35
+      },
+      {
+        "rank": 6,
+        "headline": "Batwara 1947 box office Day 8: Sunny Deol film hits new low",
+        "summary": "Batwara 1947 hit a new box-office low on Day 8, missing the ₹50-crore mark.",
+        "why_it_matters": "A Batwara 1947 under-performance is the latest signal that Sunny Deol's period-drama formula is at a franchise fatigue point — read-through for upcoming patriotic releases.",
+        "sources": [
+          {
+            "source": "India Today",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeFRYUjRaZWplMTdLcWRONmdlTElpMC1jQVdmSEZYVG1UMHd2YmtYNWQzcFJER2lYQVVEVnpOMk90NFBWZ0FSTlJkdjI1Y05sVW5JNVlLaGRPUGxPNjJaQTJPR3VDcDkxSUU4d3RrdFNkOU8xbjFjT180djUxb1IxSEhkTnZhRDNtb3lsdHFlV2pPYTM0bDFBX1VTcGUwQ3dKLUs0MUZPVVVOUWJ4MElDN29IdHhPOVI0c0FmY3dtQWtLX2FuZ05pSVViMlZUZ2R5czRxakRiT0tsV3RiY0gzZ0VZWHHSAeoBQVVfeXFMUDEwVWJ0RzgzNUlLOERfc3JqNi0wSER1NERNZmpiNU1NdVhjbnhibzk1aFJKWVdEVFI4dVV3M1MweW9iWnlERmtMeThDckhpbDdsMzFmNHlFLW8wajM2bjNVenV2cFJMelJ6ZE9PbDVTT1l6WndBZ09mcVgyYnZpNU85N21sVG9NTEYwUzI5SFM5Rmo3Ml82UlYxQ0R1Qnp5QXYxcUplVDdoRjJ6Ykd5Y2g3ZVgxQVJBNUhMZFVYcjQzQUVIMmZKckgwangxclJQSEExcW9McVJCbzk0WU0yZDlXQXRoWlU2UXFn?oc=5"
+          },
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQOTc0a2dYUmE3bHY4dEx6LWllM2pjalZpZzRERk55VWZlYXQ0VURIUGo0ZU9ZZjNwblNWWnNaMEdudy12WEVFaURyOW1RZndpSmdnd0FJNk1mQmoxcXFNRFFYZEx0VEpRV0FYMmxJWHRDejNQdzFnQ0ROcUpaSUVhejVKTEtmUzlSTHl0dFJYek5qM3FzbTA2MjRtNzhKTmtGRnM3d3NPczk4M2JXZG5rSHhveExUQ3NzMV9tLWlQdGVtUmljaXpjSGlkMWc3eWtMYjJZbEY5anVOYzZCOU5wQjBMc2MtSlBLUnQ2d0VqY3ZyTm84MXNnWm56aE5UWERTc1hWeXpkZG1ySHpOcnFMeGhiWC1vNEZ3Z2c2QThaby03a2lRdENRcWZHRmszcFVtVW42TGhubFE5bnZjeUQtN0Y5SWUzemtRekRVb9IB0gJBVV95cUxPUmRHNTJpbVRLbmJaOVNtR1I1a1h4bnZzNGVPR2JfeXhuWUxFeElMNG9YSE5jbzRCU2diNW1lWGRfQy1IRGxhcllyaVM1V2JkZXVFSFlNRnRrZG55ZkJ6c0NiZWlNS1l4UFFNVWlUb19QUVJaYm01RGxNeVAzLUZvd2Fna2hOVUp5YndhOTB3amZybGsxWjNhSzJNWWVEUXF1S0MzVlZod0lxbkZiSDc1TjNLdkpkWkJxYmYxalZJSENZNWFWRzkyMl9nTXhURFVJekJ1NlVoS0x0MVIzaEtzNTV5cTV2WGFUS1dSV29UTnRtZXhZV1FaaGZ0VFdWazFvdzU5S0VDMUJFLXl2MWp6WllNYmJjU1BDaTNxTldwU2lPMzRVeS10dHpZbDRRREY4V2tUWU4tVzlCMzNwazA0V3Naai1HLUVlaHl1ZnlPejNXQQ?oc=5"
+          },
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0RsblZCQzdWdXZ0ZHlqSXd4OXlmWVFaWEFwd0xlVTl5U3piOGJCcDk1QjRhQU1qbHlZMWRPNUQ2WW9UUjVsQS1LNU1tUVl0NFd0ZVZyWjlVMmdEem1OYUFFOVBZUWFLVVJsVjhUV3lQRWU1SEc0VnBTX041WHRHWnVMTWtCT1RUU1FySWExN2gzT0hXSHl1UFZ0cklJV0RUZmw4bEd5VWRFTHM2OGtMaEpCUXJ1Y25jUGVuMGZJbEVIbGtYdnBNV2dGMS1WS0ZZRW50dzBjSGtnbEoxam1F0gHfAUFVX3lxTE0zRGxuVkJDN1Z1dnRkeWpJd3g5eWZZUVpYQXB3TGVVOXlTemI4YkJwOTVCNGFBTWpseVkxZE81RDZZb1RSNWxBLUs1TW1RWXQ0V3RlVnJaOVUyZ0R6bU5hQUU5UFlRYUtVUmxWOFRXeVBFZTVIRzRWcFNfTjVYdEdadUxNa0JPVFRTUXJJYTE3aDNPSFdIeXVQVnRySUlXRFRmbDhsR3lVZEVMczY4a0xoSkJRcnVjbmNQZW4wZklsRUhsa1h2cE1XZ0YxLVZLRllFbnR3MGNIa2dsSjFqbUU?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:28:27+05:30",
+        "region": "Mumbai",
+        "confidence": "low",
+        "final_score": 0.98
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 3,
+        "headline": "Uttarakhand HC relocation row: bench reserves verdict",
+        "summary": "The Uttarakhand High Court bench reserved its verdict in the HC-relocation row.",
+        "why_it_matters": "An Uttarakhand HC relocation verdict reservation is a judicial-administrative governance signal — read-through for state-HC infrastructure politics.",
+        "sources": [
+          {
+            "source": "Bar and Bench",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeVFNOHFkQUQ0QktsU0V1MlRnQkZkMGJIT1hCaXFHRlV1bi1SUC1HQVgzSlRQNDM1NlVvSThGbjdHcEdDQ0dWTGczeWtWWUdmdnpqWktpMllfM1duWmd6SWhKS2pzR3dEbjUxdEFOQ2g1b3hXSjRKWnJPNjVPZ0kweXYzVjB2dzhrUGV5UGIyRTE1SHQ5VjFYVFNSWE9iSXg4QWJqdDJfN2pqSlpOX1lmbnhYSkc1a1o3dTVMajROak0tMnhFbGNIX0pkOA?oc=5"
+          },
+          {
+            "source": "The Hans India",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejRxR0ozcGtscEkybXBxTjRQcGZKcV84TGJPTlo0LU9fNWROUW5jbF90dXVsZ1BPWTI1U2VXU1pSTk5vMGRWSy1LSWtOUF9UTm5PYUdwejFKdEZmMVRlQmU0MmNMVkZpbld0NHVwZm1IQlNMa09vbWlXbjZuQ29icmtiZG11VEFkcnJnUmhET0o2QWx5MjJvaHRUSG1TNnhlQnRMWmJjenY0SWlMYkxGRtIBtgFBVV95cUxOZ1NjV0pSaU0xS2N6M21SNHhoYjJ6eFBpMDQwbUpEeDY2ZVNKZ0FFTkI3d2htNXRjQlRYdjI3bXE0ejJwS2t0a3dOS2ZXVkVYTThaQmZyUjNvOG44NzZGYUNRR3FSRHRBUnVsWVQ0TmtoWFZMMjNUYXUtakxiNE1RQnUtUEl3OE9nT3gxdVhGQ2pnekRxb1RWRWtwVTJpX1JrM2tXY2ZSUUdCNnJNOUV6VTU0dGwtZw?oc=5"
+          },
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamJMRUU2b19RaTBlYlQ1M04zVUl0RnFLaG1MQWxKd1ZYUVBoVm1zMEdqc3RPUUF3VnkzanF5enJFVGgxWGVndEI4ZThPTHNxbmxHX3hlZWduNmFtWlpYWVFzblk3NHRqaTltTFREdXFIUkpRUzVCeEg3SVpXdnBCcEZhNWdpR2s5am9mOU1FZk1vNDFYdDVLNHhzQmZOTVIxYUV5ZV8zajUwa0hSMHZKbnVKaE43SXRBb3RKOHhZODlmem9jZ2ZRdmlvYnBBbG5WdUdJWGhXaUhvZWRseFlmYVlRQzMzc1UzWXfSAe8BQVVfeXFMTmI4Uzlad0tSVFNnd2VNcHlhZmk3WWdWd3NCb29LeFE4Z25aUTR1RGN6Q3BadXY4T096LXk0R3hWLW5oU0FxSXpSa3djQUtKV0d2dEVPNUpkRnBQZ0FaMzFxU2EtVEl1U1NHOTZaamI2UG84aHl5TnhwMUJwY3MwZHJfV3VWQlhOejJ6c2NWZDdPYUJlTGVldV9KampXSi1mcVRNNllkbXNtRnZEdmxsT3NLS2I0Vjc5bjBZUTcxRjdFUVcyZ090S0JPanlZbE5xTUg1R1VEeG1JWW5PMVBuTy1RZk91WjVHLU9RclhBU00?oc=5"
+          },
+          {
+            "source": "The New Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDQzWUdGQWtFS3NRek15SGE2ZTN3cjd0U25zYkxUNF9sVkt3SW12NDNSeFRuNlhySy1BVGNicnhhQnZFaXdXaXFER05iQV9ZVXpWME9CUFhuS3daQlpBSzZOZ2FPUG5ycGlJbzhHblZHR0h4MkRvOU9PUFJRMUFkSTBSM0RGN0ZPVy1DeGxfaXdMRkVaaVlLSVJQTW5SVERRRnVvYWxQZDhQOHhjUnBINmtvODlPVXdlNnI0U0xBeTlSZGR5WlN1Q0NXeTU0UEJkM1HSAdIBQVVfeXFMTlA0M1lHRkFrRUtzUXpNeUhhNmUzd3I3dFNuc2JMVDRfbFZLd0ltdjQzUnhUbjZYckstQVRjYnJ4YUJ2RWl3V2lxREdOYkFfWVV6VjBPQlBYbkt3WkJaQUs2TmdhT1BucnBpSW84R25WR0dIeDJEbzlPT1BSUTFBZEkwUjNERjdGT1ctQ3hsX2l3TEZFWmlZS0lSUE1uUlREUUZ1b2FsUGQ4UDh4Y1JwSDZrbzg5T1V3ZTZyNFNMQXk5UmRkeVpTdUNDV3k1NFBCZDNR?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:59:24+05:30",
+        "region": "National",
+        "confidence": "medium",
+        "final_score": 0.56
+      },
+      {
+        "rank": 4,
+        "headline": "Indian national arrested in US over multi-million-dollar elderly fraud",
+        "summary": "An Indian national was arrested in the US over a multi-million-dollar fraud targeting elderly victims.",
+        "why_it_matters": "An Indian-national-in-US elderly-fraud bust triggers FBI-CBI cooperation bandwidth — read-through for diaspora-fraud jurisdiction coordination.",
+        "sources": [
+          {
+            "source": "Rediff",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQak1UQjQyckh2WERJc0JwSnV2M1JJNGRYYXlBRF8zRzh6dDRrYWd0TUl5SnpjamlKSTJETHMyeUZIRGdjY1JCWk9wRTZLVGNBMFRFY1V6aks2NEVvWUs0MFhKNnktbGtteVVFQV93aXlkNjlJVlVsTXBXV1VwZjkzMklaSlA5Mjg3MFVYZzk1QWVvQXRydlEzSDBtdFIxdjgyWEZWYjN6NzgtaXRIN2x1Qll3MnhRbWFqTXfSAbwBQVVfeXFMTlp2MzJGSUpkZ0ZKRjVIazRiaEtXMzZRWlBKaHdNNDJHaTZ0dnZtS3hvdVlRSzgxYzVDa2U5ck00bGZoVnpoaHFZYXJ5R0xCcnZ3SnVvZHRudDNrLVpvNUtPeFVGUGtvREQ3bkUzc3JQbmVwYTc0Rm11Ri1iR0Z6NC1Vb0pHWU0tc3VCNEhqQnZNZl85TlB5MHpxMzNuYW80OTlUSTZ6NVFMSkhCZ3ZLaXVpaG1TVTZURmRQRlc?oc=5"
+          },
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORF9wNHFYcTF2eUlnQ1JTbVlqZ1RNZUtJNjk4WFk0SFFkVF9SakJoUGxWT1BMU2oydG1vcVk0aTBxSVRjcm1YUEtSYWVZTnM5b2VWcGtQSTYxX0tnNDg5bTBpRk5PSGI2d1hHWUdtd2FLUUoybUdWOTZHZ29RdmZueGFjdlpQeG5rNjVFU2VQQlNnSEh5WVRPajhOR19RdkIxUkNjLU5xMUNVMXJHeUk2WHZIVXVyT1A0bEpxRy1EWUFPeG1DZnhxM2EwVk3SAcwBQVVfeXFMTkRfcDRxWHExdnlJZ0NSU21ZamdUTWVLSTY5OFhZNEhRZFRfUmpCaFBsVk9QTFNqMnRtb3FZNGkwcUlUY3JtWFBLUmFlWU5zOW9lVnBrUEk2MV9LZzQ4OW0waUZOT0hiNndYR1lHbXdhS1FKMm1HVjk2R2dvUXZmbnhhY3ZaUHhuazY1RVNlUEJTZ0hIeVlUT2o4TkdfUXZCMVJDYy1OcTFDVTFyR3lJNlh2SFV1ck9QNGxKcUctRFlBT3htQ2Z4cTNhMFZN?oc=5"
+          },
+          {
+            "source": "ETV Bharat",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVGpnc3lYemlJTmNGaG9neWlnWkNldzdUTXgwOGh1ekxqd3NxZlVfR2cwZ041SzM5VVZoLTV1RElsQzN5WWtMT1FvM0h3NW5tbDE3UF9oLVVmQTRGQzBUUzM3Y2xJSWxCSUpVX3czZzBjclBDUGpUS2h2QjFTQmpONFhjS1poOFBqd3FLUDZTVzFkalJxTDdWY2xJNmlLTWxHX0pyZW95Wmk0VjJ5TEg2bzBMcW9WZDJ6cm5CT3IyZWVXQdIBxwFBVV95cUxNUUNPMVlxdVNJbmFQM1BNR2lWOGluQ2RwaUlVZzVIRjRXOXQ1bTBiZjBTd1pobWUzcnBnYVZiczExLXIyWHN4WkdZbWFUbGhiTW02bW9aYmxpZ0hPdUpvZ0pkTFFVNEhjQU9KLTBucG1YUXJqdVlLb0dPQWxBSnVYcUMxOXNnQzUxa0JRZ2w0X3pNUC1sMXZWcjJTOEtHb1pUX2QxWFFxQXRNSm1VRkhCZENSMXNmLXpLb21xVDVicm5LZzZHMGhB?oc=5"
+          },
+          {
+            "source": "Gulte",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNGswZFU2WVJIVUZuQ2lCUmMyN0JZRnNXVlNyWWcwNDA4dkNBRGlFc0RveG5WNDZLYmVoZERDZ1JCOXBnUmVTWFhRZllnR0dMekYyYzdnQndRWVRzclMxa1pBSEh5blp3Vi1xX3JLUHdKWVJrdW95Yi1GTUF3eE9rYk9ZdWVhcmFCam5kekFB0gGTAUFVX3lxTE0xQVppazFvdExTU1JJT0RwdXZERDFwVDhPV0laNkVTZTNhUEVERXZ1QXFjUmVSSTZiaTAyTmszamVZWW1lb05fSGpWcUpOV0R0ZnQ5bTBkYUJuTVYxcERfWU02eVZmd3dleHFJNHprVWFKLW5YVHN1SHgzeThaQWstbFlOenJpWnc5cjg1V3pxLU1UUQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T08:54:39+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.64
+      },
+      {
+        "rank": 5,
+        "headline": "Retired Army colonel duped of ₹15.5 lakh in 'digital arrest' scam",
+        "summary": "A retired Army colonel was cheated of ₹15.5 lakh in a 'digital arrest' scam.",
+        "why_it_matters": "An Army-colonel digital-arrest victim is the highest-profile 2026 case — RBI's kill-switch SOP and cybercrime coordination are now in focus.",
+        "sources": [
+          {
+            "source": "ThePrint",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSXpfMmtKYjF1NS15TGZVRG5aQ3pzSTYtTlk5SmFXb09RQ3pqQ1J5OHlNNkVyc19waW5VWVFnU1J6MWhDQkJ4RFFaeEJTUzNnd0lqN0J0SjNQY2lzaXBOM0NuNldWQkFKT1Ywb0JEbWtHRUdreWN6Q0pVZUxHYnBsZGFKMERObmlWZFAwSHFpT2psX1Z6ZXZBTUVzSFZZQWJobUxVZGM4VW0tc1RfbFNwM2x3bnlDc3REMldCSdIBvAFBVV95cUxQSXpfMmtKYjF1NS15TGZVRG5aQ3pzSTYtTlk5SmFXb09RQ3pqQ1J5OHlNNkVyc19waW5VWVFnU1J6MWhDQkJ4RFFaeEJTUzNnd0lqN0J0SjNQY2lzaXBOM0NuNldWQkFKT1Ywb0JEbWtHRUdreWN6Q0pVZUxHYnBsZGFKMERObmlWZFAwSHFpT2psX1Z6ZXZBTUVzSFZZQWJobUxVZGM4VW0tc1RfbFNwM2x3bnlDc3REMldCSQ?oc=5"
+          },
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQlV1RFJnQ1VaUHl4MGRLdC16bGt2TmxSOEhuc09ON1lBVUZUc0xEY2ZUVmhNcnhkVEJwQ0hGbmRLMjlxSjlSbThlWDd1VExlbm1tbHNILWJQWFA2cHY1b0dlVE5tLVJKNWZnQ185NUFnT2EzSC1mT0JRRklPQVZhSnlGc3hSWkJQQ2FKeUo3THhpVkphQ2s4OGpDWXY3QUItN0tma0lDZ2h0THdEWnBtSUtuUzB5djJLVzFHd1RIZGNHNzRleE9zckI1NmhOS1ZnVVEtZnljdlNoNVR3MUtTUGxEV1BuUdIB5gFBVV95cUxOQlV1RFJnQ1VaUHl4MGRLdC16bGt2TmxSOEhuc09ON1lBVUZUc0xEY2ZUVmhNcnhkVEJwQ0hGbmRLMjlxSjlSbThlWDd1VExlbm1tbHNILWJQWFA2cHY1b0dlVE5tLVJKNWZnQ185NUFnT2EzSC1mT0JRRklPQVZhSnlGc3hSWkJQQ2FKeUo3THhpVkphQ2s4OGpDWXY3QUItN0tma0lDZ2h0THdEWnBtSUtuUzB5djJLVzFHd1RIZGNHNzRleE9zckI1NmhOS1ZnVVEtZnljdlNoNVR3MUtTUGxEV1BuUQ?oc=5"
+          },
+          {
+            "source": "ETV Bharat",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbEdwTkdQTHNPTnpkRHAwR1RwYnAwQjJnTmdGbWw4dlZIOVFtamk2NEw0YjhqNDZNNXFLM2QwVXk3T2JzaTRxQlJOc3A1S0E0dDVnZnoxY2dOUm81N2lFcXBhMnpMcVlrUlFsZzEwTXA0Zm5BNDNKUE9OT2g3dkp6UlVYa1hrMVRfZHR5X1R2MmJFNUpFV0dVSlhYSTJ1b3J3MHdEN3BKUHdjbF9xU1pqZ195ZDRpQ1NINHRMRDNQVGdHOHNNMGJ3UkVVaEIzUnhQ0gHWAUFVX3lxTE9QbVJHZW1VOVR6RERwby1hS3JPLTNsVGI3S1V2YTlranBzMlZ3RUh3b19DQnM5aWxfOGJHaVdlMG10UExVV01NOWdLdTF1b0NOYVBIWFdEcXp1dTZTdkVFczJxUkRMVWNGbUFFaDlBYTV3ekFRVHdGN19xLUhEeTJydjJBakY2SDBUVGp2em5ZRXlOSTBEMVJ5azlNY3Z6U2xxcmRiMlUwQkhZSklrRVJ1ck1SaEdYbXo2Y0FJb1VHWEFmTXJUZi1lM2tGZTdsZzBJWGo0bXc?oc=5"
+          },
+          {
+            "source": "MillenniumPost",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX3gxZjRlTndfUnlYb1FfYXIySnEyNWw5OGY0aVJvMzNKaU1YRElNUDhlS0tPY2phdm85MUJidzRjd0lVU1dOREZXYTZrMkFDUXpLYkhRYUlJXy1hQnVqeVpVMjFNTzV6RDF2T2JnMjNMZ3dGSkxwSU5CckFrY01IQ05kQXY1VUM2M1EzZElNbU5sQUp5ZU8yUHc3bkxiNDVBS1ZzSWhsRVd1LWRjTXpfSVgtSdIBswFBVV95cUxQX3gxZjRlTndfUnlYb1FfYXIySnEyNWw5OGY0aVJvMzNKaU1YRElNUDhlS0tPY2phdm85MUJidzRjd0lVU1dOREZXYTZrMkFDUXpLYkhRYUlJXy1hQnVqeVpVMjFNTzV6RDF2T2JnMjNMZ3dGSkxwSU5CckFrY01IQ05kQXY1VUM2M1EzZElNbU5sQUp5ZU8yUHc3bkxiNDVBS1ZzSWhsRVd1LWRjTXpfSVgtSQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:13:21+05:30",
+        "region": "Bangalore",
+        "confidence": "medium",
+        "final_score": 0.6
+      },
+      {
+        "rank": 6,
+        "headline": "Bengaluru software engineer loses ₹17 lakh in WhatsApp dollar scam",
+        "summary": "A Bengaluru software engineer lost ₹17 lakh in a WhatsApp dollar scam.",
+        "why_it_matters": "A Bengaluru techie WhatsApp-dollar-scam loss is the latest WhatsApp-business-platform fraud signal — read-through for RBI's UPI fraud SOP.",
+        "sources": [
+          {
+            "source": "Sprouts News",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQVh0bmV4ZVc5LVQzMVE5cHNKaVlUdUxtNHk4aW01YllxZDBUY2hSS1d6ZnFrYUJpQ0haY3MwdDZzTGZySFFCUnlkUGxfTGFRcEpKZ3JmeXY2V3ZJOWRDemlncHRVWGdqOEtidUo2U044allZNkJDZkJpWTBaMzhwZnlHNA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T21:48:34+05:30",
+        "region": "Bangalore",
+        "confidence": "low",
+        "final_score": 0.12
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 3,
+        "headline": "Mankind Pharma signs exclusive in-licensing deal for Insulin Analogues in India",
+        "summary": "Mankind Pharma signed an exclusive in-licensing deal for Insulin Analogues in India.",
+        "why_it_matters": "A Mankind-Pharma Insulin-Analogues partnership is a structural shift in India's diabetes-care pricing — read-through for Biocon, Lupin, and Glenmark.",
+        "sources": [
+          {
+            "source": "vinanet.vn",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa3kxakVBMnVjaGdDZjYweDh3VlJZR0d5eUJ2ZnlZbFlDeUhIUzg0U2pmS25TYjZHZ0ZkNXFMLWpoOUdzYk9zYmlDNWFNQTlHUWRtdmxQUkhraUhKQV9UaDFhVFFmQ3FrMHo5NUJvNHJSNWRfXzZqdjZReExONFViM0IwaTdWVDZSUDI1VGtOYjhoa0xrWDRQMFlIN0lGa3BhUFdfemZTUnFwdElvQ2JFb1NxT1g2YUVacm9oLQ?oc=5"
+          },
+          {
+            "source": "Whalesbook",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQ1lzenBZMnVxNGlEbWtrZ2syRmRBNVJqMWstY2lWLTJxdXR5eHU5N3k4UlZ5cVhGRzQ5aDE1Nmw2SnNUZmxCXzRIQm5VS19oTWpyMHBxb1VrWWhfb3NpWllRSVhvWWt3a0ttamhrZ3ZMWnlNWjVjWkh2eld6N2ZxSGE1WTBNVFQtbklFenZMNjQ2SEV4dExOVkxaNWxIbnVkaEhFYVl3ZURuOEh1aWI3SEpfS3pVdHk5cXhtdDlLS09wQmdzOHBuUE82ZTFYNldZMnFTbm8tMGplQzVKYlE?oc=5"
+          },
+          {
+            "source": "Medical Dialogues",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZ2ZxVkJoaF9taHBMNDJJWkNyTTBzZklzU1ZCVmMtaFhLX2V0R0RnUTZQVWdtNTVIOFRaeVBEU3dsZzRINDRpdjQ3UWtrRmFwa09ueEtRMml4U2dHcGdLNGg2Y1dzOV9JMk84YTVxMjVTYjdtemYwWFNRYVlPcXV2ZU9ZaGFWcDhaSjhMZW14eW1UVG5MbTJOZFhIQ09lX3lESWFfOGJYM3ZJWGtZbDQ0NzdOYjNaMmMzZ2huaUVKM0lnVWpuM1RYZ1o0NnZiZzkzQTM5RU1SYmt5Nll1Z29hUWx6a2VjXzZ60gHuAUFVX3lxTE5oZ1FFcE9tckFSaVIzR0FINFlzZDVtRDVUODZQb2l5OHoxejBFYWpOVkpBQVJYSTdUMWdlSUwtcm9FdWd5UkF0MzVtMlZnenpPYWt0TlJZM0szMnE4UlhRS0V5S0xSMVJWVGE1NXJpQTdFelBIU09Ld010NF93QjBqcUpERWNxMDhaRkJaZ0FtLXhSaDAwNTUyU3dtYXJUWEJTLTRIRFAwRENxWkNZaUs1dVhaR20tanZsVzJIMHJ4c3Rpd090NGN5OXV4eVdaZGp4Y21fZVdGdlVSV1ExM3BxaF81am5XNkY3Q0VjeEE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T02:14:23+05:30",
+        "region": "Mumbai",
+        "confidence": "medium",
+        "final_score": 0.28
+      },
+      {
+        "rank": 4,
+        "headline": "Zydus gets FDA nod for generic Ascorbic acid",
+        "summary": "Zydus Lifesciences received USFDA approval for a generic Ascorbic acid formulation.",
+        "why_it_matters": "A Zydus USFDA nod is the cleanest read on India's injectable-API export pipeline — read-through for Aurobindo, Cipla generic backlogs.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaGJzZ3BJNWxsTHRsZEE3a29RSWt1cEd0TkRmb0EyQVFNMHBnbUhoY0NiVDJ5X0VNcV9HaGJiYkpGU2ZSSU5kWTJoSDNPa1h1QW1vMjliSWNxdklwbzVDb2lTaEZFNG1RSFJ3YTZpSUpRaEJZSHJicTZUc242UEdOTVQ5c0l3cTgtV2Rxdmhfd24ya1hRNzd3c0hpSGdxSFh3eXJ4UU9xZ2c2cS1RUk9PWU5DNmR6YnIwbUpEdmF5YzcwajdoeGExNlR0SWgxb0haR3lXZVl3Tmo3cktoREJoS2Y5aXZILVR0MzJRejRpN3hnVUI5dWJUVkxVYWM2ckZYNGlDS01Gd9IBgAJBVV95cUxPc0V1MmdRalFDTjM1S3pPaVNCbmtsbDh0R0JqOHBDN0p2ckxPYjFWMXdFTm1qMzJvOVpRQW9iVWo4dDIyRUV4WWRNNjVNaUliUHZUUkthNklDNWg1MGEwWTk0NXdjaHFiTktwSmViU29mTlpHRXhXeXRyN0lwRlRKU25DdE9EZlhqeXh1OUwza3JuRFFQb1VCb3o0SWlYaHZFRmZsVUhsbXREa2tNRXkzLVQtNzZRbDhRVFcwZklyWnE3ZmhVamtESUVQSzJZREcxNmtBU29qY2RGMDdZcFAwbWtVT19xYUFjcnM5dTJMckpRdjYtUm1ZUWZseVoyNmRp?oc=5"
+          },
+          {
+            "source": "Sahi",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNHgtUlBnUnQtaEFLUEktSF85VkoyRV9PMXJ5TURHN2VpWDA4eThIMGVhS010WGhqZG9hdmItTW16NGQ2QXQyN0kyamd0M2xEeTNmaG93MUVYSWV3UTRjLS1IRy0xbU5WR2NUaXc3bjNLTmxFWW5jZ1paNXRuQTAxSkJ2M3JLQjJ5SmszLTdxWDFSaTNZVFVYcFRrUFA5MG9GXzZjYzlPLUNtWnEzWXhodHRmZWhNNFZlXzNJWlh0cEtILURBR1dpZklpck83LVU?oc=5"
+          },
+          {
+            "source": "Business Upturn",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNS25hM3VBZUJ3b09WOExrbEVFNHRBcThUeDZoTFJxZ00xdmI4bHd6Nm9vdE5Pc1lKdkdpdkJUSFZaYl9mUE44bFB0S2kxTnd3SHpmMmRQWEE0dnZjQlp5MFRhN3d5QUdtOUpBU0c0RXpXMVlkaldYZUVxMkhRYm9DMjJ6WEpkdWVkdEFMd3JGWkh6eGhMR1dRSUdaWVd1LW5CakV5ZHFSQ19taEtkeFQ1N2xfdVdka2NWc1JkcXlXa040allKV1p2bmtWaWtzZ1BxLXNUZll2RDctYzJIMFEzdWl0MmFuUQ?oc=5"
+          },
+          {
+            "source": "pharma.economictimes.indiatimes.com",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUjUtamRLdVBUZFdPUGF0NVc0Tm5KOHNLejA2VUR5cWd1NUJLSHpJS2VEMUNULTJPRnZqUm9LUVdOTzZ4R3o1TlFuQzFLczdRbkdhZlpPT0NUTHN4bHE1T2pBWDJJb1hjMFFyOHdNZ3hNbTNrOTFyeGdWa281OEhYSHJhcHBKSXFLYmp6TlJlUm1tVG13cl9LclBIT3lnV2ZndGU4NHJlcnlGMF9tZVlUb2VPTU5IT29Ed2hfczZiQ1pTbnRBRGVOUHU4enR0dnBW0gHQAUFVX3lxTE5SNS1qZEt1UFRkV09QYXQ1VzRObko4c0t6MDZVRHlxZ3U1QktIeklLZUQxQ1QtMk9GdmpSb0tRV05PNnhHejVOUW5DMUtzN1FuR2FmWk9PQ1RMc3hscTVPakFYMklvWGMwUXI4d01neE1tM2s5MXJ4Z1ZrbzU4SFhIcmFwcEpJcUtianpOUmVSbW1UbXdyX0tyUEhPeWdXZmd0ZTg0cmVyeUYwX21lWVRvZU9NTkhPb0R3aF9zNmJDWlNudEFEZU5QdTh6dHR2cFY?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T02:33:01+05:30",
+        "region": "Ahmedabad",
+        "confidence": "medium",
+        "final_score": 0.56
+      },
+      {
+        "rank": 5,
+        "headline": "Congo's Ebola outbreak on track to surpass history's largest",
+        "summary": "Data shows the Democratic Republic of Congo's Ebola outbreak is on track to surpass the largest outbreak in history.",
+        "why_it_matters": "A Congo-Ebola historic-surpass trajectory is a global-health governance test — read-through for India-Africa health-research cooperation.",
+        "sources": [
+          {
+            "source": "LatestLY",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZERzcjFvemhPR3BlbkhrY0g4YS1TaHVxdmhYVkdmMkZ2bDYtT0dXeWpxLWtSQV92WnpyYVhyaHJpU0dwc2Z0R1lyQVF5V29qR3E2aWE1ajgzT3hEYVNHNW1yeUNnMnNiSEVVRDJKLXRrUnpqUG53VWJVWXJTelp2MEt0Tl91R1ExaGtER05pX1RnTkxKTW1zR3dBTjA4ZDRhUkpQQVVGQjJWeE1CdnJpNmxyMjg3YzRNYTdYSEFMbmhjbEMyUWRjM3JB0gHKAUFVX3lxTE9kRHNyMW96aE9HcGVuSGtjSDhhLVNodXF2aFhWR2YyRnZsNi1PR1d5anEta1JBX3ZaenJhWHJocmlTR3BzZnRHWXJBUXlXb2pHcTZpYTVqODNPeERhU0c1bXJ5Q2cyc2JIRVVEMkotdGtSempQbndVYlVZclN6WnYwS3ROX3VHUTFoa0RHTmlfVGdOTEpNbXNHd0FOMDhkNGFSSlBBVUZCMlZ4TUJ2cmk2bHIyODdjNE1hN1hIQUxuaGNsQzJRZGMzckE?oc=5"
+          },
+          {
+            "source": "MillenniumPost",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTA4TzJSbWNxd0JZc25Ba3RWcFI3bGF4UUxSOF9nUnhQNkFxYVB2OElydjZQbjNOWmtDdnB3Z1NpYWtZWHZiYlk4clp1dk13Rl9QaUpuMTlfLWJlSE9XWThzZ3lqSWdjTC1WMk4wOU1TRnpTRmt0UWZ2RGNSSWFVTXQtUmVmNzl2bFd6TmZ5X0ZLcjUxWXROdEJQb1NxRDdSMVJSOGMxam1XcHZTWUFfZ0J3ZFZ0SEHSAbcBQVVfeXFMTjUwOE8yUm1jcXdCWXNuQWt0VnBSN2xheFFMUjhfZ1J4UDZBcWFQdjhJcnY2UG4zTlprQ3Zwd2dTaWFrWVh2YmJZOHJadXZNd0ZfUGlKbjE5Xy1iZUhPV1k4c2d5aklnY0wtVjJOMDlNU0Z6U0ZrdFFmdkRjUklhVU10LVJlZjc5dmxXek5meV9GS3I1MVl0TnRCUG9TcUQ3UjFSUjhjMWptV3B2U1lBX2dCd2RWdEhB?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T00:51:17+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.24
+      },
+      {
+        "rank": 6,
+        "headline": "Japanese Encephalitis outbreak: 21 dead in 1.5 months, no vaccine for adults",
+        "summary": "A Japanese Encephalitis outbreak in an Indian state has killed 21 in 1.5 months — no adult vaccine is available.",
+        "why_it_matters": "A 21-dead Japanese-Encephalitis outbreak with no adult vaccine is a state-health-system preparedness test — read-through for Assam, West Bengal surveillance.",
+        "sources": [
+          {
+            "source": "Ekantipur",
+            "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOaWNFZlV6ZU54VlA3ZnduXzdXVUxfTGxscGN2RExjSW9YUGR4QVJqTi1lTnh2RmFsSnd1cUVfOTFYWTF2VHlmZy1WZXlXbFBMMGdGMUtTUjcxODREWmctTUdSdEw3WUo2MUZrbmhEcUx0YVVtTXhfVGVwejdsenVwRWVkNVZ3akVDLWVqc0lYR0lyMzNLa1R1RUtRRXk1OEZrWWVOaFlTSmVMcThVUlBsVmVROWFCTnRaT2hVNXRXR3dfODAxY19HSnNXUkhYby10TDgzLU5sVTZtc1NCWmdjR2o4Y3dSOTJUeUgxRUhZY21TZ2ZqdlI3aXpGdlBXeVpqcmFWYXZEcWc0YlBnREN0Q0pVTUtXN3d3LVR3?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-21T21:58:55+05:30",
+        "region": "National",
+        "confidence": "low",
+        "final_score": 0.12
+      }
+    ],
+    "International": [
+      {
+        "rank": 2,
+        "headline": "US to slap 50% tariffs as trade talks collapse; Canada vows to match",
+        "summary": "The US is set to slap 50% tariffs as trade talks collapse; Canada has vowed to match dollar-for-dollar.",
+        "why_it_matters": "A 50% US-tariff threat with Canada retaliation is the cleanest global-trade-rout signal of August — India-readthrough for pharma, textiles, electronics.",
+        "sources": [
+          {
+            "source": "ThePrint",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUUFYSjNZaEJvR1NMdnlaQVFDUGtqM0I0M3piNkwxQm5jNVNXNEpHTzkwS0VRT3RwSW4xSUQ5bWRPRHlTbjFOd0FabXpNYmtEQ1hlbHlaa1FkRXJHenVNYnZ5c2d2LWVTWEw2TjdiWGd6T0FTTmVUWTBiM3FyUGIzZFZqT0FSR3RYYWgtd1NyS1llTXkyNGFjZU1aNNIBoAFBVV95cUxQLVlVVE5NSUJDZEtZU1BYY0NjZkxTbFg3aWF0cFIzMUt2WHY1c0Z6eHBnQkF1LUlzdXZWTndtTmYxRktzWTNsQkFCZ1Z3WkJKU1hWY3FKTkRRZ1pvYUc0Q2RYZE8wcHVNU3FUTDZwQmdnNjlFaWhKaWdrbGdCeVQtbnNRNFRzdmw4RWxfMjMxWHZ4ZXdkbEdoV2pkc0pTbEZW?oc=5"
+          },
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRW5PVkRSQUJZa2ROZ0JrbFJYM0NHYTZLY0FRNnVZRlY2MEZmb3JDLVBNRmF3akc1QVNWZTF5OFc2SW5vcUd3WHhxdWxvODVVMlFDdTdUUVo3UVg4djEwcVpyVndiWHVpQ2p1dGtqSUpaWFdJR0g0VzlWNzNzcnJQTFAwMzRjYjgyUEgtTHAzZVQ3Rk1VcTJRQW1IT1puYUNFbUZDRFE0ZWJmdTg?oc=5"
+          },
+          {
+            "source": "Times Now",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdHJLTENxY2NmaTZPUVdaVHA5TGg1LTJjOHd3SnI4STJyam5velp4TmdXeWZmQnVBWllmZHJ1dTdNcGxLSF9zb09YTzRQaVk5UjJnZ2ZPbnBaQVQycy1nVjR1UjQwNXhaZXI1d081RVdLazh4cllMdVVlRGF6UUQ0UkNlLTVyblNzcUl4Z2FDRVZEcURDNy1MVl9hVU1neURaelNQdjRWZ01LSnp3bmt3S1VDLUpGa2dnT2JobXExS2Z4N2szbFd2NHFQWUstRzJBeWRMMjA2ajQtcHl2TUt6NnlR0gHnAUFVX3lxTE92RG1wTy1iZ2NGSEtfQjN5N0xKYnZTUmlSNXplaDVFYnkxMU44YmhhWkpoRzRCTlJRODRnWFhrQkdQN2E2ZzAwdkFyNDdkSW1uZ2NtV3FqOEUxV1oySVFORGJzVW03YWEyMm1WNFBQbGdEZVY2SXpHd1RmbXFuaHllcVMtSEp3QUZoLVN0TkZGMF9hdXhxUl9mMVZFQXBVeURqV2JQeFUzTzdIdERRMDhkM3I1U05UWTBfSHNIQm5sQXJGQUZXR0JHUFZtNDdBRXhFOFFENVhPSy1WRFppQlEwc203RmZ4NA?oc=5"
+          },
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN0xjM0lLS0ZWYzhfWDZjVlpkTkUwTUJUU2x1RnpKMXNjX0kxY1kwWl9RV0JEbTBWam9UZ2JFMjZzaWo3N3VhNGQ5aVQzZmtBLUR3azQ4cm52VW5ZN0NMMFUyeVc0dWFjX1ZTQkxoWHZ1aERrbXVrZjhBbmFtcEg2TnloY21LT3ExeC1SaEpPLVFlUUkwd2kyVzJITjliSEp3bXdySEFaYVBVRWZjT1VkV1ZJZGh4WjRxb0ZJU1Y1dDc4a3lTM2R1TTJHYzHSAdQBQVVfeXFMTV9GX1FaUkd0VXdFLV83cENyUXNqN2tFemliNmFoSGhXSVhWRFdtMmJKY00zQ0p2R3YtUkZDcjh4MTRTa1ZzWDQ3a0ttcXBDQ2c1WXpHVVF6MkdqWnhBeDFzWDYtcWhhWXhRY0t1NDBybzRtcXpHdnpJT1pSc2h5RDdaT0RqcmJaZTg2WEh6a2FVT2JLVC13bl8yNUoxODBEX2t5STg4bm55ajRHRmpuZ3E5UkFScGlYaGY4M1NvbFZfdnVoMDlfYTAwZGpPNXp4RTdvbWw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T09:49:14+05:30",
+        "region": "International",
+        "confidence": "high",
+        "final_score": 1.96
+      },
+      {
+        "rank": 4,
+        "headline": "Eased Chinese stake norms unlock ₹4,896 cr in FDI inflows",
+        "summary": "Eased FDI norms unlocked ₹4,896 crore in inflows to key sectors — the government reported 29 FDI proposals after the 10% Chinese stake rule was relaxed.",
+        "why_it_matters": "A ₹4,896 cr FDI inflow unlock after Chinese-stake-rule easing is the strongest post-2020 signal that India's FDI regime is selectively opening to China.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWllrdkhULUYtS3FzVTdMalBBdzRCQlR4clUtS3BsNkNtSVA4c1NHa0FHaDBNM2ZHd250ODdEXzFaOHdfYzh1ZW9EekdfX19iMy1DVlVKZDhGQzZMdzRadm0wTU5ZanRxNWdCeThzbF81bXlDZDlQUi11Y0daZURiOFBkXzVuQy13UDBnMzZRSEV0Y1p2ZjEwUTlMc0lBZTV1QXJ5OURQZjlxcGgzNzkwbkYwbVU1U0VRdzMwbF9mcnp2VlNkWlHSAcwBQVVfeXFMTWFrY2NOOXVGaER6WTlFalpqXzBvUmdKZU9uM0ttMkI5cl9rWGctRkFJUFRqVWpfMlZPSWlzVm9jRGFOcHNjNHhBcnQzQzRlZHZYdHkwaldCekFZZnhSVlEyaDBIbTdRQWl0enVzUFFRZFIzc1dhRllLTmhLRmstQWx6WGFNbHkwUmY1VVM0cUpyY3NfS2dfeGxTZUsxX0M2bDBNaWdJT3ZDRlhERm95aURwQmE3X2MyMTdDSGN4c05XMEhDOFUyRVFvcWpz?oc=5"
+          },
+          {
+            "source": "The Hans India",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR1pfWVhFR1IzeU8xWmM2bnRDMDV5V2hzZ0ZMMGdZNGFrYW5lVE9KdUxmcGdUeHF0dFZ4cFlQcTNHd3BQZTAwMFNBSWowdTdFTlhNTThxT1psYU4ybV9lb2JPZEx1U1Z5SWsyOVMxQUVqejJTY0hTV0JtOW0tMUM4QmYxajNzMGFCZ0NENEZmVUdJb3pFV3lNZXBJRmM1d3dEdzlUVXBxSmLSAagBQVVfeXFMUEdaX1lYRUdSM3lPMVpjNm50QzA1eVdoc2dGTDBnWTRha2FuZVRPSnVMZnBnVHhxdHRWeHBZUHEzR3dwUGUwMDBTQUlqMHU3RU5YTU04cU9abGFOMm1fZW9iT2RMdVNWeUlrMjlTMUFFanoyU2NIU1dCbTltLTFDOEJmMWozczBhQmdDRDRGZlVHSW96RVd5TWVwSUZjNXd3RHc5VFVwcUpi?oc=5"
+          },
+          {
+            "source": "PSU Watch",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcW04OUZ1aVppN0REWjl6Zi1aRHcwQ0k2WXItWFgxdU1HTVFTdUhuelpXMmdpU0J3X2VCNS04OS1jREZnNUpGREdkSWNYTVZTVWQ1cFBicHBEYWRCVjZUblB1d1lrbU9mWXdKbFVJTGhCZFN5QWFxTW1ZTWJUS2hkYjVfS0hUVTNMcHdJdkpIQVNycUNudjhNNU1lS1JwMXJ2eWdoWUUzbnktQTZZb2htR09qQ25rNnEwTXNaSGdmSjljR3PSAdABQVVfeXFMTXdILUZvV0RtLW9EZ1ZaMms1XzFyVWliRENwVnIxcUE3cTI2TlNJaXNPbXN1cU9zYkxUcDhlM01YZEdkaEY1Szlqb3VPcDluNUpkRHZiandRa2ZsdEtSZkwxbW9JZHZpcFQ3SldGbE9BeEpBWV9NbXBPOEJTdmduUGNpR2V5NWpMdFFyaGpuZnFmZ0o3VzlpUzZCNVVJUERwOEh1dmsxNnh2UmVsb1BWV2JWVVFCd3pRQkRIb0p2eDBDYmZDWmhrejZjUF8zTWJVYw?oc=5"
+          },
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNHBlbHdWbnNrd3RGVU4yMERJVFdMX3ctTjNYbUZmU3hVU0tjQnZEckpFUEpsSExrUENXX3FoWkxxSzNFZnhRQndxbUVoRWtGS1YxdFE3NG5nVTJfbW5rZU5ORmV1b0pQU2c4aUxSeFd6LWFyVkhLcVlQVU9UakFqMnJEVDFwZWRjdEJZVHg0MDdCZ1MtdWFwTnBUREZZM1I0WjYtRUxpdS1QaFBZMEJUYXBZcThrd2l2TEozM0U3RUt5NnRkZHBPWVVINmJrbXZmSkVxLTB6eWVzeFlYZzczZkZwbEN6Rmxidmg2R1hCbnNiTFdjdHhqNjBTLVRhTFZ1NmRYeHpuUdIBjAJBVV95cUxNWFZqWmdVbjVpZkdTSHkzMzdYLU5TMEVhQ3ctOFpRQllwSldKNXBsckM4T05nTnNoVlpuRTlpNmNMQzFyMEhTeVoyMGtpQmJFaVhXZ3Ftc1RuRWlPUlFtZy1WZ18tc2laNC04R3MwNC1XNUJyQmoyREtPQ0RieWVmOFR6VnZqR3VxMEFrc2pUeGwxa1FtNWNfV1NUOXNkVjY4cjVhbVhiYUkwY2hHb3ctOTVJZERNX0tTUjgxZ0ZMakVlM3lmeWVYTE5wZ2xqcWNIQmRudk9BLVFXQlZHLW5YTDROSkpOeXNEZ0REVDZRekdhNzV1UW1haDVtSlJDbFk4dDByc0M5V0llS2Fw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:03:00+05:30",
+        "region": "National",
+        "confidence": "high",
+        "final_score": 0.4
+      },
+      {
+        "rank": 5,
+        "headline": "India, South Korea to increase bilateral trade to $50 bn by 2030",
+        "summary": "India and South Korea agreed to increase bilateral trade to $50 billion by 2030.",
+        "why_it_matters": "A $50 bn India-South Korea bilateral-trade target by 2030 is the cleanest mid-decade Indo-Pacific trade anchor — read-through for electronics and EV supply chains.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdkRZTUFKWURJUnU2NzBBcFBrdURsakx3RjVJLVJlU2FtMFFneXp6czA1MUNJUGRhc0xySldmd3VYODlvanExUUNNTUpTemdOdEZpRVF0U3drazNDcVk4elNqX3NMTWd1R3lmdmJLdEsxaWpNbUMtVWdrSGVWVXUzS2dyR1VRWkk?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T01:31:55+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.5
+      },
+      {
+        "rank": 6,
+        "headline": "TikTok to pay $400 million to settle US child privacy case",
+        "summary": "TikTok will pay $400 million to settle a US child-privacy case — a US-court approved settlement.",
+        "why_it_matters": "A $400 mn TikTok settlement sets a new US child-privacy enforcement floor — read-through for India-Google and Meta-DPDP compliance standards.",
+        "sources": [
+          {
+            "source": "Firstpost",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdE9WTzgxWmFTcDRILWpIWEZ2YXVnTHl5Ry1ZaVpLTURIODhoZzVKX1BQYUI0d0JDUnFyOE5URkY1d1NaYnNiUC1fTnR5TVhMNHl0TWVQQVM1Y3FiR2NDVmhneFVXRUFVT2JBeWpSNE9RY3VyZjVpYTJJdmxyMlY1LXVFYi1JS0NmeDJJWlFEVWJvLXRUV1FyeDlXeENNUmJSRkZ3Y3RNLWNOWUR6cFZvMWlR0gGyAUFVX3lxTE90T1ZPODFaYVNwNEgtakhYRnZhdWdMeXlHLVlpWktNREg4OGhnNUpfUFBhQjR3QkNScXI4TlRGRjV3U1pic2JQLV9OdHlNWEw0eXRNZVBBUzVjcWJHY0NWaGd4VVdFQVVPYkF5alI0T1FjdXJmNWlhMkl2bHIyVjUtdUViLUlLQ2Z4MklaUURVYm8tdFRXUXJ4OVd4Q01SYlJGRndjdE0tY05ZRHpwVm8xaVE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-22T06:00:12+05:30",
+        "region": "International",
+        "confidence": "medium",
+        "final_score": 0.56
+      }
+    ]
+  }
+}
