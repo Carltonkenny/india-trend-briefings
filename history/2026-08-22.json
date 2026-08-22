@@ -27,5 +27,6 @@
   "publish_verified_at": "2026-08-22T10:27+05:30",
   "publish_http_status": 200,
   "previous_day_status": "ok",
-  "telegram_message_md_chars": 3381
+  "telegram_message_md_chars": 3381,
+  "git_push": "Pushed briefing for 2026-08-22"
 }
