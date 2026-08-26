@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T09:18:18.538764+05:30",
+  "totals": {
+    "raw": 966,
+    "kept": 38,
+    "sources": 10,
+    "categories": 12,
+    "deduped": 38
+  },
+  "delivered_at": "2026-08-26T09:20:54.489001+05:30",
+  "telegram_message_chars": 3373,
+  "success": true,
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline",
+  "previous_day_status": "ok",
+  "publish_ok": true,
+  "publish_artifacts": {
+    "day_page": "https://carltonkenny.github.io/Daily_briefings-/2026-08-26.html",
+    "dashboard": "https://carltonkenny.github.io/Daily_briefings-/dashboard.html",
+    "by_topic": "https://carltonkenny.github.io/Daily_briefings-/by-topic.html",
+    "index": "https://carltonkenny.github.io/Daily_briefings-/"
+  },
+  "publish_verified": true,
+  "publish_http_status": 200,
+  "publish_verified_at": "2026-08-26T09:20:54.489001+05:30",
+  "delivery_failed": true,
+  "delivery_failure_reason": "telegram_api_400_chat_not_found",
+  "delivery_failure_detail": "deliver_telegram.py exited non-zero: Telegram HTTP 400 'chat not found'. Bot @Dailynews69bot has no prior conversation with chat 8344314041. User must /start the bot in DM for future deliveries to succeed. Briefing still published to GitHub Pages successfully."
+}

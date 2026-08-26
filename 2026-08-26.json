@@ -1,0 +1,957 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T09:18:18.538764+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-08-25T09:18:18.538764+05:30",
+    "to": "2026-08-26T09:18:18.538764+05:30"
+  },
+  "totals": {
+    "raw": 966,
+    "kept": 38,
+    "sources": 10,
+    "categories": 12,
+    "deduped": 38
+  },
+  "themes": {
+    "Top Stories": "Cross-cutting themes from today's India news cycle.",
+    "Tech & AI": "Data-centre push, deep-tech funding, Japan semiconductor agenda.",
+    "Markets & Economy": "Crude-import diversification, RBI repo unchanged, fuel-price watch.",
+    "Politics & Policy": "Amit Shah sets 1-year criminal-law deadline; Owaisi vs RSS row.",
+    "Bangalore": "Food-safety crackdown at Bengaluru clubs; Karnataka MLA slapping video viral.",
+    "Chennai": "Madras HC halts Periyakulam work; Vijay's new airport push in focus.",
+    "Mumbai": "Marathi auto crackdown; ₹15-lakh bribe case against Mumbai judge.",
+    "Sports": "Dravid on Sooryavanshi Test future; Ishan Kishan's red-ball comeback.",
+    "Entertainment & Culture": "Toxic-Yash crossover; Bollywood OTT slate warms up for festive season.",
+    "Crime & Justice": "Anti-graft agency seeks prosecution nod for Mumbai judge; SC on CBSE OSM.",
+    "Health & Science": "Manushi Chhillar wellness push; pharma licensing moves under review.",
+    "International": "India-Japan economic-security agenda; U.S.-India data-centre diplomacy."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "headline": "Union Minister Piyush Goyal pitches India as global data centre Hub - News On AIR",
+        "summary": "",
+        "why_it_matters": "Centre courts hyperscaler capex with policy clarity.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTFxSV9MNG5BaW04QTFQSXkxZmhBTGVmWTVEY1diVEw1QUVuLU1JUVNZMHhyRDdMWkVNb0FNR2dmdmszYmVYd3YtekliMmE3ZXJGbWpmWjlhZDV1X1dSRmVaWUxOUFVhcUthN0dLTGVkXzZaMFpSajJhM1pNU3JZSXh1NV9nYkZ4SDQ3QUhJT2lGSDk1YTBTeXl2LWduRHYyZ01iT2ZSVzZvQl9ZMWdjVjIwcl9kNjNLQUpoUk5pbWI3YmRnbzZwNXhURQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:29:20+05:30",
+        "timestamp_display": "07:29 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "HM Amit Shah sets one-year deadline for 100% implementation of three new criminal laws - News On AIR",
+        "summary": "",
+        "why_it_matters": "Sets 1-year deadline for full rollout of three new criminal statutes.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1VMY2dmdFhOYVp2SmRqQ1N3SlN3N21DbjlfS0dkSzVBOTJWNUQxMDkzREFsZ21KenlYT29uamhZQWIzZEVkcWxsR0xZNXlzMG9fU3hwMWpYMml1OVBPWW5wemctZC02MGxEektPTmg0ODE1bTJLVi1CanlqZ1dFcGhoYmdRdGp0MGJHZ2M4TXhaaTBzOFNFZFRXLVVzR2p6c09Beng1VUN6VE5ENkpmSg?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:14:00+05:30",
+        "timestamp_display": "08:14 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "India, China agree to continue their work in seeking political settlement of boundary question for overall and long-term interests - News On AIR",
+        "summary": "",
+        "why_it_matters": "Beijing-linked development in today's cycle.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdGtiUFNYcldlU3dEMWtVS0I0RGVrT3MwZG1lYnBuQ1A2LVp3cFNkLTNpbVNpQjBsb1ZoX0FrRmVkQkRjMHJ5T21UUjNTZUJoaG9RdVVRbGFNME9uTXIxRnlkR0hLY3YycnBuc2J5UjNHaFpPTGNLOThWbGJLT3NJZ2Nac01NMWZUUlBTanZUN29Gc1pJSWtNTm9JbXE0MWdHYVQ4UDZuekVDelNYVVVLMFp3X1dxdlRRWXB1MXRYUF9vM2t2ZFRrb1l3UWUzMHJBaWhubTBJOEpYZUUtV0U0ZGVfNWw2ZGhGWkNN?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:53:00+05:30",
+        "timestamp_display": "07:53 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 4,
+        "headline": "5 of family found dead in Srisailam; suicide suspected | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFA2bVhpOTZLTVd3Z0t5MWtJNWJzaXlaZ0IzcFQ3OWpaVEJ0b3luWDVtQjRYcnNCeVhUYnFMSFBiRzdRX09pbW5qTE9DN0VOMnRtdVdmZFZvVVIxZTc3MmxGcDVrYTVFd1BpQ1VjZEFsbE50bXhYVUZtWDg4RFA3eTJ2YTBWTzJzQTUxUjlRTjFVRE14N1drVXljLTdhR1ZkSDFPZmVERjd3Y01ONDFjWnhHWVlqLWvSAbwBQVVfeXFMTk9qbDJqcVA0eml1OVdDNUVhRjJLMnU0VzF6SDNQU0E1UjdyOC1WVHdJbkR5UlNPRWt3TkxaWk5vNDBwQVN5Zm1aNDZzRG9VbzVSVjhpN3p6LVc2TnE2Z2xUZURSM3JsekpvY0tOM2pSbmdsRVc2TnlrcVpDaExnRVRyUmdnTU5DeW1RaE16Yi03MG5MYlFtTmdsNXQyaGc0NFZLMVZ4Ym9reW9Zb1l5UzBVUjZPS3BKQ29yejE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:33:00+05:30",
+        "timestamp_display": "08:33 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 5,
+        "headline": "HT First Read Aug 26: Mamdani on RSS rally, Yash's return after 4 years – top stories to start your day | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMElQMkl6ajdBSlNhSm41Zm9Xd2lKT3Q3aERzYUxGc0d1a3lIUG03VWd0N3hMRnVLVEVxakR0MUhXZjM0cldRdWg3QUZDRDE1WXJTM1lOZDdUdXp3cjB2RHhCVVJLd1o0eDU4X0tYZGd5aGc4RHZHYWpjYjF0eXU5MlNvVzdiRDJtR3J1b1NodXlvUldHMlUtREtURlNjX1ctb2h3TGV6WjBfdkJJSXhPMEhKQlV2UEhzMzFzcGFXNHNKdFRRbVh1LW5US05WdnF4LV94TE14dkdpRkVISktsdEZSbjJDb19VbldtUW1nRlJ2ZmtzblF1ZkUyNmJ6QlJGN2QwbtIBigJBVV95cUxOdHpTVmEyeV9kdW9qQkVjRXJfWHNrZVViRXoyeWpLSVNRczBlWUR2MEFGTEJwVFhNSGQ1XzVVaGlWNmZJMUNXaGxqRmJTakQxNktzRWZxcUtmQ3RvcVpJUGpuWlNSSmM5NXVfb0F5aHRVRVg1U3lnMDFxQXhNWUZobUVheE9kT1lDWEplX3dQd19yVDd1Tl9kS1V0RF9ZUHRicGJ2a3h0YnZRMkQtN09MNVJQUDNORzM1dWNVd0dXNWRkVUkyVnpaZTJWd3JpREo1QW1IcEZRN0VESVVwVlBQVlh5dWhETkV5WDZfTWF1X2NPYk5wRGRNa2ZNejNxZmNDcEZNdlhZQWtNQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:56:48+05:30",
+        "timestamp_display": "08:56 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "Union Minister Piyush Goyal pitches India as global data centre Hub - News On AIR",
+        "summary": "",
+        "why_it_matters": "Centre courts hyperscaler capex with policy clarity.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVTFxSV9MNG5BaW04QTFQSXkxZmhBTGVmWTVEY1diVEw1QUVuLU1JUVNZMHhyRDdMWkVNb0FNR2dmdmszYmVYd3YtekliMmE3ZXJGbWpmWjlhZDV1X1dSRmVaWUxOUFVhcUthN0dLTGVkXzZaMFpSajJhM1pNU3JZSXh1NV9nYkZ4SDQ3QUhJT2lGSDk1YTBTeXl2LWduRHYyZ01iT2ZSVzZvQl9ZMWdjVjIwcl9kNjNLQUpoUk5pbWI3YmRnbzZwNXhURQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:29:20+05:30",
+        "timestamp_display": "07:29 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "Goyal pitches India as trusted destination for data centres, cites $200 bn investment commitments - ET Telecom",
+        "summary": "",
+        "why_it_matters": "Centre courts hyperscaler capex with policy clarity.",
+        "sources": [
+          {
+            "source": "ET Telecom",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLTZUeHpIa09VN3dZMklaOEhoNFVxckZ2SFc4WFE4RjdOX084aGMyR2RrTUIxR1ZXbVdGWHpOakdkZGJacTBpQkNMaGx4RWxzYkZQR04xRnh3YkJMVms0WVBNM1JjM3RLWHo1Q2RPcXVnX1hOeUV1NVFJY1FEUnE1cHU2R1FYQ1lpcnJ5NHVRRDRxOUhKbUJscDl0ZlRhZmFvMzVVemlpWWlVZk5YM2NIdVFfTTN3NWM2QzlZWGRLVFliU29iT29FUm5BM2QwS3VGOGRIZEVfMlJ4WFZhZTJBcVhMSnZvc3BUb3A1eEhIc3c3TkdT0gH6AUFVX3lxTE82czlqUzRBUGFQNTQ2TzNwVkV6RHA3c2dwMUYtVDdyYlJ2UGh1a290UWpoUUt1djJibTRFc3I2WWZrSk03WTFrMkpLaEZNdFJMS29YYVdSbjJQcHloZVVzVmZfX3hzcUNjb1d1UVA1UWNzMnhYUGNZMHJXYzA4Ti1UMDd2Yzd5ZXFkZ09FYVFMU1E0X3JyTkVFNjczR2NRU0cwb2NwaHJLNDhzSlpqaDJNbkVKM3VoQnhudXNOYnNULWhyWTB3UmhJb1k1eFNhVlBNZ25CcEYydlhJT0hpQUtpWFJHMlljUVZBbjcyNlV0MHUzTmJKQW02Smc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:52:09+05:30",
+        "timestamp_display": "07:52 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "India-Japan economic security agenda takes shape around semiconductors, AI and investment - ET Government",
+        "summary": "",
+        "why_it_matters": "Frames Tokyo partnership around supply-chain resilience.",
+        "sources": [
+          {
+            "source": "ET Government",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQ01lemEydWxlQjQ5cVRCMG9CcHd2LVJOZnREU3ZBZENTZ1lNM3I0bjBsRS1OLXFRMHVqUW5jS0ttclRnT1FGOE5FY2F3andOLXdVdDhJb0JTdWJmS0VRdURxWFBhMkdoU05aUk84YURwWFBRbVNJUndrYzB0QnNlb2MyVnVKVXRIUXBmSWRfd3ZESFhJTjFiUGZKY1BYTkJnZG5JNW4wOFJDcHlIeWpUSk8yQlNjUnhIV3hDWEo4bWhsQ0YwbGtWci1UVWZ2dlhYTGtnd0ZRVzZhTDBiZlRTX1l2MGJVeGdOSUs0bk03VHFSWWtO0gH6AUFVX3lxTFBWbVZ0eDNhbEdhazNrejl3WDFSSmJZd2h2ZGtyVGdiem93TFhid3hjQmxjd3Z4dkhtbVFwVWNQcmJWMnZ4TnoweEItbU5PYzN2cXJ3LVFRZF9mVGtFMnZlMzJHcjN4cDBRanlnUmp0MHdWUEpNUHpZYXphWDkyNC0tUzJGYV9rYXNHN1R3dnNRcGtRXzZpWVQ0X05nVXdIQTdmRVZDeU5UTk5ianZhQ0l1QVJLZndOa0o4cnRqSzFUZHdZM1VMWVN3elF2V3RpQllBTklvS093WHpzQVRiR3B0dzY4U2dWTjhLX1Y3ZExiOGdNX1FYUE1iMlE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:53:47+05:30",
+        "timestamp_display": "07:53 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "Stock recommendations for 26 August from MarketSmith India - Livemint",
+        "summary": "",
+        "why_it_matters": "Brokerage morning note for the trading session.",
+        "sources": [
+          {
+            "source": "Livemint",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONjc1bzRaRkt0SDZPbV9PclZEZkRHeV81cHMwU0VtOE4tM1dwNDEzdEhremJaWWlERnAwRk15aTFmTThUMTB4THBUWnBINGNIZzJPMjd0QlJhUndad0tiMkVJazRNNk9XZ3RxSXhHNHdzLWkxeUVIbXJWcWV2Q21fbUQ0dW9UYW5nekp2WEt4NGxzMWRaXzdWWDJjXzU5WWhRQmxfZnk4ajYwNmpEVWRXNDVSbEpZTWRhQ3R0UThCbEVLdWlSQUFV0gHMAUFVX3lxTE5TdmN4UktSbGpxd25SVmNXLUdrVGFpN2RyNy03Xy1UMGtJQlFvV0VKejh6NTZ4c2J5dklqcHpwTHRWcll1QUFFUk8wb3lGdHlSSEc3c05rYXpyUDJKcllGWWo4bnY2bldybGVMeVJ6Y1l4dHk5VGc4azBZeVpRSzNLaThHalc4dzg5MHdvWEN0dU9MRVBYUm5UZUlNZ05rbDVxMlZyU093TEx1VkN6a2tYanNTLVJxVFZQTUpmUUpMaGtfMHRGVFlWS3VoNw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T06:05:41+05:30",
+        "timestamp_display": "06:05 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "India secures 70% of crude oil imports Outside Strait of Hormuz: Petroleum Ministry - News On AIR",
+        "summary": "",
+        "why_it_matters": "70% of imports now route outside the strait — energy diversification milestone.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTC0xTTV4aEJ1RFlJekJreVA2YkVDZmVOWVAxSkI4VDd0VjBGZmM2QTdJZjZUMjRVRXpzZGZCb21UaFE5YnRoVjVPN0FOQmpDYl9nV2d5WE5pUF9qekxWUm1Xd2Q0U0NWSDNNRmNVXzhndGRTcVBYcEdZdWRnUkRmZlREWjNaNExWZHFucnNVREFaTlQ0eEtxNC1RY0dIMEhpN0RuU25NSXB5djQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T01:33:08+05:30",
+        "timestamp_display": "01:33 IST",
+        "source_quality": "high",
+        "recency_score": 0.5,
+        "final_score": 0.5,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "SC closes plea on CBSE OSM glitches",
+        "summary": "",
+        "why_it_matters": "SC closes plea on Class-11 exam glitches.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/sc-closes-plea-on-cbse-osm-glitches-101787684884497.html"
+          }
+        ],
+        "timestamp": "2026-08-26T08:23:10+05:30",
+        "timestamp_display": "08:23 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "HM Amit Shah sets one-year deadline for 100% implementation of three new criminal laws - News On AIR",
+        "summary": "",
+        "why_it_matters": "Sets 1-year deadline for full rollout of three new criminal statutes.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1VMY2dmdFhOYVp2SmRqQ1N3SlN3N21DbjlfS0dkSzVBOTJWNUQxMDkzREFsZ21KenlYT29uamhZQWIzZEVkcWxsR0xZNXlzMG9fU3hwMWpYMml1OVBPWW5wemctZC02MGxEektPTmg0ODE1bTJLVi1CanlqZ1dFcGhoYmdRdGp0MGJHZ2M4TXhaaTBzOFNFZFRXLVVzR2p6c09Beng1VUN6VE5ENkpmSg?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:14:00+05:30",
+        "timestamp_display": "08:14 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "HT First Read Aug 26: Mamdani on RSS rally, Yash's return after 4 years – top stories to start your day | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMElQMkl6ajdBSlNhSm41Zm9Xd2lKT3Q3aERzYUxGc0d1a3lIUG03VWd0N3hMRnVLVEVxakR0MUhXZjM0cldRdWg3QUZDRDE1WXJTM1lOZDdUdXp3cjB2RHhCVVJLd1o0eDU4X0tYZGd5aGc4RHZHYWpjYjF0eXU5MlNvVzdiRDJtR3J1b1NodXlvUldHMlUtREtURlNjX1ctb2h3TGV6WjBfdkJJSXhPMEhKQlV2UEhzMzFzcGFXNHNKdFRRbVh1LW5US05WdnF4LV94TE14dkdpRkVISktsdEZSbjJDb19VbldtUW1nRlJ2ZmtzblF1ZkUyNmJ6QlJGN2QwbtIBigJBVV95cUxOdHpTVmEyeV9kdW9qQkVjRXJfWHNrZVViRXoyeWpLSVNRczBlWUR2MEFGTEJwVFhNSGQ1XzVVaGlWNmZJMUNXaGxqRmJTakQxNktzRWZxcUtmQ3RvcVpJUGpuWlNSSmM5NXVfb0F5aHRVRVg1U3lnMDFxQXhNWUZobUVheE9kT1lDWEplX3dQd19yVDd1Tl9kS1V0RF9ZUHRicGJ2a3h0YnZRMkQtN09MNVJQUDNORzM1dWNVd0dXNWRkVUkyVnpaZTJWd3JpREo1QW1IcEZRN0VESVVwVlBQVlh5dWhETkV5WDZfTWF1X2NPYk5wRGRNa2ZNejNxZmNDcEZNdlhZQWtNQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:56:48+05:30",
+        "timestamp_display": "08:56 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "‘They opposed Ambedkar’s Constitution, wanted Manusmriti’: Owaisi targets RSS, BJP - The Times of India",
+        "summary": "",
+        "why_it_matters": "AIMIM president sharpens attack on RSS ideological lineage.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNXpqaEpieXQ0V01jRHd2WmlwX1FnaTJKTXI0VjFVa2ZVUlJvWVRSTlZJY1JYRC0xYzNpTkVIdDNFWkRPcnFpNUo0bzI3VDc4Wk80V0ZOZGdkM1plQ1hjLUVlZDhhekZOSEVGZk1QeHlpWC0xNGhXZHphTGlPcTJNcmh1UzlONUpQZmZGOTBKenN2NVB0ZnJ5T0FkVWJZZW9qakpKZUMtY2xVOXBxN1A1VHRWbzhNdEFqOEVPcWY1cU5OTmw1R2RCaXVBSDd4Q0hTN05IWDZmb3huazFE0gHiAUFVX3lxTFBvdFJmZC1YN25XXzY0WGVKYlhQelhoUW52YW4tcmFHNGVLdW5HQlRUS3lkLTFHaG1ZN0c5RERZd3lCNHRSeHR6REhrVC1nbkpINGZ1OU5PYTVUUTBtazJZQ2NzOUZwOXBfVkVUYXFiR28tYmdfVTRoWnFWNzRKdHhoWUFkTFlzU1Q0Nm9hNXBoUUJvZVpacnVXeV90S2RXaVZoVGVCTlFaWTlfOEtjLWlxcDVYLUMyb0xzQ2lRZFc3M1BsbGFqdVJzOUdHc2kwYlVhMXRHRmZXLUlpbzh6Y0FkdWc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:51:00+05:30",
+        "timestamp_display": "07:51 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "Fresh catch from the ocean in Bengaluru",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/fresh-catch-from-the-ocean-in-bengaluru-101787685064155.html"
+          }
+        ],
+        "timestamp": "2026-08-26T08:25:00+05:30",
+        "timestamp_display": "08:25 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Cockroaches, Filth: Food Safety Crackdown At Posh Bengaluru Clubs - NDTV",
+        "summary": "",
+        "why_it_matters": "FSSAI escalates hygiene checks at premium club venues.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaG1rQUdzTWc2TDBTMGtPcFVkanVFbkRjTUlHRVlCaE9jX0p3ZU50ejJ6TDdSVzU5Z0VqVzYxNDhFcW1QUGpoYlRlU2o3Vjg4RFhiMWtsSjU2UUFsSVEwN3Boa1o3cmpkV2NUTXRmNEpLQ1FqYWYwMC1PaHU1MVNTb3B4N2YxcjR2VnlJS0J5TXZkS2VoMEpwMjliYTcxelJRb2ktUUhwV3FpUzgyVkxnekN5NEfSAbwBQVVfeXFMT3o2bEFWTm9ubEExN1hxZWFqME9HaVVGS3RNaUFQM2ZGQm9IYWo4YU81SVFKTmh5MDdfc3gtaTAyLW5SNGxuaDh6NWc2dUc0dHRaQmpOeVVhb01YUUVqczhTbm1Mck5TNnR5c3NWeXBPUk5nMzZGTGQxU0owWHl6TGhMUXM4ZlV6c0IyZ0NURUNFQXAxYnJQWU5peWNkX3hQTHlnRUNOUS03TFo2dlJJV2tXTm00VVhjYzYwMFU?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-25T22:52:27+05:30",
+        "timestamp_display": "22:52 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Bangalore",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Jailed Karnataka Officer Found With Girlfriend During Surprise Hospital Raid - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQkxyTUpYVjNkQXZ3NmpmdXFUM3A5WnZBd1NfVmI2T1VjTTY0WGsxa2NjVlBlaEFxcEJ4MFJPQUk4emZsQ0hSWmllbmhUVjJ1X1c5XzNwUUw0UE91NFdaU0pfSUdobEU4SmpQNjBZNnZndklwYzdBQ3JuQ3pyaDJLUkwyWDZtOW14LTNXejBvMWI3UXBabVhCZU1ZRHIybGw3SWJxZ3pxRi05OW8xWnJzSXJ3QVNwZDJn0gHAAUFVX3lxTE9sblNhU2lDY3ZlQmp4Sml1TzdZQ1hNSkZCbzNNbUgwUFJBYkVJTFJSczF5bVBmTGJMMkNGWXFzZDBxdHJSWUY0QXR5TVRqY0lHdzRaUzRrQWxvR2xpdXRnQmZEc2NpMFlLb2JEbmxmczRTdXBjejNJUDhBLTJoSFY3bXpoakpxdXlXRS1iS1F3clpVbVRvbWxGbU5MeDFGcDlsemoxZmVtdkpWNmtERGFSR0dyYmZsbmpfSk9taXNjLQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-25T18:15:06+05:30",
+        "timestamp_display": "18:15 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.252,
+        "region": "Bangalore",
+        "confidence": "medium"
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Madras HC halts further works at Periyakulam, Valankulam in Coimbatore as expert report flags wetland bird decline",
+        "summary": "",
+        "why_it_matters": "Madras HC steps in to protect Coimbatore wetlands from encroachment.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/Coimbatore/madras-hc-halts-further-works-at-periyakulam-valankulam-in-coimbatore-as-expert-report-flags-wetland-bird-decline/article71388913.ece"
+          }
+        ],
+        "timestamp": "2026-08-26T06:40:15+05:30",
+        "timestamp_display": "06:40 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Madras built the engine, Chennai is shifting gears",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/chennai/madras-built-the-engine-chennai-is-shifting-gears/article71385941.ece"
+          }
+        ],
+        "timestamp": "2026-08-26T00:26:10+05:30",
+        "timestamp_display": "00:26 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.24,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Mistaken For Tamil Nadu Minister Keerthana Over Short Dress, Malaysia-Based Woman Speaks Out - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS29vaWU5NDczNUE5S25xWUREd0t5RmdFYVJOc25tRVRMNm1OaFI3azRMRzZwVjRFN1g4a3daeFB3dnk2aVE3SGZRN1ZuNFhfekx3c0N4WHBWbWJySzh0YW9KVVB6M29XX1YzTUhrUXkwcjRQeHJfYVhxVENNZTMxRVZhZkVWeGREUFBiVUh1bDZ4NVlKRGdJZlV4bTFhdmYydGdqcllsdGI2UDBRQXl6MmZXTGRZZVpLUVlPMTRGSnY0aHZyV0ZlRUJ4WE0?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-25T15:55:05+05:30",
+        "timestamp_display": "15:55 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "Chennai",
+        "confidence": "medium"
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Mumbai auto drivers learn to refuse rides... in Marathi - The Times of India",
+        "summary": "",
+        "why_it_matters": "Marathi-language rule resurfaces in Mumbai civic policy.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOenB0WllXTGVNZUtnMEszRjJBN0FOOFdKYkNBanh6SGI2VS0tc1FtLS1aODVTNDVqT3JqRUZ0U1doenBSZ1d5OFhkVThDU0t0ZElkVUw2NkJBSW1zeWYxX0JEMnhHZXc3ZFRyVVh4TTJfNFJfQVNkV2p4YzJZdFJ0OVBVb2xGTHV0ejhJX0V3WXh6OTNoT01RakVfQnI4cnJORUxaTVBuY3hhWHgzdk50UEN1QXJwMGRKbzFLeFg1ZmFEVUxp0gHKAUFVX3lxTE51SmdIMTA5RTM3SEpUQmRQR2ZvT185Vk5YbEVHeldhTFZiWEIta2tpTFdWbFoycU5UR3NhZG5XNDZVbHI2Y2dNdnp6S0tGSEpSNldwUHpWWW8takN6VWcwQzVveDUxNDFVdl93eDFFSzZqOGVpSUhWX19hM1F2MnZrOEVQUVFEUGVLc0UtYXVPRlVDT1Z1ZDFNRnI2NFRXWWNDb2xCdWtqVXpuOERPd3hLelJyaVZYNG1QV2pCWnRiUFhXR3d5Sk1UbGc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:31:00+05:30",
+        "timestamp_display": "07:31 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "Mumbai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Pune tribal students’ protest enters 13th day as talks with Tribal Minister yield no breakthrough, say students",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/national/maharashtra/pune-tribal-students-protest-enters-13th-day-as-talks-with-tribal-minister-yield-no-breakthrough-say-students/article71387944.ece"
+          }
+        ],
+        "timestamp": "2026-08-26T04:53:24+05:30",
+        "timestamp_display": "04:53 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "‘Rs 15 lakh for sir’: First in a decade, anti-graft agency seeks nod to prosecute a Mumbai judge",
+        "summary": "",
+        "why_it_matters": "ACB seeks sanction — first such move against a sitting Mumbai judge in a decade.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://indianexpress.com/article/cities/mumbai/rs-15-lakh-for-sir-first-in-a-decade-anti-graft-agency-seeks-nod-to-prosecute-a-mumbai-judge-10849578/"
+          }
+        ],
+        "timestamp": "2026-08-26T07:00:35+05:30",
+        "timestamp_display": "07:00 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "Mumbai",
+        "confidence": "low"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "'A tricky one': Rahul Dravid reveals big concern over Vaibhav Sooryavanshi's Test future - The Times of India",
+        "summary": "",
+        "why_it_matters": "Dravid flags transition challenge for the teenage batting sensation.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNmdsMThJOVFOMVlGeEFTekhCa0NEd0tNVm1OQlNJOVVMVFAtYjZNN2hRR0tSSzQ4MTg4b09wSHNEY1Z2TUwyQjZnWTZxaDNWNUVwVUVlRF9yWUVNOXlfRkl6b21GVVhjeEpKY0NaeGdYTFI1d0R4SXZ3YnNVakJ0LWhMTUdZVHpIaDJYUm5Vb1ViZEZpbFdfTkpjOGZsUkFCLUxlWC13a0pJUTl2Xy1uUURoeC1EWjhXNU5Id1hycmtOb05tajNZLUtZbjdlZzI1RUxnYjNVYlNKeTFabFZscVJKcnBnbDdHZlg5N1huSlRCZ3dSS0J1Q2tR0gH_AUFVX3lxTE1YUmhsaWJCaFpvbWh1VDJVMzRpWVhFTXhHOXM0d01oaG9uTHFVSXBQQmNFeUtPZkpUeXg5MGlVeWN6QVpmSU5RV19RNmI5N0tYR0hwY01jOFNVMXRnVU9XNlJQczVRbXg3TXJOQnBmLWVxcXQwRHZEamtONl9GWFFDRXM0RDJQcHUxbEYtbTlOY2ZVUGJzci1TSC1jWVZ2MTBEVGVqNGtuekQxV1VoYjZiclRKUEhaSS1KZzB6cHdGSG52SUxNUGd3cTM3cmdkMDJYRVZEMTFFUTJaaXhuekpzTGZXdnVhaTJuejJQcU8xQ1EtazJDMVRESDlfS3NpNA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:05:00+05:30",
+        "timestamp_display": "07:05 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "'People don't believe me': Ishan Kishan on his love for red-ball cricket - The Times of India",
+        "summary": "",
+        "why_it_matters": "Wicketkeeper-batter signals desire to return to red-ball cricket.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOempRblo3eWd4N1ZDMHVVSHFadlF0MzQtTkE2T1BOSFZwY2s2NkkwQmRzTTB3dklfSFhZZl92QmkzUmcwS3RMSjhkSHg3TENkX3hfeWpIZWhfcmJHRUtRTzhQNFRZbm04MkdyLV9lTUhzVWUxdFZTRk0xZ2hyMFBlZEZhdmc4MkJmRURhM1JzQ1RpMlBIU1hSVmxCRTBDd3d4eWU4czVyLWhmSWtEZl9wZkNzUGYxdzVVZng4OWFKc1ZlaXd5TDlQVFJxdTYyOEdHYmF6NEhCTk5mbGw3cUhaeVRCaTfSAeoBQVVfeXFMTUs2T19HM3JleVhLcjNuS0M0MHNxUFhwdlI0dVc3c0FjRVJWSEVpYTl6Skx3OUFQd2lPVlItd0dEV2hIZWFFcDAwenY4Ry1nWENLY2ZBM1BBUDFnWHBNZENxdkJVTzVVX3c5UE8zT1FuUHhkNXlLbDBvZEI3RDNXMjgwQ2hFNVpvTmMyUmZ6QXZQei1CZUNGTVVkOW9oUGRGV3pRN01oT2FSdFh3MVFLalNvRWFNeEdPNlFvNi1hcjlwM0xaaGxaMkd4WVNvUUFvUy1pYTllM3lLaklISWRlR3hLU3l3dF9McS13?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T06:43:00+05:30",
+        "timestamp_display": "06:43 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "How Prasidh Krishna became Shubman Gill’s go-to man",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-sri-lanka/how-prasidh-krishna-became-shubman-gills-go-to-man/articleshow/133527746.cms"
+          }
+        ],
+        "timestamp": "2026-08-26T08:04:38+05:30",
+        "timestamp_display": "08:04 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "AI-generated music barred from Australian charts after Madonna cover controversy",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/ai-generated-music-barred-from-australian-charts-after-madonna-cover-controversy/articleshow/133527652.cms"
+          }
+        ],
+        "timestamp": "2026-08-26T07:53:08+05:30",
+        "timestamp_display": "07:53 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Dolly Parton dies at 80: Trump orders flags lowered to half-staff in music legend's honor",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/videos/dolly-parton-dies-at-80-trump-orders-flags-lowered-to-half-staff-in-music-legends-honor/videoshow/133527692.cms"
+          }
+        ],
+        "timestamp": "2026-08-26T07:56:37+05:30",
+        "timestamp_display": "07:56 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Chaos At House Panel Meet After Priyanka Gandhi Raises July 20 Police Action - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaEdXVTZVcTNDRWh2M3JVYVB3RHBrNTllSDF2dnBNMnY5UWo5QS11UUQ1dC03cnQxQkIzT2VTZFZVbEZzMFZzeEJjSUtHREZTTUdEejlGcTBTWV9GclhibENwMlRPMjVKWFJLTXNUU2hDNW9uRUhRc0lxOTh6T1BHZjlleTdYTjJzSUtKQTBHaVNYUEFuX0I4dTNPZzFlbjhscnZDbkRGUklYT1d0ajZhSGlYMXl0X2FyS2NROW1ORkNYUDdDRnfSAc4BQVVfeXFMT0ZrUnNNRzFGZ3NhQ2g1aXlmNmRDNk5WSmZXdWItSkp6bzlxNk5iaTRfTS1TSlpSQjJpVklSbEo4a3VFaHQ3WlZlZXk2cjlPVHFTT2FQWEJKXzZpT3NNX3Mxbk5PUmxodEY3Z3BabXNqTTRmdzhTamszSmIzY2wwRFo0TEdUZ1UtbnFSQWJCVjl3Y2p6Q1VSd25BZXdVRjJMc2JUOXJDbHU2RVJoVl93cG1SVmtKTVdKYXM4TjFSOWVkUGYxd0dlbk1lVWVBRGc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-25T20:21:53+05:30",
+        "timestamp_display": "20:21 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "5 of family found dead in Srisailam; suicide suspected | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeFA2bVhpOTZLTVd3Z0t5MWtJNWJzaXlaZ0IzcFQ3OWpaVEJ0b3luWDVtQjRYcnNCeVhUYnFMSFBiRzdRX09pbW5qTE9DN0VOMnRtdVdmZFZvVVIxZTc3MmxGcDVrYTVFd1BpQ1VjZEFsbE50bXhYVUZtWDg4RFA3eTJ2YTBWTzJzQTUxUjlRTjFVRE14N1drVXljLTdhR1ZkSDFPZmVERjd3Y01ONDFjWnhHWVlqLWvSAbwBQVVfeXFMTk9qbDJqcVA0eml1OVdDNUVhRjJLMnU0VzF6SDNQU0E1UjdyOC1WVHdJbkR5UlNPRWt3TkxaWk5vNDBwQVN5Zm1aNDZzRG9VbzVSVjhpN3p6LVc2TnE2Z2xUZURSM3JsekpvY0tOM2pSbmdsRVc2TnlrcVpDaExnRVRyUmdnTU5DeW1RaE16Yi03MG5MYlFtTmdsNXQyaGc0NFZLMVZ4Ym9reW9Zb1l5UzBVUjZPS3BKQ29yejE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:33:00+05:30",
+        "timestamp_display": "08:33 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "US Sanctions 4 India-Based Firms, 3 Indians To Punish Iran - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYW5WWFcxVjdaZXBRLTNFdnZNTjBGQ01Tc0pZdU9TYWlqVkF1VmlHZTA4eXZnU2JodE5Ob2x6VmZvUWJaVVk1TTllX2daRFl0MHZvUnd5NExmRlZfdzhKam8tZS1KRXEwTzhIZGkwRTY2YUc4dkhVM05ZQm9sYnItd2tyNUpXbmVLSzQ0dDBBOEdxUXpyRldRXzlORWZvWjjSAacBQVVfeXFMT2VzWkhQaE90SFJETnJoNEdtMTV1WmNOdXkzNk4zTnIwTmxHeG11UWd6RlcxVkV5TXNveDhwM0dDMkkyYnh4RVdSd0xHbVBuYUxrTXpSY21sWFBOZW4yMWx3LUNvblJQbkdBdTI4MnJrd21LUmZlNVNjT0stZ2lHU0dDY1NwaWZfZ1JJU0o0eVYxYjlRSk1LQTdvcEd0WVl1eFl5QjFHN0U?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:33:29+05:30",
+        "timestamp_display": "07:33 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Gujarat Boy Murdered By Villager Amid Land Row, Witchcraft Claims - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMmV0dm50VFYzY0ZSNUJ2cGtLQ1ZsM1VUbkpOVmYtUThOS21EVlc5THZ4OGsydlM5SFdXU05VQS1MVzVWYXRJNmFaeU5Pb2ZnaUhIUy1qZ0RIOUI5R1hlSnIzZlBjNkpWY2Vpa2R4cVZQc3hwd010S01FTEUzVXRwbXBPeWxLdVJiMVkyS2VfQ281Q1FlR0U4bHdxNFJMSXZyOXRCeWZQWkU?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:44:58+05:30",
+        "timestamp_display": "07:44 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "98% flu cases this season down to H1N1: ICMR | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmxhVENZekZKR2cyQUF4dFpFeEhlOXBCS3ctSmpHZUlKOVAtVTN4VDM0SjVwSEhpekdyX3NjYUxSZThTajlFdjFyOWF4T1pDMWtkTGdpSElLRWZ4MFdiSlltWFlqSFA0azRsYVl6MEYxbXk0Z0NmblUxRlRmVVdkWnN3TmdGbVM5TUswdXBCdmRnUVl0QUEtc09jMXBfaUQzc2xPZWYxLW1wamtMVmplTjAwd1hNb2ZPeUZoOGFrM2hkRmo1YlN5VNIBzgFBVV95cUxNLTJIM01qMEd5TGNwalo5UDIwcUZwRnU5dDZDcWxPQWJRZlhZYWxfTV9sOGRITDhqUkxTYWR6SDZvVVV5SGh1ckJ3TjJDeWlSVG9fWEduZ1FlQWl3M2MxVmtUNTlYRlNHUVhWTjVVS0x5VUZNOUxKLTJQbVI0UDN3c1ZvazV6R2pSdTNYSXl1bTFobU5MdlpXR29yeXh4SnIzTmlfRUhfN1pzVGlHMGVlUFVyNkhPeUdDMXFWazZTTDdRcXlRYUVpd0JVc19qUQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:48:01+05:30",
+        "timestamp_display": "07:48 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "NMC orders monthly reporting of student suicides by medical colleges - The Times of India",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdEFQdk80aWpIRjVnRjQ3U0lmOW8xU3RYNFBUWGx5eTBJZnF3M1p1cGhXOURHZjNlODZzTVN5T3drRWZIRU5nY2hSUVE3bEZvRFRRNGJQQnRoME1iOFFfZTBKS0hfc1ZSenZLLWoyV3ROYTBBMTg0RGp3VzlwRzItelFDdjJaRUw5alJPenVfQ3BfaUwtS2VhVkZfd3FSMVNsYURwTUV2QU9nMHN5WnJIWV83aFFlc2lsLTgyYXlGcW9ZUjhRQ0VrWk1STm1EZTcxWFHSAdcBQVVfeXFMUDRPUHVfa3Y3QUY3bmhqOGJzZzdQd0FpS0NBODBUejlkdUZ0SFpmZmVlenhsZXJZM3RRV3pKVHNkZnhGMXJnU1NncjhBdXNDaE93MlJjLXZjSWN3RDdDWUZzRWlkV0liaTBHNEZDeURWWW85dkRaU0o4QUdDRDIyeGhodFFLRGdNaHpjLUhKR1RnV01tMDM5eEp1Vk85Tmpvd2w1MVZ5VXJzWTZFYlhPUFlJWEhkbDBMeGRZT3dtSjRNak9hNUREYkFCdDYwQkZvOUtFbmx5VU0?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:16:00+05:30",
+        "timestamp_display": "08:16 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Instagram head Mosseri, at children’s addiction trial, says few teenagers knew of safety feature - The Indian Express",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS1lQaktnelJVRzJPWW1HTDdpd0xQZjA2UXQtRktpRmVKUDlHcFNNbk9kcVNuNGtJMS1QR3ZPRXpIdVlkcHl2LUZzZ3FQblJhTUhPSGtsVzZFRW90UlNpclJsZmd5WkkwUVVqNXNybVBFR2tDS0xqam80d0I5cjFYcExTY0xxbXltVjU4aW1vckdJaG5QZmVBNmQ4WUd6d08wNFNHTFN2S1ZfV0FxN2pvUW8tdzVDVnBuUERzZVhJS2ZzRE1qTWlCdmJsODlrZ3JpRGVkM3FDMkJ1T0lEa0xkVENULWZoTzJXM29tSXZpcWhZbTVUZzUzRDh4TDZGd9IBhAJBVV95cUxQZEotaU5YZjFSdkNjaDRYNG5hMlNuTVFkOUZxQ1RCTnB5bURqemF2b1pXRnZXNlhCNHVEc09nT1REWm9GSWR0SVJHNnByMFBNZGlucWRsYnpYN05nRGl4Z0J4S09SRl9oWGU1THJPWU1iYlJQalRXQURHbzB0eFV0UDAzMmVKbTBPUS0yWHkyT2hkMURvazdhd3RvUWhJVW51Rm92VlR2cE9tNS1yOGFRbDdOczdoUVFCVEQtNl9MdWo5V0MyZ0ZrcmprUGdnRVRDaHdmVTd1NzM2dHU2V2lKRDdHS0xkZWhYancwZEF1eWdZTTR6YzFaTW5EcjVEbHpKSmRoTg?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T08:51:10+05:30",
+        "timestamp_display": "08:51 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "India, China agree to continue their work in seeking political settlement of boundary question for overall and long-term interests - News On AIR",
+        "summary": "",
+        "why_it_matters": "Beijing-linked development in today's cycle.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdGtiUFNYcldlU3dEMWtVS0I0RGVrT3MwZG1lYnBuQ1A2LVp3cFNkLTNpbVNpQjBsb1ZoX0FrRmVkQkRjMHJ5T21UUjNTZUJoaG9RdVVRbGFNME9uTXIxRnlkR0hLY3YycnBuc2J5UjNHaFpPTGNLOThWbGJLT3NJZ2Nac01NMWZUUlBTanZUN29Gc1pJSWtNTm9JbXE0MWdHYVQ4UDZuekVDelNYVVVLMFp3X1dxdlRRWXB1MXRYUF9vM2t2ZFRrb1l3UWUzMHJBaWhubTBJOEpYZUUtV0U0ZGVfNWw2ZGhGWkNN?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T07:53:00+05:30",
+        "timestamp_display": "07:53 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "International",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "Loitering munition may have hit Kirana Hills during Operation Sindoor: former CDS Anil Chauhan - The Hindu",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNVXpXcEdEZ3h0ck5GN0Jsa25WMnpfTEQtT0NwdlZyYWdwUFZUWWs0WllTLWU5SWNOLXpsNjdXT0VDVE5mX241eDNtMzVfVWVhbUI0MkFrTzZPMkNtc3Z2NHRmeHpuWkc4Nnk2ZmdudTF5d29SVFhmV0s5ZGF2RHpIZDM5eTBXNE1BaWl0NlE2QUNBQXl4SEdFXzhHenN5bGREMUVIZW9WWG5CM0pHQUVxejRKOEltMHp0NU9EUWZsc1ZMcDdPOFhTZ2h1TXlhQmk4OTlPS2c2VkoxZ05mUlV2ZnZ3TmxwZmc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T01:44:40+05:30",
+        "timestamp_display": "01:44 IST",
+        "source_quality": "high",
+        "recency_score": 0.5,
+        "final_score": 0.5,
+        "region": "International",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "US shifts Iran war strategy from fresh strikes to sanctions as Trump seeks to squeeze Tehran: Report",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-shifts-iran-war-strategy-from-fresh-strikes-to-sanctions-as-trump-seeks-to-squeeze-tehran-report/articleshow/133527278.cms"
+          }
+        ],
+        "timestamp": "2026-08-26T07:21:26+05:30",
+        "timestamp_display": "07:21 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "International",
+        "confidence": "low"
+      }
+    ]
+  },
+  "dedup_stats": {
+    "dropped": 38,
+    "kept": 38
+  },
+  "rejected_items": [
+    {
+      "headline": "Ravi Kishan becomes dance trainer to Anupam Kher, Boman Irani for ‘Khosla Ka Ghosla 2’: Watch viral video",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/ravi-kishan-becomes-dance-trainer-to-anupam-kher-boman-irani-for-khosla-ka-ghosla-2/articleshow/133528070.cms"
+    },
+    {
+      "headline": "Delhi-NCR Weather Today August 26: Will it rain in Delhi, Noida, Gurugram and Ghaziabad? Check the latest IMD weather update",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/delhi-ncr-weather-today-august-26-will-it-rain-in-delhi-noida-gurugram-and-ghaziabad-check-the-latest-imd-weather-update/articleshow/133528017.cms"
+    },
+    {
+      "headline": "Breaking News LIVE Updates: 6 killed as private bus rams moving truck in Telangana",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/newsblogs/breaking-news-live-updates-august-26-weather-hyderabad-delhi-ncr-onam-hyderabad-accident-lakshmi-yojana-assam-floods-funding-iran-news-oil-restaurant-crackdown-munde/liveblog/133527662.cms"
+    },
+    {
+      "headline": "Weather Today (August 26): IMD forecasts heavy rain, thunderstorms and lightning across several states; check state-wise forecast for Delhi-NCR, Hyderabad, Himachal Pradesh and more",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-august-26-imd-forecasts-heavy-rain-thunderstorms-and-lightning-across-several-states-check-state-wise-forecast/articleshow/133527317.cms"
+    },
+    {
+      "headline": "For decades resetting child's sleep schedule following reopening of school across USA after summer vacations remains challenge for parents, experts pediatrician are helping out mothers, fathers",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/international/us/science-news-for-decades-resetting-childs-sleep-schedule-following-reopening-of-school-across-usa-after-summer-vacations-remains-challenge-for-parents-experts-pediatrician-are-helping-out-mothers-fathers/articleshow/133524274.cms"
+    },
+    {
+      "headline": "Prime Minister Narendra Modi makes seven appeals for economic self-reliance - News On AIR",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "Prime Minister Narendra Modi makes seven appeals for economic self-reliance - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSnJuSTUyVGJyY2tKa1hrXzVXN0JBVnphY2xnY1J2RlZiWmd1QjlzS205VFk5aVg5NF9RdVdscVREczFvY0thdS1OQUItbVItMlU5bTBHTWRMY3FDNTZNU0l1SWRKRXhGRFFqZlUxb0ZZQ1BMYU9QcVRoT3FQUnRNWDNyOXNXcVJPYndjZ0tXT2k1M0JCUG9SSEVYQldBY1dqcnhwTVl3QVp2b2tOeUdhelIyYjNycXk2QUJWeldXeUxxM25VY0xoWDExQWFvYjdqQk1aT3lrT2wxcWRLZTdwRjVpMWxUQQ?oc=5"
+    },
+    {
+      "headline": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News - News On AIR",
+      "reason": "carryover_dup",
+      "matched_in": "Markets & Economy",
+      "matched_headline": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5"
+    },
+    {
+      "headline": "NDTV 24x7 Live TV US Edition : Watch USA Live News & Headlines – NDTV.com - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MRHBKTFdqbFdJRjhyUmYwdk04VjhoaHluaktzUG0tN3M1c0lkYjRSMUZNUHdVb1ZENmFPZlV3Rjg0bTA4Q19MdjdCam9TNXl1UEh3TGNHc1NESXc?oc=5"
+    },
+    {
+      "headline": "Four India-based companies bear the brunt of U.S.’ Iran sanctions - The Hindu",
+      "reason": "carryover_dup",
+      "matched_in": "Crime & Justice",
+      "matched_headline": "Four India-based companies bear the brunt of U.S.’ Iran sanctions - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3d6S2xTTmJycG1lRVdJMU56VnFMZWpLVHh4OGZLck1JTUlaaUI4TFFtVDBjeHNXU2F6NGN4dE12bEp1MUJSaHBuY09rUlU2MFdJSEhZUWpkMWs0cVVBUTVXTzhjWjdUaGFTaHFhb0QtamRVbU9oQUx4NnVEdURrdlJRdEcwb2NJR1J3cV9pUWhpM1ptMEpVUFZCdU5QMFRCamJTcW96dzI4cUpERk5VWjhfNFdhcGUzVEVqUHV5VFFvUdIByAFBVV95cUxNZlpPZ29GTGIzSE5WdU1kOGhfNnFJY0planF2SkxfNTAzT0t0bGZBSHBRckl0UXJQUkEtdkg3cHJhVlB3LURmVExTV3dtcjBHOW1NbXMwdlRyZl83bGhENU41WkU2VThUX2xaU3RNMUpESHl3WnViTFp3Y0hzUTdESk5KaGZfMHlqa2I4RHpNZzNDeEFvX3hvTXUyUUpjUmJUVk9YWXJ2Nm8wa20yaTlLRVluVjBiWGQ5MnNNV1U5dHJJNVJmSE5lMg?oc=5"
+    },
+    {
+      "headline": "Fixtures, Schedule | Sri Lanka in India T20I Series - Cricinfo",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcVZZdTh5dXZMQ0JpNE1HTnlEOWptZ0dxWlVUNFh2SFFkY0c5clRlX3ZkV3lMekxwMm1ZUWVfWTdGX3BHejZySUpxb2RWME9NUjJBeVN1NmFIanhrTjNGNEtneGF2N25ONWlmRlBrVldTR0I3cllzVGRnOGFpVXUzX24xRFdoZGxHWGRibFJ0eTRfRW5kOEs5cDJB?oc=5"
+    },
+    {
+      "headline": "Hillary Clinton says key to end US-Iran war lies with India and China: ‘If Trump were to use diplomacy’ | India News - Hindustan Times",
+      "reason": "carryover_dup",
+      "matched_in": "Sports",
+      "matched_headline": "Hillary Clinton says key to end US-Iran war lies with India and China: ‘If Trump were to use diplomacy’ | India News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOWEgzS1VLV2ZpUWhvaE8wZ2FzcVlwODl5OUtRNWRKUFhHTU9sOTRwb2dHX18tLVJpZ1RibGo2VnRZZVBTVTNZSFR5UkdVam9YTzFVaWFPNy1jaFV1RHQxbWZkdk5ZcW5WMi1pV0J5bXgwbUlNdGh3YnRieVFhVjNtSURZWjhUcm1WREZ4N2FTR04xQ2tyaXhfR19aOGFFVlBiNDVEVEpUcDVvSUN5S1BrY1ZXWFlLbnZHdWM1cjBiYm9sUDNjMTN4Ylc0alo3TEVNUEM3ekgxTVZ4YWFoMHNkN1VKOHNiOEdFMm0xd0JLbmZoeDhpLS15M0lPVUJXZGU3TkpKSXV5Y0h1Y2ct0gGSAkFVX3lxTFBRZHdoRjE3SnpsMjNtal9VZUkxMmtpOENXUnRUTExkQW9MelRsZ2V6UU9hWjFzZU9PanNEWkdsUElqWEJuT1pBUzE0cmcyNnpMOG5zdndBNXM4OTEzckpMN04yZ1ozZEVlNzdETTB3QWVpZENDTWtVeV8wYVJaZkdTandRUFlaZDlRUkp0YlFEOXFoM3pqRGdQUEZNM3pYOEdVZnBWN2czWFkxSVNjMDFSaXBYZDZjWHN5cnVkd2RmT0FrNUtUYUNYQy1SMl8yVk82RUNBVDBlU3ZMbDZyQ0pVTEhiZzVnRnB3X1FIMC1LdXZmZzk2Y2pSc0FxNFAzZHA0MDgxQVZSVExzNjRDQXFiYWc?oc=5"
+    },
+    {
+      "headline": "Video: Gurugram Road Caves In Day After Rain, Waterlogging - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVXpFakhSTmhnOXBXVW1rQ0huYWxwRmFUam8xbEJ4OG1QSmRGMFVUajlsSzJ4VWswaDV3R2xWVUZ1NTFRWDZNY3VKYy13VjN2ZTEyQkpDRlZ4NFVLZGs0aGxGdlFneVVQbVg2U3NSMjM3UENYZ2F3TjFyZThXSXE4OHMtQXJSLV9jdUlLUS1Mem5OQ2tsVy1kS3piSXdBRDQwc1dCVkJ1dlNQTHJ6SUttRUFvZTR5aHlZZ3fSAcIBQVVfeXFMTzcwZE5JVUF0d1RWLVRLR3VUdlF0RFFnaC0tbVJmdnVFRnhLOEIyV0ZlOWxoUm91bV9xeEJpUmRWelVHYXUxRV9fa0lCZ3VXTjMwYmg3cVRFQXEtQlFwRFo1ck1rblc0cFA5SE9Rb091VnJDbTlSaXRRTnliTHpLdGtIQ0p1RWFqVFRoWWJpaXQwMFZHOWlBMDI5MzlKY0t5V296STRMb1B2emNnLUZCc21adU53SGlmVFRSeXpwRGRJVkE?oc=5"
+    },
+    {
+      "headline": "French woman praises India's UPI payments culture in viral video: ‘ ₹20 chai? Just scan and pay’ - Livemint",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMXpZRGJIYnctLUlHS2gyYXZ4b0pIXzUySFRKekJxcFhrc01SUXZDRlVhcWwxVTRNa21RNzZOWUxYYU9IN21MTmY3ZlpFbHlOSV96djNJNVBabHlLOUpqSEVhU3Q3WS1uR3BVQnFtSjFBcWV1eE85eDBKQzktUVVBSUJMUmRiT3Y1cHdJaXRuRGVITVMwRXlneU5pQmZrcDBaVGRhemhOdWpzQmdpZzB1eGQxZGxhVUxzVjFkbnM1QWdMTl9ncGcwZE5VNUczZUpjcGk3eU5VcktwenIwd09R0gHkAUFVX3lxTFA3bUQ4Q25CdExoM3cxSzdjUW0xdHBmR0hCbFYyNzQ3enp3Yk1URVNYdmpEalhnQVZVbUJhTmpxTUhVb3FpVDdZSGRCcDM0OWxMY21BSVJ4cnN0VHV3Z3BsNUZnWGg0R0k3YXZZTFFPTjBFT0w3MktEb3pWUWJyaTl0ZENkZmxMSWVFYVR4RUNuNkl3a3F3b0FiVjA1SmtLZ1R0eTNTZEpNZzJoelJwM0hNa2hObkY4aVpMSzdlam1IYnNFQkVsamFPNWdiVVFlUTJaVmVDSGt6RjFJVVVtSWMzQTdERg?oc=5"
+    },
+    {
+      "headline": "Karnataka SIR draft rolls are out: What voters need to do next - The News Minute",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "Karnataka SIR draft rolls are out: What voters need to do next - The News Minute",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcERTWVl4RmlYb2lpT0NuazBOUUNLdHk4d0t3NWhvNXQxVkl4cTFkZ2d2aXEyUmJyY2ZMcmZWdklpYm5XamdwLS1wU2ozU01wUGF6TVEzeFBkQWVSMWVWVXBRSXM1bVNQMV96UEg5RVlMZTdQVTV2NlppOThWSGdGX0t5aElGZWx4YWstUmgtNFFFSllKMmpMSjY4c1lNWUowM1ZF0gGwAUFVX3lxTE5qTVdLVXZyWUJzZVFZRlJfVE9vaHJnaFZOUV9mRFh0VXZMZW9aZWNCemVVdG9adk5QRjRZVlV1TU1pd21DdVhSdkhRRHMwendPRHZybmUtWjAtdmhsd05PY05GZGRmNDFMTkJpV2JnQ1c1WXdFZ2VfN0xUVlcyN0NQZlNaaGlndWM4VDZZY2xIRkM5UnFUU0oyZ2hjZUhyN3N0THdnd0poSHhpQ2JzN0RI?oc=5"
+    },
+    {
+      "headline": "Tamil Nadu CM Vijay plans new international airport near Chennai after scrapping Parandur project | India News - Hindustan Times",
+      "reason": "carryover_dup",
+      "matched_in": "Chennai",
+      "matched_headline": "Tamil Nadu CM Vijay plans new international airport near Chennai after scrapping Parandur project | India News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPRWFGZnlYZWtZallhclFfb3NCc09sYTJ2WGtOOUd4Qkc4eGNxOU1qVW1CZGlySW9wZU90OE5pZDhLVXBwVVlBTEJFd0E1WjM1c19aOTRsdUlGM05RSENGdmVsTmtIWFpSZGJ5b2JucUFzbW1kcU4tTTV4NUJiVlgtQ3E2YkRycnZpMkxXbXAybjQtT3N1N0lZdThOcVFzeFljUHM5eTdZajcwYjMxaDJYVmdta0NHVUQ5NmxGT2xQa254X1U0aUNPWHVhVDl2WXJqS0dnWjg4eExidEZQbC02WEZsQXZZMmxYbXc5SGl6TzA0Z9IB9wFBVV95cUxNMENadVYzMzBBQkR6SkFFY1pPMmYyUXN5eEZHM0RQTC1GbjVvX09YeFhiUVNEVURROE01ZjJlbkZVZ2JaMEx3aDRnS203NEt4b0NWSTQ0V1oxY21Xanc4cTIzN1FQSUxudDZZNExLMmVJRUpubTlfWWZ3QVpQdGRYanFOd0cyLVhRWEJEeDZwclBBZ3AzZzIwVVgzV1VaMWRsWDdYM3BIZHpoQy13ZXdCM2FpV01MdlM0TXJuXzRQNGtJQ2x4UjdfZEpRRHZCbzdmX2dCNV9GUkY1N1lILXdsaHBtV3NWMlRUT1hEMUpYMXlJR21vTXNV?oc=5"
+    },
+    {
+      "headline": "Video showing Karnataka BJP MLA’s daughter slapping woman police official at temple goes viral - The Hindu",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "Video showing Karnataka BJP MLA’s daughter slapping woman police official at temple goes viral - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRlJRZ19tMkxYdjJTTmRSdW1tUlF4M2ZtcEZZS3JCX0NaVFo0TXdiX095X1RDb3VXYUgzckVwRVJyV3AwdFI1UkVxeGJpU1Y2TlNxMnBTVkNETFoxNVljdWZZYk00Q25yZkxHR2JGZnY5RDd1clRtY0I0dmJVMGtsOWFwNXVZU1FUTTJWel9VTTRkdl9VUnFZVjYtRHpSYmpEM0YycjJKS3p4VWxvWkNvRTRlWHRmU3BkXzh1Ykx0eFo3aHpsa3cxdW5fTk9hdnVJTjBfUEdWbFlYT1hkMVVGOXNMNDNjMHRlMFk5ZWs5b2ZvOXJK0gH7AUFVX3lxTE9uRC1SZXdIbDJHbU9pR2VwVkU4WGxqWWJ3NjBEekFiSEo0SnBUV1JycnBibFJaaUMzakFFdFc0MVZkQjJKZWdrMFFIUXhTaU9tOWVILVp4aDI1cUhpbWJiVnBPUlkxM3lnbS1BZlVOYVNyMWZwcERISkFhdHhaX1VoNEpnZ1JpSFNtMUZjRzRqV3FzSEthbG5ZLVNfeS0wSUtLVkFrRDlhQVQxUDMwYVpUZC15Z3I4T0gwdUpMOGkyV21TNi1weWJuZXh5SUxPNTAwN0YtUndLM3VJSHVqWk55NzJiNjlVM3h4by1Qa1dEby1FQ1BKSUVaNnJz?oc=5"
+    },
+    {
+      "headline": "Surat Fish Market Named After PM Modi Without Civic Body Approval, Row Erupts - NDTV",
+      "reason": "carryover_dup",
+      "matched_in": "Markets & Economy",
+      "matched_headline": "Surat Fish Market Named After PM Modi Without Civic Body Approval, Row Erupts - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNTdRWDlDM0x5Q19iNThLZFN6Q3pOSGVfbVE0NDdrMjdpcndLRmxQbjd2ckNYWXZnWXVlS2djdDhFck43SVVDajJyNGpqNXlxcldJZU5ocFBZVk5qcHBENG9TNGRqTEdOSlNvZklhLWJOZm9CWWFlSHJjcmhXM3lGNjMza3FKZzBocnhqX1p0Q2c5aGxrd211UllTeXFxeldLb1AtSEhpbUhrRU5BYmd5TDNoSjBCMUZr?oc=5"
+    },
+    {
+      "headline": "Watch: Kanpur factory dumps expired chocolates as garbage, locals loot them off highway - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMndPTWVMZVFMcXQydFRZcHFDcjYxeWo0V2FKM0lzYnE3bkY0Q09Hb3RjVHVuMWlGalVBRHVIb1d5SkpQNEN2ZGJXQ0U2Z1RocWtQTGJZOURRWGcxeUx1RE1sMUNnejFLQXYxdGJKcFlBV1gyM0ZUcmEyV0pVS2tJX2luUDJIdjAwVjdoSW9mUzBZbFFvVURDTWJ2djNsWW9hTUpXcUtYeXQyeWxkTFpfUHNNVGVPMV93N3gxa3hvYkE0cVg3bXJNQjhrQzlLZmZUQmRfNVFVOWdNTVRBbi0ydjJnNWdXZWNVRExVcVdyc07SAfYBQVVfeXFMUHBIYm5xVFlzckdoQTlfbHg4eVVsanc4akZEbWZ4b0VBU0k5TDAtamFhS2JpN1J5akk5U0dXQW5LZnczOFVLMGRicWQwVVdlWUFUUDh2UGRJaDBFOWgtTVktLVg1NFdYTm1MeHVXemNUb2JlXzlDU2ZBSllJMTVnTnVpaHhnYk96Z180eVI3MGVsX3JfZ0EtUnVYWExUUTZtNDVIRlNQVmdJZ1F1RDVxOGc4U1VkeHFTSkNoOXZrOThicjFKUmQ4QWRjUC10cHlhYkc3Vks2b2NHOE9zUEFUaXR2dEh5NHpGRWpDUXBkWGprQUY5VGV3?oc=5"
+    },
+    {
+      "headline": "festival today",
+      "reason": "blacklist",
+      "url": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "headline": "gandhari movie",
+      "reason": "blacklist",
+      "url": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "headline": "stock market today",
+      "reason": "blacklist",
+      "url": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "headline": "CJP news LIVE: CJP announces new members ahead of march on Sept 5; cops say no request yet for India Gate protest",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/india-news/cjp-cockroach-janta-party-news-live-updates-abhijeet-dipke-saurav-das-school-thik-karo-september-protest-march-police-101787712342136.html"
+    },
+    {
+      "headline": "Union Cabinet approves extradition treaties with Kenya, Kazakhstan and Kyrgyz",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/india-news/extradition-kenya-kazakhstan-kyrgyzstan-india-treaty-101787685363646.html"
+    },
+    {
+      "headline": "Hillary Clinton says key to end US-Iran war lies with India and China: ‘If Trump were to use diplomacy’",
+      "reason": "carryover_dup",
+      "matched_in": "Sports",
+      "matched_headline": "Hillary Clinton says key to end US-Iran war lies with India and China: ‘If Trump were to use diplomacy’ | India News - Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/hillary-clinton-key-to-end-us-iran-war-with-india-and-china-oil-gas-if-trump-were-to-use-diplomacy-west-asia-conflict-101787649429150.html"
+    },
+    {
+      "headline": "China's Xi Jinping may visit India next month for BRICS Summit 2026, 1st trip in 7 years",
+      "reason": "carryover_dup",
+      "matched_in": "International (India-relevant)",
+      "matched_headline": "China's Xi Jinping may visit India next month for BRICS Summit 2026, 1st trip in 7 years | India News - Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/china-president-xi-jinping-india-visit-brics-summit-2026-first-visit-in-seven-years-101787643336681.html"
+    },
+    {
+      "headline": "Champions League return for Bodø/Glimt joined by debut for Azerbaijan's Sabah after playoffs wins",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/football/champions-league-return-for-bod-glimt-joined-by-debut-for-azerbaijan-s-sabah-after-playoffs-wins-101787692799740.html"
+    },
+    {
+      "headline": "NFL ‘Rivalries’ jerseys: When will each team wear the collection? Check debut dates for all 8 teams",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/nfl-rivalry-jerseys-2026-when-will-each-team-wear-the-collection-check-debut-dates-chicago-bears-green-bay-packers-101787679415397.html"
+    },
+    {
+      "headline": "Roger Federer US Open 2026 exhibition matches: Live Streaming, TV details, start time and schedule",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/tennis/roger-federer-us-open-2026-exhibition-matches-live-streaming-india-tv-details-start-time-ist-schedule-101787646826540.html"
+    },
+    {
+      "headline": "Karnataka Suspends Amazon, Instamart, BigBasket Food Licences Over Toxic Datura Listings",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "Karnataka Suspends Amazon, Instamart, BigBasket's Licences Over 'Datura' Sales - NDTV",
+      "url": "https://inc42.com/buzz/karnataka-suspends-amazon-instamart-bigbasket-food-licences-over-toxic-datura-listings/"
+    },
+    {
+      "headline": "Gurugram’s richest address flooded: Why Golf Course Road struggled with heavy rain",
+      "reason": "blacklist",
+      "url": "https://indianexpress.com/article/cities/delhi/gurugram-flooding-golf-course-road-drainage-aravalli-runoff-10849143/"
+    }
+  ]
+}
