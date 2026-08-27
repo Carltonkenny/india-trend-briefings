@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-08-27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Thursday, 27 August 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 27 August 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">Tamil Nadu, Bengal pilgrims among 133 Indians unaccounted for in Nepal floods | India News - Hindustan Times</a>
+      <span class="item-why">Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">PM Modi to address young athletes during ‘Khelo India Dialogue’ today - DD News</a>
+      <span class="item-why">PM Modi in today's news cycle.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit - The Hindu</a>
+      <span class="item-why">Tracks the bilateral dimension of the day's news.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">Indian oil tanker turns back after warning by Iranian vessel against attempt to pass through Hormuz - Moneycontrol.com</a>
+      <span class="item-why">Indian tanker turns back after Iranian warning at Strait of Hormuz.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">India hits back at UN racial discrimination panel, says observations are politically motivated - Mid-Day</a>
+      <span class="item-why">India rejects UN rights panel's findings as politically motivated.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  3 items</span></h3>
+<div class="theme">ChatGPT Ads lands in India; Govt deep-tech study; The/Nudge ₹250 cr TILT fund.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3NHMHZfUWYySDJmUXFTZTRYWmZsNnVQMk1zSnF4bklTRmZVR2FBbXpscGwxamZLMFRKa2o1bndadlV1dFRhMUF5Z3BYZ1k4WnJDdnNxSjRPTzVyY21sbF9MdjdPODZrdElnMk5kX3g3cy1BQ29ST2g4V09seE9kM3A5cW5fV1M0UDFobzhtMDZ6LThBcG9uRnRjS19DTUY4Y3RHLWgzaXdmMlhHZU1UWmZJdzJjeFFLcGlQSkZKTDJET2RqX1NpY19B0gHKAUFVX3lxTE83c0cwdl9RZjJIMmZRcVNlNFhaZmw2dVAyTXNKcXhuSVNGZlVHYUFtemxwbDFqZkswVEprajVud1p2VXV0VGExQXlncFhnWThackN2c3FKNE9PNXJjbWxsX0x2N084Nmt0SWcyTmRfeDdzLUFDb1JPaDhXT2x4T2QzcDlxbl9XUzRQMWhvOG0wNnotOEFwb25GdGNLX0NNRjhjdEctaDNpd2YyWEdlTVRaZkl3MmN4UUtwaVBKRkpMMkRPZGpfU2ljX0E?oc=5" target="_blank" rel="noopener">ChatGPT Ads launches in India: How they work, what OpenAI says about user privacy - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">The Indian Express  ·  08:18 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQMGN0bjFkV0R5UGQ3cGRHVnJHT01CVHZpUmJTSDctZ2thTjRObk10cXBEODQyNGhESTNLdGttU2VEb09acl9XUWxVRkR3VUxrQ2RHRWhzTDUxTGFjSkpVVVVDZ3lXODFkbjA0QXd1aEJoNWt1bjVadFVyQURXR0ZuQ01odUQzNG1nNDBMdFVQQ1BfcDZBWjJFOWxpcUJ5aWd4SVBKZThTRzFSRl82MEZ0RVZxejVGZ044ZENtNFRmZ9IBxAFBVV95cUxQNGxkYVFOOEtYRTRTUlFTTjd0bXFLeTNGd0lrYzF4ZEdiUUx4aU5Hc2ZoTE5TRl9iMkR2cjlQTGkyQ19Cdms1TlQ1enNGT1VtMnpDRm5VUnJqSVFCUDZYNW5JSlN3aUV3YkFJRUdJSnpqcVlTbTBLZWFpX3VwWnZwTjBOcVlfWVBfTnFDSmNqSHZ3dkQ5ZzlnQUw3cml4RjZGM2dPc2xBVHlZSzFzZnRuVkQxWE1vSHdEWnBSLS1WLTlHU3Nr?oc=5" target="_blank" rel="noopener">Govt plans study to strengthen India’s deep-tech startup ecosystem - Livemint</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Livemint  ·  06:30 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://yourstory.com/2026/08/thenudge-launches-rs-250-cr-tilt-fund-early-stage-impact-startups" target="_blank" rel="noopener">The/Nudge launches Rs 250 Cr TILT fund for early-stage impact startups</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  06:00 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  1 item</span></h3>
+<div class="theme">Iranian vessel turns back Indian oil tanker at Hormuz; India rejects UN rights panel.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPcmZILWZXRUlLZUllQjNzTkwtTWZoUHUtTEtLZGRJOGlhUmxjaTFiOVFVWFExMXVLaE12R0ZxSnIwdVk5NmtsYVNRb0NURkExS1NkNVF5dWxzdThFc3pFMWh6WkNQQmY4c3pUWmpHaVBkaHFmWFJ4X3Z1QTNYNjdzZGhwRVRwS1lwR2tUbGtXZVFzYXlnVm5rSUE1RdIBogFBVV95cUxOZ0FwYVF2S3lINC0wU3RYRUlvR0pzeHBOUGxJUVFXMTRmZkVZV05Ta3k3VmY1YkFNMEU0ZGJ2cVN4dU41S3JmZndINmkwSldrMnVnUGU0dDdnQWtuSVU4amZuZVBUQmFxS1Z2dER0R1FHR1N1Nl9fTnZaVkM0eXVBUHQzZjJObDBwbnpTQ2d4Sk94MlJaUkhCM3MzSmNjWm80WVE?oc=5" target="_blank" rel="noopener">India rejects UN panel’s observations on its ‘rights violations’ - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">India rejects UN rights panel's findings as politically motivated.</span>
+      <span class="src">The Indian Express  ·  04:53 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY</span></h3>
+  <p class="empty">No new items today in this category.</p>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">Greater Bengaluru Authority cleans vacant plots from Aug 27; Nepal-flood helpline desk opens.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/cities/bangalore/greater-bengaluru-authority-to-clean-vacant-plots-at-owners-cost-from-august-27/article71393748.ece" target="_blank" rel="noopener">Greater Bengaluru Authority to clean vacant plots at owner’s cost from August 27</a>
+      <span class="badge lo">low</span>
+      <span class="why">GBA will clean unsightly plots at owner's cost starting today.</span>
+      <span class="src">Unknown  ·  08:08 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/cities/bangalore/nepal-flash-floods-karnataka-sets-helpline-desk-to-assist-stranded-people-and-their-families/article71394858.ece" target="_blank" rel="noopener">Nepal flash floods: Karnataka sets helpline desk to assist stranded people and their families</a>
+      <span class="badge lo">low</span>
+      <span class="why">Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.</span>
+      <span class="src">Unknown  ·  08:34 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0JCa0lfY3JWOG1hRzkwdHpsWjRnOFRIem9hU0VUdUN2SHktU2o4bU5ZUWxQYnVzdHlYQmZOVU9mRVdPRmVDdW0ya2w2SF91MUdmVDlxWW5Ua1dfSUNkXzdoekx5Z0JEczhXbzJyRlR2R25BSGktQ0hmLVE4eFBuRWh1QVdEbFQ4YnRwZnI3cjZaUzMxaWpRcUFsNUdhU3NyZ0thSzA2d2JHS1FqbEVxN2FTRTBhTjFTV0U0RXdfUlVQY2dIZDBHZ2pKQlZQSHNmLS03WGFEemVhclg1WXBQTWVqLXEyQdIB8wFBVV95cUxQTHUzeXVJZXpPY0pBNHAyVVY1Z1JHaml2RThlQzdLZ0lCN29tZkF1ZzNBbGhvdzFSVkxPU0hQZ1JvVG9uRXlod1pMQjhCM1Q4MVJ4N3pLSGdTMnFWZG4zRTE4X1ZMOG8yMUpMNW9HUng0V0NDT25PejdiSzJmYmpyT1RrMFJUUTRxUHJYY3d3NWV2VFhUenVCdDhoWjAybXZUc1dLT3dPTnhjOWw1QWJva0VIaE95QUV1VU9ic2xOR1NVdS15MEk1dWFGMFE1QzdXaXR5Y3VNZXZ1a0ZNRDEwd1VSRWVHY0NTM2FFYUVNd1M2Y0k?oc=5" target="_blank" rel="noopener">Karnataka HC quashes criminal case against Coorg homestay owner booked for not reporting rape of US tourist - Bar and Bench</a>
+      <span class="badge md">medium</span>
+      <span class="why">Karnataka HC quashes FIR against homestay owner in US tourist rape case.</span>
+      <span class="src">Bar and Bench  ·  11:04 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI  ·  1 item</span></h3>
+<div class="theme">Tamil Nadu pilgrims missing in Nepal floods; GCC FTA talks advance.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMingFBVV95cUxNOXRKcXJVd0dvUmItbk56LVlla2FJV1g1bFBZUEFIODBsNnZ0bGRwdVJ5ajNhVjNES2Jxc2x0cEROcldsR041UVljRUNPQXB3bXFDU2ltRVhYdVl3cTdLNGU4TG9Va3J5aDhzVWFvcHBLci1UOFk2RHNjLWxuNG5UdnJzYnMwZGhZeG9iNlZQb1Jxa1FaVHBCNzZMeXNvZw?oc=5" target="_blank" rel="noopener">India and GCC discuss cooperation and Free Trade Agreement negotiations - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why">India-GCC trade pact moves to next round of talks.</span>
+      <span class="src">News On AIR  ·  01:25 IST  ·  Chennai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">MMRDA ₹250 cr hit on Metro 7A breach; NGT pulls BMC into mangrove-dumping case.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/pune-news/amid-pune-noise-row-ncrb-data-shows-zero-noise-pollution-offences-in-maharashtra-101787769051174.html" target="_blank" rel="noopener">Amid Pune noise row, NCRB data shows zero noise pollution offences in Maharashtra</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:09 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/mmrda-stares-at-250-cr-hit-due-to-air-funnel-breach-on-metro-7a-101787769231594.html" target="_blank" rel="noopener">MMRDA stares at  ₹250-cr hit due to air funnel breach on Metro 7A</a>
+      <span class="badge lo">low</span>
+      <span class="why">Air-funnel breach on Metro 7A causes ₹250 cr cost overrun.</span>
+      <span class="src">Unknown  ·  08:11 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/green-tribunal-impleads-bmc-in-mangrove-dumping-case-in-diva-101787770023607.html" target="_blank" rel="noopener">Green tribunal impleads BMC in mangrove-dumping case in Diva</a>
+      <span class="badge lo">low</span>
+      <span class="why">NGT pulls BMC into mangrove-dumping case in Diva.</span>
+      <span class="src">Unknown  ·  08:20 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS  ·  3 items</span></h3>
+<div class="theme">Northeast's first chess GM crowned Asia junior champ; Women's Hockey World Cup Germany test.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://timesofindia.indiatimes.com/sports/chess/northeasts-first-gm-17-year-old-mayank-chakraborty-and-pupil-pratitee-bordoloi-become-asias-junior-chess-champions/articleshow/133547352.cms" target="_blank" rel="noopener">Northeast's first GM, 17-yo Mayank and pupil Pratitee become Asia's chess champions</a>
+      <span class="badge lo">low</span>
+      <span class="why">Northeast's first-ever chess GM crowned Asia junior champion.</span>
+      <span class="src">Unknown  ·  08:00 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://timesofindia.indiatimes.com/sports/hockey/hockey-world-cup/womens-hockey-world-cup-india-look-to-sign-off-with-germany-test/articleshow/133554387.cms" target="_blank" rel="noopener">Women's Hockey World Cup: India look to sign off with Germany test</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:10 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://timesofindia.indiatimes.com/sports/cricket/news/sunil-narine-makes-t20-history-joins-rashid-khan-in-elite-t20-wicket-club/articleshow/133554436.cms" target="_blank" rel="noopener">Sunil Narine makes T20 history! Joins Rashid Khan in elite T20 wicket club</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:31 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE  ·  3 items</span></h3>
+<div class="theme">Yash's Toxic explodes at box office after 4-year hiatus; Sunglasses-spy notice to Meta.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMlljNWYtLUF4UUgwY0JLRTdjLWxjUWJGREJvMklEMFpESlZzd3FxOUQyYWh2Y256X1F5MXRpek44YjlURHRzUEVPbm1jNW1sMjJJMmlrRFdNWkkya1NqWV9laGhxSzJwRHJxcFp2OHVPNFhYb1AwMmJUSHFKVnJ6SXhPempRVVRya1pNR2h5ck1qRFM1cFVTS0VjMlNjS3A5UmpkVzhya1dzWnVVYk1HLUR5T0lQMlJ4c2hJQW0ybFhXa2xpOU5rZnpiWm5fLWk1LWE5M05zTlFQVElPWjg0b1F4Q0JEU1lKWEtNRHNKQ3NHdF9XUm0yM1dpU3YwTUxBZlUzTjRQeXNHd0XSAZACQVVfeXFMT3V2UjgtN2IzY3NXbHB4ZmVNX2d6eDd6Q2VadEhlcm53ZlZPQ1ROQ3Q5T0MwMmUxY2F2cDFIRUJkTVlNM2RkRm94ZS1XNHRsTVA5elRERVc0Tk9pNnVtcWk2QnEwQ1Rxa2hMdlVDQUJkNVlIcGR6STJPd1FxNGVlYS1XV0JZU2t3STloSUxCNlN4M01PZFJaeUd1dlRVYy1YUktXZl9IWThuY2tRbUFLaEF2QTdQYjF5UnVPQjFOdzNTbk55a0FJX082T2NnMlR3ZEVldnBTSTByNXkyb0Nnai04YmNORTRsOGV3V1BFZFdfd1V2UDJvSU5nektveTJpM0tYbDF5Z0h1UnlEU29nUWM?oc=5" target="_blank" rel="noopener">HT Morning Brief Aug 27: Ice-mud wall collapse in Nepal kills 160; Yash's Toxic explodes at box office | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Kannada star returns to screen after 4-year hiatus.</span>
+      <span class="src">Hindustan Times  ·  08:39 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/nepal-flash-floods-deaths-indians-latest-news-today-supreme-court-rajasthan-high-court-toxic-review-champions-league-101787799020732.html" target="_blank" rel="noopener">HT Morning Brief Aug 27: Ice-mud wall collapse in Nepal kills 160; Yash's Toxic explodes at box office</a>
+      <span class="badge lo">low</span>
+      <span class="why">Kannada star returns to screen after 4-year hiatus.</span>
+      <span class="src">Unknown  ·  08:39 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/others/filmed-via-sunglasses-man-sends-notice-to-meta-creator-101787769955965.html" target="_blank" rel="noopener">Filmed via sunglasses, man sends notice to Meta, ‘creator’</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:19 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  3 items</span></h3>
+<div class="theme">Karnataka HC quashes case against Coorg homestay owner; UP/Bihar/U'khand evacuate as Nepal floods kill 162+.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcnphYno1aHp4cHNuN2dJeTBaSlZrYm0tYTA3bmUtcVAzSy1qSHZnU0dkNXhFejVGb2N0Vk83UkpOZGZ2MkJTaUN1RTNRd05KeXVJbHVJM2dfRHRVUUdmMThMX2oyS0d3S2NRQ3YzaWt3MmdNZW9UMnFJZ2JlU01jZVBKY1pmdl94cEMzWGJNQ1E1TlltTEk1LUtnUUF2RmMyZjVLd01hNGxWTXZOUXFIT0NKX3RyUTVZem84?oc=5" target="_blank" rel="noopener">Grand Master Trilok Subba selected to represent India at World Taekwondo Poomsae Championship - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">News On AIR  ·  07:57 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPb3JIa1lQN0VfWEtlaWY2c3l5Wmd1NE9fNlgxOFZyaEUtd0ZBM3J6ZXM3WjViRnI4TFdacTdzQmg1cy1CaFkxTG9fOWlXTXlCVlVNZ0V3Vl9CbkZLYnpCNGpDSF9PU25sUmhITlhtZmxRX3p6dVJuaWg1eTgzVUF0UndhcDhEd1ZLQ01hZ01fUkJpZndxWHdOMHc5UThJQXFxTDhvdFdLUG5RNWNhQjhPSmxUMjNfSXB2c2NhR3BB0gHDAUFVX3lxTFBOT05jdklvSUhuX1R0emZzQlAwb2tCZVFsVGN2T3pHQWlxY1VrWjY2VjZDcjRXVXpocVYxQnE2cW1NN1IzOGtFNUFMS3RyUjBkWkVMNTI3UGwteHpRWk9EVVo0cnlHc3A0elJjLTF0N1VEbzNWbHQ5SlB1SVhOM2NpYjhPVmdqV3pjajVST2pDVW9NU0NQRUFYNWs1bEVfckVNZGZ4djE0OVBnSk9YbTVJak5ST2dLa2MtSFdHZ1FMZkE2WQ?oc=5" target="_blank" rel="noopener">UP, Bihar, Uttarakhand rush to evacuate as Nepal floods kill 160 | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.</span>
+      <span class="src">Hindustan Times  ·  08:01 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3F2S3BCSnFyRUEwRHZJdGctdTJ0T1daekMtOXgyV3hRY0d1Um85RnpPZjZMZktwVEJBR0V4Z3FwNVIzc2YxMTQyWnVyNXVMUG9WaW5kWnJady1Oc3RFWnhxM0hqanp4RlZRZHJCSWViOTdOWFNaZG9aUGtHV2pVb2dxRDd1Y1hnYkhFTTRmQzJFY2lUTjBaU0tENlBNajRDSl9ieVN4d21naTRuMEFaRTBOSdIBuAFBVV95cUxNV25tT0dHcWVBTkY2SE5UbGd0aGljb1RSdUMtNVJPbkw5UkNPZnd5SS1qZEF0S0ZzZzRyN3hoNDNjX0IyTnlybTd3RF9yX01INTZGd3RLY2hCMG1MRjdXWFJyazctemwtX3pEajl1OFhhQ0VhaWtpdndFLS1LNU43SllTa0ZSQXlzZjdBdkpsT0g5WTlKZ2RudF9EajVodGN1d0k5WUcxUnYwaGlaMFlaU19fclFfVkhn?oc=5" target="_blank" rel="noopener">Deadly Nepal Flood Kills at Least 162 With India on Alert - Livemint</a>
+      <span class="badge md">medium</span>
+      <span class="why">Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.</span>
+      <span class="src">Livemint  ·  08:42 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">Centre defends FMG screening standard; Pharma-in-space labs; Faridabad fake-cancer-drug doctor held.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVlZyd1NQaVVnYU40d1BzV1k3VXlMNkZqNGRBbnNEMWw2T0l2S0Z3MVFrY0ljN19FNGJETnlmWVJPZW90dVV5OXd6WlF4SlZYOGl4QWU2OE03c1VoTGZodzRCaUFfcDBXbFQxT1lVR2xhSExJdnJpMTNCbHBQR1M4b09GQXg4MTNvdEFkU0ZSbU5veDhqVWNBVGVwNXhULVd5d1dfUUhSQzR0cmxCZ19vQXN2bzFXbmtxREdxUDdNNzN3Yi1hZUFfbnVPMmdzY2FXcWFJN0NISFdwNGpEcEJ2Y9IB5wFBVV95cUxPd3dEbEhObS1Senc3TFE1MzYzSUd5X1N6cTlkcW54aEpwQUtXLWM4Z2VaTnd6UWwzdTZZM2R4aS02WW96cnEwbl8wNHhFVDVjUVczSmd4a3FEZFhqX0tmZDlHUThxbV8weEFwTUkxR1p1ZU53TXJUdlBYMk5LSmVxb09rV1loMnpNY1FGLWxDTFJId2Z1MDh1QUpUMUd2MWd0aFptWUhua203dm9yT2hfdm1zTkE0ZnJUWGhld0NwcnZGbEwtSkNoV3N1VDkwQ092ZC1wY2NVX3BUT09RNDdsOTdIRlZ6VXc?oc=5" target="_blank" rel="noopener">‘Qualifying standards cannot be diluted’: Government on screening test for foreign medical graduates - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">Centre defends FMG screening standards against dilution push.</span>
+      <span class="src">The Indian Express  ·  04:50 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/building-pharma-labs-in-space-zerodhas-bland-fy26-more/" target="_blank" rel="noopener">Building Pharma Labs In Space, Zerodha’s Bland FY26 & More</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:00 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/others/fbad-doctor-held-for-selling-fake-medicines-for-cancer-cure-101787769803379.html" target="_blank" rel="noopener">F’bad doctor held for selling fake medicines for cancer cure</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:16 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  3 items</span></h3>
+<div class="theme">India-EU FTA breakthrough; India sells petrol to Russia; Iran tanker standoff at Hormuz.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPV3lGYUM2cC1UVWtDamxEb29BMGxMY2JiaC1rbDlmN1YxR0ZFc042ZGk1TVdHRzJCTEFUZGZhdkFrNWc2YlYwWXMxVlluamc2cDNVUURUOFZfS09feUkzV0NSMjd5OVlrUE80OGh0amJmckdUSXJnY0hCUWFfX3ZoR3RVRdIBigFBVV95cUxNNWtZRk5DQjN5ZzUwTnhtUE0xN2dmVkd5dFFNM3VBeVVlVjVNR3NMZm0zcGRHZ1VHeE1BSmRqZVRZcmdlQkNFUFBrX3o3OUQ4ZlNYeW5qU0ZNSWFhQ3hCcmMxODREX0lsZjNlMXVVVTZLMWZSVXAxM2JWa3hWR2Npa2RnU3N2N211VEE?oc=5" target="_blank" rel="noopener">Daily Briefing: Nepal flash floods | IIT Delhi protests | India sells petrol to Russia - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">Daily fuel-price snapshot — metros mostly flat.</span>
+      <span class="src">The Indian Express  ·  08:43 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQVBnYnFJYkJwWnRJakhMbE5sTXg3ZGJkWmpnODFFVFhEbDFTVExkU2dUZXJhVVBRdTJqSmJwaXp2Vk9aaHlxczhmdVpPNFVrQ3N5U2psM19tZkdBdElaWFdNTzRPXzZBY2ZlQzVOc0F6eU1uOUFQWEJDUF9ESjRvZlNNZDZkWkRCeldVOXloMzNfeTV0aGV2NlNHb3VfMlV5UjhxbUF1WG1PbjNPS1JKRmJkUkRBR0czVS1VdkFPU1dUN3V0aXZ4bFVRREhIa3hPOWVtMmxlWEt2T2ZScEJqZFpiWEZ5czhydktEV0I0bG1iQUxC0gH6AUFVX3lxTE41bWxCZHZFSEpMdThRT3VvVDFoclVxajdHOXVfSEhkZklYTU82XzN3YVQ4UGlYbE1aMGZWYkw5RVFYYjcxb0h6TmJBaUFEMkpESldGYk1oSldRQk45Y0tFYWdDOC1VT0VONjdMR0ZTS0w4YzZibWV4ZXJ0dnRQei1NSFdmLUwyZTRKejlXU2t5a0JwelR6WWV0YlFmR2RTbmZMNG1lVjFIbzhlMG9jLUtjTmZmbWRTZXpFMkw3MzZEcWJmdUZueTdvR3lSNkhjcE5tLV9sYkc1YldCRFl3VDNlQlk1TENVb2RzYnZzR3ByakF6elZ3SWNMOUE?oc=5" target="_blank" rel="noopener">Rain threat puts India’s WTC hopes under pressure in Sri Lanka Test - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">The Times of India  ·  06:26 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi_wJBVV95cUxPMU1MUWVETVh3QTF0QmhaR0J2dTd1QjZOd3FHeklFWGt2OElKV1ZmbmFaM2Raam1ZYm1qTmh2OWJTcVhLMGNNenN3dm50cVZvOHlNdWU5cjUwVzZ4aDZza3kxY0Z6OGFGY3EtdFByTFZyU3NXckRVTzd0dEg2dUJvSE5KemlQdmVTdDVERFRXLWVTU2VwbHBmcFVLS2VvbkFPUDVUVXhCNG5Xek1aSENkVGs3ZDJqR3hRazVUcFV1S0hDaXRQNGkyVk5WTDB4VjFqZlFoTER3TDE1TzBGX0ZqRkN1VmpkX1ZIQ2VOZ3hwaXJnWmlmUHFJc1BZR202SGZhRkJ6Q085amRGUzJvQWJKQU55ZXk1dUxRcG9aNGlNeE05MlVqTUFLSVFkMkRzd2lrRk5mY01Nb3c5OFZHRDFKUlFGNkV0bW5Dc0FpRDhyclpBX1pOeEYwTHloQXFWN0hvSUdsenRjR25QcVBPTFZXT3FWaGhabXlUYWo1UEtrRdIBmwJBVV95cUxNX1h4YUp0UGtMWVBHV3ZJS1hNRklCbU9QYUE2VnZTVWRrbkxTLTA2R3h1MEU2TjZRcGhsdEN3NGNqQm50bWpRd01SV1dUTmFnUWJuWENuQzFpb1RVZ2YwZ3dZeHNCcndSZXJjR2dLR3UyT3luXzlrMWs4UFpYZy1BVlpQMXBHMXpqNDNEdUZWd0F4N25wbWtlazAwOHdiQnByQTRQUGhxU0FLcnRIeHVJMmZhZ19acXZHYzJ4OE81WmVDa0x2VEdzYWtUaTVSemprWU94bF9DOVVNeXd3RkFIa3RBWDJWQ182bkJUOVRMMkdSYmdaY09PYWpMc3VLLUpRMzU0eC16NG9ITE4xTHhJSEJ2UEU0RkE3enE4?oc=5" target="_blank" rel="noopener">India-EU ties stronger than ever, FTA breakthrough driven by realism, pragmatism: EU Ambassador - The Economic Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">EU envoy signals FTA breakthrough 'driven by realism'.</span>
+      <span class="src">The Economic Times  ·  07:29 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-08-27T09:41:23.124927+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 26 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>

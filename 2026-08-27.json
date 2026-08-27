@@ -1,0 +1,923 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T09:41:23.124927+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-08-26T09:41:23.124927+05:30",
+    "to": "2026-08-27T09:41:23.124927+05:30"
+  },
+  "totals": {
+    "raw": 1088,
+    "kept": 38,
+    "sources": 12,
+    "categories": 12,
+    "deduped": 25
+  },
+  "themes": {
+    "Top Stories": "Nepal flash floods kill 162+, India on alert; PM Modi Khelo India; U.S. panel vs RSS.",
+    "Tech & AI": "ChatGPT Ads lands in India; Govt deep-tech study; The/Nudge ₹250 cr TILT fund.",
+    "Markets & Economy": "Iranian vessel turns back Indian oil tanker at Hormuz; India rejects UN rights panel.",
+    "Politics & Policy": "U.S. religious freedom panel targets RSS; India rejects UN racial-discrimination body; PM Khelo India address.",
+    "Bangalore": "Greater Bengaluru Authority cleans vacant plots from Aug 27; Nepal-flood helpline desk opens.",
+    "Chennai": "Tamil Nadu pilgrims missing in Nepal floods; GCC FTA talks advance.",
+    "Mumbai": "MMRDA ₹250 cr hit on Metro 7A breach; NGT pulls BMC into mangrove-dumping case.",
+    "Sports": "Northeast's first chess GM crowned Asia junior champ; Women's Hockey World Cup Germany test.",
+    "Entertainment & Culture": "Yash's Toxic explodes at box office after 4-year hiatus; Sunglasses-spy notice to Meta.",
+    "Crime & Justice": "Karnataka HC quashes case against Coorg homestay owner; UP/Bihar/U'khand evacuate as Nepal floods kill 162+.",
+    "Health & Science": "Centre defends FMG screening standard; Pharma-in-space labs; Faridabad fake-cancer-drug doctor held.",
+    "International": "India-EU FTA breakthrough; India sells petrol to Russia; Iran tanker standoff at Hormuz."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "headline": "Tamil Nadu, Bengal pilgrims among 133 Indians unaccounted for in Nepal floods | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSlIxOU1vSXBNcldYZU1PWUJENUNkOVZFRC16cm8wMVA1dVhXbjNmdnB0bDJ6R0tzdi1SVXRUOG5lQjhOUkNvVGxya0w5Wm9OUktveTN4a2ZrdE5OQlVtNGltLXVQaVNVU3N5YnN1SjJYTlVkdVl6VTBnakRrUXd1bmI2TnkyZEdjeFNyQk9lRFpUMDI3bXZGMDN4WWxwMEJIY0hadzlJOC1XTXY3ZmxWMERraktUbjFCUXFCYmpjaUtHV3dwRzZ0eXV2UEhEajJUZzlQaVZhWndhWkx5bDQ40gHkAUFVX3lxTFB4dGV0eXEtUVhRaC1paDJiTEF6MHJLRHRjd0xkeTF3ejliTEx0Q1pVanV4SmdMeDhKMXZsSVVybmZaeVBYNTlOa09JR3B6QU9tSl9sX1pxT0tsMUVybm1qZ1RhU0xtblNQeFpFai15S3JoYzFPZDBsQXFGbTlpQ3pHajcwQUJqTU83UVZaR2o5dmszSkdpaGE2LUZlT3lZa2ZmUXlHOVAxWTdjSkI2Q0h6ZVhWSXV4T3puSklrMC1ZUTlZQmVINjNJWVFhRkctMU5DT0tGd2ZQRWZWNDVFc0wyUHNFZA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T07:52:33+05:30",
+        "timestamp_display": "07:52 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "Chennai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "PM Modi to address young athletes during ‘Khelo India Dialogue’ today - DD News",
+        "summary": "",
+        "why_it_matters": "PM Modi in today's news cycle.",
+        "sources": [
+          {
+            "source": "DD News",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUndzOXRNc2lRa0c1Nlp4Y0E3Mmt0M3Q5YXlNVEVFY1IydlJILTZZRkZlNmhrMC0zaEtDRkhkdXlYTFo2SFpLTmpKRHREckxRSGJsY21MZ3FweU9ZV3VpWnZvWVA5a1EyOEZaazM3VThjb3d1MGJqaEdlaHVxdE1VTlpZZ0tOX1FLdEFQNnY0WXYtQUg4eFh4Nw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:29:55+05:30",
+        "timestamp_display": "08:29 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.2,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit - The Hindu",
+        "summary": "",
+        "why_it_matters": "Tracks the bilateral dimension of the day's news.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVXlhYXpRWUs3amFlVHFKY3VsMmNmWmdoWHl4X1VJSEVaekRIcWxMU214OWJQTXVQbFE3ZUlsTk1CWGxaRFFob3UzRW1CcGVDVF8zamM0UU9CM0JCNzhMUWlFOThoQ2xQcm5DYmJkWGN3bUgwb2xZWjd0d3cxX01OSkgyWV9nbDZSVGR3TktBRWZibmdHd09meFA4aGhLSnUwLVJyRzJkakFzZmtaQU03QjlyOHJYcy1EWFpnd3F6SVA2R0VQVjdJcEM3SG5NZjI0WHB3a1F6RGtIUnFnanY40gHmAUFVX3lxTFBjMEdPT3BnTHRDXzRuX3VLRC1zbnN3R0VKbzhEeXR5T0FOOFptZHhyOF9wTTRHQlA0RzB4RDh0TGQ4SUpRNGNmMHFIdFowaWNDcS1QVzd6dVhhT0p5NGtacDlVaEU2WDYtRkF4SmNjbV8xaFFZRnRlaE9mQzNHX2NZNDh5d3A3MXZKNXZEZUdlSllTRWJfUHlkUlg1MmI2M3EtSXlVbDY2NWJzbzRXZ1RxT2JnM1lwWVkzTWJQaUxZQXo1Qnk2NlUzOWx3UkV5WmpqOTVSWF92N1NzajdvQVg0RnFKMnZn?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T07:57:40+05:30",
+        "timestamp_display": "07:57 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 4,
+        "headline": "Indian oil tanker turns back after warning by Iranian vessel against attempt to pass through Hormuz - Moneycontrol.com",
+        "summary": "",
+        "why_it_matters": "Indian tanker turns back after Iranian warning at Strait of Hormuz.",
+        "sources": [
+          {
+            "source": "Moneycontrol.com",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX0xlZWRHdEJvWndsVzJ1OHNiOUJibnZaMkVGSVVHZnp3c2pFV3dCNjhNTFR0dUJOYmN5X0lhWXA3TDNhZzFLRXlLRndzaEQyYmtlVzBibVlBQ1BiOG5uT1FtNVVKWWxCQXRTV1NaQUczMmprcXFJbEwyMkhSUW9MZXYyOVA1NDlRN2hXa1JxQzdHcTFadmEyRjU4eEJGcUlVUkZsbl8wMTZad056c1JQTDgzYVMwRmJCY1d6TDNvdmdLR3FyazNPUXdWTHdfQjlxbnBHSkRjeDhvTlJRZ1RZSlhZZTNSQ0Ff0gHuAUFVX3lxTE5STGRjMUZEQjBfWVVFb2gzdjRiNks5Rm5QcHZVM3hpSGJlMU15ejZrSVhzbDJGRHFwTjA0VHZfMHZ4bXZTcmhkdlh3QXdwZ216TDZCYTRObnJtczAwQXJoYktLOEhLTFptc04yWHB4Sy03ODBDU1QyQW8xWjFFYzZjN0N6QmFwYjgzTTE3YWR0aGt0OHdZWk4yRlhmWVI1aUN6eUdGNlVFWnhzRENDTlkzTm5WeDl1NGZlYkI1VWhZTU9KeEdHSGFPbzBDa1h6TzdCSFVPSDlHLXZRb1M5eUlMNUtMVU5OUlJtSW9CbHc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:33:34+05:30",
+        "timestamp_display": "08:33 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 5,
+        "headline": "India hits back at UN racial discrimination panel, says observations are politically motivated - Mid-Day",
+        "summary": "",
+        "why_it_matters": "India rejects UN rights panel's findings as politically motivated.",
+        "sources": [
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOOWtjZ3QwaFItMWJrMUFMeTNGemRuYWwwRDVxeV9fYzhoOFJUSjNQN1doQ3RMVjl3TGhfZEpCNFY4dnVjelE0alRRbEdZWW9oQjNteWFfaW5WLW45NG1CbTZCN09hdXUtMkJRdVBESzMyZm4wYy1QZUdDcERVMDZHN3BzUHhsY3pfTU5NNVUzSmI3VW0xZnF4TG83S0RsMTkxSE5tcFdzd1l0V3g0enhoXzI4NGJGQUx4cml0S2o3ZEZfSVR2eHY2RzV4RzE3NldiY2U2RlRhdFM1Z0VyZVJZTGVBbk9Fck4wLUHSAeoBQVVfeXFMTjlrY2d0MGhSLTFiazFBTHkzRnpkbmFsMEQ1cXlfX2M4aDhSVEozUDdXaEN0TFY5d0xoX2RKQjRWOHZ1Y3pRNGpUUWxHWVlvaEIzbXlhX2luVi1uOTRtQm02QjdPYXV1LTJCUXVQREszMmZuMGMtUGVHQ3BEVTA2Rzdwc1B4bGN6X01OTTVVM0piN1VtMWZxeExvN0tEbDE5MUhObXBXc3dZdFd4NHp4aF8yODRiRkFMeHJpdEtqN2RGX0lUdnh2Nkc1eEcxNzZXYmNlNkZUYXRTNWdFcmVSWUxlQW5PRXJOMC1B?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:41:00+05:30",
+        "timestamp_display": "08:41 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "ChatGPT Ads launches in India: How they work, what OpenAI says about user privacy - The Indian Express",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPN3NHMHZfUWYySDJmUXFTZTRYWmZsNnVQMk1zSnF4bklTRmZVR2FBbXpscGwxamZLMFRKa2o1bndadlV1dFRhMUF5Z3BYZ1k4WnJDdnNxSjRPTzVyY21sbF9MdjdPODZrdElnMk5kX3g3cy1BQ29ST2g4V09seE9kM3A5cW5fV1M0UDFobzhtMDZ6LThBcG9uRnRjS19DTUY4Y3RHLWgzaXdmMlhHZU1UWmZJdzJjeFFLcGlQSkZKTDJET2RqX1NpY19B0gHKAUFVX3lxTE83c0cwdl9RZjJIMmZRcVNlNFhaZmw2dVAyTXNKcXhuSVNGZlVHYUFtemxwbDFqZkswVEprajVud1p2VXV0VGExQXlncFhnWThackN2c3FKNE9PNXJjbWxsX0x2N084Nmt0SWcyTmRfeDdzLUFDb1JPaDhXT2x4T2QzcDlxbl9XUzRQMWhvOG0wNnotOEFwb25GdGNLX0NNRjhjdEctaDNpd2YyWEdlTVRaZkl3MmN4UUtwaVBKRkpMMkRPZGpfU2ljX0E?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:18:04+05:30",
+        "timestamp_display": "08:18 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Govt plans study to strengthen India’s deep-tech startup ecosystem - Livemint",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Livemint",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMGN0bjFkV0R5UGQ3cGRHVnJHT01CVHZpUmJTSDctZ2thTjRObk10cXBEODQyNGhESTNLdGttU2VEb09acl9XUWxVRkR3VUxrQ2RHRWhzTDUxTGFjSkpVVVVDZ3lXODFkbjA0QXd1aEJoNWt1bjVadFVyQURXR0ZuQ01odUQzNG1nNDBMdFVQQ1BfcDZBWjJFOWxpcUJ5aWd4SVBKZThTRzFSRl82MEZ0RVZxejVGZ044ZENtNFRmZ9IBxAFBVV95cUxQNGxkYVFOOEtYRTRTUlFTTjd0bXFLeTNGd0lrYzF4ZEdiUUx4aU5Hc2ZoTE5TRl9iMkR2cjlQTGkyQ19Cdms1TlQ1enNGT1VtMnpDRm5VUnJqSVFCUDZYNW5JSlN3aUV3YkFJRUdJSnpqcVlTbTBLZWFpX3VwWnZwTjBOcVlfWVBfTnFDSmNqSHZ3dkQ5ZzlnQUw3cml4RjZGM2dPc2xBVHlZSzFzZnRuVkQxWE1vSHdEWnBSLS1WLTlHU3Nr?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T06:30:48+05:30",
+        "timestamp_display": "06:30 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "The/Nudge launches Rs 250 Cr TILT fund for early-stage impact startups",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://yourstory.com/2026/08/thenudge-launches-rs-250-cr-tilt-fund-early-stage-impact-startups"
+          }
+        ],
+        "timestamp": "2026-08-27T06:00:00+05:30",
+        "timestamp_display": "06:00 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "Indian oil tanker turns back after warning by Iranian vessel against attempt to pass through Hormuz - Moneycontrol.com",
+        "summary": "",
+        "why_it_matters": "Indian tanker turns back after Iranian warning at Strait of Hormuz.",
+        "sources": [
+          {
+            "source": "Moneycontrol.com",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX0xlZWRHdEJvWndsVzJ1OHNiOUJibnZaMkVGSVVHZnp3c2pFV3dCNjhNTFR0dUJOYmN5X0lhWXA3TDNhZzFLRXlLRndzaEQyYmtlVzBibVlBQ1BiOG5uT1FtNVVKWWxCQXRTV1NaQUczMmprcXFJbEwyMkhSUW9MZXYyOVA1NDlRN2hXa1JxQzdHcTFadmEyRjU4eEJGcUlVUkZsbl8wMTZad056c1JQTDgzYVMwRmJCY1d6TDNvdmdLR3FyazNPUXdWTHdfQjlxbnBHSkRjeDhvTlJRZ1RZSlhZZTNSQ0Ff0gHuAUFVX3lxTE5STGRjMUZEQjBfWVVFb2gzdjRiNks5Rm5QcHZVM3hpSGJlMU15ejZrSVhzbDJGRHFwTjA0VHZfMHZ4bXZTcmhkdlh3QXdwZ216TDZCYTRObnJtczAwQXJoYktLOEhLTFptc04yWHB4Sy03ODBDU1QyQW8xWjFFYzZjN0N6QmFwYjgzTTE3YWR0aGt0OHdZWk4yRlhmWVI1aUN6eUdGNlVFWnhzRENDTlkzTm5WeDl1NGZlYkI1VWhZTU9KeEdHSGFPbzBDa1h6TzdCSFVPSDlHLXZRb1M5eUlMNUtMVU5OUlJtSW9CbHc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:33:34+05:30",
+        "timestamp_display": "08:33 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium",
+        "see_top_stories": 4
+      },
+      {
+        "rank": 2,
+        "headline": "India hits back at UN racial discrimination panel, says observations are politically motivated - Mid-Day",
+        "summary": "",
+        "why_it_matters": "India rejects UN rights panel's findings as politically motivated.",
+        "sources": [
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOOWtjZ3QwaFItMWJrMUFMeTNGemRuYWwwRDVxeV9fYzhoOFJUSjNQN1doQ3RMVjl3TGhfZEpCNFY4dnVjelE0alRRbEdZWW9oQjNteWFfaW5WLW45NG1CbTZCN09hdXUtMkJRdVBESzMyZm4wYy1QZUdDcERVMDZHN3BzUHhsY3pfTU5NNVUzSmI3VW0xZnF4TG83S0RsMTkxSE5tcFdzd1l0V3g0enhoXzI4NGJGQUx4cml0S2o3ZEZfSVR2eHY2RzV4RzE3NldiY2U2RlRhdFM1Z0VyZVJZTGVBbk9Fck4wLUHSAeoBQVVfeXFMTjlrY2d0MGhSLTFiazFBTHkzRnpkbmFsMEQ1cXlfX2M4aDhSVEozUDdXaEN0TFY5d0xoX2RKQjRWOHZ1Y3pRNGpUUWxHWVlvaEIzbXlhX2luVi1uOTRtQm02QjdPYXV1LTJCUXVQREszMmZuMGMtUGVHQ3BEVTA2Rzdwc1B4bGN6X01OTTVVM0piN1VtMWZxeExvN0tEbDE5MUhObXBXc3dZdFd4NHp4aF8yODRiRkFMeHJpdEtqN2RGX0lUdnh2Nkc1eEcxNzZXYmNlNkZUYXRTNWdFcmVSWUxlQW5PRXJOMC1B?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:41:00+05:30",
+        "timestamp_display": "08:41 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium",
+        "see_top_stories": 5
+      },
+      {
+        "rank": 3,
+        "headline": "India rejects UN panel’s observations on its ‘rights violations’ - The Indian Express",
+        "summary": "",
+        "why_it_matters": "India rejects UN rights panel's findings as politically motivated.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcmZILWZXRUlLZUllQjNzTkwtTWZoUHUtTEtLZGRJOGlhUmxjaTFiOVFVWFExMXVLaE12R0ZxSnIwdVk5NmtsYVNRb0NURkExS1NkNVF5dWxzdThFc3pFMWh6WkNQQmY4c3pUWmpHaVBkaHFmWFJ4X3Z1QTNYNjdzZGhwRVRwS1lwR2tUbGtXZVFzYXlnVm5rSUE1RdIBogFBVV95cUxOZ0FwYVF2S3lINC0wU3RYRUlvR0pzeHBOUGxJUVFXMTRmZkVZV05Ta3k3VmY1YkFNMEU0ZGJ2cVN4dU41S3JmZndINmkwSldrMnVnUGU0dDdnQWtuSVU4amZuZVBUQmFxS1Z2dER0R1FHR1N1Nl9fTnZaVkM0eXVBUHQzZjJObDBwbnpTQ2d4Sk94MlJaUkhCM3MzSmNjWm80WVE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T04:53:51+05:30",
+        "timestamp_display": "04:53 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "PM Modi to address young athletes during ‘Khelo India Dialogue’ today - DD News",
+        "summary": "",
+        "why_it_matters": "PM Modi in today's news cycle.",
+        "sources": [
+          {
+            "source": "DD News",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUndzOXRNc2lRa0c1Nlp4Y0E3Mmt0M3Q5YXlNVEVFY1IydlJILTZZRkZlNmhrMC0zaEtDRkhkdXlYTFo2SFpLTmpKRHREckxRSGJsY21MZ3FweU9ZV3VpWnZvWVA5a1EyOEZaazM3VThjb3d1MGJqaEdlaHVxdE1VTlpZZ0tOX1FLdEFQNnY0WXYtQUg4eFh4Nw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:29:55+05:30",
+        "timestamp_display": "08:29 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.2,
+        "region": "National",
+        "confidence": "high",
+        "see_top_stories": 2
+      },
+      {
+        "rank": 2,
+        "headline": "U.S. religious freedom panel urges sanctions on RSS members over Mohan Bhagwat visit - The Hindu",
+        "summary": "",
+        "why_it_matters": "Tracks the bilateral dimension of the day's news.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVXlhYXpRWUs3amFlVHFKY3VsMmNmWmdoWHl4X1VJSEVaekRIcWxMU214OWJQTXVQbFE3ZUlsTk1CWGxaRFFob3UzRW1CcGVDVF8zamM0UU9CM0JCNzhMUWlFOThoQ2xQcm5DYmJkWGN3bUgwb2xZWjd0d3cxX01OSkgyWV9nbDZSVGR3TktBRWZibmdHd09meFA4aGhLSnUwLVJyRzJkakFzZmtaQU03QjlyOHJYcy1EWFpnd3F6SVA2R0VQVjdJcEM3SG5NZjI0WHB3a1F6RGtIUnFnanY40gHmAUFVX3lxTFBjMEdPT3BnTHRDXzRuX3VLRC1zbnN3R0VKbzhEeXR5T0FOOFptZHhyOF9wTTRHQlA0RzB4RDh0TGQ4SUpRNGNmMHFIdFowaWNDcS1QVzd6dVhhT0p5NGtacDlVaEU2WDYtRkF4SmNjbV8xaFFZRnRlaE9mQzNHX2NZNDh5d3A3MXZKNXZEZUdlSllTRWJfUHlkUlg1MmI2M3EtSXlVbDY2NWJzbzRXZ1RxT2JnM1lwWVkzTWJQaUxZQXo1Qnk2NlUzOWx3UkV5WmpqOTVSWF92N1NzajdvQVg0RnFKMnZn?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T07:57:40+05:30",
+        "timestamp_display": "07:57 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high",
+        "see_top_stories": 3
+      },
+      {
+        "rank": 3,
+        "headline": "PM Modi to address Khelo India Dialogue via video conferencing today - News On AIR",
+        "summary": "",
+        "why_it_matters": "PM Modi in today's news cycle.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcG1GR1pmUU9UYjFyQzIyT3pycXp3VEVEVG9Sc2hVYzV6RFJ4OWJIX3BZZTVidVpmWWFubE1rbE8wS2QzWWYtY1IzbWlteGVUNmlzTGlCMjJVWS1tb0twSjNvY2tSQWx6eTc2WEpIOGJFZmN5Q3R0TWtiWUc1U1JPcWZWV1B0cUp5TmJNQ1lSNnA4NzVNRkE2VW9n?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T06:17:00+05:30",
+        "timestamp_display": "06:17 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.96,
+        "region": "National",
+        "confidence": "high",
+        "see_top_stories": 2
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "Greater Bengaluru Authority to clean vacant plots at owner’s cost from August 27",
+        "summary": "",
+        "why_it_matters": "GBA will clean unsightly plots at owner's cost starting today.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/bangalore/greater-bengaluru-authority-to-clean-vacant-plots-at-owners-cost-from-august-27/article71393748.ece"
+          }
+        ],
+        "timestamp": "2026-08-27T08:08:46+05:30",
+        "timestamp_display": "08:08 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Nepal flash floods: Karnataka sets helpline desk to assist stranded people and their families",
+        "summary": "",
+        "why_it_matters": "Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/bangalore/nepal-flash-floods-karnataka-sets-helpline-desk-to-assist-stranded-people-and-their-families/article71394858.ece"
+          }
+        ],
+        "timestamp": "2026-08-27T08:34:34+05:30",
+        "timestamp_display": "08:34 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Karnataka HC quashes criminal case against Coorg homestay owner booked for not reporting rape of US tourist - Bar and Bench",
+        "summary": "",
+        "why_it_matters": "Karnataka HC quashes FIR against homestay owner in US tourist rape case.",
+        "sources": [
+          {
+            "source": "Bar and Bench",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT0JCa0lfY3JWOG1hRzkwdHpsWjRnOFRIem9hU0VUdUN2SHktU2o4bU5ZUWxQYnVzdHlYQmZOVU9mRVdPRmVDdW0ya2w2SF91MUdmVDlxWW5Ua1dfSUNkXzdoekx5Z0JEczhXbzJyRlR2R25BSGktQ0hmLVE4eFBuRWh1QVdEbFQ4YnRwZnI3cjZaUzMxaWpRcUFsNUdhU3NyZ0thSzA2d2JHS1FqbEVxN2FTRTBhTjFTV0U0RXdfUlVQY2dIZDBHZ2pKQlZQSHNmLS03WGFEemVhclg1WXBQTWVqLXEyQdIB8wFBVV95cUxQTHUzeXVJZXpPY0pBNHAyVVY1Z1JHaml2RThlQzdLZ0lCN29tZkF1ZzNBbGhvdzFSVkxPU0hQZ1JvVG9uRXlod1pMQjhCM1Q4MVJ4N3pLSGdTMnFWZG4zRTE4X1ZMOG8yMUpMNW9HUng0V0NDT25PejdiSzJmYmpyT1RrMFJUUTRxUHJYY3d3NWV2VFhUenVCdDhoWjAybXZUc1dLT3dPTnhjOWw1QWJva0VIaE95QUV1VU9ic2xOR1NVdS15MEk1dWFGMFE1QzdXaXR5Y3VNZXZ1a0ZNRDEwd1VSRWVHY0NTM2FFYUVNd1M2Y0k?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-26T11:04:12+05:30",
+        "timestamp_display": "11:04 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "Bangalore",
+        "confidence": "medium"
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Tamil Nadu, Bengal pilgrims among 133 Indians unaccounted for in Nepal floods | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSlIxOU1vSXBNcldYZU1PWUJENUNkOVZFRC16cm8wMVA1dVhXbjNmdnB0bDJ6R0tzdi1SVXRUOG5lQjhOUkNvVGxya0w5Wm9OUktveTN4a2ZrdE5OQlVtNGltLXVQaVNVU3N5YnN1SjJYTlVkdVl6VTBnakRrUXd1bmI2TnkyZEdjeFNyQk9lRFpUMDI3bXZGMDN4WWxwMEJIY0hadzlJOC1XTXY3ZmxWMERraktUbjFCUXFCYmpjaUtHV3dwRzZ0eXV2UEhEajJUZzlQaVZhWndhWkx5bDQ40gHkAUFVX3lxTFB4dGV0eXEtUVhRaC1paDJiTEF6MHJLRHRjd0xkeTF3ejliTEx0Q1pVanV4SmdMeDhKMXZsSVVybmZaeVBYNTlOa09JR3B6QU9tSl9sX1pxT0tsMUVybm1qZ1RhU0xtblNQeFpFai15S3JoYzFPZDBsQXFGbTlpQ3pHajcwQUJqTU83UVZaR2o5dmszSkdpaGE2LUZlT3lZa2ZmUXlHOVAxWTdjSkI2Q0h6ZVhWSXV4T3puSklrMC1ZUTlZQmVINjNJWVFhRkctMU5DT0tGd2ZQRWZWNDVFc0wyUHNFZA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T07:52:33+05:30",
+        "timestamp_display": "07:52 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "Chennai",
+        "confidence": "medium",
+        "see_top_stories": 1
+      },
+      {
+        "rank": 2,
+        "headline": "India and GCC discuss cooperation and Free Trade Agreement negotiations - News On AIR",
+        "summary": "",
+        "why_it_matters": "India-GCC trade pact moves to next round of talks.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOXRKcXJVd0dvUmItbk56LVlla2FJV1g1bFBZUEFIODBsNnZ0bGRwdVJ5ajNhVjNES2Jxc2x0cEROcldsR041UVljRUNPQXB3bXFDU2ltRVhYdVl3cTdLNGU4TG9Va3J5aDhzVWFvcHBLci1UOFk2RHNjLWxuNG5UdnJzYnMwZGhZeG9iNlZQb1Jxa1FaVHBCNzZMeXNvZw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T01:25:00+05:30",
+        "timestamp_display": "01:25 IST",
+        "source_quality": "high",
+        "recency_score": 0.5,
+        "final_score": 0.5,
+        "region": "Chennai",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "Tamil Nadu, Bengal pilgrims among 133 Indians unaccounted for in Nepal floods",
+        "summary": "",
+        "why_it_matters": "Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/nepal-flash-floods-deaths-news-today-indians-pilgrims-mount-kailash-isha-foundation-101787793579081.html"
+          }
+        ],
+        "timestamp": "2026-08-27T07:52:33+05:30",
+        "timestamp_display": "07:52 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "Chennai",
+        "confidence": "low",
+        "see_top_stories": 1
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Amid Pune noise row, NCRB data shows zero noise pollution offences in Maharashtra",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/pune-news/amid-pune-noise-row-ncrb-data-shows-zero-noise-pollution-offences-in-maharashtra-101787769051174.html"
+          }
+        ],
+        "timestamp": "2026-08-27T08:09:30+05:30",
+        "timestamp_display": "08:09 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "MMRDA stares at  ₹250-cr hit due to air funnel breach on Metro 7A",
+        "summary": "",
+        "why_it_matters": "Air-funnel breach on Metro 7A causes ₹250 cr cost overrun.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/mmrda-stares-at-250-cr-hit-due-to-air-funnel-breach-on-metro-7a-101787769231594.html"
+          }
+        ],
+        "timestamp": "2026-08-27T08:11:00+05:30",
+        "timestamp_display": "08:11 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Green tribunal impleads BMC in mangrove-dumping case in Diva",
+        "summary": "",
+        "why_it_matters": "NGT pulls BMC into mangrove-dumping case in Diva.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/green-tribunal-impleads-bmc-in-mangrove-dumping-case-in-diva-101787770023607.html"
+          }
+        ],
+        "timestamp": "2026-08-27T08:20:10+05:30",
+        "timestamp_display": "08:20 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "Northeast's first GM, 17-yo Mayank and pupil Pratitee become Asia's chess champions",
+        "summary": "",
+        "why_it_matters": "Northeast's first-ever chess GM crowned Asia junior champion.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/chess/northeasts-first-gm-17-year-old-mayank-chakraborty-and-pupil-pratitee-bordoloi-become-asias-junior-chess-champions/articleshow/133547352.cms"
+          }
+        ],
+        "timestamp": "2026-08-27T08:00:00+05:30",
+        "timestamp_display": "08:00 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Women's Hockey World Cup: India look to sign off with Germany test",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/hockey/hockey-world-cup/womens-hockey-world-cup-india-look-to-sign-off-with-germany-test/articleshow/133554387.cms"
+          }
+        ],
+        "timestamp": "2026-08-27T08:10:30+05:30",
+        "timestamp_display": "08:10 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Sunil Narine makes T20 history! Joins Rashid Khan in elite T20 wicket club",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/sunil-narine-makes-t20-history-joins-rashid-khan-in-elite-t20-wicket-club/articleshow/133554436.cms"
+          }
+        ],
+        "timestamp": "2026-08-27T08:31:46+05:30",
+        "timestamp_display": "08:31 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "HT Morning Brief Aug 27: Ice-mud wall collapse in Nepal kills 160; Yash's Toxic explodes at box office | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Kannada star returns to screen after 4-year hiatus.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMlljNWYtLUF4UUgwY0JLRTdjLWxjUWJGREJvMklEMFpESlZzd3FxOUQyYWh2Y256X1F5MXRpek44YjlURHRzUEVPbm1jNW1sMjJJMmlrRFdNWkkya1NqWV9laGhxSzJwRHJxcFp2OHVPNFhYb1AwMmJUSHFKVnJ6SXhPempRVVRya1pNR2h5ck1qRFM1cFVTS0VjMlNjS3A5UmpkVzhya1dzWnVVYk1HLUR5T0lQMlJ4c2hJQW0ybFhXa2xpOU5rZnpiWm5fLWk1LWE5M05zTlFQVElPWjg0b1F4Q0JEU1lKWEtNRHNKQ3NHdF9XUm0yM1dpU3YwTUxBZlUzTjRQeXNHd0XSAZACQVVfeXFMT3V2UjgtN2IzY3NXbHB4ZmVNX2d6eDd6Q2VadEhlcm53ZlZPQ1ROQ3Q5T0MwMmUxY2F2cDFIRUJkTVlNM2RkRm94ZS1XNHRsTVA5elRERVc0Tk9pNnVtcWk2QnEwQ1Rxa2hMdlVDQUJkNVlIcGR6STJPd1FxNGVlYS1XV0JZU2t3STloSUxCNlN4M01PZFJaeUd1dlRVYy1YUktXZl9IWThuY2tRbUFLaEF2QTdQYjF5UnVPQjFOdzNTbk55a0FJX082T2NnMlR3ZEVldnBTSTByNXkyb0Nnai04YmNORTRsOGV3V1BFZFdfd1V2UDJvSU5nektveTJpM0tYbDF5Z0h1UnlEU29nUWM?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:39:59+05:30",
+        "timestamp_display": "08:39 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "HT Morning Brief Aug 27: Ice-mud wall collapse in Nepal kills 160; Yash's Toxic explodes at box office",
+        "summary": "",
+        "why_it_matters": "Kannada star returns to screen after 4-year hiatus.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/nepal-flash-floods-deaths-indians-latest-news-today-supreme-court-rajasthan-high-court-toxic-review-champions-league-101787799020732.html"
+          }
+        ],
+        "timestamp": "2026-08-27T08:39:59+05:30",
+        "timestamp_display": "08:39 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Filmed via sunglasses, man sends notice to Meta, ‘creator’",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/others/filmed-via-sunglasses-man-sends-notice-to-meta-creator-101787769955965.html"
+          }
+        ],
+        "timestamp": "2026-08-27T08:19:10+05:30",
+        "timestamp_display": "08:19 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Grand Master Trilok Subba selected to represent India at World Taekwondo Poomsae Championship - News On AIR",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcnphYno1aHp4cHNuN2dJeTBaSlZrYm0tYTA3bmUtcVAzSy1qSHZnU0dkNXhFejVGb2N0Vk83UkpOZGZ2MkJTaUN1RTNRd05KeXVJbHVJM2dfRHRVUUdmMThMX2oyS0d3S2NRQ3YzaWt3MmdNZW9UMnFJZ2JlU01jZVBKY1pmdl94cEMzWGJNQ1E1TlltTEk1LUtnUUF2RmMyZjVLd01hNGxWTXZOUXFIT0NKX3RyUTVZem84?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T07:57:15+05:30",
+        "timestamp_display": "07:57 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "UP, Bihar, Uttarakhand rush to evacuate as Nepal floods kill 160 | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb3JIa1lQN0VfWEtlaWY2c3l5Wmd1NE9fNlgxOFZyaEUtd0ZBM3J6ZXM3WjViRnI4TFdacTdzQmg1cy1CaFkxTG9fOWlXTXlCVlVNZ0V3Vl9CbkZLYnpCNGpDSF9PU25sUmhITlhtZmxRX3p6dVJuaWg1eTgzVUF0UndhcDhEd1ZLQ01hZ01fUkJpZndxWHdOMHc5UThJQXFxTDhvdFdLUG5RNWNhQjhPSmxUMjNfSXB2c2NhR3BB0gHDAUFVX3lxTFBOT05jdklvSUhuX1R0emZzQlAwb2tCZVFsVGN2T3pHQWlxY1VrWjY2VjZDcjRXVXpocVYxQnE2cW1NN1IzOGtFNUFMS3RyUjBkWkVMNTI3UGwteHpRWk9EVVo0cnlHc3A0elJjLTF0N1VEbzNWbHQ5SlB1SVhOM2NpYjhPVmdqV3pjajVST2pDVW9NU0NQRUFYNWs1bEVfckVNZGZ4djE0OVBnSk9YbTVJak5ST2dLa2MtSFdHZ1FMZkE2WQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:01:23+05:30",
+        "timestamp_display": "08:01 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Deadly Nepal Flood Kills at Least 162 With India on Alert - Livemint",
+        "summary": "",
+        "why_it_matters": "Nepal flash floods kill 162+; UP/Bihar/U'khand evacuate 100s.",
+        "sources": [
+          {
+            "source": "Livemint",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa3F2S3BCSnFyRUEwRHZJdGctdTJ0T1daekMtOXgyV3hRY0d1Um85RnpPZjZMZktwVEJBR0V4Z3FwNVIzc2YxMTQyWnVyNXVMUG9WaW5kWnJady1Oc3RFWnhxM0hqanp4RlZRZHJCSWViOTdOWFNaZG9aUGtHV2pVb2dxRDd1Y1hnYkhFTTRmQzJFY2lUTjBaU0tENlBNajRDSl9ieVN4d21naTRuMEFaRTBOSdIBuAFBVV95cUxNV25tT0dHcWVBTkY2SE5UbGd0aGljb1RSdUMtNVJPbkw5UkNPZnd5SS1qZEF0S0ZzZzRyN3hoNDNjX0IyTnlybTd3RF9yX01INTZGd3RLY2hCMG1MRjdXWFJyazctemwtX3pEajl1OFhhQ0VhaWtpdndFLS1LNU43SllTa0ZSQXlzZjdBdkpsT0g5WTlKZ2RudF9EajVodGN1d0k5WUcxUnYwaGlaMFlaU19fclFfVkhn?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:42:48+05:30",
+        "timestamp_display": "08:42 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "‘Qualifying standards cannot be diluted’: Government on screening test for foreign medical graduates - The Indian Express",
+        "summary": "",
+        "why_it_matters": "Centre defends FMG screening standards against dilution push.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVlZyd1NQaVVnYU40d1BzV1k3VXlMNkZqNGRBbnNEMWw2T0l2S0Z3MVFrY0ljN19FNGJETnlmWVJPZW90dVV5OXd6WlF4SlZYOGl4QWU2OE03c1VoTGZodzRCaUFfcDBXbFQxT1lVR2xhSExJdnJpMTNCbHBQR1M4b09GQXg4MTNvdEFkU0ZSbU5veDhqVWNBVGVwNXhULVd5d1dfUUhSQzR0cmxCZ19vQXN2bzFXbmtxREdxUDdNNzN3Yi1hZUFfbnVPMmdzY2FXcWFJN0NISFdwNGpEcEJ2Y9IB5wFBVV95cUxPd3dEbEhObS1Senc3TFE1MzYzSUd5X1N6cTlkcW54aEpwQUtXLWM4Z2VaTnd6UWwzdTZZM2R4aS02WW96cnEwbl8wNHhFVDVjUVczSmd4a3FEZFhqX0tmZDlHUThxbV8weEFwTUkxR1p1ZU53TXJUdlBYMk5LSmVxb09rV1loMnpNY1FGLWxDTFJId2Z1MDh1QUpUMUd2MWd0aFptWUhua203dm9yT2hfdm1zTkE0ZnJUWGhld0NwcnZGbEwtSkNoV3N1VDkwQ092ZC1wY2NVX3BUT09RNDdsOTdIRlZ6VXc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T04:50:24+05:30",
+        "timestamp_display": "04:50 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Building Pharma Labs In Space, Zerodha’s Bland FY26 & More",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/building-pharma-labs-in-space-zerodhas-bland-fy26-more/"
+          }
+        ],
+        "timestamp": "2026-08-27T08:00:56+05:30",
+        "timestamp_display": "08:00 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "F’bad doctor held for selling fake medicines for cancer cure",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/others/fbad-doctor-held-for-selling-fake-medicines-for-cancer-cure-101787769803379.html"
+          }
+        ],
+        "timestamp": "2026-08-27T08:16:20+05:30",
+        "timestamp_display": "08:16 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "Daily Briefing: Nepal flash floods | IIT Delhi protests | India sells petrol to Russia - The Indian Express",
+        "summary": "",
+        "why_it_matters": "Daily fuel-price snapshot — metros mostly flat.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV3lGYUM2cC1UVWtDamxEb29BMGxMY2JiaC1rbDlmN1YxR0ZFc042ZGk1TVdHRzJCTEFUZGZhdkFrNWc2YlYwWXMxVlluamc2cDNVUURUOFZfS09feUkzV0NSMjd5OVlrUE80OGh0amJmckdUSXJnY0hCUWFfX3ZoR3RVRdIBigFBVV95cUxNNWtZRk5DQjN5ZzUwTnhtUE0xN2dmVkd5dFFNM3VBeVVlVjVNR3NMZm0zcGRHZ1VHeE1BSmRqZVRZcmdlQkNFUFBrX3o3OUQ4ZlNYeW5qU0ZNSWFhQ3hCcmMxODREX0lsZjNlMXVVVTZLMWZSVXAxM2JWa3hWR2Npa2RnU3N2N211VEE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T08:43:12+05:30",
+        "timestamp_display": "08:43 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Rain threat puts India’s WTC hopes under pressure in Sri Lanka Test - The Times of India",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQVBnYnFJYkJwWnRJakhMbE5sTXg3ZGJkWmpnODFFVFhEbDFTVExkU2dUZXJhVVBRdTJqSmJwaXp2Vk9aaHlxczhmdVpPNFVrQ3N5U2psM19tZkdBdElaWFdNTzRPXzZBY2ZlQzVOc0F6eU1uOUFQWEJDUF9ESjRvZlNNZDZkWkRCeldVOXloMzNfeTV0aGV2NlNHb3VfMlV5UjhxbUF1WG1PbjNPS1JKRmJkUkRBR0czVS1VdkFPU1dUN3V0aXZ4bFVRREhIa3hPOWVtMmxlWEt2T2ZScEJqZFpiWEZ5czhydktEV0I0bG1iQUxC0gH6AUFVX3lxTE41bWxCZHZFSEpMdThRT3VvVDFoclVxajdHOXVfSEhkZklYTU82XzN3YVQ4UGlYbE1aMGZWYkw5RVFYYjcxb0h6TmJBaUFEMkpESldGYk1oSldRQk45Y0tFYWdDOC1VT0VONjdMR0ZTS0w4YzZibWV4ZXJ0dnRQei1NSFdmLUwyZTRKejlXU2t5a0JwelR6WWV0YlFmR2RTbmZMNG1lVjFIbzhlMG9jLUtjTmZmbWRTZXpFMkw3MzZEcWJmdUZueTdvR3lSNkhjcE5tLV9sYkc1YldCRFl3VDNlQlk1TENVb2RzYnZzR3ByakF6elZ3SWNMOUE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T06:26:00+05:30",
+        "timestamp_display": "06:26 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "India-EU ties stronger than ever, FTA breakthrough driven by realism, pragmatism: EU Ambassador - The Economic Times",
+        "summary": "",
+        "why_it_matters": "EU envoy signals FTA breakthrough 'driven by realism'.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPMU1MUWVETVh3QTF0QmhaR0J2dTd1QjZOd3FHeklFWGt2OElKV1ZmbmFaM2Raam1ZYm1qTmh2OWJTcVhLMGNNenN3dm50cVZvOHlNdWU5cjUwVzZ4aDZza3kxY0Z6OGFGY3EtdFByTFZyU3NXckRVTzd0dEg2dUJvSE5KemlQdmVTdDVERFRXLWVTU2VwbHBmcFVLS2VvbkFPUDVUVXhCNG5Xek1aSENkVGs3ZDJqR3hRazVUcFV1S0hDaXRQNGkyVk5WTDB4VjFqZlFoTER3TDE1TzBGX0ZqRkN1VmpkX1ZIQ2VOZ3hwaXJnWmlmUHFJc1BZR202SGZhRkJ6Q085amRGUzJvQWJKQU55ZXk1dUxRcG9aNGlNeE05MlVqTUFLSVFkMkRzd2lrRk5mY01Nb3c5OFZHRDFKUlFGNkV0bW5Dc0FpRDhyclpBX1pOeEYwTHloQXFWN0hvSUdsenRjR25QcVBPTFZXT3FWaGhabXlUYWo1UEtrRdIBmwJBVV95cUxNX1h4YUp0UGtMWVBHV3ZJS1hNRklCbU9QYUE2VnZTVWRrbkxTLTA2R3h1MEU2TjZRcGhsdEN3NGNqQm50bWpRd01SV1dUTmFnUWJuWENuQzFpb1RVZ2YwZ3dZeHNCcndSZXJjR2dLR3UyT3luXzlrMWs4UFpYZy1BVlpQMXBHMXpqNDNEdUZWd0F4N25wbWtlazAwOHdiQnByQTRQUGhxU0FLcnRIeHVJMmZhZ19acXZHYzJ4OE81WmVDa0x2VEdzYWtUaTVSemprWU94bF9DOVVNeXd3RkFIa3RBWDJWQ182bkJUOVRMMkdSYmdaY09PYWpMc3VLLUpRMzU0eC16NG9ITE4xTHhJSEJ2UEU0RkE3enE4?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-27T07:29:53+05:30",
+        "timestamp_display": "07:29 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "International",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "dedup_stats": {
+    "dropped": 25,
+    "kept": 38
+  },
+  "rejected_items": [
+    {
+      "headline": "UEFA set to withdraw FIFA boycott threat ahead of Champions League draw",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/sports/football/uefa-set-to-withdraw-fifa-boycott-threat-ahead-of-champions-league-draw/articleshow/133555242.cms"
+    },
+    {
+      "headline": "Asian Games 2026 Cricket Full Schedule: Check match dates, timings, fixtures and India squads led by Shreyas Iyer and Harmanpreet Kaur",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/asian-games-2026-cricket-full-schedule-check-match-dates-timings-fixtures-and-india-squads-led-by-shreyas-iyer-and-harmanpreet-kaur/articleshow/133555034.cms"
+    },
+    {
+      "headline": "Breaking News Live Updates: Russian missiles and drones rock Kyiv as strikes injure five across Ukraine",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/newsblogs/russia-ukraine-war-india-us-trade-deal-trump-tariffs-iran-war-strait-of-hormuz-pm-modi/liveblog/133554398.cms"
+    },
+    {
+      "headline": "Delhi-NCR Weather Today August 27: Will it rain in Delhi, Noida, Gurugram, Faridabad and Ghaziabad? Check the latest IMD weather update",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/delhi-ncr-weather-today-august-27-will-it-rain-in-delhi-noida-gurugram-faridabad-and-ghaziabad-check-the-latest-imd-weather-update/articleshow/133553882.cms"
+    },
+    {
+      "headline": "Billionaire Vinod Khosla’s $9.612 billion Seahawks purchase approved by NFL owners",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/nfl-owners-unanimously-approve-the-sale-of-the-seahawks-to-vinod-khosla-and-his-family/articleshow/133553585.cms"
+    },
+    {
+      "headline": "Morning Brief Podcast: From Insurgent to Establishment: The Trilegal Story",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/morning-brief-podcast/morning-brief-podcast-from-insurgent-to-establishment-the-trilegal-story/podcast/133553545.cms"
+    },
+    {
+      "headline": "Prime Minister Narendra Modi makes seven appeals for economic self-reliance - News On AIR",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "Prime Minister Narendra Modi makes seven appeals for economic self-reliance - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSnJuSTUyVGJyY2tKa1hrXzVXN0JBVnphY2xnY1J2RlZiWmd1QjlzS205VFk5aVg5NF9RdVdscVREczFvY0thdS1OQUItbVItMlU5bTBHTWRMY3FDNTZNU0l1SWRKRXhGRFFqZlUxb0ZZQ1BMYU9QcVRoT3FQUnRNWDNyOXNXcVJPYndjZ0tXT2k1M0JCUG9SSEVYQldBY1dqcnhwTVl3QVp2b2tOeUdhelIyYjNycXk2QUJWeldXeUxxM25VY0xoWDExQWFvYjdqQk1aT3lrT2wxcWRLZTdwRjVpMWxUQQ?oc=5"
+    },
+    {
+      "headline": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News - News On AIR",
+      "reason": "carryover_dup",
+      "matched_in": "Markets & Economy",
+      "matched_headline": "RBI keeps repo rate unchanged; Projects India’s real GDP growth for current fiscal at 6.9% | Akashvani News - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5"
+    },
+    {
+      "headline": "NDTV 24x7 Live TV US Edition : Watch USA Live News & Headlines – NDTV.com - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MRHBKTFdqbFdJRjhyUmYwdk04VjhoaHluaktzUG0tN3M1c0lkYjRSMUZNUHdVb1ZENmFPZlV3Rjg0bTA4Q19MdjdCam9TNXl1UEh3TGNHc1NESXc?oc=5"
+    },
+    {
+      "headline": "Stocks to Watch Today: ICICI Prudential AMC, Foseco India, Aye Finance, Bharat Electronics, Juniper Green... - Moneycontrol.com",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNY2RiSnV2c3ZPc0FDSkIyTkluZVh1NWstX3Q4WUthUEtkZ1RXQzdJUk5MaVowRVpRc0RYQi1YQlBRRl9XNGJTTzBaTmNYYmh3c2xleHQxNW0xcEdTY05mVFp5dy1FMnRlTkcwcTRqZDJ4YkN6R0JxdXVqbjhDRWxEVXMtSjduYl82ZnpCdVVTVFBKQXBXTTJMY3dKcjdIczdGLWd2UzRXU1JZb09MQUdqbVNzc2IydDFZVWhVWGg1RE91QWdrWFhrekl0eW5vaEEyeld3TE1CeDZIcWJ1N0txNXVSOXYtTFBYYTVVSng3YTZnVnpJRHVMWGZXSFk0d2lTVTRRdkdNXzBKNl96S004QTdOUERJZnlMb28ySURUQVRRSnlsYUZXRGEzZ0xnN1V1WGQw0gG4AkFVX3lxTE5BRHQ4a3BEckpxM0wzVHZvUG5FNFlrOGMyZ3dtQ1M4WkI5SkVrY3VHYjhOODBzOWN0TVRBUm83MWYwdkpfVl8xbDhHZHZQc0RQVlJCcTdGVUxDZmU1aV9DUUk0YkktRmxjNzAzSEZiUUkyaHNVVmx5SGhiQVBuRUtTbXcwdHRBeDJBdGN4cDRKTlkwRWFJbVRJN2ltTkUwQ2NoMVlZWTNfUTNKLWxXRHNKY2RMVF93X29GRnRvc1NwTmxtTUVONjJpTklrd2RjekhlYWVZRHFrR1Q2OWt3QjlLam9OLWhFcmptSHdxWEdTYjhyQ1VfYnlkeWVJMzdtcHcwcFA5R216VkZaZ241eHZsbFlBazFyQWk4OFRCUXlXVWdxM21DeWMwMG9ydllBbGMyd2duOElXZg?oc=5"
+    },
+    {
+      "headline": "Bihar UP live updates: Bihar, UP placed on high alert as Nepal floods wreak havoc, evacuation on",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/india-news/bihar-up-high-alert-live-updates-nepal-flash-floods-rasuwa-kosi-warning-gandak-yogi-adityanath-evacuation-101787799391397.html"
+    },
+    {
+      "headline": "Is Michael Jordan really leaving NBC’s NBA coverage after one season? Here’s what we know so far",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/is-michael-jordan-really-leaving-nbc-s-nba-coverage-after-one-season-here-s-what-we-know-so-far-101787787943430.html"
+    },
+    {
+      "headline": "UEFA Champions League draw 2026-27: Who can face whom, how the draw works, pots, teams, and rules",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/football/uefa-champions-league-draw-2026-27-who-can-face-whom-how-the-draw-works-pots-teams-and-rules-101787763999304.html"
+    },
+    {
+      "headline": "Matt Gogel golf gambling violation: What golfer said after receiving 6-month PGA Tour suspension",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/matt-gogel-golf-gambling-violation-what-golfer-said-after-receiving-6-month-pga-tour-suspension-101787783880311.html"
+    },
+    {
+      "headline": "Why is NFL eliminating Pro Bowl? 3 key factors behind decision to end All-Star game",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/why-is-nfl-eliminating-pro-bowl-3-key-factors-behind-decision-to-end-all-star-game-101787780752759.html"
+    },
+    {
+      "headline": "Kyle Singler's mental health concern grows as former NBA star’s videos spark concern: ‘Some kind of addiction’",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/kyle-singlers-mental-health-concern-grows-as-former-nba-star-s-videos-spark-concern-some-kind-of-addiction-101787780850687.html"
+    },
+    {
+      "headline": "How will Vinod Khosla’s Seahawks deal affect his 49ers stake? NFL rule explained",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/how-will-vinod-khosla-s-seattle-seahawks-deal-affect-his-san-francisco-49ers-stake-nfl-rule-explained-101787777207717.html"
+    },
+    {
+      "headline": "NFL owners approve Seahawks' sale to Kohsla group for record $9.6 billion",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/football/nfl-owners-approve-seahawks-sale-to-kohsla-group-for-record-9-6-billion-101787779985252.html"
+    },
+    {
+      "headline": "Watch: AAP, BJP councillors come to blows at Ludhiana MC house meeting",
+      "reason": "blacklist",
+      "url": "https://indianexpress.com/article/cities/chandigarh/watch-aap-bjp-councillors-clash-ludhiana-mc-house-meet-fcc-election-schedule-10850114/"
+    },
+    {
+      "headline": "Nepal Flash Floods LIVE: 162 Killed In Nepal Flash Floods, 142 Indians Among Over 400 Missing",
+      "reason": "blacklist",
+      "url": "https://www.ndtv.com/world-news/nepal-flash-floods-live-updates-nepal-hit-by-massive-flash-floods-multiple-casualties-feared-rescue-ops-on-11960633#publisher=newsstand"
+    },
+    {
+      "headline": "NDTV World 'Anviksha' India-Nepal Dialogue Live Updates: Event To Bring Together Politicians, Diplomats, Business Leaders",
+      "reason": "blacklist",
+      "url": "https://www.ndtv.com/world-news/anviksha-india-nepal-dialogue-live-updates-ndtv-world-event-to-bring-together-shashi-tharoor-shisir-khanal-ram-madhav-manisha-koirala-11964234#publisher=newsstand"
+    },
+    {
+      "headline": "India wanted red flags on chip packets and soda. Big Food fought back.",
+      "reason": "carryover_dup",
+      "matched_in": "Tech & AI",
+      "matched_headline": "India wanted red flags on chip packets and soda. Big Food fought back. - Reuters",
+      "url": "https://www.thehindu.com/sci-tech/health/india-wanted-red-flags-on-chip-packets-and-soda-big-food-fought-back/article71391973.ece"
+    },
+    {
+      "headline": "Asian Games: Questions over selections across squads",
+      "reason": "blacklist",
+      "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/asian-games-questions-over-selections-across-squads/articleshow/133554513.cms"
+    },
+    {
+      "headline": "World Cup’s most-hated hydration breaks could be ‘soft-launched’ in Champions League",
+      "reason": "blacklist",
+      "url": "https://timesofindia.indiatimes.com/sports/football/top-stories/fifa-world-cups-most-hated-hydration-breaks-could-be-soft-launched-in-the-champions-league/articleshow/133553196.cms"
+    },
+    {
+      "headline": "The ‘Indian Rhino’ Chungreng Koren finds his way back with UFC contract within reach",
+      "reason": "blacklist",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/the-indian-rhino-chungreng-koren-finds-his-way-back-with-a-ufc-contract-within-reach/articleshow/133529793.cms"
+    }
+  ]
+}
