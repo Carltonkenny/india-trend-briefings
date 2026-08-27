@@ -27,5 +27,6 @@
   "publish_verified_at": "2026-08-27T04:02:42+05:30",
   "delivery_failed": true,
   "delivery_failure_reason": "telegram_api_400_chat_not_found",
-  "delivery_failure_detail": "deliver_telegram.py exited non-zero: Telegram HTTP 400 'chat not found'. Same as Aug 26 — bot @Dailynews69bot has no prior conversation with chat 8344314041. User must /start the bot in DM for future deliveries to succeed. Briefing still published to GitHub Pages successfully (HTTP 200 verified)."
-}
+  "delivery_failure_detail": "deliver_telegram.py exited non-zero: Telegram HTTP 400 'chat not found'. Same as Aug 26 — bot @Dailynews69bot has no prior conversation with chat 8344314041. User must /start the bot in DM for future deliveries to succeed. Briefing still published to GitHub Pages successfully (HTTP 200 verified).",
+    "git_push": "Pushed briefing for 2026-08-27"
+  }
