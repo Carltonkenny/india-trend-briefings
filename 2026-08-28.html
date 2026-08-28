@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-08-28</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Friday, 28 August 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 28 August 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">From Tamil Nadu to West Bengal, appeals for contact as Nepal floods cut off 290 Indians | India News - Hindustan Times</a>
+      <span class="item-why">290+ Indians from 35 countries cut off across TN, Bengal, Kerala, Karnataka; Kailash Mansarovar pilgrims stranded.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">R Praggnanandhaa creates history; Becomes 1st Indian to win Grand Chess Tour - News On AIR</a>
+      <span class="item-why">Tamil Nadu teenager becomes first Indian to win the elite Grand Chess Tour — biggest Indian chess result since Anand era.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">India secures 70% of crude oil imports Outside Strait of Hormuz: Petroleum Ministry - News On AIR</a>
+      <span class="item-why">Petroleum Ministry: 70% of crude now routes outside Hormuz — energy-diversification milestone after tanker standoff.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">Finance Minister Nirmala Sitharaman to be on 6-day visit to US beginning today - News On AIR</a>
+      <span class="item-why">FM's 6-day US visit covers IMF/World Bank, Treasury, investor roadshows ahead of India-US trade-talks phase.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">India's Data Centre Boom: $300 Billion Bet, 101 Million Square Feet by 2030 - NDTV</a>
+      <span class="item-why">NDTV: India eyes $300 bn in data-centre capex and 101 mn sq ft built-out by 2030.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  2 items</span></h3>
+<div class="theme">India bets $300 bn on data centres by 2030; US judge blocks Pentagon's Anthropic blacklisting.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPci01OVdXc0pSa0pja2NoVlZZY0FWaC1qRHo2UnZtLTlsbkVPWjRMUHYtRDlvb0x6WlAxb2ptdUx1SGJBZDZLV3ZEUVJiUmJsdmZJczJFV28xSV9NWWpQYzFGOGNpNURyOTZ1eHZXbnhYQ29XNzNIaXVHd3lRai15bmJETWNyTTBUQmZVRGRBVmRhQ1p6NHE3TUVGZXdGWHBWNThfZjdXT1hKeS1UcDhfcU83ZFpIeko0RmhsSDZRNG9aUdIByAFBVV95cUxOYnpSb3dTbml0dGFxODMtLUNMUTJ2dlhBOUJMOE4tTlRXV01KeV9nVDU0STdZUFoyV01IQ05xSlREdFJpNFhzMlMxV2ZUckpKLXBOQ1Q0N2c3QXltNkRlX1EwaVlMOThDLXFkblZBbHFHTEhXcVA0X295a3U5ejdxNjNyN2h5UkU4VlRFbEt0SGZ2azlwVTRpNGRDUzlEbmE4dmRrbFl1OWxLQTlfM2pqLXNzUVJSa3h1aE5fd0NGLTNTek5FUlBXTw?oc=5" target="_blank" rel="noopener">US judge blocks Pentagon’s Anthropic blacklisting - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">US federal court temporarily blocks DoD's Anthropic supplier ban — affects future India AI deals.</span>
+      <span class="src">The Indian Express  ·  09:06 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMUg3UGk0VjNxV0tSTWY0bW5ydElHTkdaR05XUW1oMHN1YmpRUTdrd3lHNkdzTjVURWRuaUhQSDBMejl5b1ItR1BwOV9vdEowbnhFQXl2WXE3bGlDeXp5V0xkU1EzS2pxc2IxS2FoTDhKcnFIYjJ3WWduNHZHYkJvTXN1VXFDX0I0YzRJWGZ3TjIzQ1dyR01jNGFEQVp0T05jaXZnX0YyWVJLY2Fvb0t1a1NQV1NjdFIxTV9fUG84YWFNclI1T050eFI2NUliWjVYZWd3aU02THpVaGF6aUHSAeMBQVVfeXFMUGFoRFBkRllaUFM1RUZzYlRxTWs5RUJZNDJWanctY0s5X0pMb2dzV1ZJbTJ6VEZLMEdtOWlWamZhZ1ZPY2RPM083VWRBMDhJdnZfa2xzMjliUDhBN2JpSjBIWUJzdlowWHlkWmNUaFNJbk5fbXpkT2RnYjB3VjNpQXRoVWl1aHZqeUNnZ1BFZE9OZXQ3cjVTajBJRC0xSUFucHlkekdQSXRSSkVmcTBGNkJGcU9zRWNGM2dMdUxjU3RJeWFpd2taS2drZWQtMUdQbmc5UGJNX29pLVNzS1NMclRQMmM?oc=5" target="_blank" rel="noopener">From premium bikes to robotics, semiconductors, Yamaha widens India play - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">The Times of India  ·  04:00 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  2 items</span></h3>
+<div class="theme">Indian markets slide 5th straight session; India gets 70% of crude outside Hormuz.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE9WOWlBYXk4Vy1sbGpsLVZheXhJcEl1UVdvRlV4TFNfRGV3ZUtiYkJTbkdsODB0UEc3QjY5bDFLb3J3NmVWTkEyZFNFUkgxZXV1cno2dW12d2RsR3pqRG1LNTZRLUsyZEV6SGpvd2FKQ1pkLWJBSXBLWlp1eTNkUFE?oc=5" target="_blank" rel="noopener">Indian Markets Slide for 5th Consecutive Session - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why">Sensex/Nifty log 5th straight losing session as FII outflows weigh on broader indices.</span>
+      <span class="src">News On AIR  ·  06:46 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/esds-ipo-litmus-test-even-axes-350-jobs-more/" target="_blank" rel="noopener">ESDS’ IPO Litmus Test, Even Axes 350 Jobs & More</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:00 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY  ·  3 items</span></h3>
+<div class="theme">Vijay leaves CM seat in TN Assembly, sits with ministers; FM Sitharaman on 6-day US visit.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOVREN0JZcHpPT2NENk5sTDR3Y1RKeXY5bkMwMlRkWFJHVUNsNTl1dEVHbUluM3liQUxnNE5pZGRVay1sVF8wRTFXa25QczFMX3BDNFlLdlpneGRkalA4RHQ0YkdfX003T0g3ZHI5emNZUk5acnp5WWd5Q1l0OXY1dDlRTlJoSDg0bmphNzllZkZEek8xQ285eGk5YS02SEw2eEkyZDJISHhjbGFIVHA3ckdMWTV5NGQx?oc=5" target="_blank" rel="noopener">In A First, Vijay Leaves Chief Minister's Seat, Sits With Ministers In Assembly - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">TVK chief Vijay sits among ministers — first time he occupies the Assembly floor as a non-CM party chief.</span>
+      <span class="src">NDTV  ·  07:52 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMikAFBVV95cUxOZUtLR0Y1amg3T1daTGhpR051NXMxUWNRUjFvRzBVTVFZaEVjZFI4cGZpbDE0VXM3QXFLbTBUaUMtcVpWMHhleW5fZURzeVB0Yk5mNWltZm9JTjl3eDItSFlZWnBwVHk3T293SGpsWkhKel9NQXBIVlNhZm5hZEx4c1NyUUVzSkhrU0VMRURIc0bSAZYBQVVfeXFMUEZoWGs4bG9hWWZ6dXY4NDU4dlhUUDNOLWNvUkJ1dmliSW1SVDcyRFFnak1OcEJyZkxTSzY5ZGlsNVhjTlk4aDZKRjRuYlE4cGZZc20wMlIxeUVVUW8wNFlmbzROTG9scUszUlNtdEp0d0ppUWxMeF81Vm5pQVFTcHpxclNwQVRDWmppU0dreWNnZXpGUmJ3?oc=5" target="_blank" rel="noopener">Congress slams NCLT decision | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  08:25 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZTZUcjhPTXN4dDlWWVhWX2NqOEpOSkZfRkNXODNKenhKQ25ZV0lEbDlZMldOU0JTRjJuWHBpLWt4ZmtsOTRNbkdENzZvbHdmcGxyNWhyLW1hNjJieEY4T0lNXzZJVWcteWJLVVh5VUxvOWJDN2FVMEZoQXhESlZWMmRvRDdrTms0Zmpzb3kwMEFRZ3IwV2IzbmVJelNaUklrTUVxSnZDU2wxZ0NkVWRyU3M5bFFNcngzMzdfcmg5MkhiLWFDekxES0xkNHpKeUtWSW8wY3J3ajN6Y1FhQXVsT9IB5gFBVV95cUxNdTZPdE8zLTlNMzZmZDJCMi16MlRPQTlKbXlJTEpiQ1NublRGblhOYzJzV1ZvQWszQ3QzZ0cyNlN6My1VYmwyb1BWdGJUb191elZuZW5ZR0hUOWJMeGhORGxHSnYwNjBjVmd5MVV4YjRMLUhhb0hmM2tMc0VPanFqaU1qTERSZ2J5VVNtSGQtdjBpbC0yUHNTZER0eEUtT1NSc20zbEg1bWJvZU9rM3FERUtTUkRXOWVHVXEtRmIzcVR5aTA2eDZNTnlCTmpUS3o4V2poaGZJT2YtdFpLVEdYM0NOU1lWdw?oc=5" target="_blank" rel="noopener">Vijay among top 3 PM choices, Rahul Gandhi also on list. Who is the No. 1? | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  08:44 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">Karnataka techie in Australia missing after Nepal floods; 2 govt-school teachers suspended over RSS march.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/beyond-duty-delhi-cop-s-zeal-facebook-page-helps-reunite-specially-abled-karnataka-man-with-family-101787878223549.html" target="_blank" rel="noopener">Beyond duty: Delhi cop’s zeal, Facebook page helps reunite specially abled Karnataka man with family</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  07:37 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/trending/bengaluru-family-spends-over-1-lakh-monthly-without-any-extravagance-how-to-plan-fire-101787887613456.html" target="_blank" rel="noopener">Bengaluru family spends over  ₹1 lakh monthly ‘without any extravagance’: ‘How to plan FIRE?’</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  09:05 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/karnataka-techie-living-in-australia-missing-after-nepal-floods-last-seen-at-border-101787885955106.html" target="_blank" rel="noopener">Karnataka techie living in Australia missing after Nepal floods, last seen at border</a>
+      <span class="badge lo">low</span>
+      <span class="why">290+ Indians from 35 countries cut off across TN, Bengal, Kerala, Karnataka; Kailash Mansarovar pilgrims stranded.</span>
+      <span class="src">Unknown  ·  09:16 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI  ·  2 items</span></h3>
+<div class="theme">Nepal tragedy sparks TN Assembly spat between TVK and DMK; Tamil Nadu pilgrims among 290+ cut off.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkIyV1NSSVp1ZHZBZlNNejNBaG9ZMGFndEhLTHFOdzM5RVFLUWRWWklzSkcxN0lQTmRWRndXRnUtSGRDRERJZVQ1M0x3R293U0otNXNpbGhzbnZ4TjZyQ1BCNjBzelo0Vm44MXdSeGQ2Z04wbDJlM3FUQzVReUZPZ0RjazFaOG5kMy15M3JFNzFYOXZIbC03Szk2YUFfRDltWUx1WXQ0VEhBQ0pVd3BjRER0TkRGMl9xbTNIYm9oQmRVd9IBygFBVV95cUxQZGJvWW5XRkRyS1dBRGk2TjNTeE5UUV9lVW9GTXlPaTRZZnY2STExSE80TzhrbVJaSkNORHZsUWVWTnlmRmtHcURCYjNzSkdRM0tiNjVmWDk3bU1kcUFLR1FYWmotYldmcFE3SEY0MW1nSVRValMzQ3FNandyWi1RbjRZUFNvbHJycEJlcmN4Sld0UHN5U1BxVmtGQ2N5SU51WTdnaHpOSXRaeHFlZTU5Sy1sSk5vZjY5c1hYRnBTSTd0aGx5OVFzWDRB?oc=5" target="_blank" rel="noopener">Nepal Tragedy Triggers Political Spat Between Ruling TVK, DMK In Tamil Nadu Assembly - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">NDTV  ·  09:03 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/cities/chennai/chennais-anand-theatre-was-the-og-for-the-citys-old-film-buffs/article71385284.ece" target="_blank" rel="noopener">Chennai’s Anand Theatre was the ‘OG’ for the city’s old film-buffs</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  07:45 IST  ·  Chennai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">Fadnavis gives Maharashtra auto/taxi drivers 1 year to learn Marathi; doctor-mountaineer missing in Nepal.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU0RXMUVCVGt4dUY5TWp5amJ5MUJxdUE0eG1pSWowd2tkZUFBVnZURWI1Z3AtVDhydFZ3SEtoTzktcTgyR3NOemJiNXpNcFdaQVMtYndrcG5CYXQ1U2FLZGlUdng1VExsbFNwYk1RSFQxc2thLThWdXJFckd0NS1vNFdNUHdiX0Naalk5YV96cmN5Tm9nMGllRHJhRzFIQ1ZrTkwtaFZxaEhnUTFwVHEyeEJPRkxhaVFGaC1rTmg5T2pQQ1N4a0xHM0lFb0lreFZVNWpCaXpNT0pQZ9IB3wFBVV95cUxOZXFIclpsd3k1SzQ3MzR2d3NLRWpxRnVFUVBhbFBnX214UVAtOERXNEFIVFU1OTJ2blZzeFpfR014czR2YlBDenV6bE4zclVEMEw2ZmtPVWF6MzhJVnVZaWtoY21vbWl5NFVJbm5Zb1h0enlTMDhMdVZneXVJczk3Vjk4dlIxMkV1Z2JYcDJxdGM4RE5zODN3QnlnMDFjT0NaQk1LNDBmX2xGVXRWYmlzRFJnUWY0a2Y0UjJnSEo3QkxYYU5rRk00SFh4bmZCQmpJbXc4Zzd0YUxfRzJONHdZ?oc=5" target="_blank" rel="noopener">Anxiety grows as prominent Mumbai doctor-mountaineer and group of 61 go missing | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  08:17 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPQ0QtTk9JSEF1MWhVQlBIYnZFYVBtNktMckk5ZnFJR092aDRMZHBGdzlQYm5POGgyNC1WZy0xTjd0VUN3cXZpckMtTTRXeGt1U2ZkNnRUdDgyVkp6OU5wZ012aGpfTTVMWlIxemQyVlY3amI1ZHB0cHJzS3A3OTFwMUotSnBSdVgydzVCc2lUYkJTTEZVdjV5aFNPclF3QUVPV09FdllNYk5TLVpfSUZZel9NQ2FFazdpUElmRXU5dlFHUy1aNjJkQTZlRUNDaEc3SU56TVprakhDMHpMVF9kTUdUcXEzSVRPc0hsa3FBYlNrcTd1U1pnWtIBgAJBVV95cUxNVzN6MHBZWjdxTFEtai1mZjRDVllaYlhVUF9GbEZneklQSV9rdWxVOTdEWUZYMHlmVm9taGZXQ2poUFdaZUdQTVdFY2ctRGxGYndVSDFQMThjX2RxdU10bXdPVDhqZ1o1XzNvakl3WWhZNVpYOUdYYWFHQS1KbXktM1VhMGFhWTYtQzhrdlRaQkVPRTBmYjliT3FPS0dPaTRLQ2F2RmpuR2VoWU5COU5JTE9RY0JsSTJFNWV1MEFXZUdBc1pEME9IVTJrcTU0NG56dmoyR1QyazA1V051N2ptM191WGhjX1lFbHlPNTg1V2diNUJVT0t3UHg3MW1YV0VI?oc=5" target="_blank" rel="noopener">Mumbai Cops' Probe In Sushant Singh Rajput's Ex-Manager's Death "Futile": Court - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">NDTV  ·  09:00 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/fadnavis-gives-auto-cab-drivers-a-year-to-learn-marathi-101787858743976.html" target="_blank" rel="noopener">Fadnavis gives auto, cab drivers a year to learn Marathi</a>
+      <span class="badge lo">low</span>
+      <span class="why">Fadnavis extends Marathi-language compliance deadline to one year for auto/taxi drivers statewide.</span>
+      <span class="src">Unknown  ·  08:20 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS</span></h3>
+  <p class="empty">No new items today in this category.</p>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE  ·  3 items</span></h3>
+<div class="theme">GTA 6 preview drops on Netflix; Raksha Bandhan 2025 today.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://economictimes.indiatimes.com/news/international/global-trends/gta-6-preview-drops-on-netflix-guns-car-chases-vice-city-and-jason-lucias-bonnie-and-clyde-story-revealed/articleshow/133580854.cms" target="_blank" rel="noopener">GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:06 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://economictimes.indiatimes.com/news/new-updates/raksha-bandhan-2026-rakhi-dos-and-donts-to-follow-during-the-festival/articleshow/133582001.cms" target="_blank" rel="noopener">Raksha Bandhan 2026: Rakhi do’s and don’ts to follow during the festival</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:48 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/nepal-flash-flood-australia-based-couple-from-odisha-among-hundreds-missing-101787807054225.html" target="_blank" rel="noopener">Nepal flash flood: Australia-based couple from Odisha among hundreds missing</a>
+      <span class="badge lo">low</span>
+      <span class="why">290+ Indians from 35 countries cut off across TN, Bengal, Kerala, Karnataka; Kailash Mansarovar pilgrims stranded.</span>
+      <span class="src">Unknown  ·  10:34 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  3 items</span></h3>
+<div class="theme">Centre moves to bring back Indians stranded in Nepal; Haryanvi singer Ankit Balyan murdered.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOMV9uRFlLSnVZTFg1UUNOa1lwMU1EVU1IVlNibWl4RGF2T1VEZEFSeUhHXzU4QUNKWVI5MFpsR0NtR2I5UTlhQkp1TXZpdnhVZk41czd5b2ZWYlhBSUNPVU1ERGljQlc2OEdhRFJlUFBJdWYzRWVVLVByeUhaREVzem1QU0tLWnVvZ04tVWNRTTlQQk0?oc=5" target="_blank" rel="noopener">Centre steps up efforts to bring back Indians stranded in Nepal - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">News On AIR  ·  08:46 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQdTFsQXA5NUVBYXNEbmFFME1tNXZKdE8zN0g1ejd2Q3JBTUJBTlFYLV9ub0hSa0JoT1NMNjdyQ3IzdFNEY1k5LTVRZzdyaWRZVF83RDFXUG1uVWJvZVVRNEN2TWdzdkFoVlV2Z1IydGdWSTdZM2xpNDBpeHpiM1BfQWFlSElYeklZVVlnQkpvdTQ2Yl9UU1ZYQkM4bVNrRXJsUlZPYWwwb1lFVGMz0gGzAUFVX3lxTE41dmZKRGk2YWpvYjl3VHR1N3Iyb0JMcXNIdG01ZUhTUUhtNEZzMVN6d2dmOWxkbzNGZW1EQnMza1Q5eXF3TmZJdGFTTFdoSkRrSGxYS3E4U0hSNXVlRTY0SHhFM21sd3NuN2ZOYXYxbVg5cVB1TmJPdnhSQU5tdGUzTEJYRWg0WEF1ZVh4WWZrQUhNamZsNlZKN3Q3V1hGb2pWc0YyZHNydVhUY3dBMFhPRExR?oc=5" target="_blank" rel="noopener">Can India build a strategic fuel system? | Explained - The Hindu</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">The Hindu  ·  09:00 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcnphYno1aHp4cHNuN2dJeTBaSlZrYm0tYTA3bmUtcVAzSy1qSHZnU0dkNXhFejVGb2N0Vk83UkpOZGZ2MkJTaUN1RTNRd05KeXVJbHVJM2dfRHRVUUdmMThMX2oyS0d3S2NRQ3YzaWt3MmdNZW9UMnFJZ2JlU01jZVBKY1pmdl94cEMzWGJNQ1E1TlltTEk1LUtnUUF2RmMyZjVLd01hNGxWTXZOUXFIT0NKX3RyUTVZem84?oc=5" target="_blank" rel="noopener">Grand Master Trilok Subba selected to represent India at World Taekwondo Poomsae Championship - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">News On AIR  ·  09:13 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">Punjab employees' strike shuts OPDs at civil hospitals; India's space economy may grow 5x to $45 bn.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/chandigarh-news/ludhiana-opd-closure-at-civil-hospital-causes-hassle-to-patients-101787854102353.html" target="_blank" rel="noopener">Ludhiana: OPD closure at civil hospital causes hassle to patients</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:03 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/chandigarh-news/mohali-patients-suffer-as-opds-shut-amid-punjab-employees-strike-101787857825940.html" target="_blank" rel="noopener">Mohali: Patients suffer as OPDs shut amid Punjab employees’ strike</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:15 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN0xvS3JjSlRLY3E1eGxEQXdHS2JyMVBzN2J1cTdRWGltRnd4dXNUbTNKQW04T0V2Uy03clA2UlZCaWpDVjVXaGZzQXBaNkJNZkVMTW5Ud3NMY1pvQzB6VllaaWRRc0xZdHBaaE5Db21DNjRoV0pnWjBZTWptUm1CWmdQYWdNdmcycGtoZlhFOHRjVkkyM1FsSU5VclFfMXBjYzh6LW5YQXZJTjNGdHUzVlFXODhORG4tOEUxT29KRGRaWjNOUXdLcjZoYjM2YjhkV0tOZXA3ckF4YnVrZXNhSzNGclB2c1HSAewBQVVfeXFMUEpuZm1kajAzRExiNV80RUVNWDlvMUo2NkdwdE1JWTh1VUhrUUZUSm1RN1FpNTBaWXJELUNLR3FOQ1FGRXpRamw5bVI3UENRTldqc2hoVjliYWNENHlDR2RTS2VubHdnN29SM2d4YkYzTFVybVlHS0Vyd1lrZlVRUEFiU050azU5TlFIdkl0bVVaMnlNTnlvUGg5V25ZSW1UQW45X2VSVzcyX0RlU0FNRjFGeWdhUXNHeUJVVnBJbTFCTWMtOEdBVjBGNjBLbFdSVVoxbUV1REZnb0QyZEFzbGFuRGFIbWlMcVY2MEk?oc=5" target="_blank" rel="noopener">India’s space economy may grow 5x to $45 billion by 2030. Who is leading the boom? - The Economic Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">The Economic Times  ·  11:08 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  3 items</span></h3>
+<div class="theme">India-Brics talks 'frank' on declaration; India-Canada treaty talks eye ₹4.65 lakh cr trade.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX3YxQXZET3ZqaGZXUFUzNENPenBiS1pzU0hmS01ORXhhZXoyZTk2NTRxTXZTTmJlbkJ5alB2ekg5cnJSVS1MZVpOdWYyNDdPV25HalhIV0NPNExQVGdHUWlaeklFaXBNNm8td2w3Nk11eTYxSU5fMGlWb1BNb01ibWdqRHFTcjhjVXkxSW5BZ29LYzhOcUM1MWFRc3lFY3dRUkxFdTI1bHU0c184ZGN3RjdqZml6amhmZ1pZbVZCbVFsZFhxZU5zRnJHeHNPV0NNUmlGZ2pqQzJwOEtzSmprNy1admFKTFo2cmxXZFJrOUNCUU9xeGfSAfsBQVVfeXFMT3pMUGhOZnJUME5qMjRxczhzQ2d4b3d3VnZLQ21ZUHhvQzdRSUlFTURfSF8yN2dXQkxhU1gwTnk1Z1E2cXF2OHQySk5xRFBCeGF0QkgzNkgtMDk1M2VGcWdFZmVHSGhYR2lNamJLaUhyM254al9Kb2diaDRpZUNKMGFxUVA0ZmItcm5RWHRSdXlwMHVHb1ZGeHFVYjBHRjZUbkNTNTl6dHVGb05iUi03b2hsTmRTc0VCSVVweExoQndBa3VrMXpaYno3MG52NHYzOVZKazN1a0xxU3h0U2cwd19PNHhPN0k1d210X1lnLWlYcGZ5VWJjNFk0Tk0?oc=5" target="_blank" rel="noopener">WTC: How India can qualify for World Test Championship final despite drawn second Test vs Sri Lanka - Livemint</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Livemint  ·  09:00 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMixAFBVV95cUxORVNCeUR0di1VVzBudkEtTktNdlB1bVlMZ1gxYm04d212eXlVdWVGOTNnV0s5ZmxveW05cE53UmNSQXJhODhnMHVJRVE3RE1jNGxuNnJ2a2lONlBjbC12T2h1VXR6QlluS3hVeFdXTkI4am45OUs2T1loSTczZUZ0eTlRWWRnT0ZvekxWcHFzOVNpUjFqMnpzME1hRWdKa2luNWlqYXhIMVFHYzk2OXBLeEVhOG5nWVVwQW85NllfVmRldkgz0gHKAUFVX3lxTE80aVp3OVNsaWM2UFJaaGJ1TGtmb0RlX3hGUXdOS0l2Z3UwRFdIUnZfVzBCS0R5ZVJ1aXo3bFRDSy10NWRrRXJUSXpWc0hQcTU5eThsbVBFZzdWc2p6cXlVZkYzQ1ZEa1BleW43TFFmcmxSLTBHQlIzcm9hSkVTRTNFUEFSeXdlbllYdzk4dHYyMkNoQ2h3aGd3UnpBOGFQOTVHMFJZNDVxaTFMMXBiTk9Kb09IMkpQNmN5UXg3N2UwVm45WmhtSkxjNnc?oc=5" target="_blank" rel="noopener">India in ‘frank’ talks with Brics states over meeting declaration | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  06:42 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVEFXRVF5U2lIdExmZFBiSHRKV0YtRWF5X0JSaHZuTFJycjBIQmRwcWs2ZFVxVVJEZ0t3YUc0TENzVWhlMnBhdFdyckFUSlY1WVZBcmd4a0Z5YU5zZ3MtTnV2ZW82SUFuZlZKLUZTaTJBYXNrQzZoeF9PN3JUMzRJVjJKVTFENnpnQlFNYktzNnpta29mSFVTMmZYdTUzZVJIbzhpdUI2cUw5aDZ5dFZ6eVJ0UlkxdzlCamlOck03VjA3VGRWelp3clZDLUwwdVhXMHVtZFIyLUdjVEV3VzF1ZG5QbW1Sc09XeVEyM3hHNklCOWdtUDFTODhxd2ROUGs?oc=5" target="_blank" rel="noopener">India expresses readiness for treaty talks with Canada, eyes Rs 4.65 lakh crore trade - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">The Times of India  ·  05:06 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-08-28T09:34:27.787362+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 27 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>
