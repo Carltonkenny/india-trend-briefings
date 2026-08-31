@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-08-31</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Monday, 31 August 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 31 August 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">Case Against Rahul Gandhi Over 'Casteist' Remarks On Uttarakhand 'Purification' Row - NDTV</a>
+      <span class="item-why">FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">Ankit Baliyan murder: Two prime suspects killed in encounter - The Indian Express</a>
+      <span class="item-why">Two accused in Haryanvi singer's murder killed in UP police encounter — closes a high-profile probe within 2 days.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">ED steps into NEET-UG paper leak case, seeks CBI's records | India News - Hindustan Times</a>
+      <span class="item-why">Enforcement Directorate enters NEET-UG paper leak case, seeks CBI records — multi-agency probe widens.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">FM Nirmala Sitharaman says India likely to sustain 7% economic growth in FY 2026-27 - News On AIR</a>
+      <span class="item-why">FM Sitharaman reaffirms 7% growth target for FY27 despite global headwinds — anchors investor outlook.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">India signs deal with US to procure Javelin anti-tank guided missile systems - News On AIR</a>
+      <span class="item-why">India signs deal with US for Javelin anti-tank guided missiles — sharpens defence posture at LAC.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  2 items</span></h3>
+<div class="theme">Google defends Vizag AI Hub amid environment concerns; MSMEs adopt AI for compliance.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQdXJUNE5lWGI4Tk5kRzc0NHBJSnpJTjJzWmltS0x2VkpQVmduSVZqTUZDdWo0dmtPajlkRnBud0RvbUlFa0g0M0VzeHZ6VG44ZnVRZkh0SkpLcHZ0cnZRNTVlWnU0Vi16MzFVRm9la1Jvc1pReHJVWmJyUHExd21XNEk5MTVfbDU1WElxck5FTENDUnJ3VFJQTUVPbHQ0dl9pZy10YjdNaGZWUEJfT2ZSSXdrei1Zc0XSAbwBQVVfeXFMTVpzYkk2aDJJU2VZTmNVdUZfNWNCN3h1V1BrMEwzNVk2QURFQmpHVXJYMUxrSTBUakFOeXp5aFE4Z1RFNW5rd2VFT3NsaHh6c1pFcHlRbmZXNEF3TzVrMWpmemlvYWpVRmVWeE92NlRqQzFTOERBcFBhT0hwX2hZWEFpbXFfems2TlpqdXoyU0dMQ3Y0cW5QaWRoRFpsbXZHYnJBSjJlQVVuWVB6c2F1Z3R2Z3BwLXhXWU9oSzY?oc=5" target="_blank" rel="noopener">Google defends Vizag AI Hub amid environment concerns | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Google defends Vizag AI Hub amid environment concerns — data-centre buildout faces green scrutiny.</span>
+      <span class="src">Hindustan Times  ·  08:24 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://inc42.com/features/indian-startup-ipo-tracker-2026/" target="_blank" rel="noopener">Indian Startup IPO Tracker 2026</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  12:30 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  2 items</span></h3>
+<div class="theme">FM Sitharaman: India to sustain 7% growth in FY27; HDFC Bank CEO Jagdishan declines third term; RSS chief in Canada on asylum policy.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFlaMmkzckxUdXowVUxBM2hjSlgwYURmRkE4MW9nUHB5VEVJQzFHR0dnMm1rcjg4ZVZEZ29IQVhieUlSVWh2Q05mSG9fTXZIV09tTi1RTERHdnoxaHVpdUdOeEtYZXRNSmdBY201ZXJEaEk3QlZPZV9qSUpZMFkxaF8tdER4VXY3RVh1eXRwTktzYTVuSXZndFgwWGxZNE1UbWNnREhRWjRVa3RTaUd6VkUwVUY5el84U0RSVQ?oc=5" target="_blank" rel="noopener">India's HDFC Bank trades flat after CEO Jagdishan opts against third term - Reuters</a>
+      <span class="badge hi">high</span>
+      <span class="why">HDFC Bank CEO Jagdishan opts against third term — succession question ripples through India's largest private bank.</span>
+      <span class="src">Reuters  ·  09:23 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMijAJBVV95cUxQa0NTM2dJMzNRTDNiVUFSNHJJcVR1NkVxQ0tpTHNPUnBNSV9qOW5RM3lpbE40T2w4MVQwQmU0ZUNreUZiVEEwTDBGanotRURxVS1YLWhpMVhobkdSaEdtOVFFU0xZQS1kR1g1NnNnb0ZTN0dRQ3Y0R2NSVnpiMVNzOEpsOElmTkJCbTZMRG9WQ2dVZVY0RlV4RWd6VVRqd2syWk9TSHJNcnc4dmNMdEJCRUxobzIzclNxbWV5bDFHVklQSEVnZ0tyTGhZQ3pqa2J4NkNyYmg5UUs4NkZVak9BYjBqNVBzTFlJZWZaLWRJdXk1Q3NJNjF4SlpDX2dwWEsxaEw4TnlJd1FxbVpz0gGSAkFVX3lxTE9tazdiYWpuc0k0OGNUa18xOVUzWU5PeUxCREQ5Vm5vYUlRdW5ySmhuemo3bGstcVQzNF9FTXRSbW56M3Z6N2xYV0ZSaUNtakh4eUJ0REdxLXc0MmtzblJLbE5nbWJDNUhaUUQ2dWI1TDkyWmJtcWh5NXpKMUZGeko4djExWnVTeVZXUlJNRHVRcmFibUtTOXc0RjJIZkxTWU5GdUNvNy1Va1lQakFtb3FKdHUtTGxJQnRnM1hNWXRvY0g4elhIQUFLa2x0LTBlQ2tER2o0dlNtLWVrOWF1SXdkTHFYcHdWZzVsLWttMkJ2RWJZdktEZzBEWG9qeGlWLTNBNWg1VXhjeURJYjJrY1lhTFE?oc=5" target="_blank" rel="noopener">After unity pitch in US, RSS chief praises India's asylum policy in Canada: 'Came as aggressors, but still thrive' | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">RSS chief Bhagwat lauds Canada's asylum policy in Toronto after US unity pitch — diaspora diplomacy.</span>
+      <span class="src">Hindustan Times  ·  07:57 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY  ·  2 items</span></h3>
+<div class="theme">FIR against Rahul Gandhi over Haldwani 'casteist' remarks; PM Modi's 7 self-reliance appeals; Bhagwat pitches India as 'Vishwaguru' in Toronto.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPaFU4Sk00M3JBQWxUeGdvMHE5WTd3WEJSNDNvQXBoeFFNTWM0aTdTeFdaOHhOX0JXOUZJZndoWEVBVFhVMy1fZnVtRFJGNzdhVjE5VVhwMzFyMlRHaVVtUHdya0ZDZmxkSTdxRzFGbnlrLWNIekhCdXFPOVFLWmF0WUt6X1hiOWdGQlB5RmVfT2loc1JWQTJyTExjMndlSnpZVHJrVlBxNElqeF9mQUhtWnJIVC1kQWd3SDB6THR30gG-AUFVX3lxTE9oVThKTTQzckFBbFR4Z28wcTlZN3dYQlI0M29BcGh4UU1NYzRpN1N4V1o4eE5fQlc5Rklmd2hYRUFUWFUzLV9mdW1EUkY3N2FWMTlVWHAzMXIyVEdpVW1Qd3JrRkNmbGRJN3FHMUZueWstY0h6SEJ1cU85UUtaYXRZS3pfWGI5Z0ZCUHlGZV9PaWhzUlZBMnJMTGMyd2VKellUcmtWUHE0SWp4X2ZBSG1ackhULWRBZ3dIMHpMdHc?oc=5" target="_blank" rel="noopener">FIR Against Rahul Gandhi Over ‘Purification Ritual’ Remarks In Haldwani - News18</a>
+      <span class="badge md">medium</span>
+      <span class="why">FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.</span>
+      <span class="src">News18  ·  08:43 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNmlZZ3JMSEs1SG9vM2gwX0h0XzE2ekF2eE9TNGxKaUh2UV9CelpSZU53N3NvOVBYdVVkUjRyNGFRaDFReUIydlBJeGVZbnVjdmxlNXFxNWEwc2JpYW1RTE5tZXBzdHA2eGhXSmY2ME1HSzdOYkRkX2ttS0M2cjBCaUZvQmg5SmU1clBhVkR6Yk9sdFpoSHZvVTF3SHFkV0VsWDZPWXZVZHhudWlqLUJHUlV0WjhjcFk1UWN4TmdNTnFDU3RTdEZsZXRiVE1DUkRJZjl1Q1d6ZTBmXzTSAeABQVVfeXFMT3p0Zm5hQi1LcFhpWWVJVnhKaUZxUnJnekp0V3pQUlc3LWtsWFNRYW5ZN1gxUVNzV2E3X2xXUTVyTlU5U0phYVJLRVQzTW5sMmVnbnpRQmlQRkNKZGRxTV93djl2OHRubU03Z3BrX3BfLWdtRllfZjRyR3Z0WkhlaU92X1RLNDc0UFZvUTBEUlhLQklHUFNWMmVFdEhpbzI5V0psQjl3VTYycG43dHpfX1J4cW9iNndFbEVoTWlEZHl5NEhYWGUzNkNxWHd0YVlfczVQdmRPZHRZbW1TZklPRjc?oc=5" target="_blank" rel="noopener">FIR against Rahul Gandhi for calling havan ritual in Haldwani ‘untouchability’ | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.</span>
+      <span class="src">Hindustan Times  ·  08:02 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">Karnataka minister sparks row over 'Islam Superior' remark; Bengaluru techie dies falling from 7th floor after dispute.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQmtWN2ZIY0FLNWpXYW1YWHBLMmhPTFJiRk9kTk4wdjMzYkhOakxTUjI5TllaLXA4U0UxMkI2ZndRaHZOTHI4eEVXbU8xS0ZDeDFkQUowbWFxbzZCWVpDMWQzenJuTnFGajFUeFFOTWNMMjhGOU1jMzNyME4tWDZiS2VXS2lYcTc0c0FEU3VsVS1zLW1NX3VRNFI0ZnRHU3J6a0JHN2VCQjF3RDREbUU2WlFCSTNyLWo1RE03blJvb052LXfSAcsBQVVfeXFMTkFlczhNVXVZWTROZ2hPR3FpZzc1ZVRRNjUwQk1NT1cyVkRQdVRaR256dkRCVFBIRUcxOExXdVRWSjZJQ0RhQ29RN0VXamNvU1Bja0R1WDFxUGJ1c2pzeXV5M0JqYXlvN1NaelhQb3VKakFxVlVjZTZTUmlQeVQzR1dMQVZZc1dIWFNkUk9Ic1dhcDZVWnZDbkQwajduOXBodmFiaTdsV0dpVHRPdzhrWGdQQ1NMVEZsRWFqdWpnNlVlN0NXOW1FNUozbEk?oc=5" target="_blank" rel="noopener">"Islam Superior," Says Karnataka Minister. BJP Demands Apology To Hindus - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Karnataka minister's 'Islam Superior' remark sparks BJP demand for apology — communal-tension flashpoint.</span>
+      <span class="src">NDTV  ·  23:22 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.ndtv.com/india-news/islam-superior-says-karnataka-ministerbasavaraj-rayareddy-bjp-reads-sanatan-demeaned-11979307#publisher=newsstand" target="_blank" rel="noopener">"Islam Superior," Says Karnataka Minister. BJP Demands Apology To Hindus</a>
+      <span class="badge lo">low</span>
+      <span class="why">Karnataka minister's 'Islam Superior' remark sparks BJP demand for apology — communal-tension flashpoint.</span>
+      <span class="src">Unknown  ·  00:17 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQUm9KVTRfS1FEbmJjaFZrUkJzdXJzcmxxaU1pSW40alVvWjdlOTBoYlBFaUxkUVI3eEJvY2daOWhSUjRnUFp5bHBReVhDZ190WFRZYVB6NWpHZTAxdVdmY18tMTFvd2NXeWtGZjF1QWt2ZWhRQ1VMZHhUejFkS3dQU1ZvaURMbnh5S1pMVXVOcUxoazhudUptZGh3clg2bEZiQldHZUJFUE1OOVlkSFFKRUc4bnBKQ2_SAb8BQVVfeXFMTzVkYnA5eFcxX19NZ3FJRnhhaWU5UUZnNUVPMmNMQ3Z1VWtVU2tnY3ZydFJnUXFHUExEMEdpajR5NDB6WGx2Z0JtdGI3aTJvOFFTNE9STURTeWp1R1RsbW9WMWc0U2o3RVN5ZHE5MEN4T2FlOG9Kd2lCS3RhdGNTRlRqT0pjQ3hDSmFfSXAtaGVTdnhZazdHeDBLZkpnaU9uRHc5MUdaeTEzYXJhbmswSkFDSWZxZUdqZEQwQTJhSXc?oc=5" target="_blank" rel="noopener">Bengaluru Techie Dead, Friend Hurt As Both Fall From 7th Floor After Dispute - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Bengaluru techie dies, friend hurt after both fall from 7th floor following dispute — civic-safety spotlight.</span>
+      <span class="src">NDTV  ·  21:34 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI</span></h3>
+  <p class="empty">No new items today in this category.</p>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">Manoj Jarange sets Mumbai protest deadline; Fadnavis reaches out; crane fire at Mumbai Port injures 2.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOSENhVENicHNwTkpDQk1mR0J4bEJpWjZoV3p6aWo3Wm5mLU04c1AyWGlGMGd3SWYtSEhTQnBhbGQ1SzBxeGs1ZUNKWVJydm54YXdBcWJzaWFMVmgtc1NEcXU5XzVqWUI3SDBuYmFiS0Fsc2dnbW5MU0RScTJmREZIeXp6S0JyYWRnZ0RBWjBxa3dxaDlzZy1zQzdJNUY4RUpSaldqbXlZSU1GOHlDNldsMDF4T18ydXNQYklUUDl3c9IBxwFBVV95cUxPTk1SbXZ0Rlc5djNfdGZLNEZINXNzcm1pVjdVdGJvdW9iMmZfcXZVN0NMbGVHM0RlVEtrVzFqbDVZUUprLXFDSGs3RXFUMGp3WkljejM3TG5MRVFoUExUYUF1cVl0QW02emZkel8yUFZyV05ieFJaV2c5NG96UW1NdGVfbUpmR3huV3E2eEExSTJjdVVuNmZDamJ3X1RTUEVQd2djVFBJN29qR3lUTHc3Zm5DVXhtWDctR0t5MTJ3cWtGZ2l0cWt3?oc=5" target="_blank" rel="noopener">Activist Manoj Jarange Sets Mumbai Protest Deadline, Devendra Fadnavis Reaches Out - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Maratha quota activist Manoj Jarange sets Mumbai protest deadline; CM Fadnavis reaches out.</span>
+      <span class="src">NDTV  ·  00:24 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.ndtv.com/mumbai-news/crane-catches-fire-during-cargo-unloading-at-mumbai-port-2-operators-injured-11979965#publisher=newsstand" target="_blank" rel="noopener">Crane Catches Fire During Cargo Unloading At Mumbai Port, 2 Operators Injured</a>
+      <span class="badge lo">low</span>
+      <span class="why">Crane catches fire at Mumbai Port during cargo unloading — 2 operators injured, probe on.</span>
+      <span class="src">Unknown  ·  08:23 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPQnVmYlIxcElnOEtRUUcyY3N0TDRKSWxwUlpvT2QtXzNFU0VyTU5JRUZDYXA1VHlnMzI0OVdmMEdTaDV6STVfanNEcFkwSE5nTzNEbHc5WGVCdWtGeExtTmlsNGZJM1V2RHJyT0w2TVIxTWFiODFURjBVV1NfdEp2ME1oci1uY1NtY0RkYlNQLXkyOGtmN1Rla0kwRU1senZyTUpVbk84ejZpVXhac3JuWdIBuAFBVV95cUxPbm5QeTEzTkZoMDVGYVFnUHhfYjc0bTN5NVFOMkt6akpSZ05aQU4yR2J5c2dZNW1US0FROHg4SDZtTU5Na290V0JDVzlDei11N2I0c1NYTzZDV084MVJRS2FfNnJHYVoyOVpHNEljbFI2ei1QWG1TOEs5NkJITDNNNmlnazZaaVpuWUZDenhjVU5mZEVTRFJzS2pTdzVVQVB1anlnQWZyYVk1LVo5ZE5xTzhKdXFXM2dM?oc=5" target="_blank" rel="noopener">Bandra Woman Runs Over 8-Year-Old Boy While Speaking On Phone, Arrested - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">NDTV  ·  23:32 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS  ·  3 items</span></h3>
+<div class="theme">Anand backs chess mirroring cricket's commercial pull; Praggnanandhaa now world No. 1; Asia Cup and Asian Games in sight.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNlh0RlhMNjVRZ0VDc3FOZzVUYUpYQm8wQmFlanY4OGNXR0hiR2hraUo2NGNNblBkeHp5aGhjYUh2Uzg0MlpXN21BTUFpNlFHcG9EUi05MEw5ZV83MDlPQVZrcThjSUM2VFJuRUZjVzJNMW5XaWNEZ1F2ODFyQVBlaHpITFROaFpES1Z5czRjTGNBMTlrRy1Oa2xpUnZVdXE1aXZhQnpoUkFGaUR0X2x5MVBFS0FZRG0zMlp3Mk43bmw2OThkeEVWa1pLNW9IM1RsaVdMLVJmc9IB3AFBVV95cUxPWEhKaC1oRlhCU0ZWS2tvRXBYVktVaktOUmI4Vmhlclh4SUJGMEROdFNoMHFQckVISzZiOV9fb2lJakRlLWZaZ3BySDFMeldfTVlNSWRRdUxaRGxWdTlybVI2MEhyZ0JuYVRqMnJveHFRU010S1JHSlJsZ3hSSVU2UEFJSE5YdHZLRnVFVHFyUEVqYzZ3a2FhSUN0anYtcWJKbEpTYjVRblltaWFuMENCenk3U1pLTGN5TE9UUUtUbEZMa0w5dE4zNnZfZ3BYdDZpUGFvQXhNazNvSktm?oc=5" target="_blank" rel="noopener">‘I want chess to mirror cricket's commercial pull': Viswanathan Anand - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why">Viswanathan Anand wants chess to mirror cricket's commercial pull — calls for franchise-style push.</span>
+      <span class="src">The Times of India  ·  09:13 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMijAJBVV95cUxQel9zZ0RtcDFQQkhoa2dJLWFjOHNtbnJIcW4wc3FnR0t3STFvLXVVRnF2U2c1Ry1TSXFPUDhrb3o2c0h4NzV1N1A5blNWMkQzSDdpV2NkdmQwRGZtVGFZdXV5eklxYzBPaXdjN0EzbzVyMUpxYTU1Y2hLM3lxbnU0Qnl5eGlCNVVIQ09SY1oxcE9taE8tUEgzRjNQMW5DUm9ZUU9IZ0diRlh4TTRBM0h3d05lYTJZN2VVVGt0TGxzeWlMVFNDQnVZRFZUeU56Z0ZpWmhHcm9JNURiQWdpcUpRWlYwd2lkV3NrT2JjNWlYSkRqVHRqNXU3eE85MlZScVRwQWNJSDNUQnBVbE9t?oc=5" target="_blank" rel="noopener">'Praggnanandhaa is No. 1 in the world': Viswanathan Anand after India's first Grand Chess Tour title | Exclusive - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why">Anand crowns Praggnanandhaa world No. 1 after Grand Chess Tour win — biggest Indian chess result in decades.</span>
+      <span class="src">The Times of India  ·  07:21 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRZmQtcWE2Wks4RmpIdVJGMnY2Qmgwb0FxREZzbW5PcERmenNCaWdsc1Z2MlVzVFFnR1RBdFZlNDNsZnV3MzQ1ZmU3SktRMVN6bXJXYlM3bkh3aHZWX0JMeTFFMW1RR3BL?oc=5" target="_blank" rel="noopener">Asia Cup and Asian Games in sight as India look to dominate - ICC</a>
+      <span class="badge lo">low</span>
+      <span class="why">Asia Cup and Asian Games in sight as India look to dominate multi-sport calendar.</span>
+      <span class="src">ICC  ·  13:26 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE</span></h3>
+  <p class="empty">No new items today in this category.</p>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  1 item</span></h3>
+<div class="theme">2 Ankit Balyan murder suspects killed in UP Police encounter; 16-year-old gang-raped in Greater Noida sleeper bus; ED into NEET-UG paper leak case.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNzhYVHNKWXFqbzZ2RHZXN0NVZENtblFhRnpabEZXSWctcTVid09ZZnJ0Q1djbDFTVGpodGVyT1lHb3ZIMUxGVlE1U3pRMW1YUGlJQmNHLUNMNEhSbVdwVHNYcFE5Q25vVlV5VmVjSkMyZTdJMXNIMnVXYVk3a2ZNdno1UFRwYzVEVFB1a0FIZUhYVVVhQjdoNkk5UXUwaW83UUlwSjZZN05tOHVMQ2dpbW54WG5vMWZULUdsUUJyamtWanBYWmV6OE1oUFBVanF6ejRNcFdmTENqVVdvRnfSAeMBQVVfeXFMT25BNVAtaW04Z0s1NWFtU3VtYU5sVGx3aS1RbzBEQTdWZ01ETlRuUllZNVVYbnAyTi1nc3FVZkFRakFmdnQzVkhTQ3I5bnFGNml5VGl0T1JqN3JrV283OEVFamFvbWtpMVp0eHcxYmFQbTUzdXJxTjQ4a1hfdHdKYzliQ0p5WmFyWExMTFh6UkdKQzAwVWdrQ0hkNEhYbkRrdjlNby1NSVdGdURxU1BTR3NHUkVlcFUzTWFOY09IOGwtNi0zRnFnUE1MVEUtLTdvN3d4ZktnWFJjN29EeWJoT0hxYzA?oc=5" target="_blank" rel="noopener">16-year-old gang-raped inside sleeper bus in Greater Noida; driver, conductor arrested | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  09:13 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">Renewables hit 20% of July generation; Assam clears proton-beam cancer therapy facility; Russia bids ₹50,000 cr for 5 more S-400 squadrons.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOa1ViUkp1aWdMdWEwajE3OXhKc2xwRElYYUhHOEV3dWlNMjI3Vkd3eEtaZlYxU0tqN09GTVc4N1Rtc1lFenhKb0Rxa215ODE1dkR4U3pTUmZPLVJrbDBzNUpwdUJoWGl4dUg4ejZkWnRiaTVleVdnYllKSTBPb0piMzZzOXV0X1hpR3FhRmM2bWxiSDd3MkN1ZW9ENndzNWdRdm1PcGlEQzlFNUhsRXBxZzhzWU5GM3l2bkxjQjVrS2xXaFdFSW0tbHNoNTdteGvSAdQBQVVfeXFMTjd4LWV4aFFObFN0bS03cDRkc1JVcW5jMG52a2J2a2J0ZmRwLTdlVzFwdXFta0tDd19CRFd2Rkp6d1RGVjAtbXFyMzFldE50eEF4a1N0b3NTMU1fTlA2bGdLZUFMaWVmbFpmLTFDVXZmT0pXSWQxODFuclZmejhMcWZpX1pGSUh0aDlqNG43OWM5NktZRUV2MnpqemhxZVZHQmpsUk9JcjJ5eHQ4bU02MXU1THoxeUUwc2pZQUVHS2MtVkliRGVQRTZaVVVxNVRFaDZuMks?oc=5" target="_blank" rel="noopener">Green energy boost as renewables account for 20% generation in July - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why">Renewables hit 20% of July generation — clean-energy milestone as monsoon falls short.</span>
+      <span class="src">The Times of India  ·  05:39 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVZwOWdaR0RZZUdoOHFQR3cwV3pXMVZ0Mmt1UnZ5U2dDX2R6ak1BWFBOc1ItS0hhcDlqdXJEeF9yQVRZaUk5T1NOMTRsSW5QNlpuZnFxdENHUzdDdUlBR1RCZkpHYjVVVlRna1pXOW5VTGh6SU11ak1fNHJVOGhhVDJvVm5NTWlPcTZaWnNsa19GanBHSXNyYlphUC0zV1RnaFQ4Q9IBrAFBVV95cUxQd19iZXNkWkM5YnZ2d2tMZnhRU19MWno4Z0l4VDRyTUVvWFhJWVhjOEp6OF9uS0JHWWc3SlNsdjlNSWUtOHhMS1NIS19NdUdqN1V6TzRyU2lESDcyeVRoRW9LNGpDUjNzSzNpNy1PRGk5ejdhY2ZUcnlrSkxCRHZmeUg0VE9WaHIxTC1TME9nUGhTYy0tbDFydFRKR2pYUHlCVkN0Qm1vQWl1dGcy?oc=5" target="_blank" rel="noopener">Assam Government Approves Proton Beam Cancer Therapy Facility - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Assam clears proton-beam cancer therapy facility — Northeast's first, big push for advanced oncology.</span>
+      <span class="src">NDTV  ·  00:06 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.ndtv.com/business-news/divorce-marriage-joint-loan-who-pay-emi-all-rules-explained-personal-finance-11979905#publisher=newsstand" target="_blank" rel="noopener">'Divorce Ends Marriage, But Not Joint Loan': Who Will Pay The EMI?</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  07:48 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  3 items</span></h3>
+<div class="theme">Mohan Bhagwat NY visit draws US Democrats' criticism; India sends 68.5 tonnes relief to Nepal floods; PM Modi eyes Iran bilateral; Indian man in Europe defends ₹1L salaries.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVk5WY3JXdkEtbFNVZUtGOU1pSm04MUdNSmZQTlZWemZRc0NtN0M5alZhWjhjQXVNZjN0QUxSeHRYaVhFaTRKR0N2dnNhOTFvR3JfdE01SUNCZE5rdi1YTGZxamM0VnZ1eWN3N3dnWmNhbUFnSlBzbm9wWG91ZndiQjZvS1BZS0FKQ0k4UU4tQl9FV2V5X3NYMjJyNkV5Y1lGTzZmaG10TUxVSTdkaGN5d3k1Vmp3blFpN3FvY21LVEQ0MWRXRHFDM0JHUmlRQ0dYX092b2xPSWZaTkQyak9SS0RYa2tsZ9IB7AFBVV95cUxNX0kzcnoxUFRpLUVSYzlfTzd2V0c0VnVfZEpMTUI0bFc5eXRHekdjUjZtWTA1aVl6N18zeWxJTzV4NGxpSHBwQWM4OTBOMEIyU3dlMEZPYWh5RUstZGZHVHRBVjZZdEsyejJpeXVidnUwTlFDX21GQkltTmE3V0trX2pkSnVTd1RjTEF1QWpDMk5QYWt0dEJUbU1GUDNsNEpxSEg3cUZ5b1EzTnRPV0c3Z1gzM0lLMlpsQ0p1R1ZqcW9raDNTQWltZ0FOMVBuS3M0TUNUbHk0UUQ3RzN2Mi15T09McnVoOWF0bjMxQw?oc=5" target="_blank" rel="noopener">403 Indian nationals cross into Nepal from China; forensics team from India begins work on DNA samples - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">403 Indian nationals cross into Nepal from China; forensics team begins DNA work at flood sites.</span>
+      <span class="src">The Indian Express  ·  05:20 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi8gFBVV95cUxOLWs2UDhiYkV5ek9UR3BrZl9zaXlwNEhLaGoyb212X2dRaGI2b2MzLUY4OUY2cERsTGg2NjFFakNfTk5McFBMVVk4NXgwQlUzU0RYWWdhZ09qMDgzbzFxalEwbWlGVUFWZ1k1X3RDSnpKUGl2alJzcUh6d0dMYlhwc282VVdzWExVeFVHdEhXMzltd2luQnJlS29ONV9XUVRHZmxUUE8wd2cxUGJuTVVNclF1b1FRcE1sUDVqb0t5ZThjdmZrVTBINWd5RVhHSFVFa2IwemRTcFZ5eXhDLUVHS29pcWJSVTJjdHY1WWxMT0ZuZw?oc=5" target="_blank" rel="noopener">‘There is absolutely no need’: Indian man in Europe says don’t move abroad if you earn ₹1 lakh in India - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Indian man in Europe: don't move abroad if you earn ₹1 lakh in India — brain-drain counter-narrative.</span>
+      <span class="src">Hindustan Times  ·  06:51 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://trends.google.com/trending/rss?geo=IN" target="_blank" rel="noopener">iran attacks</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  09:20 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-08-31T09:42:47.502204+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 22 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>

@@ -1,0 +1,860 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T09:42:47.502204+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-08-30T09:42:47.502204+05:30",
+    "to": "2026-08-31T09:42:47.502204+05:30"
+  },
+  "totals": {
+    "raw": 637,
+    "kept": 31,
+    "sources": 9,
+    "categories": 12,
+    "deduped": 275
+  },
+  "themes": {
+    "Top Stories": "Rahul Gandhi FIR in Haldwani; Ankit Balyan murder suspects killed in encounter; ED into NEET-UG leak; FM targets 7% growth FY27; India-US Javelin missile deal.",
+    "Tech & AI": "Google defends Vizag AI Hub amid environment concerns; MSMEs adopt AI for compliance.",
+    "Markets & Economy": "FM Sitharaman: India to sustain 7% growth in FY27; HDFC Bank CEO Jagdishan declines third term; RSS chief in Canada on asylum policy.",
+    "Politics & Policy": "FIR against Rahul Gandhi over Haldwani 'casteist' remarks; PM Modi's 7 self-reliance appeals; Bhagwat pitches India as 'Vishwaguru' in Toronto.",
+    "Bangalore": "Karnataka minister sparks row over 'Islam Superior' remark; Bengaluru techie dies falling from 7th floor after dispute.",
+    "Chennai": "No fresh Chennai coverage today (The Hindu/IE feeds blocked by Cloudflare 403); see Tamil Nadu policy items in Top Stories.",
+    "Mumbai": "Manoj Jarange sets Mumbai protest deadline; Fadnavis reaches out; crane fire at Mumbai Port injures 2.",
+    "Sports": "Anand backs chess mirroring cricket's commercial pull; Praggnanandhaa now world No. 1; Asia Cup and Asian Games in sight.",
+    "Entertainment & Culture": "No fresh entertainment feed coverage today; PM Modi lauds Bengali actor on birth centenary.",
+    "Crime & Justice": "2 Ankit Balyan murder suspects killed in UP Police encounter; 16-year-old gang-raped in Greater Noida sleeper bus; ED into NEET-UG paper leak case.",
+    "Health & Science": "Renewables hit 20% of July generation; Assam clears proton-beam cancer therapy facility; Russia bids ₹50,000 cr for 5 more S-400 squadrons.",
+    "International": "Mohan Bhagwat NY visit draws US Democrats' criticism; India sends 68.5 tonnes relief to Nepal floods; PM Modi eyes Iran bilateral; Indian man in Europe defends ₹1L salaries."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "headline": "Case Against Rahul Gandhi Over 'Casteist' Remarks On Uttarakhand 'Purification' Row - NDTV",
+        "summary": "",
+        "why_it_matters": "FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnA5SjhlczUzaTZHNFN4WmFlOS1wQmxCZUtpcUgxWExuYjR0dkdfTF9XVGdUSmlpTmltQUJjRjBzRnhfZjJVQlJBbjBFNmMzZFNxd3psbWdsQjI5b0VaYU1aZ2lndVJQMHlGbTVYdWFxbEZtYi1HMUVVWGdMLTBGSVBSMUs4aWNZZ01xbGprcmt0UmNGbk1QZkRXalduTy0zbDNqUjBPS3NCRVZNdHZuSHU4cXI5V2VXZjhzd9IBxAFBVV95cUxNMVJMRno4SjMySVdZb0FPbVQtN1Qxc05Oei0zZzRZRmMwSFctVHZ4YlZiSmo0R3ZYSGtXYmtvYmFpd3ExUk41Z0NUeTlxY05EVTdYRlQzUTE1cWF3ejVEOVBNVTlab1BXOTZUYldEWElySi1FMkhwSzBoV29kV0RmOHFPQ1EtT1AtVVdtaWp0MXFzTkl4WHB5S240Vi1jb1RSZW5Pdlp2MFdpLTh3TElwU2lkcjBFQnZkTVFDV243ZWZydEpo?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:05:36+05:30",
+        "timestamp_display": "08:05 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Ankit Baliyan murder: Two prime suspects killed in encounter - The Indian Express",
+        "summary": "",
+        "why_it_matters": "Two accused in Haryanvi singer's murder killed in UP police encounter — closes a high-profile probe within 2 days.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTg5UlBYNTJhTHB0Tk5WczVyTkNMVmZSVXpHeWRWYWZrVElscHd6aWRaQy15SGg3SEZRRUFMS19Mck9qczdOa1ZZN2U3bWdPQkFxWkl5YzB5N3czVzcwMjJJbWdPU1d6aVdOaU5GSEp5YjNMRGxMMnFmSzFmX3kxUmJrTjNKcFJfaDlVVjQtMnREVzYzSnZVSWlhNTF1bTF1WnlFNGZuWXlhUnZGUUE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:26:59+05:30",
+        "timestamp_display": "08:26 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "ED steps into NEET-UG paper leak case, seeks CBI's records | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Enforcement Directorate enters NEET-UG paper leak case, seeks CBI records — multi-agency probe widens.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTXhLWnV5b1MwaHAzZ3VfaU52a1lBSlBPSHV6Z2l6Z1JUUWlSQzVpWnB3TXdmbFM4RDFyZXRqTnFyVTExdDBOemtaZlVGRXRZeDYteldoXzlpYVVXTkZTblBaZzNEN1QxQlpaMWJaSi1sdUhQYWtEeDNMMWRXY01ZOG9VTzlLVW4zbG1kLWstTEwwRUpUMEVTektvVW5qTWFuZE1hWWZyWG1IcEJJaFVFM3RFdldrc3ZSMkx5WEVXeUFxQmVOMkxyZjk0VHnSAdIBQVVfeXFMTUliOGg2cmZsWEdNcnR4SGRQZTdjUUpRdW90ZTJUVVRxZDBpSnNNQVpINW5NRldJT21RYzV1Z2Q4TEI5X0xKR1VkOGtTUG9MLXRmbktNMHl2YlV5WGdpT1FYUVVWTFFiU3NnT3pDdTlxMGZSMzdENFQzMFg4cmNJVEtvNURfTEdlbWtiUzZtUzNyUW1UN1BuSTlKaDVjR3MxUk45ZTNDRk1NQmpfWDRzc2pGVExMeTFkaGZjS2lTLWJjX2Rla0FPa0tyTVFtY1FwVUZn?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:29:14+05:30",
+        "timestamp_display": "08:29 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 4,
+        "headline": "FM Nirmala Sitharaman says India likely to sustain 7% economic growth in FY 2026-27 - News On AIR",
+        "summary": "",
+        "why_it_matters": "FM Sitharaman reaffirms 7% growth target for FY27 despite global headwinds — anchors investor outlook.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaURFcjJQLUNRVVpjb05yazFvODB2WUp2SjR3WTZZOGJ4RXVLWldOazBxQ1IteHUtRWlENTZCOHA4Wk0tX1AwSS1yalpaT2hDR1RtV1JUenlsRlpJYnl6ZzdSel9KOVpja1FFRGd1a1RTdFVfUXNjTFBja1ZUSjFHZmpsM291SFlBQVR0VXY3RnZ4aEtOSGY2RWNoaG54UEwzcE03YWZ6SEVKVDNW?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T07:56:06+05:30",
+        "timestamp_display": "07:56 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 5,
+        "headline": "India signs deal with US to procure Javelin anti-tank guided missile systems - News On AIR",
+        "summary": "",
+        "why_it_matters": "India signs deal with US for Javelin anti-tank guided missiles — sharpens defence posture at LAC.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWtBMnB0amw5MF9KNURoYzduZFVOS0xqSDk1T25OM3Ffb0tBcUVQcGt5UnktR1BvSE9TVkdha1pkMlV1QnF6RV8zbEFYbzlMRV8xRWIzZWVyNk1SVXFneXdKRzhqWkwwaEk3dHhNYURsMDZ1MkU1U1hUWDNrdmNoT1BEMjFpdjdmTFdkQ2xSWVVyYmxURTR0N2tDdnhTTjNRbG9odg?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T03:43:20+05:30",
+        "timestamp_display": "03:43 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "Google defends Vizag AI Hub amid environment concerns | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Google defends Vizag AI Hub amid environment concerns — data-centre buildout faces green scrutiny.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdXJUNE5lWGI4Tk5kRzc0NHBJSnpJTjJzWmltS0x2VkpQVmduSVZqTUZDdWo0dmtPajlkRnBud0RvbUlFa0g0M0VzeHZ6VG44ZnVRZkh0SkpLcHZ0cnZRNTVlWnU0Vi16MzFVRm9la1Jvc1pReHJVWmJyUHExd21XNEk5MTVfbDU1WElxck5FTENDUnJ3VFJQTUVPbHQ0dl9pZy10YjdNaGZWUEJfT2ZSSXdrei1Zc0XSAbwBQVVfeXFMTVpzYkk2aDJJU2VZTmNVdUZfNWNCN3h1V1BrMEwzNVk2QURFQmpHVXJYMUxrSTBUakFOeXp5aFE4Z1RFNW5rd2VFT3NsaHh6c1pFcHlRbmZXNEF3TzVrMWpmemlvYWpVRmVWeE92NlRqQzFTOERBcFBhT0hwX2hZWEFpbXFfems2TlpqdXoyU0dMQ3Y0cW5QaWRoRFpsbXZHYnJBSjJlQVVuWVB6c2F1Z3R2Z3BwLXhXWU9oSzY?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:24:20+05:30",
+        "timestamp_display": "08:24 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Indian Startup IPO Tracker 2026",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/"
+          }
+        ],
+        "timestamp": "2026-08-30T12:30:54+05:30",
+        "timestamp_display": "12:30 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "FM Nirmala Sitharaman says India likely to sustain 7% economic growth in FY 2026-27 - News On AIR",
+        "summary": "",
+        "why_it_matters": "FM Sitharaman reaffirms 7% growth target for FY27 despite global headwinds — anchors investor outlook.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaURFcjJQLUNRVVpjb05yazFvODB2WUp2SjR3WTZZOGJ4RXVLWldOazBxQ1IteHUtRWlENTZCOHA4Wk0tX1AwSS1yalpaT2hDR1RtV1JUenlsRlpJYnl6ZzdSel9KOVpja1FFRGd1a1RTdFVfUXNjTFBja1ZUSjFHZmpsM291SFlBQVR0VXY3RnZ4aEtOSGY2RWNoaG54UEwzcE03YWZ6SEVKVDNW?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T07:56:06+05:30",
+        "timestamp_display": "07:56 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high",
+        "see_top_stories": 4
+      },
+      {
+        "rank": 2,
+        "headline": "India's HDFC Bank trades flat after CEO Jagdishan opts against third term - Reuters",
+        "summary": "",
+        "why_it_matters": "HDFC Bank CEO Jagdishan opts against third term — succession question ripples through India's largest private bank.",
+        "sources": [
+          {
+            "source": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFlaMmkzckxUdXowVUxBM2hjSlgwYURmRkE4MW9nUHB5VEVJQzFHR0dnMm1rcjg4ZVZEZ29IQVhieUlSVWh2Q05mSG9fTXZIV09tTi1RTERHdnoxaHVpdUdOeEtYZXRNSmdBY201ZXJEaEk3QlZPZV9qSUpZMFkxaF8tdER4VXY3RVh1eXRwTktzYTVuSXZndFgwWGxZNE1UbWNnREhRWjRVa3RTaUd6VkUwVUY5el84U0RSVQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T09:23:00+05:30",
+        "timestamp_display": "09:23 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "After unity pitch in US, RSS chief praises India's asylum policy in Canada: 'Came as aggressors, but still thrive' | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "RSS chief Bhagwat lauds Canada's asylum policy in Toronto after US unity pitch — diaspora diplomacy.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQa0NTM2dJMzNRTDNiVUFSNHJJcVR1NkVxQ0tpTHNPUnBNSV9qOW5RM3lpbE40T2w4MVQwQmU0ZUNreUZiVEEwTDBGanotRURxVS1YLWhpMVhobkdSaEdtOVFFU0xZQS1kR1g1NnNnb0ZTN0dRQ3Y0R2NSVnpiMVNzOEpsOElmTkJCbTZMRG9WQ2dVZVY0RlV4RWd6VVRqd2syWk9TSHJNcnc4dmNMdEJCRUxobzIzclNxbWV5bDFHVklQSEVnZ0tyTGhZQ3pqa2J4NkNyYmg5UUs4NkZVak9BYjBqNVBzTFlJZWZaLWRJdXk1Q3NJNjF4SlpDX2dwWEsxaEw4TnlJd1FxbVpz0gGSAkFVX3lxTE9tazdiYWpuc0k0OGNUa18xOVUzWU5PeUxCREQ5Vm5vYUlRdW5ySmhuemo3bGstcVQzNF9FTXRSbW56M3Z6N2xYV0ZSaUNtakh4eUJ0REdxLXc0MmtzblJLbE5nbWJDNUhaUUQ2dWI1TDkyWmJtcWh5NXpKMUZGeko4djExWnVTeVZXUlJNRHVRcmFibUtTOXc0RjJIZkxTWU5GdUNvNy1Va1lQakFtb3FKdHUtTGxJQnRnM1hNWXRvY0g4elhIQUFLa2x0LTBlQ2tER2o0dlNtLWVrOWF1SXdkTHFYcHdWZzVsLWttMkJ2RWJZdktEZzBEWG9qeGlWLTNBNWg1VXhjeURJYjJrY1lhTFE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T07:57:25+05:30",
+        "timestamp_display": "07:57 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "Case Against Rahul Gandhi Over 'Casteist' Remarks On Uttarakhand 'Purification' Row - NDTV",
+        "summary": "",
+        "why_it_matters": "FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnA5SjhlczUzaTZHNFN4WmFlOS1wQmxCZUtpcUgxWExuYjR0dkdfTF9XVGdUSmlpTmltQUJjRjBzRnhfZjJVQlJBbjBFNmMzZFNxd3psbWdsQjI5b0VaYU1aZ2lndVJQMHlGbTVYdWFxbEZtYi1HMUVVWGdMLTBGSVBSMUs4aWNZZ01xbGprcmt0UmNGbk1QZkRXalduTy0zbDNqUjBPS3NCRVZNdHZuSHU4cXI5V2VXZjhzd9IBxAFBVV95cUxNMVJMRno4SjMySVdZb0FPbVQtN1Qxc05Oei0zZzRZRmMwSFctVHZ4YlZiSmo0R3ZYSGtXYmtvYmFpd3ExUk41Z0NUeTlxY05EVTdYRlQzUTE1cWF3ejVEOVBNVTlab1BXOTZUYldEWElySi1FMkhwSzBoV29kV0RmOHFPQ1EtT1AtVVdtaWp0MXFzTkl4WHB5S240Vi1jb1RSZW5Pdlp2MFdpLTh3TElwU2lkcjBFQnZkTVFDV243ZWZydEpo?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:05:36+05:30",
+        "timestamp_display": "08:05 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium",
+        "see_top_stories": 1
+      },
+      {
+        "rank": 2,
+        "headline": "FIR Against Rahul Gandhi Over ‘Purification Ritual’ Remarks In Haldwani - News18",
+        "summary": "",
+        "why_it_matters": "FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.",
+        "sources": [
+          {
+            "source": "News18",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaFU4Sk00M3JBQWxUeGdvMHE5WTd3WEJSNDNvQXBoeFFNTWM0aTdTeFdaOHhOX0JXOUZJZndoWEVBVFhVMy1fZnVtRFJGNzdhVjE5VVhwMzFyMlRHaVVtUHdya0ZDZmxkSTdxRzFGbnlrLWNIekhCdXFPOVFLWmF0WUt6X1hiOWdGQlB5RmVfT2loc1JWQTJyTExjMndlSnpZVHJrVlBxNElqeF9mQUhtWnJIVC1kQWd3SDB6THR30gG-AUFVX3lxTE9oVThKTTQzckFBbFR4Z28wcTlZN3dYQlI0M29BcGh4UU1NYzRpN1N4V1o4eE5fQlc5Rklmd2hYRUFUWFUzLV9mdW1EUkY3N2FWMTlVWHAzMXIyVEdpVW1Qd3JrRkNmbGRJN3FHMUZueWstY0h6SEJ1cU85UUtaYXRZS3pfWGI5Z0ZCUHlGZV9PaWhzUlZBMnJMTGMyd2VKellUcmtWUHE0SWp4X2ZBSG1ackhULWRBZ3dIMHpMdHc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:43:24+05:30",
+        "timestamp_display": "08:43 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "FIR against Rahul Gandhi for calling havan ritual in Haldwani ‘untouchability’ | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "FIR over 'casteist' remarks at Uttarakhand purification havan — BJP escalates; Opp calls it vendetta politics.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNmlZZ3JMSEs1SG9vM2gwX0h0XzE2ekF2eE9TNGxKaUh2UV9CelpSZU53N3NvOVBYdVVkUjRyNGFRaDFReUIydlBJeGVZbnVjdmxlNXFxNWEwc2JpYW1RTE5tZXBzdHA2eGhXSmY2ME1HSzdOYkRkX2ttS0M2cjBCaUZvQmg5SmU1clBhVkR6Yk9sdFpoSHZvVTF3SHFkV0VsWDZPWXZVZHhudWlqLUJHUlV0WjhjcFk1UWN4TmdNTnFDU3RTdEZsZXRiVE1DUkRJZjl1Q1d6ZTBmXzTSAeABQVVfeXFMT3p0Zm5hQi1LcFhpWWVJVnhKaUZxUnJnekp0V3pQUlc3LWtsWFNRYW5ZN1gxUVNzV2E3X2xXUTVyTlU5U0phYVJLRVQzTW5sMmVnbnpRQmlQRkNKZGRxTV93djl2OHRubU03Z3BrX3BfLWdtRllfZjRyR3Z0WkhlaU92X1RLNDc0UFZvUTBEUlhLQklHUFNWMmVFdEhpbzI5V0psQjl3VTYycG43dHpfX1J4cW9iNndFbEVoTWlEZHl5NEhYWGUzNkNxWHd0YVlfczVQdmRPZHRZbW1TZklPRjc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:02:48+05:30",
+        "timestamp_display": "08:02 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus - NDTV",
+        "summary": "",
+        "why_it_matters": "Karnataka minister's 'Islam Superior' remark sparks BJP demand for apology — communal-tension flashpoint.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQmtWN2ZIY0FLNWpXYW1YWHBLMmhPTFJiRk9kTk4wdjMzYkhOakxTUjI5TllaLXA4U0UxMkI2ZndRaHZOTHI4eEVXbU8xS0ZDeDFkQUowbWFxbzZCWVpDMWQzenJuTnFGajFUeFFOTWNMMjhGOU1jMzNyME4tWDZiS2VXS2lYcTc0c0FEU3VsVS1zLW1NX3VRNFI0ZnRHU3J6a0JHN2VCQjF3RDREbUU2WlFCSTNyLWo1RE03blJvb052LXfSAcsBQVVfeXFMTkFlczhNVXVZWTROZ2hPR3FpZzc1ZVRRNjUwQk1NT1cyVkRQdVRaR256dkRCVFBIRUcxOExXdVRWSjZJQ0RhQ29RN0VXamNvU1Bja0R1WDFxUGJ1c2pzeXV5M0JqYXlvN1NaelhQb3VKakFxVlVjZTZTUmlQeVQzR1dMQVZZc1dIWFNkUk9Ic1dhcDZVWnZDbkQwajduOXBodmFiaTdsV0dpVHRPdzhrWGdQQ1NMVEZsRWFqdWpnNlVlN0NXOW1FNUozbEk?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-30T23:22:38+05:30",
+        "timestamp_display": "23:22 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.42,
+        "region": "Bangalore",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus",
+        "summary": "",
+        "why_it_matters": "Karnataka minister's 'Islam Superior' remark sparks BJP demand for apology — communal-tension flashpoint.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.ndtv.com/india-news/islam-superior-says-karnataka-ministerbasavaraj-rayareddy-bjp-reads-sanatan-demeaned-11979307#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-31T00:17:33+05:30",
+        "timestamp_display": "00:17 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.24,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Bengaluru Techie Dead, Friend Hurt As Both Fall From 7th Floor After Dispute - NDTV",
+        "summary": "",
+        "why_it_matters": "Bengaluru techie dies, friend hurt after both fall from 7th floor following dispute — civic-safety spotlight.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUm9KVTRfS1FEbmJjaFZrUkJzdXJzcmxxaU1pSW40alVvWjdlOTBoYlBFaUxkUVI3eEJvY2daOWhSUjRnUFp5bHBReVhDZ190WFRZYVB6NWpHZTAxdVdmY18tMTFvd2NXeWtGZjF1QWt2ZWhRQ1VMZHhUejFkS3dQU1ZvaURMbnh5S1pMVXVOcUxoazhudUptZGh3clg2bEZiQldHZUJFUE1OOVlkSFFKRUc4bnBKQ2_SAb8BQVVfeXFMTzVkYnA5eFcxX19NZ3FJRnhhaWU5UUZnNUVPMmNMQ3Z1VWtVU2tnY3ZydFJnUXFHUExEMEdpajR5NDB6WGx2Z0JtdGI3aTJvOFFTNE9STURTeWp1R1RsbW9WMWc0U2o3RVN5ZHE5MEN4T2FlOG9Kd2lCS3RhdGNTRlRqT0pjQ3hDSmFfSXAtaGVTdnhZazdHeDBLZkpnaU9uRHc5MUdaeTEzYXJhbmswSkFDSWZxZUdqZEQwQTJhSXc?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-30T21:34:21+05:30",
+        "timestamp_display": "21:34 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "Bangalore",
+        "confidence": "medium"
+      }
+    ],
+    "Chennai": [],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Activist Manoj Jarange Sets Mumbai Protest Deadline, Devendra Fadnavis Reaches Out - NDTV",
+        "summary": "",
+        "why_it_matters": "Maratha quota activist Manoj Jarange sets Mumbai protest deadline; CM Fadnavis reaches out.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSENhVENicHNwTkpDQk1mR0J4bEJpWjZoV3p6aWo3Wm5mLU04c1AyWGlGMGd3SWYtSEhTQnBhbGQ1SzBxeGs1ZUNKWVJydm54YXdBcWJzaWFMVmgtc1NEcXU5XzVqWUI3SDBuYmFiS0Fsc2dnbW5MU0RScTJmREZIeXp6S0JyYWRnZ0RBWjBxa3dxaDlzZy1zQzdJNUY4RUpSaldqbXlZSU1GOHlDNldsMDF4T18ydXNQYklUUDl3c9IBxwFBVV95cUxPTk1SbXZ0Rlc5djNfdGZLNEZINXNzcm1pVjdVdGJvdW9iMmZfcXZVN0NMbGVHM0RlVEtrVzFqbDVZUUprLXFDSGs3RXFUMGp3WkljejM3TG5MRVFoUExUYUF1cVl0QW02emZkel8yUFZyV05ieFJaV2c5NG96UW1NdGVfbUpmR3huV3E2eEExSTJjdVVuNmZDamJ3X1RTUEVQd2djVFBJN29qR3lUTHc3Zm5DVXhtWDctR0t5MTJ3cWtGZ2l0cWt3?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T00:24:34+05:30",
+        "timestamp_display": "00:24 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.42,
+        "region": "Mumbai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Crane Catches Fire During Cargo Unloading At Mumbai Port, 2 Operators Injured",
+        "summary": "",
+        "why_it_matters": "Crane catches fire at Mumbai Port during cargo unloading — 2 operators injured, probe on.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.ndtv.com/mumbai-news/crane-catches-fire-during-cargo-unloading-at-mumbai-port-2-operators-injured-11979965#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-31T08:23:36+05:30",
+        "timestamp_display": "08:23 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Bandra Woman Runs Over 8-Year-Old Boy While Speaking On Phone, Arrested - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQnVmYlIxcElnOEtRUUcyY3N0TDRKSWxwUlpvT2QtXzNFU0VyTU5JRUZDYXA1VHlnMzI0OVdmMEdTaDV6STVfanNEcFkwSE5nTzNEbHc5WGVCdWtGeExtTmlsNGZJM1V2RHJyT0w2TVIxTWFiODFURjBVV1NfdEp2ME1oci1uY1NtY0RkYlNQLXkyOGtmN1Rla0kwRU1senZyTUpVbk84ejZpVXhac3JuWdIBuAFBVV95cUxPbm5QeTEzTkZoMDVGYVFnUHhfYjc0bTN5NVFOMkt6akpSZ05aQU4yR2J5c2dZNW1US0FROHg4SDZtTU5Na290V0JDVzlDei11N2I0c1NYTzZDV084MVJRS2FfNnJHYVoyOVpHNEljbFI2ei1QWG1TOEs5NkJITDNNNmlnazZaaVpuWUZDenhjVU5mZEVTRFJzS2pTdzVVQVB1anlnQWZyYVk1LVo5ZE5xTzhKdXFXM2dM?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-30T23:32:32+05:30",
+        "timestamp_display": "23:32 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Mumbai",
+        "confidence": "medium"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "‘I want chess to mirror cricket's commercial pull': Viswanathan Anand - The Times of India",
+        "summary": "",
+        "why_it_matters": "Viswanathan Anand wants chess to mirror cricket's commercial pull — calls for franchise-style push.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNlh0RlhMNjVRZ0VDc3FOZzVUYUpYQm8wQmFlanY4OGNXR0hiR2hraUo2NGNNblBkeHp5aGhjYUh2Uzg0MlpXN21BTUFpNlFHcG9EUi05MEw5ZV83MDlPQVZrcThjSUM2VFJuRUZjVzJNMW5XaWNEZ1F2ODFyQVBlaHpITFROaFpES1Z5czRjTGNBMTlrRy1Oa2xpUnZVdXE1aXZhQnpoUkFGaUR0X2x5MVBFS0FZRG0zMlp3Mk43bmw2OThkeEVWa1pLNW9IM1RsaVdMLVJmc9IB3AFBVV95cUxPWEhKaC1oRlhCU0ZWS2tvRXBYVktVaktOUmI4Vmhlclh4SUJGMEROdFNoMHFQckVISzZiOV9fb2lJakRlLWZaZ3BySDFMeldfTVlNSWRRdUxaRGxWdTlybVI2MEhyZ0JuYVRqMnJveHFRU010S1JHSlJsZ3hSSVU2UEFJSE5YdHZLRnVFVHFyUEVqYzZ3a2FhSUN0anYtcWJKbEpTYjVRblltaWFuMENCenk3U1pLTGN5TE9UUUtUbEZMa0w5dE4zNnZfZ3BYdDZpUGFvQXhNazNvSktm?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T09:13:00+05:30",
+        "timestamp_display": "09:13 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "'Praggnanandhaa is No. 1 in the world': Viswanathan Anand after India's first Grand Chess Tour title | Exclusive - The Times of India",
+        "summary": "",
+        "why_it_matters": "Anand crowns Praggnanandhaa world No. 1 after Grand Chess Tour win — biggest Indian chess result in decades.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQel9zZ0RtcDFQQkhoa2dJLWFjOHNtbnJIcW4wc3FnR0t3STFvLXVVRnF2U2c1Ry1TSXFPUDhrb3o2c0h4NzV1N1A5blNWMkQzSDdpV2NkdmQwRGZtVGFZdXV5eklxYzBPaXdjN0EzbzVyMUpxYTU1Y2hLM3lxbnU0Qnl5eGlCNVVIQ09SY1oxcE9taE8tUEgzRjNQMW5DUm9ZUU9IZ0diRlh4TTRBM0h3d05lYTJZN2VVVGt0TGxzeWlMVFNDQnVZRFZUeU56Z0ZpWmhHcm9JNURiQWdpcUpRWlYwd2lkV3NrT2JjNWlYSkRqVHRqNXU3eE85MlZScVRwQWNJSDNUQnBVbE9t?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T07:21:00+05:30",
+        "timestamp_display": "07:21 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Asia Cup and Asian Games in sight as India look to dominate - ICC",
+        "summary": "",
+        "why_it_matters": "Asia Cup and Asian Games in sight as India look to dominate multi-sport calendar.",
+        "sources": [
+          {
+            "source": "ICC",
+            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRZmQtcWE2Wks4RmpIdVJGMnY2Qmgwb0FxREZzbW5PcERmenNCaWdsc1Z2MlVzVFFnR1RBdFZlNDNsZnV3MzQ1ZmU3SktRMVN6bXJXYlM3bkh3aHZWX0JMeTFFMW1RR3BL?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-30T13:26:03+05:30",
+        "timestamp_display": "13:26 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Entertainment & Culture": [],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Ankit Baliyan murder: Two prime suspects killed in encounter - The Indian Express",
+        "summary": "",
+        "why_it_matters": "Two accused in Haryanvi singer's murder killed in UP police encounter — closes a high-profile probe within 2 days.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTg5UlBYNTJhTHB0Tk5WczVyTkNMVmZSVXpHeWRWYWZrVElscHd6aWRaQy15SGg3SEZRRUFMS19Mck9qczdOa1ZZN2U3bWdPQkFxWkl5YzB5N3czVzcwMjJJbWdPU1d6aVdOaU5GSEp5YjNMRGxMMnFmSzFmX3kxUmJrTjNKcFJfaDlVVjQtMnREVzYzSnZVSWlhNTF1bTF1WnlFNGZuWXlhUnZGUUE?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:26:59+05:30",
+        "timestamp_display": "08:26 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium",
+        "see_top_stories": 2
+      },
+      {
+        "rank": 2,
+        "headline": "ED steps into NEET-UG paper leak case, seeks CBI's records | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Enforcement Directorate enters NEET-UG paper leak case, seeks CBI records — multi-agency probe widens.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTXhLWnV5b1MwaHAzZ3VfaU52a1lBSlBPSHV6Z2l6Z1JUUWlSQzVpWnB3TXdmbFM4RDFyZXRqTnFyVTExdDBOemtaZlVGRXRZeDYteldoXzlpYVVXTkZTblBaZzNEN1QxQlpaMWJaSi1sdUhQYWtEeDNMMWRXY01ZOG9VTzlLVW4zbG1kLWstTEwwRUpUMEVTektvVW5qTWFuZE1hWWZyWG1IcEJJaFVFM3RFdldrc3ZSMkx5WEVXeUFxQmVOMkxyZjk0VHnSAdIBQVVfeXFMTUliOGg2cmZsWEdNcnR4SGRQZTdjUUpRdW90ZTJUVVRxZDBpSnNNQVpINW5NRldJT21RYzV1Z2Q4TEI5X0xKR1VkOGtTUG9MLXRmbktNMHl2YlV5WGdpT1FYUVVWTFFiU3NnT3pDdTlxMGZSMzdENFQzMFg4cmNJVEtvNURfTEdlbWtiUzZtUzNyUW1UN1BuSTlKaDVjR3MxUk45ZTNDRk1NQmpfWDRzc2pGVExMeTFkaGZjS2lTLWJjX2Rla0FPa0tyTVFtY1FwVUZn?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T08:29:14+05:30",
+        "timestamp_display": "08:29 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium",
+        "see_top_stories": 3
+      },
+      {
+        "rank": 3,
+        "headline": "16-year-old gang-raped inside sleeper bus in Greater Noida; driver, conductor arrested | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNzhYVHNKWXFqbzZ2RHZXN0NVZENtblFhRnpabEZXSWctcTVid09ZZnJ0Q1djbDFTVGpodGVyT1lHb3ZIMUxGVlE1U3pRMW1YUGlJQmNHLUNMNEhSbVdwVHNYcFE5Q25vVlV5VmVjSkMyZTdJMXNIMnVXYVk3a2ZNdno1UFRwYzVEVFB1a0FIZUhYVVVhQjdoNkk5UXUwaW83UUlwSjZZN05tOHVMQ2dpbW54WG5vMWZULUdsUUJyamtWanBYWmV6OE1oUFBVanF6ejRNcFdmTENqVVdvRnfSAeMBQVVfeXFMT25BNVAtaW04Z0s1NWFtU3VtYU5sVGx3aS1RbzBEQTdWZ01ETlRuUllZNVVYbnAyTi1nc3FVZkFRakFmdnQzVkhTQ3I5bnFGNml5VGl0T1JqN3JrV283OEVFamFvbWtpMVp0eHcxYmFQbTUzdXJxTjQ4a1hfdHdKYzliQ0p5WmFyWExMTFh6UkdKQzAwVWdrQ0hkNEhYbkRrdjlNby1NSVdGdURxU1BTR3NHUkVlcFUzTWFOY09IOGwtNi0zRnFnUE1MVEUtLTdvN3d4ZktnWFJjN29EeWJoT0hxYzA?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T09:13:15+05:30",
+        "timestamp_display": "09:13 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "Green energy boost as renewables account for 20% generation in July - The Times of India",
+        "summary": "",
+        "why_it_matters": "Renewables hit 20% of July generation — clean-energy milestone as monsoon falls short.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa1ViUkp1aWdMdWEwajE3OXhKc2xwRElYYUhHOEV3dWlNMjI3Vkd3eEtaZlYxU0tqN09GTVc4N1Rtc1lFenhKb0Rxa215ODE1dkR4U3pTUmZPLVJrbDBzNUpwdUJoWGl4dUg4ejZkWnRiaTVleVdnYllKSTBPb0piMzZzOXV0X1hpR3FhRmM2bWxiSDd3MkN1ZW9ENndzNWdRdm1PcGlEQzlFNUhsRXBxZzhzWU5GM3l2bkxjQjVrS2xXaFdFSW0tbHNoNTdteGvSAdQBQVVfeXFMTjd4LWV4aFFObFN0bS03cDRkc1JVcW5jMG52a2J2a2J0ZmRwLTdlVzFwdXFta0tDd19CRFd2Rkp6d1RGVjAtbXFyMzFldE50eEF4a1N0b3NTMU1fTlA2bGdLZUFMaWVmbFpmLTFDVXZmT0pXSWQxODFuclZmejhMcWZpX1pGSUh0aDlqNG43OWM5NktZRUV2MnpqemhxZVZHQmpsUk9JcjJ5eHQ4bU02MXU1THoxeUUwc2pZQUVHS2MtVkliRGVQRTZaVVVxNVRFaDZuMks?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T05:39:00+05:30",
+        "timestamp_display": "05:39 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Assam Government Approves Proton Beam Cancer Therapy Facility - NDTV",
+        "summary": "",
+        "why_it_matters": "Assam clears proton-beam cancer therapy facility — Northeast's first, big push for advanced oncology.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTVZwOWdaR0RZZUdoOHFQR3cwV3pXMVZ0Mmt1UnZ5U2dDX2R6ak1BWFBOc1ItS0hhcDlqdXJEeF9yQVRZaUk5T1NOMTRsSW5QNlpuZnFxdENHUzdDdUlBR1RCZkpHYjVVVlRna1pXOW5VTGh6SU11ak1fNHJVOGhhVDJvVm5NTWlPcTZaWnNsa19GanBHSXNyYlphUC0zV1RnaFQ4Q9IBrAFBVV95cUxQd19iZXNkWkM5YnZ2d2tMZnhRU19MWno4Z0l4VDRyTUVvWFhJWVhjOEp6OF9uS0JHWWc3SlNsdjlNSWUtOHhMS1NIS19NdUdqN1V6TzRyU2lESDcyeVRoRW9LNGpDUjNzSzNpNy1PRGk5ejdhY2ZUcnlrSkxCRHZmeUg0VE9WaHIxTC1TME9nUGhTYy0tbDFydFRKR2pYUHlCVkN0Qm1vQWl1dGcy?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T00:06:50+05:30",
+        "timestamp_display": "00:06 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.49,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "'Divorce Ends Marriage, But Not Joint Loan': Who Will Pay The EMI?",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.ndtv.com/business-news/divorce-marriage-joint-loan-who-pay-emi-all-rules-explained-personal-finance-11979905#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-08-31T07:48:24+05:30",
+        "timestamp_display": "07:48 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "403 Indian nationals cross into Nepal from China; forensics team from India begins work on DNA samples - The Indian Express",
+        "summary": "",
+        "why_it_matters": "403 Indian nationals cross into Nepal from China; forensics team begins DNA work at flood sites.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVk5WY3JXdkEtbFNVZUtGOU1pSm04MUdNSmZQTlZWemZRc0NtN0M5alZhWjhjQXVNZjN0QUxSeHRYaVhFaTRKR0N2dnNhOTFvR3JfdE01SUNCZE5rdi1YTGZxamM0VnZ1eWN3N3dnWmNhbUFnSlBzbm9wWG91ZndiQjZvS1BZS0FKQ0k4UU4tQl9FV2V5X3NYMjJyNkV5Y1lGTzZmaG10TUxVSTdkaGN5d3k1Vmp3blFpN3FvY21LVEQ0MWRXRHFDM0JHUmlRQ0dYX092b2xPSWZaTkQyak9SS0RYa2tsZ9IB7AFBVV95cUxNX0kzcnoxUFRpLUVSYzlfTzd2V0c0VnVfZEpMTUI0bFc5eXRHekdjUjZtWTA1aVl6N18zeWxJTzV4NGxpSHBwQWM4OTBOMEIyU3dlMEZPYWh5RUstZGZHVHRBVjZZdEsyejJpeXVidnUwTlFDX21GQkltTmE3V0trX2pkSnVTd1RjTEF1QWpDMk5QYWt0dEJUbU1GUDNsNEpxSEg3cUZ5b1EzTnRPV0c3Z1gzM0lLMlpsQ0p1R1ZqcW9raDNTQWltZ0FOMVBuS3M0TUNUbHk0UUQ3RzN2Mi15T09McnVoOWF0bjMxQw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T05:20:50+05:30",
+        "timestamp_display": "05:20 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "‘There is absolutely no need’: Indian man in Europe says don’t move abroad if you earn ₹1 lakh in India - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Indian man in Europe: don't move abroad if you earn ₹1 lakh in India — brain-drain counter-narrative.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOLWs2UDhiYkV5ek9UR3BrZl9zaXlwNEhLaGoyb212X2dRaGI2b2MzLUY4OUY2cERsTGg2NjFFakNfTk5McFBMVVk4NXgwQlUzU0RYWWdhZ09qMDgzbzFxalEwbWlGVUFWZ1k1X3RDSnpKUGl2alJzcUh6d0dMYlhwc282VVdzWExVeFVHdEhXMzltd2luQnJlS29ONV9XUVRHZmxUUE8wd2cxUGJuTVVNclF1b1FRcE1sUDVqb0t5ZThjdmZrVTBINWd5RVhHSFVFa2IwemRTcFZ5eXhDLUVHS29pcWJSVTJjdHY1WWxMT0ZuZw?oc=5"
+          }
+        ],
+        "timestamp": "2026-08-31T06:51:04+05:30",
+        "timestamp_display": "06:51 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "iran attacks",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://trends.google.com/trending/rss?geo=IN"
+          }
+        ],
+        "timestamp": "2026-08-31T09:20:00+05:30",
+        "timestamp_display": "09:20 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "International",
+        "confidence": "low"
+      }
+    ]
+  },
+  "dedup_stats": {
+    "dropped": 275,
+    "kept": 31
+  },
+  "rejected_items": [
+    {
+      "headline": "“Country Babur came from…” Owaisi’s sharp attack over PM Modi’s Uzbekistan honour",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/short-videos/country-babur-came-from-owaisis-sharp-attack-over-pm-modis-uzbekistan-honour/videoshow/133641080.cms"
+    },
+    {
+      "headline": "Trump aims at Canada. Toyota and Honda could pay the bill",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/business/trump-aims-at-canada-toyota-and-honda-could-pay-the-bill/articleshow/133641021.cms"
+    },
+    {
+      "headline": "‘We are facing the brunt’: Manisha Koirala’s climate appeal after devastating Nepal floods",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/short-videos/we-are-facing-the-brunt-manisha-koiralas-climate-appeal-after-devastating-nepal-floods/videoshow/133641016.cms"
+    },
+    {
+      "headline": "Scott Bessent urges G20 to push China to curb exports, boost domestic demand",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/scott-bessent-urges-g20-to-push-china-to-curb-exports-boost-domestic-demand/articleshow/133640981.cms"
+    },
+    {
+      "headline": "'Iran cannot have a nuclear weapon': Trump reiterates Tehran's navy, air force and leaders as \"gone\"",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/defence/iran-cannot-have-a-nuclear-weapon-trump-reiterates-tehrans-navy-air-force-and-leaders-as-gone/articleshow/133640881.cms"
+    },
+    {
+      "headline": "Drinking water before brushing after waking up: Why more people do it and its benefits",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/india/drinking-water-after-waking-up-before-brushing-why-more-people-do-it-and-its-benefits/slideshow/133640999.cms"
+    },
+    {
+      "headline": "In one Nepal district, flood catastrophe is measured in bodies and burial trenches",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/in-one-nepal-district-flood-catastrophe-is-measured-in-bodies-and-burial-trenches/articleshow/133640855.cms"
+    },
+    {
+      "headline": "After Nepal, a powerful flash flood hits Grand Canyon in Arizona leaving about 15 people missing; footbridges, bunkhouses destroyed by mud and boulders: Watch video",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/after-nepal-flash-flood-hits-grand-canyon-in-arizona-leaving-about-15-people-missing-footbridges-bunkhouses-destroyed-by-mud-and-boulders-watch-video/articleshow/133640764.cms"
+    },
+    {
+      "headline": "Quote of the day by Robert Frost: 'A liberal is a man too broadminded to take his own side in a...' - Pulitzer-winning poet’s witty, thought-provoking lesson on political beliefs, open-mindedness and standing by your convictions",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/canada/quote-of-the-day-by-robert-frost-a-liberal-is-a-man-too-broadminded-to-take-his-own-side-in-a-pulitzer-winning-poets-witty-thought-provoking-lesson-on-political-beliefs-open-mindedness-and-standing-by-your-convictions/articleshow/133640734.cms"
+    },
+    {
+      "headline": "'If Hindus awaken, world awakens': Bhagwat highlights India's universal DNA, diversity in Toronto",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/india/if-hindus-awaken-world-awakens-bhagwat-highlights-indias-universal-dna-diversity-in-toronto/videoshow/133640690.cms"
+    },
+    {
+      "headline": "Ganesh Chaturthi 2026 start and end date: When is Ganeshotsav, and when will Ganesh visarjan take place?",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/ganesh-chaturthi-2026-start-and-end-date-when-is-ganeshotsav-and-when-will-ganesh-visarjan-take-place/articleshow/133640556.cms"
+    },
+    {
+      "headline": "Mohammad Amir calls himself 'British local', says 'Pakistan chapter I had before is now closed'",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/sports/cricket/mohammad-amir-calls-himself-british-local-says-pakistan-chapter-i-had-before-is-now-closed/articleshow/133640444.cms"
+    },
+    {
+      "headline": "Andre Agassi and Steffi Graf’s important parenting lesson: Agassi gave up his childhood to become a tennis champion but ensured his children enjoy growing up and make their own choices",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/andre-agassi-and-steffi-grafs-important-parenting-lesson-agassi-gave-up-his-childhood-to-become-a-tennis-champion-but-ensured-his-children-enjoy-growing-up-and-make-their-own-choices/articleshow/133640445.cms"
+    },
+    {
+      "headline": "China’s Big Three airlines sink deeper into losses as fuel costs soar",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/business/chinas-big-three-airlines-sink-deeper-into-losses-as-fuel-costs-soar/articleshow/133640394.cms"
+    },
+    {
+      "headline": "Iran's supreme leader calls for Muslim unity against US and Israel",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/irans-supreme-leader-calls-for-muslim-unity-against-us-and-israel/articleshow/133640294.cms"
+    },
+    {
+      "headline": "Delhi-NCR weather August 31: Will it rain today in Delhi, Noida, Gurugram, Ghaziabad and Faridabad? Check IMD forecast",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/delhi-ncr-weather-august-31-will-it-rain-today-in-delhi-noida-gurugram-ghaziabad-and-faridabad-check-imd-forecast/articleshow/133640313.cms"
+    },
+    {
+      "headline": "Deepti Sharma spins history as India crush Thailand by 94 runs",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/sports/cricket/deepti-sharma-spins-history-as-india-crush-thailand-by-94-runs/articleshow/133640239.cms"
+    },
+    {
+      "headline": "Nepal buries dead as rescuers seek thousands missing",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/nepal-buries-dead-as-rescuers-seek-thousands-missing/articleshow/133640168.cms"
+    },
+    {
+      "headline": "US coaches Polish forces in a drone-focused drill based on lessons from Ukraine",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-coaches-polish-forces-in-a-drone-focused-drill-based-on-lessons-from-ukraine/articleshow/133640028.cms"
+    },
+    {
+      "headline": "Spray vinegar around toilet: Why more people are doing it and its benefits",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/india/spray-vinegar-around-toilet-why-more-people-are-doing-it-and-its-benefits/slideshow/133640158.cms"
+    },
+    {
+      "headline": "NATO's Arctic moves pose 'direct threat' to Russia, foreign minister Lavrov says",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/defence/natos-arctic-moves-pose-direct-threat-to-russia-foreign-minister-lavrov-says/articleshow/133640025.cms"
+    },
+    {
+      "headline": "Indian moved to Europe warns  think twice before leaving India to go abroad for higher salary, says loneliness and missing time with loved ones may not be worth the better pay",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/indian-moved-to-europe-warns-think-twice-before-leaving-india-to-go-abroad-for-higher-salary-says-loneliness-and-missing-time-with-loved-ones-may-not-be-worth-the-better-pay/articleshow/133639961.cms"
+    },
+    {
+      "headline": "Trump says Kharg Island is being ‘blown to smithereens’ as US-Iran tensions flare",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/defence/trump-says-kharg-island-is-being-blown-to-smithereens-as-us-iran-tensions-flare/articleshow/133639980.cms"
+    },
+    {
+      "headline": "Iran launches ballistic missiles at US air bases in Jordan, claims state media",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/defence/iran-launches-ballistic-missiles-at-us-air-bases-in-jordan-claims-state-media/articleshow/133639870.cms"
+    },
+    {
+      "headline": "Don't abuse our nation, will cost you dearly: Kiren Rijiju warns NY protesters 'desecrating' Indian flag",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/dont-abuse-our-nation-will-cost-you-dearly-kiren-rijiju-warns-ny-protesters-desecrating-indian-flag/articleshow/133639819.cms"
+    },
+    {
+      "headline": "What is wrong with her?: Trump claims Hochul released 7,000 'hardcore criminals' onto NY streets",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/what-is-wrong-with-her-trump-claims-hochul-released-7000-hardcore-criminals-onto-ny-streets/videoshow/133639778.cms"
+    },
+    {
+      "headline": "US plans to sanction another bank in effort to clamp down on Iran transactions: Scott Bessent",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-plans-to-sanction-another-bank-in-effort-to-clamp-down-on-iran-transactions-scott-bessent/articleshow/133639683.cms"
+    },
+    {
+      "headline": "Trump lashes out at Canada, urges firms to move to US to escape tariffs",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-lashes-out-at-canada-urges-firms-to-move-to-us-to-escape-tariffs/articleshow/133639668.cms"
+    },
+    {
+      "headline": "Nepal warns of possible fresh flooding as communities grapple with devastation",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/nepal-warns-of-possible-fresh-flooding-as-communities-grapple-with-devastation/articleshow/133639344.cms"
+    },
+    {
+      "headline": "In 1966, Marlon Brando bought a remote Pacific atoll after filming ‘Mutiny on the Bounty’; today, its protected beaches are a major nesting site where 15,614 green turtle hatchlings were recorded in one season",
+      "reason": "carryover_dup",
+      "matched_in": "Entertainment & Culture",
+      "matched_headline": "GTA 6 preview drops on Netflix: Guns, car chases, Vice City and Jason-Lucia’s Bonnie and Clyde story revealed",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/in-1966-marlon-brando-bought-a-remote-pacific-atoll-after-filming-mutiny-on-the-bounty-today-its-protected-beaches-are-a-major-nesting-site-where-15614-green-turtle-hatchlings-were-recorded-in-one-season/articleshow/133639558.cms"
+    }
+  ]
+}
