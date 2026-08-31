@@ -26,5 +26,6 @@
   "publish_http_status": 200,
   "publish_verified_at": "2026-08-31T09:47:58.251950+05:30",
   "delivery_failed": false,
-  "telegram_message_id": 5
+  "telegram_message_id": 5,
+  "git_push": "Pushed briefing for 2026-08-31"
 }
