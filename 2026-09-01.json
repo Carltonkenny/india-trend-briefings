@@ -1,0 +1,938 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T12:09:13.787878+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-08-31T12:09:13.787878+05:30",
+    "to": "2026-09-01T12:09:13.787878+05:30"
+  },
+  "totals": {
+    "raw": 1089,
+    "kept": 38,
+    "sources": 12,
+    "categories": 12,
+    "deduped": 22
+  },
+  "themes": {
+    "Top Stories": "India Q1 GDP at 7.8% shrugs off oil shock; Modi swadeshi revival; SCO Modi-Putin bilateral; S-500/S-400 Russia pitch; Sonam Wangchuk softens Ladakh demand.",
+    "Tech & AI": "Oracle's AI bet turns India tech campuses into layoff zones; Zomato bans analogue paneer; MS Dhoni joins SpeakX.",
+    "Markets & Economy": "India Q1 GDP 7.8% (oil-shock-defying); Congress vs BJP on jobs; 70% of crude imports now outside Hormuz.",
+    "Politics & Policy": "PM at SCO Bishkek; Rahul attacks PM over 'Jhooth Ki Goonj'; Congress slams 'inflation shock'.",
+    "Bangalore": "Bengaluru 'peptide party' ban explained; Karnataka chain-snatcher found dead after ambulance escape; Lalbagh tunnel-road rally.",
+    "Chennai": "Madras Day 2026 commemorations; Tamil Nadu farmers detained in Trichy; CMDA shelves Kancheepuram township project.",
+    "Mumbai": "Mumbai auto/taxi fares rise Sept 1; FDA busts food-expiry racket in Navi Mumbai; Anna Hazare in ICU.",
+    "Sports": "Australia A tour of India announced (Handscomb, Konstas, Richardson in mix); Rohit Rajpal to run for AITA president.",
+    "Entertainment & Culture": "Mizoram Winter Festival push; Australia A squad for India Test return announced.",
+    "Crime & Justice": "Sonam Wangchuk softens Pradhan-resignation demand; Greater Noida minor gang-rape horror; Sun Pharma pricing deal with Trump team.",
+    "Health & Science": "T.N. medical institutions' key posts vacant; Keralam patient carried on bamboo stretcher; Punjab to train quacks.",
+    "International": "PM Modi-Putin SCO Bishkek bilateral; Russia pitches S-500/Su-57/S-400 to India; Nepal demands climate compensation naming India."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "trend": "India posts 7.8% Q1 GDP growth, shrugs off biggest oil shock; BJP vs Congress on jobs",
+        "headline": "India posts 7.8% Q1 GDP growth, shrugs off biggest oil shock; BJP vs Congress on jobs",
+        "summary": "",
+        "why_it_matters": "Sharpest expansion in 6 quarters — India stays world's fastest-growing major economy; PM hails 'herculean feat' as Congress asks 'where are the jobs?' and questions growth composition.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYWN2OGJSVy1TN3JELW90UTF4aEVidmN2VmQ4VFlycjVTbUJIeE1JY09hTXM2R2Y1QzZfaE0ybzYtRFp3SjFVa3otckxqNWk0LXJ3UGV2S3Eyc2NxWkU1ai14bEJ4dXdudG1YalFCRGZjV2tHMU5NWS0zZGZMYnBKOWcyTFk3dG0zX1loQW56ZFpJV1FNc3FBZmxrdmo0T0NUemd0MnR2MEhEQy1ZUTctaTNYM2d5Rk5XX2hOa3o0d05jUUdmaHRNRm5FUDV5Vk1PQjlrVk9TZmlPNndsZ0NxSk9PdTBuRWM?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:25:25+05:30",
+        "timestamp_display": "11:25 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "trend": "Modi revives swadeshi pitch: 'Don't travel abroad, don't buy gold, no foreign weddings'",
+        "headline": "Modi revives swadeshi pitch: 'Don't travel abroad, don't buy gold, no foreign weddings'",
+        "summary": "",
+        "why_it_matters": "PM links consumption advice to GDP surprise; opposition calls it anti-middle-class while BJP says self-reliance message is timed to SCO Bishkek + consumption push.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNlhKZHNyakJ1dUwtZTZqTWVMNFpiU05RTndNLXFWWDl2UEY1YlRwMDJsRHJvQ1M3STN6M0h1ajh0M2ZvTzc0VWM5ZlpGV3M0N1lJZ1JWQmR1ekxRd0dyeTdxU0piNmV5alVSMWd2R0NpLWRNR2JhWGdEZE0tenVvS09Ddmt0THJfdk1zWXlrUk1RUHZfRjdqaXA4SVNJWFdNOXZoNHdnSmFhbm9kR3hKUndqQ0ppYVdsZGfSAcIBQVVfeXFMTU5tSGN0Y1FORktDQUFJVXkzX2ctVzZkYVZNSE8yTzdxUnFiQkdQbWp6T25Eb2RyMXQ3TUZVWWhkVmZ0akc4T3hrWVlKaXJlaHhwaEZBbWdJSDJiUS1oc0wwb3E1eklxWERMTkI2eWItVlFhSGJoM3BOVjFNUWFBVnNEVnZuMGY3ZXBqaUI5RHQyWlNzU3Z1T2pxSnBDRURMQTBuMjR0MUhFbVBFcUJKX2x3NzlCTjZ3eHB3YzlGLU8zMVE?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:08:09+05:30",
+        "timestamp_display": "10:08 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "trend": "PM Modi-Putin bilateral on Ukraine at SCO Bishkek; Russia pitches S-500, Su-57, 5 more S-400 squadrons to India",
+        "headline": "PM Modi-Putin bilateral on Ukraine at SCO Bishkek; Russia pitches S-500, Su-57, 5 more S-400 squadrons to India",
+        "summary": "",
+        "why_it_matters": "Modi implores Putin to 'move from endless war to end of war' amid US tariff threat on Russian oil; Kremlin counters with mega-defence sale — strategic balancing act ahead of US deadline.",
+        "sources": [
+          {
+            "source": "thehindu.com",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVlZuU0R4VHM3MHdJWXRGR25OT3ZBRVNQdjVqOU9maTFnMUUxRGIwbmRKdkVYZ2dUdmtQbDJxQTF2SFJLWTBzUmE5UEJoNEgyVFpIX2p4cnZfLVRidWJ6bGdSaXBjLVRYd25vUFlwZGpKUXl4R0NuREFyQXJmT0NmR1M1RXhNSl90aVBxalczZlFxT1ljMmtkMzdUNzRuRUp5eFV1OE9ZNndaeDhzRWc00gG2AUFVX3lxTFBiMF9ZakJIeEZGMlJGd1J5VmlBUzUwaUVLWk1HRDlRX0tTZjMyTUlOSFZoVjh1SWlZOXZlMzVYWklBcmVOblUtTU1LVEVuaW4tSWxsb0lEc0ptd2dqVFFJQVRvZUhPSGVEWWZjSnJNdUE4MG54RDR4N213czUxYS14djJfQUtpMDVxX1pUTEZqNFNMZkpodlRjWlYxQlNsQ2s2RUJXanpzNFItd1YzYW41TnppVnln?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T07:45:30+05:30",
+        "timestamp_display": "07:45 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 4,
+        "trend": "Sonam Wangchuk explains why he softened Dharmendra Pradhan resignation demand",
+        "headline": "Sonam Wangchuk explains why he softened Dharmendra Pradhan resignation demand",
+        "summary": "",
+        "why_it_matters": "Climate activist reverses course after talks with Centre; Ladakh statehood and Sixth Schedule demands stay on table, but Pradhan resignation dropped — political settlement signal.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObXczQ1Zra0hfS0dnQzhRRzI0QmxqVDMxZ19GZnA1ZmVtbkFjUWpWMDJDdVVWTWVBM3BDNmpfX19BeE9pZ0FEMDNaLXJ1RDFaMHZvVjFhNVJBcFJuRWpLWWFkN2UxUHVYb3R2c1A4bWJnak9GN3pjRVhvY0ZsREQ2WDZ6OGdMS250cURVdl9XNTJXZ2ljbEJGWVpQSGo4eFFDVGtUOVgzV0tmNW5DcGdGM2U3RnloMDl5eGl0NFROUWZlRnJ3VU45bjdENHZ6TWNTd0JCSnVFTdIB3AFBVV95cUxQMWx1VkV2cDVmOGFWdHpiTGRpa1Z4a3JYWGZJOUpzR3MtVHprVW5lRU5pSTRvVnloTVFkcmlBM21mUkFzQUJpVHNxQ1V0b1ROaHJudEtzdkNCb3BRSjZnOVpndGQzWWM0a2NfalFkRE1Nck5tZl9RNHZPQllWdGNiRVd3eVRVWVlNWGpIU193eTdvNUo5NkV6ZWU0TDFOUEQ2TmxUSUswdUVUMjg1U0FUMlVVaDYwWktMV2JVaUsxSDFMdFcwVlZwWVRTc1hvdWJycUhWWmhPdjZwY0sz?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:23:39+05:30",
+        "timestamp_display": "10:23 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 5,
+        "trend": "IndiGo Goa-Delhi flight makes emergency landing after engine failure; 196 on board safe",
+        "headline": "IndiGo Goa-Delhi flight makes emergency landing after engine failure; 196 on board safe",
+        "summary": "",
+        "why_it_matters": "Latest in a string of Indian aviation scares after Aug 31 Air India/Air India Express bomb-note incidents — DGCA probe on, comes as airlines face Iran-war jet-fuel 5.46% hike.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZFV2OVRjODBhMzRYY1FWc3JZaFUwVWNDOUpuQURuYmJpbEZHRXRIcF9lajZZQW1FdjJOdTduck13TkR1V1E1c0tVX0xMTHhmc3k0alljRFNpTnFMYzlPOG1oZVYwV3FGVFBLcmdaUUk0Wl9uam5zUEhidGQ5Zm1YWVNzaEhwbWs1LWI3QWhveURMY1czc3htTWNSMlItRmhZbmJkS3NxVUhaaGlJRndOeWxQcEExd1Q5c0pjZzZCbkpEakZrQ245TmxIcXNuMjhtYmtMNGIzaUg5UdIB3wFBVV95cUxNNTRTdElna0pJeG9rcGNwWmo1SGxUU2ZoOS1pb3Qzdnp6bERodkNkTWhMRHhFVDY1N1BVblVmWFhPUUlHMkZaZkRWZUJKcnZKd1JuWHVOM00xUk5ydlNWdEFMd1RKTF85SFJaQXkxWWNNMS1za2xMVVNCTG12QlJhRHBvTkV3VUVRVUVKT2xldHRWb2x5QXdETURzSkZlSElGQ0g4UkRKM09LTEFvdmlIcGY2ZXBKR1QzeWhtVjR0QnpHS1Z4RlhyRVZVcGpVdWs4Qmd5OWxLQ2kwbzE1ellR?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:56:48+05:30",
+        "timestamp_display": "11:56 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "Delhi",
+        "confidence": "medium"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "How Many More Layoffs? Oracle's AI Bet Turns India's Biggest Tech Campuses Into High-Anxiety Zones - news18.com",
+        "summary": "",
+        "why_it_matters": "Oracle's AI-driven cost cuts hit Indian tech campuses — 3,000 jobs at risk as Sept 1 deadline hits; Microsoft puts 500 on PIP.",
+        "sources": [
+          {
+            "source": "news18.com",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa3BmellQWjItV0pCY1NCckZpbnA3aktVWmNjMU55UHlRWFk5NWYzS2tXQUhuZV9KaWI5bEJzMWhEYUYwdVlqV3dZaFk0U3BwQ1lVaWxBQkt3VWhnLVRGWVk4eUd5ekxBQmpoTE5WYXZMOWVBbk5md1pzVlRqNTVTZ2dtWjhMZWZseEFhd3RQT2JXNGwyOVJxeDNkcjIxb0E5NS1XdUZxSnVWN182YkktSHNteTd4aHh3ZjQ3eHZpQ0hvTmhmRzRIQjM2VVotOXM0amM1OXVxcWtPVnIwMmFnVU5R0gHnAUFVX3lxTE9wYjI4eXA0d2piVlBJV2VTalc2alRvVFRzNWRKMDdmZjVjT0ROU3p5alhUYmNWX3dmcGFfRmhyNUllc0FCRXJTQzR4WXJKVjhMZUQ2cElENUFjUXNyc25vdC05X3RHdUJUNnE4cV94c2xyRWxVVWFlRWh6T1VOOXlxTzJjU1pfY1ZVRUQ5ZFdYc1poakxtN2RqUnIzcG12UFJZSWdUblBsbGtUMDRzTnlsWThLMDNPNGVEZkR2V01aZUF5UjEwNGVFdS1ReXdhbTI5TEZfZFZTSzN4TXVqRUw3ajFaNEt4Yw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:54:00+05:30",
+        "timestamp_display": "10:54 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Oracle may undertake another round of layoffs that could impact thousands of Indian employees - Moneycontrol.com",
+        "summary": "",
+        "why_it_matters": "Oracle's AI-driven cost cuts hit Indian tech campuses — 3,000 jobs at risk as Sept 1 deadline hits; Microsoft puts 500 on PIP.",
+        "sources": [
+          {
+            "source": "Moneycontrol.com",
+            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWEo2cE5XZW1CVjQ5clJWbGdwWjNrS09UcnRBN0JSMktISlUxSU9yN21OVmFiT3V0ekFlbFd6akYtR3Jjb0Rnd3A3bmhxSmRRUG9hR1hiQkNVdWRENzlWWVF2VU1LRnk3RXJFRkFIZnY4bkxFZW94NDdUYW5PNVlaTmNhbXNzVHJSaGVEbDRtVXVhSkNPYTh0V1BKSzJkTks2b0JRX2Qtb0pCTmhMRnRpdEV5aHNpQ2xCME93M09wYlhIVjByY3FKOFd5OU5oc05la09tWDNWNDk1LVZfZnQ0VzJxMmtZSUM2Mm14cENSaUt3NV9IMmJSRXh5bVFJanlyTWVz0gGIAkFVX3lxTE5ZNENHaHhBRE14bGQwWk1mUEVKSFRWa0dvM0dJbWRJaEVjd3JkNWg5R2wwV3VOallfVFFRSV9EWDdZTm9NQTBUaTVTRlF1TGwybGhyR3FnODFYOWZoaTZIUGRHUWFuZ2JjZ2huWmltMDJ6M1Bic2Z1M1BnQ3cyQW1wdEZMWFdObmI1QjVIaFljSG5KYjVQVWtDOFVlTjJIOEk0QUIyVHJYeFFVQU9PcFVMZlI1bk9pY09vckdSUnRZWkR0Y2pKcVNaN0c4dFkxeVhBLVFLUl92NmxFX3l3b1o4ZUQxV1p1cExuUU9uOUFqUlBoWVlEY011SXRUckFaY21iWUx0XzczOA?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T08:02:22+05:30",
+        "timestamp_display": "08:02 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Oracle Layoffs Today? 3,000 India Jobs At Risk As September 1 Deadline Looms; Microsoft Puts 500 On PIP - news18.com",
+        "summary": "",
+        "why_it_matters": "Oracle's AI-driven cost cuts hit Indian tech campuses — 3,000 jobs at risk as Sept 1 deadline hits; Microsoft puts 500 on PIP.",
+        "sources": [
+          {
+            "source": "news18.com",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdGhSdjRERTl0ZHExM2x1XzRvdlNrR3BUeHBqMEg1cDR0MkNoNENUc2RFTjhZY1JuSUVHcmVDS09RX0UtV0U4QV9XWFNJeGd1SFdwWUNtYXE2Tk43a2VabkYta2F1N3VDM3c3N2tYMkhJSDB6dXN3aGRiWXo1aEQtZ1EybjZYalhPTWE2WmVCTUx6N0R5eEZrNmNTalpfRmlSaGpEMy03emJldEJvRnhSUnJmNUJCLUhmT3QtanBsNE1OUDRDdHJn0gHMAUFVX3lxTE0xUVUzRlFGQjJ5MHRReDNSQ3YzZ0owSk8tbG1ZVXg2QnhHbGE0OElKVkIyOTFZSjhmTFh6NW1jYTRUdWZFdHpBenJtaFpjZHBFd3djdlUwUGNDa3JWSmIyX0YtSjlWLWl3NjVidHdWbUk0aEpzeE1SaGxNUUVqVmRqbXVIQjZPeHJ5STZJcVN0dHZYWF83bzBYVXhIQnRCSWRXajJXM1Q5dFMxY0JXNTRUdURscGhsVjEzTTZ1dnctWi1HdThHV1lnTm1ZZQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T08:45:37+05:30",
+        "timestamp_display": "08:45 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "India shrugs off oil shock to post 7.8% growth in Q1, PM Modi hails ‘herculean feat’ | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Sharpest expansion in 6 quarters — India stays world's fastest-growing major economy; PM hails 'herculean feat' as Congress asks 'where are the jobs?' and questions growth composition.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZjVSRlpHS3lHQU11LVVkYjVQVG43Y2FjaWtqNHQ4SVhYOFVLLTNpV0Vvbl9rSzhwLVkxTVladmxRSGpTdms5a2dsZjVlWjZFVmFZcXc1bldjSGZCVGFsRXhJZEYtYWk5OUF5RHhBRlRmNXgzYjBMQ0pnVDc4Sm1rTURhVGxlNEU0NTVCVElRZmtGdERBelQ3SXhsYjhkX3dyeUFNZ0NXSlh0dWs5dUVLdl9PejdHN1NueDBuc3VseTF5dHZXVl9yaXE4WEtfV0hpZ3F3SGFQU1N3d2VXZXZ5cWNjTmZlZ244QVdJd0lKdWJPZjBYY2Rn0gH8AUFVX3lxTFBLekI4TENfdnJ0d21PVzkzMno3RndyMktpX0RsOXM1OFRfcFJiblNrVE1lUWtUY2dMOXFHS0hqS3ZvUHhHTmFQemhtaFRUaVZKVExpVTNhRGhkajZhY2d1Y0p4QXgzVy1PYl9CNVdSODk0LUE4QnVod3dXSGowaXUwRTRmZDdfXzZMcG81cWdqdEl3N3hHY1pPT0l5SzEwcm1abnRybFEyVEs0ZTR4MGZrTVJNUnBiRFlYN1BEN3FPWUQ3R2o2YmY1VUQ0d01WWGRoWDFFWHdPcVVZd0lFYUJsLXBrSW9Edkc3WTFIRjZ5LW5xQlllcGlkVEtvZw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T06:22:15+05:30",
+        "timestamp_display": "06:22 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Don't travel abroad, buy gold: Modi's advice despite GDP growth - rediff.com",
+        "summary": "",
+        "why_it_matters": "PM links consumption advice to GDP surprise; opposition calls it anti-middle-class while BJP says self-reliance message is timed to SCO Bishkek + consumption push.",
+        "sources": [
+          {
+            "source": "rediff.com",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSFU1aVJ1WXNnR1B4RkFIbU5ISGMyeUxoOVJwYk53Q1pDY25KZk1qcFhMTzFCZHNlZEtUZzQ0WEcyR2Q0WEpESXBvR0FabW15QjVaTlpVMjlXdnhNOXo1MmtqYjJwTnNpZWhVZXNvOWxaUlV5RDJHdV9OWWdmU0VOWnd2VHlRYWxZd3B6UHVrZ1VaZXFfZjRELW9lblNsQ1V4V1pCU2g2OWRVUjjSAa4BQVVfeXFMUHlsRUpYTHoySW92ZHhPOHlvMnNpVU9fTVdNcEdnMVcxeC1vQTFMLURJV2N2YUlRR0ZTX0Jkd3ZfbWpqcG5SaEI4TjhMOUxabTVHSm9lcW5EUUVELUxEWGtDeHpSbHlZSUZaeC1PaWpkbFVNVWxzM3JzTmw5UGpoSFhRdjlMdkdkWUNaZmI4V0pkb0RqLThYZ3JWOVNPUUxCdG9tZXJyZjlsNkwtZ2ZB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:48:15+05:30",
+        "timestamp_display": "10:48 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "'Don't buy gold, don't marry abroad': PM Modi revives swadeshi pitch amid India's GDP growth | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQenZ1OWdVWTRoN2V5M1FmRXJnUGYxNmN0OFREdkpiNnY5SXVmbG1sMzJxTWhIc29VeVZDS1pwby1KdjBVVXZGbmJYaEMzMWpxQjczSnlNTGNfUWJEcWY1Q2FUdEc2TFRSbmliSTVwTEJ5bURzaHUzOExjTWpnZ2ZhRGkxUnRmWUIxM1VTT3FqTERiTjZtNGpCNTl4bDFDd3ZSSlR3QTBmSE9Qa3kyR2ktTFAtQ1pKQ2h6aHF0MEdqY3RISjFPdmdVdTkyVW1RRlZHV3dtdDNqem5idlZXaGJtRDhkU2Y1X0h5V1lmWXIzRWtqTEdhTTVwS0MxcW5HS0tC0gGGAkFVX3lxTFBxOFVKTW1yUGNyeVdiQlpJMXp5QVV6cmJIaGtCb0tKalgtc2pyVXNpY0lwUWNtbWVVSm43UjNnNi1GZXM2TmhTd0FTQnE4OXhxbFJiby1YamlhWnlZeEJPN0FnUlJIR1pIS1Z5bUZKMFVXcnc2Smh2TVp0dEdPU2sxaktxalVxUFBnWXhrSjZXdVVBWkdEclItS0tPdjU2Z040MUV3Y3Y2aVRsQ3Vja296THd6U0ZRTlU2SmRyaTNFYWdxb3o0SmhMVDZQd3IwRERHLVVxeFpzWGZBWE9yYXdtdVotck43a1NwVWVIYkpFM0JuYS1QODVLUVc2Vlh6aXNmVGZkWWc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T09:24:48+05:30",
+        "timestamp_display": "09:24 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+        "summary": "",
+        "why_it_matters": "Modi addresses 26th SCO Summit in Bishkek; warns against 'double standards' on terrorism, pitches open trade.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/india/sco-summit-pm-modi-warns-against-double-standards-on-terrorism-pitches-open-trade/articleshow/133670283.cms"
+          }
+        ],
+        "timestamp": "2026-09-01T11:50:33+05:30",
+        "timestamp_display": "11:50 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "India achieved 7.8% growth despite wars, instability: PM Modi - DD News",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "DD News",
+            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV3Z6Q1hRY0VGaGtxTEY0VUx4NVBNRXRoZ1NqTkgyMEN4dVdSajd6NGtNT1BSRVg2aFgxVnZJb1hDQUt5T2xnWlVrSG9FLWlPbU5sVG1Ma3dpVDhTcjhzY0RpTE5Sci1LUERTQnFlQWpoVmhKTzd2UWU2RkJjQVBHOURvWGlmNnN6LTlycA?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:33:22+05:30",
+        "timestamp_display": "10:33 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.2,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "India achieved 7.8% growth despite wars, instability: PM Modi - BusinessLine",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "BusinessLine",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdzJTNHFpeDBINlU1d0R5WmZrZDlXaGpXSkVlSjlQQlllU3p3WHVYYTl1bW9KV3o4eXdvOEtPdlBjQlhHLUtJQURtbkNvbWJPSjd6X3l3VWh5MjAxbFh4bF84ek1BREFCeDV4c2NLM2p2Uk5CNnI5V19FOXdGVGVnNjhxMG1CN2QwMUM5R0QyMTVHY2ZiVnBxZGE0d01uVS1FSUVkVmRWejNFcTdhdXI5MVl4LUR3YmdPSXVR0gHCAUFVX3lxTE1Mb01EWEc1blJ3WURiazR6aU5jenhyRVZZUnFCZkVOTFUzSlFyMElLeXowTHhEOVkyRTFpb2NHdTN3WWQ5NElfOWhxOG9ldGg2SU9YTEpPWG54UFFBNC15OGo1cmgyc1lUTVpGNG54S0tEUDE2WlZOQkdzc3E2cFcxSXRSaURUemdWZTR2aS1KZFBRdHB4WkZmaUV4NVZoem0zWkRMTnlEOFNxUFR3eUdSc0JWeU9nb19yZm1yel9oYU13?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:31:48+05:30",
+        "timestamp_display": "10:31 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.2,
+        "region": "National",
+        "confidence": "high"
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "Why was a ‘peptide party’ banned in Bengaluru? | Explained",
+        "summary": "",
+        "why_it_matters": "Police banned a 'peptide party' in Bengaluru — concerns over unverified wellness compounds and recreational use.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/sci-tech/health/why-was-a-peptide-party-banned-in-bengaluru-explained/article71413555.ece"
+          }
+        ],
+        "timestamp": "2026-09-01T10:18:55+05:30",
+        "timestamp_display": "10:18 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "NIMHANS opens reimagined crèche for children of staff in Bengaluru",
+        "summary": "",
+        "why_it_matters": "NIMHANS opens reimagined crèche for children of staff — first-of-kind in a govt mental-health institution.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/bangalore/nimhans-opens-reimagined-creche-for-children-of-staff-in-bengaluru/article71412086.ece"
+          }
+        ],
+        "timestamp": "2026-09-01T10:13:59+05:30",
+        "timestamp_display": "10:13 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Why was a ‘peptide party’ banned in Bengaluru? | Explained",
+        "summary": "",
+        "why_it_matters": "Police banned a 'peptide party' in Bengaluru — concerns over unverified wellness compounds and recreational use.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/sci-tech/health/why-was-a-peptide-party-banned-in-bengaluru-explained/article71413555.ece"
+          }
+        ],
+        "timestamp": "2026-09-01T10:18:55+05:30",
+        "timestamp_display": "10:18 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "Bangalore",
+        "confidence": "low"
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Madras Day 2026: ticking on behind Metro Rail barricades",
+        "summary": "",
+        "why_it_matters": "Madras Day 2026 commemorations: culture, history, language — civic pride across Tamil Nadu.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/chennai/madras-day-2026-ticking-on-behind-metro-rail-barricades/article71377561.ece"
+          }
+        ],
+        "timestamp": "2026-09-01T11:18:14+05:30",
+        "timestamp_display": "11:18 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Tamil Nadu: Around 50 farmers led by Ayyakannu detained in Trichy - Awaz The Voice",
+        "summary": "",
+        "why_it_matters": "Around 50 farmers led by Ayyakannu detained in Trichy demanding loan waiver + Cauvery management council.",
+        "sources": [
+          {
+            "source": "Awaz The Voice",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObnhmLWxFd1E3bk9DajgwbXk4YnF0dXBYVkpySDF2QW9kM0NBamJZbWQzYVZkOWVoQTNSSjZmNFBYdWJ3cC05NFNNTHh4cFhnekU4VlhJWkFySFJTOXk2empYaDJoSHM1TGpkZnJUWThWRzRIem0zWEt5MU13OXFtY0Z5QUQzY2x3V2hOazdLVUh4X2JXWFJtd0g5bllXdVI5dk1mVEtMTEpCQlZLWGM1dw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:13:45+05:30",
+        "timestamp_display": "11:13 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Nepal floods: 28 Tamil Nadu pilgrims return safely - Awaz The Voice",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Awaz The Voice",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaVdmXzlQVEExS1RMNDJHN3hZNG0zelFyZ29wWVAyMERwNjdxc1pDb0luYUt2UDF4RF9KRXZid3BGWXpMaEY5RHVYWThPX0dBZm1rX1JzZVFORXB3TWxkejRwQ1VqWlFOUDRRbE1IRWZxMFBsakIzajZSN1ZaRVBsUVk1WEhoRENOcUlmN1hBaERkbWdWbW1ZNHF3eWY?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:17:25+05:30",
+        "timestamp_display": "11:17 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Chennai",
+        "confidence": "low"
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Mumbai auto, taxi fares rise from today: Check new rates",
+        "summary": "",
+        "why_it_matters": "Mumbai auto/taxi fares rise Sept 1 — minimum fares up by ₹2-3, day-and-night scheme restructured.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/mumbai-auto-taxi-fares-rise-from-today-check-new-rates-mumbai-taxi-prices-101788238875071.html"
+          }
+        ],
+        "timestamp": "2026-09-01T10:36:02+05:30",
+        "timestamp_display": "10:36 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "CNG price up by Rs 2/kg in Pune, Pimpri-Chinchwad from September 1",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://indianexpress.com/article/cities/pune/cng-price-up-by-rs-2-kg-in-pune-pimpri-chinchwad-from-september-1-10858179/"
+          }
+        ],
+        "timestamp": "2026-09-01T11:06:59+05:30",
+        "timestamp_display": "11:06 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "FDA busts food expiry date tampering racket in Navi Mumbai;  ₹76 lakh goods seized",
+        "summary": "",
+        "why_it_matters": "FDA busts food-expiry-date tampering racket in Navi Mumbai; ₹76 lakh worth of goods seized, 2 held.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/fda-busts-food-expiry-date-tampering-racket-in-navi-mumbai-rs-76-lakh-goods-seized-101788238078509.html"
+          }
+        ],
+        "timestamp": "2026-09-01T10:17:57+05:30",
+        "timestamp_display": "10:17 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "Australia announce A squad for India tour: Peter Handscomb, Sam Konstas, Jhye Richardson in mix for Test - timesofindia.indiatimes.com",
+        "summary": "",
+        "why_it_matters": "Australia announce A squad for India tour — Handscomb, Konstas, Richardson in mix for Test return.",
+        "sources": [
+          {
+            "source": "timesofindia.indiatimes.com",
+            "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOTkotR1EyM2xKSjRuTEdtclIwVWpicFdWdkhBMF9ZczFqTS00eG13akhiUnZwM19yVmFLODJlaEN0ZGdvQlloQ0p1OEVCMFRocG94b0M4ZFNXLS1OV05TcEQ3V2JLZ3h4N1A1X2VpazA3eW9icndKbWNQOGc4ZjIzbkxsWEVMc09GdHRyR1FmQkQwVXNCeWtIN3gtNGVsNGxjRUg4dnNIa0NaRWhqNzNlcUM2bmdjRnVXcUxBdVFUcHdiUVdLcDNIRF83Z2IzQkRTYzhXZExPNXpSRllINnl2YXdsQTlfWUlzZVNHNHRjOWtURXBUc09kZ1ZaNkRxdUZjM3FBR3hQRDc1QlpfTTZKdW91d1JoQ3lFV0HSAZ8CQVVfeXFMTUNjdkRmc2NVMjZObnFwajRPWHFVcjdrQWVrdlFILXRnNVJqLWhfekM5WWFKX294Ym9WQ1dqcTdheVRRWmoxVFp2bUFIaTZrcWtfd0V1bnBQNGpoeEtDQnJNY3JLUzFueE0tckpLT0hCSDAwSnN3NmFHN1JNcWpGTlZneVJhYlNMQkZKU0FIeFk1Sk5GbW1oYXhYQ01hZTliVnBERGIzamJwdHlrRVRuN0tHS2UySENiRzhMQnpFelJyS3ZFellQQ1BnSmFzVXB5Z0VaYnYtd1JHcXRpRlRXUjNXeWluVXJIV2ZFenM4cl8yVk1fa3R3d1V5R3FZaG9TdVpoTG9fZ2V1THg2V3NWQUhRSkVZUFdnSEZnS1Vzc1k?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:01:00+05:30",
+        "timestamp_display": "10:01 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "icc cricket",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://trends.google.com/trending/rss?geo=IN"
+          }
+        ],
+        "timestamp": "2026-09-01T10:10:00+05:30",
+        "timestamp_display": "10:10 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "‘Pakistan was ruined’: Ex-cricketer blames Babar-Afridi rift for team’s downfall",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/pakistan-was-ruined-that-day-ex-cricketer-blames-babar-azam-shaheen-afridi-rift-for-teams-downfall/articleshow/133669141.cms"
+          }
+        ],
+        "timestamp": "2026-09-01T10:52:49+05:30",
+        "timestamp_display": "10:52 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "Mizoram gears up for Winter Festival as part of state govt’s efforts to establish state as ‘Winter Capital of India’ - News On AIR",
+        "summary": "",
+        "why_it_matters": "Mizoram gears up for Winter Festival as part of state govt's push to establish state as 'Winter Capital of India'.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSGxULTlRLVZUT1RwdWY2N3RvVlJpLU1SaFV2SlpuMC1UUHRFSXJmdC1CdGNybl94cWJJckl1emt5VjZ1ZzZZWHFIVkJLZVdyaUtIMkRKSkZZY0x1S0JvS3dTRVJMa1NQQ3F0UG5HV19zVUlNdEFsN0tKdHRwMHNrQk1VU01kZTNSS3YyVUNDS2ZLRzZycVdxSHNlNTJkcEU3Tm0wcmdOUUJaUG5UdDBGR01NMXBDMndjY0FDb0FQZFZhMTVsTEV2Q3cwQnA5b3FPLWtaSXdB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:47:00+05:30",
+        "timestamp_display": "11:47 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "India's factory growth at five-year low in August on weakening demand, PMI shows",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-factory-growth-at-five-year-low-in-august-on-weakening-demand-pmi-shows/articleshow/133668942.cms"
+          }
+        ],
+        "timestamp": "2026-09-01T10:35:33+05:30",
+        "timestamp_display": "10:35 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Kaushambi cracker factory blast: Owner arrested after police encounter in Prayagraj",
+        "summary": "",
+        "why_it_matters": "Kaushambi cracker factory blast toll at 11; owner arrested after police encounter in Prayagraj.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/kaushambi-cracker-factory-blast-owner-arrested-after-police-encounter-in-prayagraj-101788233701282.html"
+          }
+        ],
+        "timestamp": "2026-09-01T09:05:00+05:30",
+        "timestamp_display": "09:05 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.384,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Sonam Wangchuk explains why he softened Dharmendra Pradhan resignation demand",
+        "summary": "",
+        "why_it_matters": "Climate activist reverses course after talks with Centre; Ladakh statehood and Sixth Schedule demands stay on table, but Pradhan resignation dropped — political settlement signal.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/sonam-wangchuk-explains-why-he-softened-dharmendra-pradhan-resignation-demand-101788234480116.html"
+          }
+        ],
+        "timestamp": "2026-09-01T10:23:39+05:30",
+        "timestamp_display": "10:23 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "India Steps In To Identify Flood Victims As Nepal Buries Unclaimed Bodies - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXQ0ZFh4YnU2enR4R3ZFNHNzZHBScHg4aFBtTXNUZFdwaEZqbTdYQVZpamxfSmJMUTFlbDVic1NCenV4amRaMVZ4MEt5Q1RZRElzSlNJUTE3M2Fsb0VmLU9kRHB2TVo3TlJQaFhhZWtncG82WUF2RFFrczJuVGVrdzdZZ1VyZm5uQUtjaWduaVJydTVmQllQVzRpeUNiOV9YelpSdHZVcGY2cXNvdE9pamN4anU?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:04:54+05:30",
+        "timestamp_display": "11:04 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Two friends, two murders, minutes apart: Keralam woman arrested in California | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMGI4QXpkYmlWTFZwVFRWQlA1LWRuSldkd1NaSmZVMjVSRFVOYnpRWFdPTEVCMzRSbDZOdGVzczVQdmFaM2FWc09UTnlIOG5sX3NpS0k4QThMY3pDel9aSS1VeFg2SVpJS3pDb2J2Q2F5VlAtcEJhV1pXTXAzbHR3U2VPTE5Wa0tqMmdUSVAxUGE1YWdwTERwdlFSWHFIQThzTW0yV1JtUGpOdmE0Vk15ejJpS2NDenZoZWFYbUZyaTRqaGZyc0FyWURGVdIB0AFBVV95cUxOTURvMHEtU1FLZUVfN2xxU0xvTzRHWmNpZ3QyZERybkM1Vm90QldOU05KYUJNc1plQTNjSkt1WUN5bk53TElfSXVmREV3YUpFekl2dFlmOG1DYjh5bU5wVWpvX1N0R2NCVmFaejlLeEpxV1FkYm9CclBOR3Jra05fSWRzUDlZVk9YdjJJcDhhUVFSR01ncEN4aUs2NkhKdlFzRllUdUdNWE1uckgwLU92a0dEcl8tYS1iNEVWcWZQTDRMWUZwNTBmMGhMSllGNVNq?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T11:04:32+05:30",
+        "timestamp_display": "11:04 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "Key posts at govt. medical institutions across T.N. vacant or held by personnel given additional-charge, say doctors",
+        "summary": "",
+        "why_it_matters": "T.N. medical institutions: key posts vacant or held by additional-charge personnel — doctors flag governance crisis.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/national/tamil-nadu/key-posts-at-govt-medical-institutions-across-tn-vacant-or-held-by-personnel-given-additional-charge-say-doctors/article71411445.ece"
+          }
+        ],
+        "timestamp": "2026-09-01T10:13:51+05:30",
+        "timestamp_display": "10:13 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "An English noblewoman on the Tiger’s trail | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdFFnSUlBZG1GN2ktMi1qUk1BSklXQ1U1aGNKMU1ZT19aOHpmc285ZnVLRXRGV2pPblFteXVTQ2N3dUNvYW4tRTNRWW0yUnBFMENtWWZyb0ZHUDdqR1RSTnh2ekd5U2FWUG10aTY0U0VseV9iZy16RldaaVBmSXh1QTVGd1FMRHo2NnoyemZRR2lESmFWOUdnXzViX3JUYWFNQVlnSzN0X0nSAa4BQVVfeXFMTmZxb0FZMlFIaDVuNm5vNGFTZU90S3ljaVVDa3U4TGhkekhHOFVHX3Z4d0ZYZzlyaEdTeGZiSnV0Q2pHUGVsZkZtODF1X3Rpdjhxb1liSVN1TW96M1JQejJjdWNrRkxBSndFbDJMdlJKN3laTk9IM2FCRldZZmZibUlxcnZkVkxqb05KYlE1VnktbFZUdlc5OFAzam00ckFOWXhKNGxJLVFsRzJmckJn?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T08:35:30+05:30",
+        "timestamp_display": "08:35 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Key posts at govt. medical institutions across T.N. vacant or held by personnel given additional-charge, say doctors",
+        "summary": "",
+        "why_it_matters": "T.N. medical institutions: key posts vacant or held by additional-charge personnel — doctors flag governance crisis.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/national/tamil-nadu/key-posts-at-govt-medical-institutions-across-tn-vacant-or-held-by-personnel-given-additional-charge-say-doctors/article71411445.ece"
+          }
+        ],
+        "timestamp": "2026-09-01T10:13:51+05:30",
+        "timestamp_display": "10:13 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "Heat scorches Spain and the European nation finds an old, traditional hack to find some comfort",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/international/global-trends/heat-scorches-spain-and-the-european-nation-finds-an-old-traditional-hack-to-find-some-comfort/articleshow/133670653.cms"
+          }
+        ],
+        "timestamp": "2026-09-01T12:01:21+05:30",
+        "timestamp_display": "12:01 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "International",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "India takes part in 2-day G20 FMCBG meeting in Asheville, US today - News On AIR",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUUdYWGJwaTNFTkZkQnNrbzFQeEFIdjVHVlVzcGkydzl3cW9NaVMzUGt6UWRIZkNGcWRJWVhLeXg1dDg0cDJoU3VNZXpWSE5pZk5pWl9Da2szcWt0dGhiSXAtTnItRUZEejQ2aWcxZV9mYkhUM2tLOTlDME1lUUt4R0JwUkZlSVR1aWhGNlNHOUU0bFdVX2c?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:42:00+05:30",
+        "timestamp_display": "10:42 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "International",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "Quad energy ministers to meet on G20 sidelines | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Quad energy ministers to meet on G20 sidelines — clean-energy supply-chain coordination ahead.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUx1Uk5xeW9wWG8xMDhPWEhaWDkwU3N2dk4xa0RHY0sxQmc5SDBYVE1RSHlSVXRrNVhoN3pUM2ZmVWNvblVjWW1SUWlwYUpwTF9OM1h2SFYxUkpoUHpaNHZRX203eXJUb09SWkhiREVWNHZobDZCaWxaUkY4dTZCVm1maXh4SnpnbUxQUWwzbUczc0lNamVlU3RYaC0yQ2MzS0ZQcTR0dWdCRm9MZHfSAbMBQVVfeXFMTTN2MF9yR1REeWxqU1JmS0JLSGJGWEZ3UTJpTHJ3a3UyVW1HcG1qZXpBbVZoeUtxRkd4YWFNZUVmREhsSEZOMlJlNVFtVWIydldDck5nUWVCODBCU1ptRzJHVFY1WUsxNmdXeWFTakhHakYzSlV4RjhRTTdBMVZfdGFoQmRYeU9sRlZpQkFZMWRobThvN0R2VFc2TTEzdGx5a0lnNWExWElGaWVmU3NWNFJuWk0?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-01T10:11:29+05:30",
+        "timestamp_display": "10:11 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "International",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "top_5_trends": [
+    {
+      "trend": "India posts 7.8% Q1 GDP growth, shrugs off biggest oil shock; BJP vs Congress on jobs",
+      "why_it_matters": "Sharpest expansion in 6 quarters — India stays world's fastest-growing major economy; PM hails 'herculean feat' as Congress asks 'where are the jobs?' and questions growth composition."
+    },
+    {
+      "trend": "Modi revives swadeshi pitch: 'Don't travel abroad, don't buy gold, no foreign weddings'",
+      "why_it_matters": "PM links consumption advice to GDP surprise; opposition calls it anti-middle-class while BJP says self-reliance message is timed to SCO Bishkek + consumption push."
+    },
+    {
+      "trend": "PM Modi-Putin bilateral on Ukraine at SCO Bishkek; Russia pitches S-500, Su-57, 5 more S-400 squadrons to India",
+      "why_it_matters": "Modi implores Putin to 'move from endless war to end of war' amid US tariff threat on Russian oil; Kremlin counters with mega-defence sale — strategic balancing act ahead of US deadline."
+    },
+    {
+      "trend": "Sonam Wangchuk explains why he softened Dharmendra Pradhan resignation demand",
+      "why_it_matters": "Climate activist reverses course after talks with Centre; Ladakh statehood and Sixth Schedule demands stay on table, but Pradhan resignation dropped — political settlement signal."
+    },
+    {
+      "trend": "IndiGo Goa-Delhi flight makes emergency landing after engine failure; 196 on board safe",
+      "why_it_matters": "Latest in a string of Indian aviation scares after Aug 31 Air India/Air India Express bomb-note incidents — DGCA probe on, comes as airlines face Iran-war jet-fuel 5.46% hike."
+    }
+  ],
+  "dedup_stats": {
+    "dropped": 22,
+    "kept": 38
+  },
+  "rejected_items": [
+    {
+      "headline": "World Leaders pose for group photo at SCO summit in Bishkek, Kyrgyzstan",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/short-videos/world-leaders-pose-for-group-photo-at-sco-summit-in-bishkek-kyrgyzstan/videoshow/133670219.cms"
+    },
+    {
+      "headline": "The View From India newsletter: Israel’s strategic predicaments - thehindu.com",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORWt5UzZ3b0pFWEZfaFJ0UGRSQk93d1pvekxGQ1ZfMVo3UW02M004OWxWT2ZHMG44dXlGMWptLUlqdXNiN1dxcVFXaXJXNkZuV3JaRW9VZUhqUHNhcjJycWw5NHRYQlFmSENpRmh0cVB4Wno5ckVTQ2hUS1hhc2hEYVotS3RKa3hJZnNBcUZUVFJ2bE83ZVV5NEJfWndLSlY0OTVSRTJEZTdEZUxIZHh4em50eEhuSEJKT0I00gG7AUFVX3lxTE5Fa3lTNndvSkVYRl9oUnRQZFJCT3d3Wm96TEZDVl8xWjdRbTYzTTg5bFZPZkcwbjh1eUYxam0tSWp1c2I3V3FxUVdpclc2Rm5XclpFb1VlSGpQc2FyMnJxbDk0dFhCUWZIQ2lGaHRxUHhaejlyRVNDaFRLWGFzaERhWi1LdEpreElmc0FxRlRUUnZsTzdlVXk0Ql9ad0tKVjQ5NVJFMkRlN0RlTEhkeHh6bnR4SG5IQkpPQjQ?oc=5"
+    },
+    {
+      "headline": "Video: Foreigner Calls Indian Honking A 'Small Radar'. Internet Says He's Right - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZVZ5Q0lLTGlUZ0dLUTh0YmxZT1JveGhENjFxYm5yWUhIVVFVVlF1VXpBN19scVpCcHVITmRzTGpRSkVYQ1FsOVo2RkxDMUxhSEIwOVlrQWVYNUU5NVBQTVBZWXFnN3VoeVA2YWJUd0d1NVlSQTVOTmpPYkd5X0c3QjJRandBMmtlbGoyTHNvQTRTTDZySjhkNlFpT3oyaXdzdE0wWEJYd3hIV1VXRUluQ9IBuAFBVV95cUxNOXRPYjVJTnVEQ1hNMnA4cVZKa1g0UnVHclE0NEs4Y3JUMHNSUEZLakktZkFzOHVpT0xVLVNpNFJTaFhENmdCdTBnXzktZWJfbW44bFdNeWJLdzlfOTBQam9GeEVDWmt5MV9MUEFFUTZpT293LVVBd2RuNXVtU3VXUC1ZNm9Xc0FpZkJKSldiWjM2NTdJUldySW9yeFVUcmNVdEJQb0pIWlRPdThGblRIa1hQNFpvcndC?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 01 Sep 2026, 5 AM - timesofindia.indiatimes.com",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ0dVUzRzd1k1VkQtZHBQb3JkMzFCekkyWTBpRGJqM0RqNEtyV2tfd010Vnl4b19vZWcyTWVfSmVVMDRlNV9ROGRMN0haVS00RThNYV9mXzVZUEFsNktEWC11MTRBWGQ5N1l4aTRIYXBIMVRHNjd6NV9pUE4xSkJmcHdkQ3V6MnhzMlNILUM4b1dGUnJUWHB2a25zdy0yUU1nVUowLWo5OTFzQUxlN2VsM1BjSdIBuAFBVV95cUxNMmFiSXJNOUM4aU1qb2lfNDRzN0paXzZDSVpDaUVGelFMa1ZrRS1qQkNDQXQ3YlRsSTRGOGNDSm9HXzdRQ2h1empKRWdUSUJVRFFmXzFNQmFyX0NPeHNiUEIxUmpKcWt0MUZMWUhGTGNsbkp4ejFhd09semlDTjJibW8xTmNFQ1RSX3pMRlF3bUNLSW1KQm9FV0duNHk4b29RZkg5TkUybFhJRWtublFUaTVicmJhSUph?oc=5"
+    },
+    {
+      "headline": "India News Live Updates, 01 September 2026: Anna Hazare hospitalised in Mumbai with viral infection, dehydration - The Indian Express",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbnZGQ1h0aHhzYm9PMjFvbldZLWIwTHZIX0h4ZVFEVHhiZDloLW50d09Xc0JwdUQyU2cxZlVONVVjLU1FUEt2WjVpSkVpZXEtSGJQczc3ZDZJMi1HOTdIYkpjNzMwUW1mZ1JhMWlZN3kxZmt0UXhDTEMzaW91Y0JuTjE4MDdaZXZmc0JwcnR4T0ZxXzFlX3BVVTN5Z0wzM0E0NXhTRHNjYkFETWxleDAtVm5jejZiV2x3SE54MHJnMXpyWlFqejd3S0pfMk9KeHNlYmtfTDFtbEliSTR1Q0JTUkRB0gHiAUFVX3lxTE1udkZDWHRoeHNib08yMW9uV1ktYjBMdkhfSHhlUURUeGJkOWgtbnR3T1dzQnB1RDJTZzFmVU41VWMtTUVQS3ZaNWlKRWllcS1IYlBzNzdkNkkyLUc5N0hiSmM3MzBRbWZnUmExaVk3eTFma3RReENMQzNpb3VjQm5OMTgwN1pldmZzQnBydHhPRnFfMWVfcFVVM3lnTDMzQTQ1eFNEc2NiQURNbGV4MC1WbmN6NmJXbHdITngwcmcxenJaUWp6N3dLSl8yT0p4c2Via19MMW1sSWJJNHVDQlNSREE?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 01 Sep 2026, 7 AM - timesofindia.indiatimes.com",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLXR4enNTUWpneVA2ZW9sM2dFUVIwS3FFeDVpQU5qZlVRaXdPUVNQYmhMOU9NMXc5U0RvdDVhNEVTVGIzcmxiUWxBWklkQXJVckd5Mi1aOS1Eb0wzNlZGNW81QXl4LU9lV1BHWFhpRzlkcExsQzBja2MyOVVqczNYbkRQVG5fbExCSkN0NjVqck52azdhclRyVHlIUUM3NDVlZmtpSE1GSWZZNFRQUTl4VHFla9IBuAFBVV95cUxNWHVMUEF6ZG1rem1XeXdPcF9hTVF5WHBUME9HajN6RF9qeW5zaG4zbVBJNnF3VnhheVAta2JUWmhUWGVlcFpmZnhJMERWWW11VGhObm5zLUFHOVFxWUptZnZyWkNqWERsdVVsWTl4UXFLOERuTHNJSy1Xa2c0OVNPQmpSUlpHVVhQNnVkSUtvM01SNjRYUWN5blRETS1NdS1CajdxQThLTFU4dWNOemg0SHZwNnRBQm12?oc=5"
+    },
+    {
+      "headline": "augmont share price",
+      "reason": "blacklist",
+      "url": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "headline": "PM Modi holds talks with Kyrgyzstan, Armenia leaders",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/india-news/pm-modi-holds-talks-with-kyrgyzstan-armenia-leaders-101788205666887.html"
+    },
+    {
+      "headline": "The Festive Delivery Squeeze",
+      "reason": "carryover_dup",
+      "matched_in": "Tech & AI",
+      "matched_headline": "Indian Startup IPO Tracker 2026",
+      "url": "https://inc42.com/features/the-festive-delivery-squeeze/"
+    },
+    {
+      "headline": "Zepto’s Retention Play: Fewer Discounts, Premium Carts & A Paid Club",
+      "reason": "carryover_dup",
+      "matched_in": "Tech & AI",
+      "matched_headline": "Indian Startup IPO Tracker 2026",
+      "url": "https://inc42.com/features/zeptos-retention-play-fewer-discounts-premium-carts-a-paid-club/"
+    },
+    {
+      "headline": "‘Derogatory’ remarks against Buta Singh: ‘Scheduled Caste panel seeks arrest within 5 days’",
+      "reason": "blacklist",
+      "url": "https://indianexpress.com/article/cities/delhi/derogatory-remarks-buta-singh-scheduled-caste-panel-seeks-arrest-10858264/"
+    },
+    {
+      "headline": "Big Port, Green Energy Projects Change Economics Around Them: Gautam Adani",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus",
+      "url": "https://www.ndtv.com/india-news/big-port-green-energy-projects-change-economics-around-them-gautam-adani-11985446#publisher=newsstand"
+    },
+    {
+      "headline": "Heavy Rain Disrupts Life In Guwahati, Waterlogging In Many Areas",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus",
+      "url": "https://www.ndtv.com/india-news/heavy-rain-disrupts-life-in-guwahati-waterlogging-in-many-areas-11985301#publisher=newsstand"
+    },
+    {
+      "headline": "Madhya Pradesh Governor Backs Move To Deny Probe Sanction Against Minister",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus",
+      "url": "https://www.ndtv.com/india-news/madhya-pradesh-governor-backs-move-to-deny-probe-sanction-against-minister-kunwar-vijay-shah-11985220#publisher=newsstand"
+    },
+    {
+      "headline": "Video: Petrol Pump Worker Killed As CNG Refuelling Pipe Bursts In Jharkhand",
+      "reason": "blacklist",
+      "url": "https://www.ndtv.com/india-news/video-24-year-old-petrol-pump-worker-killed-as-cng-refuelling-pipe-bursts-in-jharkhand-jamshedpur-11985182#publisher=newsstand"
+    },
+    {
+      "headline": "PM Modi's \"Jhooth Ki Goonj\" Attack At Rahul Gandhi After 7.8% GDP Growth",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus",
+      "url": "https://www.ndtv.com/india-news/pm-modis-jhooth-ki-goonj-attack-at-rahul-gandhi-after-7-8-gdp-growth-11984913#publisher=newsstand"
+    },
+    {
+      "headline": "Stock Market LIVE Updates, Sensex Today: Sensex Drops 150 Points Amid US-Iran Tensions",
+      "reason": "blacklist",
+      "url": "https://www.ndtv.com/business-news/stock-market-sensex-share-market-nifty-live-updates-today-1-september-us-iran-war-oil-prices-11984701#publisher=newsstand"
+    },
+    {
+      "headline": "Jet Fuel Prices Hiked By 5.46% Amid Iran War. Will Flight Travel Get Costlier?",
+      "reason": "carryover_dup",
+      "matched_in": "Bangalore",
+      "matched_headline": "\"Islam Superior,\" Says Karnataka Minister. BJP Demands Apology To Hindus",
+      "url": "https://www.ndtv.com/india-news/jet-fuel-prices-for-domestic-airlines-hiked-by-5-46-to-rs-121-28-per-litre-11984810#publisher=newsstand"
+    },
+    {
+      "headline": "Watch: Parandur airport scrapped: What do the youth say? | The Hindu Ground Report",
+      "reason": "blacklist",
+      "url": "https://www.thehindu.com/videos/watch-parandur-airport-scrapped-what-do-the-youth-say-the-hindu-ground-report/article71407036.ece"
+    },
+    {
+      "headline": "Two operators injured after crane collapses, catches fire at Mumbai Port",
+      "reason": "carryover_dup",
+      "matched_in": "Mumbai",
+      "matched_headline": "Crane Catches Fire During Cargo Unloading At Mumbai Port, 2 Operators Injured",
+      "url": "https://www.thehindu.com/news/cities/mumbai/two-operators-injured-after-crane-collapses-catches-fire-at-mumbai-port/article71412014.ece"
+    },
+    {
+      "headline": "Japanese Suzuki makes Premier League history, but Saka sinks Villa",
+      "reason": "blacklist",
+      "url": "https://timesofindia.indiatimes.com/sports/football/top-stories/japanese-zion-suzuki-makes-premier-league-history-but-bukayo-saka-sinks-aston-villa/articleshow/133665938.cms"
+    },
+    {
+      "headline": "How new broadcast technology is changing the way fans watch cricket",
+      "reason": "blacklist",
+      "url": "https://yourstory.com/2026/08/how-new-broadcast-technology-is-changing-the-way-fans-watch-cricket"
+    }
+  ]
+}

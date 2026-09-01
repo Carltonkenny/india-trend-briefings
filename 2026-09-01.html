@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-09-01</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Tuesday, 01 September 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 01 September 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">India posts 7.8% Q1 GDP growth, shrugs off biggest oil shock; BJP vs Congress on jobs</a>
+      <span class="item-why">Sharpest expansion in 6 quarters — India stays world's fastest-growing major economy; PM hails 'herculean feat' as Congress asks 'where are the jobs?' and questions growth composition.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">Modi revives swadeshi pitch: 'Don't travel abroad, don't buy gold, no foreign weddings'</a>
+      <span class="item-why">PM links consumption advice to GDP surprise; opposition calls it anti-middle-class while BJP says self-reliance message is timed to SCO Bishkek + consumption push.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">PM Modi-Putin bilateral on Ukraine at SCO Bishkek; Russia pitches S-500, Su-57, 5 more S-400 squadrons to India</a>
+      <span class="item-why">Modi implores Putin to 'move from endless war to end of war' amid US tariff threat on Russian oil; Kremlin counters with mega-defence sale — strategic balancing act ahead of US deadline.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">Sonam Wangchuk explains why he softened Dharmendra Pradhan resignation demand</a>
+      <span class="item-why">Climate activist reverses course after talks with Centre; Ladakh statehood and Sixth Schedule demands stay on table, but Pradhan resignation dropped — political settlement signal.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">IndiGo Goa-Delhi flight makes emergency landing after engine failure; 196 on board safe</a>
+      <span class="item-why">Latest in a string of Indian aviation scares after Aug 31 Air India/Air India Express bomb-note incidents — DGCA probe on, comes as airlines face Iran-war jet-fuel 5.46% hike.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  3 items</span></h3>
+<div class="theme">Oracle's AI bet turns India tech campuses into layoff zones; Zomato bans analogue paneer; MS Dhoni joins SpeakX.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa3BmellQWjItV0pCY1NCckZpbnA3aktVWmNjMU55UHlRWFk5NWYzS2tXQUhuZV9KaWI5bEJzMWhEYUYwdVlqV3dZaFk0U3BwQ1lVaWxBQkt3VWhnLVRGWVk4eUd5ekxBQmpoTE5WYXZMOWVBbk5md1pzVlRqNTVTZ2dtWjhMZWZseEFhd3RQT2JXNGwyOVJxeDNkcjIxb0E5NS1XdUZxSnVWN182YkktSHNteTd4aHh3ZjQ3eHZpQ0hvTmhmRzRIQjM2VVotOXM0amM1OXVxcWtPVnIwMmFnVU5R0gHnAUFVX3lxTE9wYjI4eXA0d2piVlBJV2VTalc2alRvVFRzNWRKMDdmZjVjT0ROU3p5alhUYmNWX3dmcGFfRmhyNUllc0FCRXJTQzR4WXJKVjhMZUQ2cElENUFjUXNyc25vdC05X3RHdUJUNnE4cV94c2xyRWxVVWFlRWh6T1VOOXlxTzJjU1pfY1ZVRUQ5ZFdYc1poakxtN2RqUnIzcG12UFJZSWdUblBsbGtUMDRzTnlsWThLMDNPNGVEZkR2V01aZUF5UjEwNGVFdS1ReXdhbTI5TEZfZFZTSzN4TXVqRUw3ajFaNEt4Yw?oc=5" target="_blank" rel="noopener">How Many More Layoffs? Oracle's AI Bet Turns India's Biggest Tech Campuses Into High-Anxiety Zones - news18.com</a>
+      <span class="badge md">medium</span>
+      <span class="why">Oracle's AI-driven cost cuts hit Indian tech campuses — 3,000 jobs at risk as Sept 1 deadline hits; Microsoft puts 500 on PIP.</span>
+      <span class="src">news18.com  ·  10:54 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMigwJBVV95cUxPWEo2cE5XZW1CVjQ5clJWbGdwWjNrS09UcnRBN0JSMktISlUxSU9yN21OVmFiT3V0ekFlbFd6akYtR3Jjb0Rnd3A3bmhxSmRRUG9hR1hiQkNVdWRENzlWWVF2VU1LRnk3RXJFRkFIZnY4bkxFZW94NDdUYW5PNVlaTmNhbXNzVHJSaGVEbDRtVXVhSkNPYTh0V1BKSzJkTks2b0JRX2Qtb0pCTmhMRnRpdEV5aHNpQ2xCME93M09wYlhIVjByY3FKOFd5OU5oc05la09tWDNWNDk1LVZfZnQ0VzJxMmtZSUM2Mm14cENSaUt3NV9IMmJSRXh5bVFJanlyTWVz0gGIAkFVX3lxTE5ZNENHaHhBRE14bGQwWk1mUEVKSFRWa0dvM0dJbWRJaEVjd3JkNWg5R2wwV3VOallfVFFRSV9EWDdZTm9NQTBUaTVTRlF1TGwybGhyR3FnODFYOWZoaTZIUGRHUWFuZ2JjZ2huWmltMDJ6M1Bic2Z1M1BnQ3cyQW1wdEZMWFdObmI1QjVIaFljSG5KYjVQVWtDOFVlTjJIOEk0QUIyVHJYeFFVQU9PcFVMZlI1bk9pY09vckdSUnRZWkR0Y2pKcVNaN0c4dFkxeVhBLVFLUl92NmxFX3l3b1o4ZUQxV1p1cExuUU9uOUFqUlBoWVlEY011SXRUckFaY21iWUx0XzczOA?oc=5" target="_blank" rel="noopener">Oracle may undertake another round of layoffs that could impact thousands of Indian employees - Moneycontrol.com</a>
+      <span class="badge md">medium</span>
+      <span class="why">Oracle's AI-driven cost cuts hit Indian tech campuses — 3,000 jobs at risk as Sept 1 deadline hits; Microsoft puts 500 on PIP.</span>
+      <span class="src">Moneycontrol.com  ·  08:02 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPdGhSdjRERTl0ZHExM2x1XzRvdlNrR3BUeHBqMEg1cDR0MkNoNENUc2RFTjhZY1JuSUVHcmVDS09RX0UtV0U4QV9XWFNJeGd1SFdwWUNtYXE2Tk43a2VabkYta2F1N3VDM3c3N2tYMkhJSDB6dXN3aGRiWXo1aEQtZ1EybjZYalhPTWE2WmVCTUx6N0R5eEZrNmNTalpfRmlSaGpEMy03emJldEJvRnhSUnJmNUJCLUhmT3QtanBsNE1OUDRDdHJn0gHMAUFVX3lxTE0xUVUzRlFGQjJ5MHRReDNSQ3YzZ0owSk8tbG1ZVXg2QnhHbGE0OElKVkIyOTFZSjhmTFh6NW1jYTRUdWZFdHpBenJtaFpjZHBFd3djdlUwUGNDa3JWSmIyX0YtSjlWLWl3NjVidHdWbUk0aEpzeE1SaGxNUUVqVmRqbXVIQjZPeHJ5STZJcVN0dHZYWF83bzBYVXhIQnRCSWRXajJXM1Q5dFMxY0JXNTRUdURscGhsVjEzTTZ1dnctWi1HdThHV1lnTm1ZZQ?oc=5" target="_blank" rel="noopener">Oracle Layoffs Today? 3,000 India Jobs At Risk As September 1 Deadline Looms; Microsoft Puts 500 On PIP - news18.com</a>
+      <span class="badge md">medium</span>
+      <span class="why">Oracle's AI-driven cost cuts hit Indian tech campuses — 3,000 jobs at risk as Sept 1 deadline hits; Microsoft puts 500 on PIP.</span>
+      <span class="src">news18.com  ·  08:45 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  3 items</span></h3>
+<div class="theme">India Q1 GDP 7.8% (oil-shock-defying); Congress vs BJP on jobs; 70% of crude imports now outside Hormuz.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZjVSRlpHS3lHQU11LVVkYjVQVG43Y2FjaWtqNHQ4SVhYOFVLLTNpV0Vvbl9rSzhwLVkxTVladmxRSGpTdms5a2dsZjVlWjZFVmFZcXc1bldjSGZCVGFsRXhJZEYtYWk5OUF5RHhBRlRmNXgzYjBMQ0pnVDc4Sm1rTURhVGxlNEU0NTVCVElRZmtGdERBelQ3SXhsYjhkX3dyeUFNZ0NXSlh0dWs5dUVLdl9PejdHN1NueDBuc3VseTF5dHZXVl9yaXE4WEtfV0hpZ3F3SGFQU1N3d2VXZXZ5cWNjTmZlZ244QVdJd0lKdWJPZjBYY2Rn0gH8AUFVX3lxTFBLekI4TENfdnJ0d21PVzkzMno3RndyMktpX0RsOXM1OFRfcFJiblNrVE1lUWtUY2dMOXFHS0hqS3ZvUHhHTmFQemhtaFRUaVZKVExpVTNhRGhkajZhY2d1Y0p4QXgzVy1PYl9CNVdSODk0LUE4QnVod3dXSGowaXUwRTRmZDdfXzZMcG81cWdqdEl3N3hHY1pPT0l5SzEwcm1abnRybFEyVEs0ZTR4MGZrTVJNUnBiRFlYN1BEN3FPWUQ3R2o2YmY1VUQ0d01WWGRoWDFFWHdPcVVZd0lFYUJsLXBrSW9Edkc3WTFIRjZ5LW5xQlllcGlkVEtvZw?oc=5" target="_blank" rel="noopener">India shrugs off oil shock to post 7.8% growth in Q1, PM Modi hails ‘herculean feat’ | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Sharpest expansion in 6 quarters — India stays world's fastest-growing major economy; PM hails 'herculean feat' as Congress asks 'where are the jobs?' and questions growth composition.</span>
+      <span class="src">Hindustan Times  ·  06:22 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSFU1aVJ1WXNnR1B4RkFIbU5ISGMyeUxoOVJwYk53Q1pDY25KZk1qcFhMTzFCZHNlZEtUZzQ0WEcyR2Q0WEpESXBvR0FabW15QjVaTlpVMjlXdnhNOXo1MmtqYjJwTnNpZWhVZXNvOWxaUlV5RDJHdV9OWWdmU0VOWnd2VHlRYWxZd3B6UHVrZ1VaZXFfZjRELW9lblNsQ1V4V1pCU2g2OWRVUjjSAa4BQVVfeXFMUHlsRUpYTHoySW92ZHhPOHlvMnNpVU9fTVdNcEdnMVcxeC1vQTFMLURJV2N2YUlRR0ZTX0Jkd3ZfbWpqcG5SaEI4TjhMOUxabTVHSm9lcW5EUUVELUxEWGtDeHpSbHlZSUZaeC1PaWpkbFVNVWxzM3JzTmw5UGpoSFhRdjlMdkdkWUNaZmI4V0pkb0RqLThYZ3JWOVNPUUxCdG9tZXJyZjlsNkwtZ2ZB?oc=5" target="_blank" rel="noopener">Don't travel abroad, buy gold: Modi's advice despite GDP growth - rediff.com</a>
+      <span class="badge md">medium</span>
+      <span class="why">PM links consumption advice to GDP surprise; opposition calls it anti-middle-class while BJP says self-reliance message is timed to SCO Bishkek + consumption push.</span>
+      <span class="src">rediff.com  ·  10:48 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMigAJBVV95cUxQenZ1OWdVWTRoN2V5M1FmRXJnUGYxNmN0OFREdkpiNnY5SXVmbG1sMzJxTWhIc29VeVZDS1pwby1KdjBVVXZGbmJYaEMzMWpxQjczSnlNTGNfUWJEcWY1Q2FUdEc2TFRSbmliSTVwTEJ5bURzaHUzOExjTWpnZ2ZhRGkxUnRmWUIxM1VTT3FqTERiTjZtNGpCNTl4bDFDd3ZSSlR3QTBmSE9Qa3kyR2ktTFAtQ1pKQ2h6aHF0MEdqY3RISjFPdmdVdTkyVW1RRlZHV3dtdDNqem5idlZXaGJtRDhkU2Y1X0h5V1lmWXIzRWtqTEdhTTVwS0MxcW5HS0tC0gGGAkFVX3lxTFBxOFVKTW1yUGNyeVdiQlpJMXp5QVV6cmJIaGtCb0tKalgtc2pyVXNpY0lwUWNtbWVVSm43UjNnNi1GZXM2TmhTd0FTQnE4OXhxbFJiby1YamlhWnlZeEJPN0FnUlJIR1pIS1Z5bUZKMFVXcnc2Smh2TVp0dEdPU2sxaktxalVxUFBnWXhrSjZXdVVBWkdEclItS0tPdjU2Z040MUV3Y3Y2aVRsQ3Vja296THd6U0ZRTlU2SmRyaTNFYWdxb3o0SmhMVDZQd3IwRERHLVVxeFpzWGZBWE9yYXdtdVotck43a1NwVWVIYkpFM0JuYS1QODVLUVc2Vlh6aXNmVGZkWWc?oc=5" target="_blank" rel="noopener">'Don't buy gold, don't marry abroad': PM Modi revives swadeshi pitch amid India's GDP growth | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  09:24 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY  ·  3 items</span></h3>
+<div class="theme">PM at SCO Bishkek; Rahul attacks PM over 'Jhooth Ki Goonj'; Congress slams 'inflation shock'.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://economictimes.indiatimes.com/news/india/sco-summit-pm-modi-warns-against-double-standards-on-terrorism-pitches-open-trade/articleshow/133670283.cms" target="_blank" rel="noopener">SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade</a>
+      <span class="badge lo">low</span>
+      <span class="why">Modi addresses 26th SCO Summit in Bishkek; warns against 'double standards' on terrorism, pitches open trade.</span>
+      <span class="src">Unknown  ·  11:50 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQV3Z6Q1hRY0VGaGtxTEY0VUx4NVBNRXRoZ1NqTkgyMEN4dVdSajd6NGtNT1BSRVg2aFgxVnZJb1hDQUt5T2xnWlVrSG9FLWlPbU5sVG1Ma3dpVDhTcjhzY0RpTE5Sci1LUERTQnFlQWpoVmhKTzd2UWU2RkJjQVBHOURvWGlmNnN6LTlycA?oc=5" target="_blank" rel="noopener">India achieved 7.8% growth despite wars, instability: PM Modi - DD News</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">DD News  ·  10:33 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdzJTNHFpeDBINlU1d0R5WmZrZDlXaGpXSkVlSjlQQlllU3p3WHVYYTl1bW9KV3o4eXdvOEtPdlBjQlhHLUtJQURtbkNvbWJPSjd6X3l3VWh5MjAxbFh4bF84ek1BREFCeDV4c2NLM2p2Uk5CNnI5V19FOXdGVGVnNjhxMG1CN2QwMUM5R0QyMTVHY2ZiVnBxZGE0d01uVS1FSUVkVmRWejNFcTdhdXI5MVl4LUR3YmdPSXVR0gHCAUFVX3lxTE1Mb01EWEc1blJ3WURiazR6aU5jenhyRVZZUnFCZkVOTFUzSlFyMElLeXowTHhEOVkyRTFpb2NHdTN3WWQ5NElfOWhxOG9ldGg2SU9YTEpPWG54UFFBNC15OGo1cmgyc1lUTVpGNG54S0tEUDE2WlZOQkdzc3E2cFcxSXRSaURUemdWZTR2aS1KZFBRdHB4WkZmaUV4NVZoem0zWkRMTnlEOFNxUFR3eUdSc0JWeU9nb19yZm1yel9oYU13?oc=5" target="_blank" rel="noopener">India achieved 7.8% growth despite wars, instability: PM Modi - BusinessLine</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">BusinessLine  ·  10:31 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">Bengaluru 'peptide party' ban explained; Karnataka chain-snatcher found dead after ambulance escape; Lalbagh tunnel-road rally.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.thehindu.com/sci-tech/health/why-was-a-peptide-party-banned-in-bengaluru-explained/article71413555.ece" target="_blank" rel="noopener">Why was a ‘peptide party’ banned in Bengaluru? | Explained</a>
+      <span class="badge lo">low</span>
+      <span class="why">Police banned a 'peptide party' in Bengaluru — concerns over unverified wellness compounds and recreational use.</span>
+      <span class="src">Unknown  ·  10:18 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/cities/bangalore/nimhans-opens-reimagined-creche-for-children-of-staff-in-bengaluru/article71412086.ece" target="_blank" rel="noopener">NIMHANS opens reimagined crèche for children of staff in Bengaluru</a>
+      <span class="badge lo">low</span>
+      <span class="why">NIMHANS opens reimagined crèche for children of staff — first-of-kind in a govt mental-health institution.</span>
+      <span class="src">Unknown  ·  10:13 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/sci-tech/health/why-was-a-peptide-party-banned-in-bengaluru-explained/article71413555.ece" target="_blank" rel="noopener">Why was a ‘peptide party’ banned in Bengaluru? | Explained</a>
+      <span class="badge lo">low</span>
+      <span class="why">Police banned a 'peptide party' in Bengaluru — concerns over unverified wellness compounds and recreational use.</span>
+      <span class="src">Unknown  ·  10:18 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI  ·  3 items</span></h3>
+<div class="theme">Madras Day 2026 commemorations; Tamil Nadu farmers detained in Trichy; CMDA shelves Kancheepuram township project.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/cities/chennai/madras-day-2026-ticking-on-behind-metro-rail-barricades/article71377561.ece" target="_blank" rel="noopener">Madras Day 2026: ticking on behind Metro Rail barricades</a>
+      <span class="badge lo">low</span>
+      <span class="why">Madras Day 2026 commemorations: culture, history, language — civic pride across Tamil Nadu.</span>
+      <span class="src">Unknown  ·  11:18 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxObnhmLWxFd1E3bk9DajgwbXk4YnF0dXBYVkpySDF2QW9kM0NBamJZbWQzYVZkOWVoQTNSSjZmNFBYdWJ3cC05NFNNTHh4cFhnekU4VlhJWkFySFJTOXk2empYaDJoSHM1TGpkZnJUWThWRzRIem0zWEt5MU13OXFtY0Z5QUQzY2x3V2hOazdLVUh4X2JXWFJtd0g5bllXdVI5dk1mVEtMTEpCQlZLWGM1dw?oc=5" target="_blank" rel="noopener">Tamil Nadu: Around 50 farmers led by Ayyakannu detained in Trichy - Awaz The Voice</a>
+      <span class="badge lo">low</span>
+      <span class="why">Around 50 farmers led by Ayyakannu detained in Trichy demanding loan waiver + Cauvery management council.</span>
+      <span class="src">Awaz The Voice  ·  11:13 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNaVdmXzlQVEExS1RMNDJHN3hZNG0zelFyZ29wWVAyMERwNjdxc1pDb0luYUt2UDF4RF9KRXZid3BGWXpMaEY5RHVYWThPX0dBZm1rX1JzZVFORXB3TWxkejRwQ1VqWlFOUDRRbE1IRWZxMFBsakIzajZSN1ZaRVBsUVk1WEhoRENOcUlmN1hBaERkbWdWbW1ZNHF3eWY?oc=5" target="_blank" rel="noopener">Nepal floods: 28 Tamil Nadu pilgrims return safely - Awaz The Voice</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Awaz The Voice  ·  11:17 IST  ·  Chennai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">Mumbai auto/taxi fares rise Sept 1; FDA busts food-expiry racket in Navi Mumbai; Anna Hazare in ICU.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/mumbai-auto-taxi-fares-rise-from-today-check-new-rates-mumbai-taxi-prices-101788238875071.html" target="_blank" rel="noopener">Mumbai auto, taxi fares rise from today: Check new rates</a>
+      <span class="badge lo">low</span>
+      <span class="why">Mumbai auto/taxi fares rise Sept 1 — minimum fares up by ₹2-3, day-and-night scheme restructured.</span>
+      <span class="src">Unknown  ·  10:36 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://indianexpress.com/article/cities/pune/cng-price-up-by-rs-2-kg-in-pune-pimpri-chinchwad-from-september-1-10858179/" target="_blank" rel="noopener">CNG price up by Rs 2/kg in Pune, Pimpri-Chinchwad from September 1</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  11:06 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/fda-busts-food-expiry-date-tampering-racket-in-navi-mumbai-rs-76-lakh-goods-seized-101788238078509.html" target="_blank" rel="noopener">FDA busts food expiry date tampering racket in Navi Mumbai;  ₹76 lakh goods seized</a>
+      <span class="badge lo">low</span>
+      <span class="why">FDA busts food-expiry-date tampering racket in Navi Mumbai; ₹76 lakh worth of goods seized, 2 held.</span>
+      <span class="src">Unknown  ·  10:17 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS  ·  3 items</span></h3>
+<div class="theme">Australia A tour of India announced (Handscomb, Konstas, Richardson in mix); Rohit Rajpal to run for AITA president.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMimgJBVV95cUxOTkotR1EyM2xKSjRuTEdtclIwVWpicFdWdkhBMF9ZczFqTS00eG13akhiUnZwM19yVmFLODJlaEN0ZGdvQlloQ0p1OEVCMFRocG94b0M4ZFNXLS1OV05TcEQ3V2JLZ3h4N1A1X2VpazA3eW9icndKbWNQOGc4ZjIzbkxsWEVMc09GdHRyR1FmQkQwVXNCeWtIN3gtNGVsNGxjRUg4dnNIa0NaRWhqNzNlcUM2bmdjRnVXcUxBdVFUcHdiUVdLcDNIRF83Z2IzQkRTYzhXZExPNXpSRllINnl2YXdsQTlfWUlzZVNHNHRjOWtURXBUc09kZ1ZaNkRxdUZjM3FBR3hQRDc1QlpfTTZKdW91d1JoQ3lFV0HSAZ8CQVVfeXFMTUNjdkRmc2NVMjZObnFwajRPWHFVcjdrQWVrdlFILXRnNVJqLWhfekM5WWFKX294Ym9WQ1dqcTdheVRRWmoxVFp2bUFIaTZrcWtfd0V1bnBQNGpoeEtDQnJNY3JLUzFueE0tckpLT0hCSDAwSnN3NmFHN1JNcWpGTlZneVJhYlNMQkZKU0FIeFk1Sk5GbW1oYXhYQ01hZTliVnBERGIzamJwdHlrRVRuN0tHS2UySENiRzhMQnpFelJyS3ZFellQQ1BnSmFzVXB5Z0VaYnYtd1JHcXRpRlRXUjNXeWluVXJIV2ZFenM4cl8yVk1fa3R3d1V5R3FZaG9TdVpoTG9fZ2V1THg2V3NWQUhRSkVZUFdnSEZnS1Vzc1k?oc=5" target="_blank" rel="noopener">Australia announce A squad for India tour: Peter Handscomb, Sam Konstas, Jhye Richardson in mix for Test - timesofindia.indiatimes.com</a>
+      <span class="badge lo">low</span>
+      <span class="why">Australia announce A squad for India tour — Handscomb, Konstas, Richardson in mix for Test return.</span>
+      <span class="src">timesofindia.indiatimes.com  ·  10:01 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://trends.google.com/trending/rss?geo=IN" target="_blank" rel="noopener">icc cricket</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  10:10 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://timesofindia.indiatimes.com/sports/cricket/news/pakistan-was-ruined-that-day-ex-cricketer-blames-babar-azam-shaheen-afridi-rift-for-teams-downfall/articleshow/133669141.cms" target="_blank" rel="noopener">‘Pakistan was ruined’: Ex-cricketer blames Babar-Afridi rift for team’s downfall</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  10:52 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE  ·  3 items</span></h3>
+<div class="theme">Mizoram Winter Festival push; Australia A squad for India Test return announced.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSGxULTlRLVZUT1RwdWY2N3RvVlJpLU1SaFV2SlpuMC1UUHRFSXJmdC1CdGNybl94cWJJckl1emt5VjZ1ZzZZWHFIVkJLZVdyaUtIMkRKSkZZY0x1S0JvS3dTRVJMa1NQQ3F0UG5HV19zVUlNdEFsN0tKdHRwMHNrQk1VU01kZTNSS3YyVUNDS2ZLRzZycVdxSHNlNTJkcEU3Tm0wcmdOUUJaUG5UdDBGR01NMXBDMndjY0FDb0FQZFZhMTVsTEV2Q3cwQnA5b3FPLWtaSXdB?oc=5" target="_blank" rel="noopener">Mizoram gears up for Winter Festival as part of state govt’s efforts to establish state as ‘Winter Capital of India’ - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why">Mizoram gears up for Winter Festival as part of state govt's push to establish state as 'Winter Capital of India'.</span>
+      <span class="src">News On AIR  ·  11:47 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://economictimes.indiatimes.com/news/economy/indicators/indias-factory-growth-at-five-year-low-in-august-on-weakening-demand-pmi-shows/articleshow/133668942.cms" target="_blank" rel="noopener">India's factory growth at five-year low in August on weakening demand, PMI shows</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  10:35 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/kaushambi-cracker-factory-blast-owner-arrested-after-police-encounter-in-prayagraj-101788233701282.html" target="_blank" rel="noopener">Kaushambi cracker factory blast: Owner arrested after police encounter in Prayagraj</a>
+      <span class="badge lo">low</span>
+      <span class="why">Kaushambi cracker factory blast toll at 11; owner arrested after police encounter in Prayagraj.</span>
+      <span class="src">Unknown  ·  09:05 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  2 items</span></h3>
+<div class="theme">Sonam Wangchuk softens Pradhan-resignation demand; Greater Noida minor gang-rape horror; Sun Pharma pricing deal with Trump team.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXQ0ZFh4YnU2enR4R3ZFNHNzZHBScHg4aFBtTXNUZFdwaEZqbTdYQVZpamxfSmJMUTFlbDVic1NCenV4amRaMVZ4MEt5Q1RZRElzSlNJUTE3M2Fsb0VmLU9kRHB2TVo3TlJQaFhhZWtncG82WUF2RFFrczJuVGVrdzdZZ1VyZm5uQUtjaWduaVJydTVmQllQVzRpeUNiOV9YelpSdHZVcGY2cXNvdE9pamN4anU?oc=5" target="_blank" rel="noopener">India Steps In To Identify Flood Victims As Nepal Buries Unclaimed Bodies - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">NDTV  ·  11:04 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxQMGI4QXpkYmlWTFZwVFRWQlA1LWRuSldkd1NaSmZVMjVSRFVOYnpRWFdPTEVCMzRSbDZOdGVzczVQdmFaM2FWc09UTnlIOG5sX3NpS0k4QThMY3pDel9aSS1VeFg2SVpJS3pDb2J2Q2F5VlAtcEJhV1pXTXAzbHR3U2VPTE5Wa0tqMmdUSVAxUGE1YWdwTERwdlFSWHFIQThzTW0yV1JtUGpOdmE0Vk15ejJpS2NDenZoZWFYbUZyaTRqaGZyc0FyWURGVdIB0AFBVV95cUxOTURvMHEtU1FLZUVfN2xxU0xvTzRHWmNpZ3QyZERybkM1Vm90QldOU05KYUJNc1plQTNjSkt1WUN5bk53TElfSXVmREV3YUpFekl2dFlmOG1DYjh5bU5wVWpvX1N0R2NCVmFaejlLeEpxV1FkYm9CclBOR3Jra05fSWRzUDlZVk9YdjJJcDhhUVFSR01ncEN4aUs2NkhKdlFzRllUdUdNWE1uckgwLU92a0dEcl8tYS1iNEVWcWZQTDRMWUZwNTBmMGhMSllGNVNq?oc=5" target="_blank" rel="noopener">Two friends, two murders, minutes apart: Keralam woman arrested in California | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  11:04 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">T.N. medical institutions' key posts vacant; Keralam patient carried on bamboo stretcher; Punjab to train quacks.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/national/tamil-nadu/key-posts-at-govt-medical-institutions-across-tn-vacant-or-held-by-personnel-given-additional-charge-say-doctors/article71411445.ece" target="_blank" rel="noopener">Key posts at govt. medical institutions across T.N. vacant or held by personnel given additional-charge, say doctors</a>
+      <span class="badge lo">low</span>
+      <span class="why">T.N. medical institutions: key posts vacant or held by additional-charge personnel — doctors flag governance crisis.</span>
+      <span class="src">Unknown  ·  10:13 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdFFnSUlBZG1GN2ktMi1qUk1BSklXQ1U1aGNKMU1ZT19aOHpmc285ZnVLRXRGV2pPblFteXVTQ2N3dUNvYW4tRTNRWW0yUnBFMENtWWZyb0ZHUDdqR1RSTnh2ekd5U2FWUG10aTY0U0VseV9iZy16RldaaVBmSXh1QTVGd1FMRHo2NnoyemZRR2lESmFWOUdnXzViX3JUYWFNQVlnSzN0X0nSAa4BQVVfeXFMTmZxb0FZMlFIaDVuNm5vNGFTZU90S3ljaVVDa3U4TGhkekhHOFVHX3Z4d0ZYZzlyaEdTeGZiSnV0Q2pHUGVsZkZtODF1X3Rpdjhxb1liSVN1TW96M1JQejJjdWNrRkxBSndFbDJMdlJKN3laTk9IM2FCRldZZmZibUlxcnZkVkxqb05KYlE1VnktbFZUdlc5OFAzam00ckFOWXhKNGxJLVFsRzJmckJn?oc=5" target="_blank" rel="noopener">An English noblewoman on the Tiger’s trail | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  08:35 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/national/tamil-nadu/key-posts-at-govt-medical-institutions-across-tn-vacant-or-held-by-personnel-given-additional-charge-say-doctors/article71411445.ece" target="_blank" rel="noopener">Key posts at govt. medical institutions across T.N. vacant or held by personnel given additional-charge, say doctors</a>
+      <span class="badge lo">low</span>
+      <span class="why">T.N. medical institutions: key posts vacant or held by additional-charge personnel — doctors flag governance crisis.</span>
+      <span class="src">Unknown  ·  10:13 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  3 items</span></h3>
+<div class="theme">PM Modi-Putin SCO Bishkek bilateral; Russia pitches S-500/Su-57/S-400 to India; Nepal demands climate compensation naming India.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://economictimes.indiatimes.com/news/international/global-trends/heat-scorches-spain-and-the-european-nation-finds-an-old-traditional-hack-to-find-some-comfort/articleshow/133670653.cms" target="_blank" rel="noopener">Heat scorches Spain and the European nation finds an old, traditional hack to find some comfort</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  12:01 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNUUdYWGJwaTNFTkZkQnNrbzFQeEFIdjVHVlVzcGkydzl3cW9NaVMzUGt6UWRIZkNGcWRJWVhLeXg1dDg0cDJoU3VNZXpWSE5pZk5pWl9Da2szcWt0dGhiSXAtTnItRUZEejQ2aWcxZV9mYkhUM2tLOTlDME1lUUt4R0JwUkZlSVR1aWhGNlNHOUU0bFdVX2c?oc=5" target="_blank" rel="noopener">India takes part in 2-day G20 FMCBG meeting in Asheville, US today - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">News On AIR  ·  10:42 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUx1Uk5xeW9wWG8xMDhPWEhaWDkwU3N2dk4xa0RHY0sxQmc5SDBYVE1RSHlSVXRrNVhoN3pUM2ZmVWNvblVjWW1SUWlwYUpwTF9OM1h2SFYxUkpoUHpaNHZRX203eXJUb09SWkhiREVWNHZobDZCaWxaUkY4dTZCVm1maXh4SnpnbUxQUWwzbUczc0lNamVlU3RYaC0yQ2MzS0ZQcTR0dWdCRm9MZHfSAbMBQVVfeXFMTTN2MF9yR1REeWxqU1JmS0JLSGJGWEZ3UTJpTHJ3a3UyVW1HcG1qZXpBbVZoeUtxRkd4YWFNZUVmREhsSEZOMlJlNVFtVWIydldDck5nUWVCODBCU1ptRzJHVFY1WUsxNmdXeWFTakhHakYzSlV4RjhRTTdBMVZfdGFoQmRYeU9sRlZpQkFZMWRobThvN0R2VFc2TTEzdGx5a0lnNWExWElGaWVmU3NWNFJuWk0?oc=5" target="_blank" rel="noopener">Quad energy ministers to meet on G20 sidelines | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Quad energy ministers to meet on G20 sidelines — clean-energy supply-chain coordination ahead.</span>
+      <span class="src">Hindustan Times  ·  10:11 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-09-01T12:09:13.787878+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 32 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>

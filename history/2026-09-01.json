@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T12:09:13.787878+05:30",
+  "totals": {
+    "raw": 1089,
+    "kept": 38,
+    "sources": 12,
+    "categories": 12,
+    "deduped": 22
+  },
+  "delivered_at": "2026-09-01T12:11:19.095819+05:30",
+  "telegram_message_chars": 185,
+  "success": true,
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline",
+  "previous_day_status": "ok",
+  "publish_ok": true,
+  "publish_artifacts": {
+    "day_page": "https://carltonkenny.github.io/Daily_briefings-/2026-09-01.html",
+    "dashboard": "https://carltonkenny.github.io/Daily_briefings-/dashboard.html",
+    "by_topic": "https://carltonkenny.github.io/Daily_briefings-/by-topic.html",
+    "index": "https://carltonkenny.github.io/Daily_briefings-/"
+  },
+  "publish_verified": true,
+  "publish_http_status": 200,
+  "publish_verified_at": "2026-09-01T12:11:19.095819+05:30",
+  "delivery_failed": false
+}
