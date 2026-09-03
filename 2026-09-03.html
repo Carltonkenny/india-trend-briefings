@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-09-03</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Thursday, 03 September 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 03 September 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">Belgian PM Bart De Wever arrives in India on first official visit, to hold talks with PM Modi</a>
+      <span class="item-why">First-ever Belgian PM India visit — opens new chapter in India-EU bilateral; agenda covers trade, defence, critical minerals, and Ukraine. De Wever also expected at G20 summit prep later this month.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">India reaffirms fastest-growing major economy tag with 7.8% Q1 GDP; FM Sitharaman doubles down</a>
+      <span class="item-why">Centre backs 7.8% Q1 GDP print as 'fastest-growing large economy' even as opposition questions composition; Kwatra echoes framing — sharpest expansion in 6 quarters, sustained by services + private capex.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">PM Modi-Iran Pezeshkian meet: US Secy Rubio warns 'no country should help Tehran' of sanctions</a>
+      <span class="item-why">India walks the line on Iran trade — Modi pushes trade ties at SCO while Rubio publicly signals sanctions risk; signals tightrope between SCO partnership and US pressure on Russian/Iranian oil.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">Wing Commander Abhinandan Varthaman (2019 Balakot F-16 hero) retires from IAF, joins Goa airline</a>
+      <span class="item-why">Pilot famed for downing Pak F-16 during 2019 Balakot strikes and 60-hr Pak captivity ends IAF career; jumps to civil aviation — signals pilot retention challenge, also boosts India's commercial pilot pipeline.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">CBI names 6 IAS officers in ₹504-crore IDFC Bank fraud case</a>
+      <span class="item-why">Major bank-fraud charge sheet with senior IAS officers named — exposes governance gaps in cooperative-bank regulation; follows conviction-arc of Nirav Modi/Mallya-era bank fraud cases.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  3 items</span></h3>
+<div class="theme">Flipkart microdrama foray; Adobe acquires Peak XV-backed AI martech startup Rilo; Pine Labs appoints ex-Amazon Razorpay exec as COO.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/flipkarts-microdrama-foray-purple-style-labs-ipo-more/" target="_blank" rel="noopener">Flipkart’s Microdrama Foray, Purple Style Labs’ IPO & More</a>
+      <span class="badge lo">low</span>
+      <span class="why">Flipkart eyes microdrama entry amid diversification push — quick content commerce vertical test.</span>
+      <span class="src">Unknown  ·  08:00 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/adobe-acquires-peak-xv-backed-ai-martech-startup-rilo/" target="_blank" rel="noopener">Adobe Acquires Peak XV-Backed AI Martech Startup Rilo</a>
+      <span class="badge lo">low</span>
+      <span class="why">Adobe acquires Peak XV-backed AI martech startup Rilo — Adobe doubles down on agentic-AI stack.</span>
+      <span class="src">Unknown  ·  23:59 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/flipkart-eyes-microdrama-entry-amid-diversification-push/" target="_blank" rel="noopener">Flipkart Eyes Microdrama Entry Amid Diversification Push</a>
+      <span class="badge lo">low</span>
+      <span class="why">Flipkart eyes microdrama entry amid diversification push — quick content commerce vertical test.</span>
+      <span class="src">Unknown  ·  17:27 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  3 items</span></h3>
+<div class="theme">India retains fastest-growing tag at 7.8%; CBI names 6 IAS in ₹504 cr IDFC Bank fraud; ₹127 bn NRI deposits arm RBI; Syed Akbaruddin joins RBI board.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi4wJBVV95cUxQalAwYTdKRTZNNzlMZWhvTHhMZ09ESHY4U2dJNXJQUVFMa0FwODhOejE2UDd3SVhSTXhrZzRGSFEteV9qZll3dVl3UVNQbTFPZnE2LUY0ZTBWQ05zSnNTWUxKeTFjaVgwTGIzQWVXcXVmcnpmeUQ2WWExLVdocm82RnpydGZ4aUwzTVk0TGc2R19nM1FTcU9KWkFJaldackhpWXdfdkEzN3ZYX0N1eFJCSWxVcmVXWmVKc3c4V3NsRVZVdVB1TmpZNlN1N0lERURFeE0tODBLSXJSazJ2bGZEdnlzRTZQaGVHQXpVNzRpV2hLN3hMNWVMUHpPVUpTdE13QXZ0N3BzNEdZZzIydEZ3Q093ejY0QzFraWxSa1hKRlJTZG52RzQ4Z2tRcUYwbHBwVE1tRXdSd0lZWVBDVF96QjZiLTBHd2JEUGRzOUs3c3NxeTNWcUtaeGNwRkhvcEF3NU1B0gH_AUFVX3lxTE1TbFhCbzJyd2JEdEJRRWFFNW5JbHVXNWZEMFVUZFJuR1JRaS03VTk2dWFDSGE1bWN2bjdzZzc1TW8wY1ZjLTRacVVOWWhQWFVZMmFncXNsVm54aGpEZGprcVBOODVxWWljbzA5YlpwRHlldm9sRFp5OVdTdm9PUWJDUF9mUmxhUENjbzVwZUJBbTVrOFZBZkJ6NGE5TlVaMEV0cFdRSzNqcER1eUd3TTZsQUEzcXhVa3FCY0JGUUxrZTVXWTNLNXRmR0JFVkNJQWlJNEhtc3BJYWtyT001RlZ4aWZRbkdUa0Z1anNlU3VySk1wV1VJTFlxSWlnU2FxZw?oc=5" target="_blank" rel="noopener">India's $127 billion NRI deposits arm gives RBI more firepower, setting rupee up for rally - The Economic Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">$127 bn NRI deposits under RBI's dollar scheme beat targets — gives RBI firepower for rupee support.</span>
+      <span class="src">The Economic Times  ·  08:52 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMixAJBVV95cUxPQjQ2aE5jQVg0MkdTMk9nRzIyeDJZTnlmck95SXg0YU9DeUZEVXNUd0JIVTAyRVFTcHhWdV9XU18yTS1RSDVRalJTLTNaNjFtNjI2aUNobDNoOFVkR05tTGR2OXlWYmpFNGVkSVM3cWlDbzlXdTdfMExTdFplRDFMcnk0dXJvVGhBZi1HNXZ6bmRfZDRjSUZKZGgxYVA0QXphT0JqZWRTX1JCOTU3V296eTRndWhpRUk5a1FjcmVzdmFBVlJiNUFEbEVpcDFQNXdBc1ZKNmNhcXk3R1ZOSVhNN1d0T25EQWtXX2xNX3hnXzd3VzhxRl9VaHpVd1RIeFpOS2R4cW85cDc4bENlUHVGNjZpaW03Q1AtTUJDWFhyWHc3MlBUMlFKeXg4Q0tGM1ZDWl8yVU1lMmpGc3NndDNvdGFEOUg?oc=5" target="_blank" rel="noopener">Former diplomat Syed Akbaruddin appointed to RBI central board for 4 year term - The Economic Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Former diplomat Syed Akbaruddin appointed to RBI central board for 4-yr term — brings foreign-policy expertise to monetary policy.</span>
+      <span class="src">The Economic Times  ·  08:59 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTkJvQ3k4eE5qQmtPYWdhUldBY25DMmRKdndvbjA5bTRlN3N1Y2hwM3RDTXFqTm51X1RFVlEzeVA1V1RvQzVUX0lTSmhZd1hQa2cteU1qai1JOENiOERoeGpZUE9zNTBYd1RSUG4xR05qdVlQcmtkMnFEaDhaMExrcW5XcDZpM1ZVVS1LVjJQVFRCSHBkX3RuVDdXdkxCNnFOVmp3cENqQlNLRXVmbUlwdEsyQnVoNnJCUEdTanMxTlVVbkZZUWdLenFrNlROdFVSS0VnNEQ0UDBtb2pBcmxGMnRxaEZlU3PSAewBQVVfeXFMUHZpOUh1alZpdnN4MVRQcVZfWU81UW1CNE5kQ2R4MjRlUUxCZUFGRFlwT21oV3NRZmVTY1BFSWYxMGdVdmlrQTNWUkozSi1pWUFMTWk2VDdQaUVjT3hOUUdJcmdCN2l4ZzJxZXNkQml4YXdtM0hkaGRHVnQ5LU5BWXU2a0g4YlNseUc5aDBsQVp2TkxzSVlZSG5fSmZoX3c2a29CeWl2MXhFM1BaMWF0UzZjYnVvQVduWnUxRkVyU0lRc3gyRHdvdUViSnpLZ1ZuSFRrbDVpbUhraUhOQ0dybmlXVEF1blhQd012bnE?oc=5" target="_blank" rel="noopener">Founder who paid ₹58 crore tax shares pic of garbage in Gurugram: ‘This is what our taxes fund’ | Trending - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  08:17 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY  ·  3 items</span></h3>
+<div class="theme">Belgian PM De Wever in Delhi (first bilateral); PM pitches water-saving tech; Kerala CM slams cleric; TMC's Abhishek Banerjee office ransacked; JPC on Viksit Bharat bill to meet Sept 11.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivgFBVV95cUxNdFo4UUxybXZGdGxyQnBTRGkxdkV1Z0NmbDBrN3AtYmhQZHhTdVJsMHZJcDlkLWVBYk1DcGtvUXJ2VnFpcWQ2RDVSNHhrM1Y4eTl5eFJNaDBmVm9BUTROYlBobHY4QUc4VE9JZEFCMUFwenVudWNNajRZUjFxZlAtem1VQjBYb1hqaWNBWngtNk1sRTNKVWc0aDI1S3Jua1FYaGNDN3llU2N6X2JyZUh3TGdRMVNJbURSYXF0MWxn?oc=5" target="_blank" rel="noopener">Prime Minister Modi to hold talks with his Belgian counterpart Bart De Wever in New Delhi today - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why">Belgian PM's maiden India trip — anchors India-EU bilateral; signals Brussels push for deeper tech-defence trade ties.</span>
+      <span class="src">News On AIR  ·  07:03 IST  ·  Delhi</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc3JNZUpFX2ROMmhJSGVzZXZtcW9vX1NHMU9hMlpQeVp5OUdiX01yMHdnNmREWTNVRkl4ZC1XNEE1aWJFSDVLV0J5VnNZVHZ4SlI4ai16OFgxbkVBbmF4dFlPQWNFVjJkc0R6WWVmak05VlR3dDNjRC1KU2JzbmFoekFfalhFa1g0Tk1UbmVYYTJhTlg0VEUyaW9mdG5JcGFpMG9MbVBTdkZvZjdsT2wwOWZOWDJGSTB4MkY5ek9HYmVYTnB3QUl1TDdwcllPRmZmeDdzUzNOalUwZVJOZk5V0gHkAUFVX3lxTE9xZmN4QXotMzNCZ2hnNjd2bldFTEN2eEE3VWoyVTNGTEdWUVUtbDFfNVcyb1hUNHl5TG1FbWdzMHVhbnRURTdJQUJOOEIyRGl4TFZnTm1SMlBYZDFzMEpMYzhEQ1dUYWFjNkp0elVDZUR1NGo3UVFkZFZKNWFKY3B4Z3EwbXZLOEFEeHduS1UxMkdXLWJYUTJYUXpTX243RFJISXE5S3gwVExxenNRQkQ2MGM1MGlHT3lGeDBmNzg0ZjJnTWFtZHVyMHBnQUlIYi1raTJHR1E0X0NsTjh4c1NwaHEtZw?oc=5" target="_blank" rel="noopener">‘Not fit for progressive society’: Keralam CM slams Muslim cleric’s ‘anti-women’ remarks | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Kerala CM slams Muslim cleric's 'anti-women' remarks — BJP demands action, signals growing polarisation over minority-community statements.</span>
+      <span class="src">Hindustan Times  ·  08:27 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMilAJBVV95cUxQZjRNUEFzUmNqTndMQmd2eDJ4RXJVMXFJOVBfVlNFdm1HSDZHQjB2NkVUa2Q5QkxBS3I1ZE1mSEV1VXFKNFc0enl6c2hwXzQtb0tMOVA5a1dELXRaSXdlcUFNRDRkS01lVHRXaHNsNG94ZmhCUVEtMzhSWVBpakFWWXp4N1BEeUZFT0VJTmRXN085eWsweVg3Q1lqN1BtaklYZ2U2V19ONVBfZ2ZHNTl4SmI5ejF2dlRJSUMzMWl0UUVxa0h3RFhMUmNURU1RNmk1aGszY2dMSkZCSURUSmxwclk5cUFuSlJvLVRxV2NuTklFSjV6ejV6LTBzZVVDNXdINjJvZjF6MEViTjdjSTBtQThaY3rSAZQCQVVfeXFMUGY0TVBBc1Jjak53TEJndngyeEVyVTFxSTlQX1ZTRXZtR0g2R0IwdjZFVGtkOUJMQUtyNWRNZkhFdVVxSjRXNHp5enNocF80LW9LTDlQOWtXRC10Wkl3ZXFBTUQ0ZEtNZVR0V2hzbDRveGZoQlFRLTM4UllQaWpBVll6eDdQRHlGRU9FSU5kVzdPOXlrMHlYN0NZajdQbWpJWGdlNldfTjVQX2dmRzU5eEpiOXoxdnZUSUlDMzFpdFFFcWtId0RYTFJjVEVNUTZpNWhrM2NnTEpGQklEVEpscHJZOXFBbkpSby1UcVdjbk5JRUo1eno1ei0wc2VVQzV3SDYyb2YxejBFYk43Y0kwbUE4WmN6?oc=5" target="_blank" rel="noopener">Ram Temple CEO Jeetendra Mishra's old video with PM Modi at Adampur air base goes viral | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  09:47 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">DK Shivakumar pushes tunnel road; Lalbagh 3-billion-year-old rock makes news; September food guide; Bengaluru roads bad for health.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYV9JeHVyTzJUUFV5TW9iMUdsSEZ3MDBsaWNIelRKekJQUXV1WDIzOUE3TEk4S056TFktdEpsdUpIUDNBYW1QLUtYd0NYVjUyRDRkS0F0amFuXzBkcnNNNmQxSWxTN1U4VEJyQTVGV3BzYjdaRm5HbEhEMF9GeXhCb0JtMDgweE9KUUN3aTNUbzh5cW9JRU1HRXVDeVIyQzUyM1FzbVhiZEY1QUFiUXMyTDB3QldrM1QwWndQQU1qelRnMVNYWDFsQW9wcVVvRlpWYzZmVm1CX192am81M25xOERIWVFJV1E?oc=5" target="_blank" rel="noopener">'How can you do without a tunnel?': D K Shivakumar urges entrepreneurs to back Bengaluru tunnel project - Deccan Herald</a>
+      <span class="badge md">medium</span>
+      <span class="why">DK Shivakumar urges entrepreneurs to back Bengaluru tunnel project — Deputy CM pushes signature infra plan despite protests.</span>
+      <span class="src">Deccan Herald  ·  07:50 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/trending/one-giant-pothole-bengaluru-founder-says-roads-are-destroying-people-s-health-101788407752677.html" target="_blank" rel="noopener">‘One giant pothole’: Bengaluru founder says bad roads are ‘destroying’ people’s health</a>
+      <span class="badge lo">low</span>
+      <span class="why">Bengaluru founder calls out roads as 'destroying' health — civic-infrastructure gripes resurface post-monsoon.</span>
+      <span class="src">Unknown  ·  09:32 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/food/features/bengalurus-september-food-guide-brings-new-menus-italian-plates-and-coastal-flavours/article71418681.ece" target="_blank" rel="noopener">Bengaluru’s September food guide brings new menus, Italian plates, and coastal flavours</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:20 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI  ·  3 items</span></h3>
+<div class="theme">Tamil Nadu CM Vijay proposes ₹4,800-cr desalination plant at Minjur; Vijay withdraws cases against farmers, teachers; Chennai Museum Theatre hosts Rewind retro concert.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWEt0MTA4X3NCdlBZbWtFaWtXaUo1Zk13dW4wbEdUQXFuRzQxT1hxSDhCZ3JYNXBELTBLVVRBaU4zSUlrQ3NwOUp4OTBRQWIzZzIzd2Q5VE4wM2xoRXRoRFFPRUxIeHJ0elNRVm1rb2M1c1F3NUdMSnBRcVpQb3NuOE1tY1o0ZER1VmVQeUZ2SXdKbVA5VXdERDNXN3pUeDg4bmR6SG5WaHkxMDVnbHpkQnozb21UZmg4a1BfTHJNZ09TX1ZhMk9vZ1gwaE5ZejZhT2JUV3oxUXRIeW5fOVF0TjJlTFc5VTQ1SE95LTlKdERvLU9wSVZiT0R3RUNHVDDSAYYCQVVfeXFMUDNKZzFBdFBZOTlHcFIxakVFQ283NEdvVl9pdjlodmN4ZUk0NXpvQ3BjVE40QjJVTE1hODRObThXSktqdW1YRlBKd0U3ek9FZ3FmRDdnY2Y4dlN4YkJLMGVySXREbE5CS0ZlYkQxMDREZExjVUJIb3lacUIweGV6eTRxY0hjck9EZDlIZ1AzQ0dMT3FLZU9jSk1oQmhrUDJtOWNhSnU2WS13R2VhS0pndGVQdmtVOEMxenVJdGhLbC16anF6ZURwYWV6UHRXQ0xUZXJsYUJNbjlTZFBJNjNGQjFrTlpnZHFDNVB1al9NMTlOdnJTYmxqNE1qbjU4aHp5WFh3b2xWQQ?oc=5" target="_blank" rel="noopener">Tamil Nadu CM Vijay proposes ₹4,800-crore desalination plant at Minjur with 400-million-litre capacity - The Hindu</a>
+      <span class="badge hi">high</span>
+      <span class="why">Tamil Nadu CM Vijay proposes ₹4,800-crore desalination plant at Minjur with 400 MLD capacity — Chennai water-security push.</span>
+      <span class="src">The Hindu  ·  13:36 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVJYTThIT1c5eWh2dnVpRnJVR2J3bDJHd3ZUU1QyTDljNklWSWxlOVZZajJ3Y0xsbWdDalBLb0hGOHd5ZXlpdk82ZmoxYWFoR0N3bVBzQUh2Y2I3eENNRUhXbVVSZjIxZVNlczNENUtMX1ZoS0dTQjloY0I4QU9MUzBMRjBoN0k3OXVaVThoM3B0VFlEODkwbGdmU2I1X2tPU2pMNG04RlFkczRNZ1JtcUxnei1YNXJxdDdZ0gHDAUFVX3lxTE42aGRCVzNITzhuOWJBNnh6Tzk4YlE2Mlh6cFNOdXViYW9wRGhuM21PdmQzMzctSG5ZTjBoel9iWkdyQTVKUXZyS000Q3NoRUZ6Z2xMREFubWlXSVYxeUtILUhacFQ2OF80THRyZ2Vac0lLMWVCR0gwaHlQRG1BalhNT3VEaEdLNkxxQ2NCQ1NmZ0haRmI4bTVEbks5MGUxV0JRWTMtTnJoVlBRUTNaMUZwZ3JEb1VraDd4SUZ6LWlhUVdEUQ?oc=5" target="_blank" rel="noopener">"Rights Denied": Vijay Targets DMK As He Withdraws Cases Against Farmers, Teachers - ndtv.com</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">ndtv.com  ·  14:04 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/entertainment/music/museum-theatre-to-host-rewinds-retro-music-concert-in-chennai/article71414056.ece" target="_blank" rel="noopener">Museum Theatre to host Rewind’s retro music concert in Chennai</a>
+      <span class="badge lo">low</span>
+      <span class="why">Chennai Museum Theatre hosts Rewind retro music concert — vintage-film music revival.</span>
+      <span class="src">Unknown  ·  16:11 IST  ·  Chennai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">Bombay HC orders CBI probe into Disha Salian death; Centre approves Mumbai Metro Line 5 & 5A (Thane-Bhiwandi-Kalyan); Pune brothers arrested for beating elderly parents.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWEkxX0JlQVlkU3dYSXYzSXNVWmQyQ2kwRkZPN0RibWpmOTdqeGhaNHplWTRYenY5SDhVenlDZ01tM1UwUnpFaHRMVUpVNW9QQWp5dm5Ic1oxNXFWemFQMWk5dnlMdTJXc3Q3aEtQVzNKU0ZCU2ZrdDJGU1JFd2k0Rl9scFY3Z180dlBqSUpQLTZEX2ZEaXItMHM5MlU0TTV0bkU2S2FUcnpLSXJIQTFoa1RLTl8waVdVREFOODJHY0lmb205czl3T0JsRFJFTFFRc3JSb2dQb2ZyRlNTZ2pV0gHmAUFVX3lxTE40NzFDTzdITEduN3BZR3dQT1JGQlpXYWFEMEtUZ29sS0JkS1NtYUc1bGEzbE5JcEo3bWNfV2VPOXFqeGV4OC10N0VfV1M5SEVJR281YlFiMnRZazcwLTk2VFhKSnpCNGJuajM2bnV5MnhqNXRtMlpOc2hGOGZiZFF4ajQ3eUMzZzhLbEhHQWhnVXl6NVVxbjRXcnNFTkpyTEVraVRWU1VzWnNkRG1WSzd4Z1VtemcwQ201Q2M5X2lfN1VJS3lOUDJfSmt6QTlxcUlyQmFBNWVKdFNDOTZiTVJ2LVVITjV3?oc=5" target="_blank" rel="noopener">Disha Salian, Sushant Singh Rajput’s ex-manager, death: CBI probe ordered by Bombay High Court - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">Bombay HC orders CBI probe into Disha Salian death — 6 yrs after Sushant Singh Rajput's ex-manager died.</span>
+      <span class="src">The Indian Express  ·  03:03 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNTE4RDdqTXY5TTFxSDNYOUJwZWpJRTV5Sld0eUtzaG5xUFVPN3ZsYXlwU1g4TWZpaDFrVndpQUxtaUlJUm5ESDZpdnFXRk45eTV0R043dHRUcmV5ZG5LZGtKWEhhaGJsVzhGbDUzQjhKU2RPdFdPcWRtenVDcW03N2NMSVg3R1ZseXNlSVUtOUV4YUhPdXFaMy1aV0dMUGZieHVQODhCY0J2NXBwdE9HX1c5V256UXpJSHNuOXBhUGlkVFlNYWRnek5KZnZQTl9FNHlrc1QzYzMwZ9IB3wFBVV95cUxQUVJiMzVPZzc1dlo4TFVoQV9jX005NjdkNWVFN0RmNV9mRUZWcWdJUDlRTFlTWEFCVWY2R3lBRng2WEswVVcwbzllQ2JXd2R1NlpUcnZNcDdXcjFraWpGLXhicWkzOGhyc1otMjc2OEdfb0hqbFV4bWxhWjVlR3ZjSUlTcWFGYmtUSi1MZUotdng2TWY4SXc0SzBnTE9GT3FtWko0eEpIS3A0WDgzV2I3blFya21nMlp3MFVhcDdzRExHVm1XWGdEdHB5eEg0djVlaTdEYk9CZEtWazNtZDJF?oc=5" target="_blank" rel="noopener">Pune brothers beat elderly parents with sticks on road over selling property - India Today</a>
+      <span class="badge md">medium</span>
+      <span class="why">Pune brothers arrested for beating elderly parents with sticks over property — domestic violence probe.</span>
+      <span class="src">India Today  ·  02:37 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdEF1OTBGR2tFdGdRdEtJTVBKNWVMSXkzaFNIb3RxdWVFZUNEOUswYThiLW84UUtuZmNXTUwxN2NYaE53aTBHaUFldDctbk5tVGFZVFo2SENzdS1tR083Q1pXMU9iTS11MjVEWHZkZHBwdnd0TW8zUGZxUkdkd3FPcXVBcXRsYktUSVN2X1ZxTkpZUTBPY2NTRHlJT2FzcXhMeE5IOUp0TlNaOFlCeXE4VXBXQUM1eTFvUUxvM1RPa1A4RmwxVThlNDdVNlg0VHc3RFk0V0NaMi1fSXVx?oc=5" target="_blank" rel="noopener">Maharashtra family welcomes baby girl after 200 years, brings her home in chariot - India Today</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">India Today  ·  12:40 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS  ·  3 items</span></h3>
+<div class="theme">India A squad named for NZ four-dayers ahead of WTC Test series; IOA addresses Asian Games logistics; Anushka eyes Asian Games medal in hammer throw.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/sports/others/soccerthree-nordic-fas-seek-eu-talks-over-fifa-governance-concerns-101788379741402.html" target="_blank" rel="noopener">Soccer-Three Nordic FAs seek EU talks over FIFA governance concerns</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  01:39 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/sports/others/ioa-steps-up-efforts-to-address-asian-games-logistical-issues-101788368380283.html" target="_blank" rel="noopener">IOA steps up efforts to address Asian Games logistical issues</a>
+      <span class="badge lo">low</span>
+      <span class="why">IOA steps up efforts to address Asian Games logistical issues — Indian contingent preparation.</span>
+      <span class="src">Unknown  ·  22:29 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/sports/others/young-hammer-thrower-anushka-chases-asian-games-medal-101788359736718.html" target="_blank" rel="noopener">Young hammer thrower Anushka chases Asian Games medal</a>
+      <span class="badge lo">low</span>
+      <span class="why">IOA steps up efforts to address Asian Games logistical issues — Indian contingent preparation.</span>
+      <span class="src">Unknown  ·  20:05 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE  ·  3 items</span></h3>
+<div class="theme">Asha Bhosle tribute by foreign diplomats; Indian mangoes as rewards in Singapore festival; Amazon India adds 160k seasonal jobs.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNVmtIVVRVNDBlNnFZZG1heFg4elh4SWtGMVZyV2g3VmpQQ184Qk41ek5kQnBKTmRfOXpZaGRKV3BrOERFenlHSTB6Nmx5M2Nia2k2Y1E3STczM1J2Zjg3V0hyWkJ2U2Zxd0FsQjlNVFpQUjJDaTJVaDU0WE0tYjc0X1ZSaXo4WFA5TWFEUTdUVGM?oc=5" target="_blank" rel="noopener">Indian mangoes used as rewards in Singapore cultural festival - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why">Indian mangoes used as rewards at Singapore cultural festival — soft-power trade sweetener.</span>
+      <span class="src">News On AIR  ·  17:59 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://yourstory.com/2026/09/amazon-india-adds-160000-seasonal-jobs-jiohotstar" target="_blank" rel="noopener">Amazon India adds 160,000 seasonal jobs; JioHotstar goes global</a>
+      <span class="badge lo">low</span>
+      <span class="why">India A squad announced for three four-dayers in New Zealand ahead of WTC Test series — selection focus.</span>
+      <span class="src">Unknown  ·  07:30 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxObGF4Tnk1S3JDYmJMaHkycmQtNHpjejlzRWJHejBEQW05dEZIaE9WM1F3Y2liSGhJYXg3Z2FOWUlDQXItUFpUVEhLUThNa2RjQXVLUHl3ZFBQZE8xcl8wWHd2aE03VVo3ZTNLUUJGbnQ1dWFRM3hHMDZIeGNEV2FLdFBRYmRpNm5zOERxQS1pTk9Jb3U3TUk1WHd4cmZSRVhRUTZQTFFpWdIBrwFBVV95cUxNc1lucUZQdUdRdklMMk1hS2ZuMkdoeHNQNUhzUml6NzdQS2k0WmR3Zlo3VFZUMTRiOTZSSGFVckdoUUJSUDBkLTdVSWRqUzM5RDFMdzFqQTJocjBrUzhfakszbjFCTnBZVzlBc1JtSEtSaC1wWG1UMkVYZzlhalhZXzBoVmx4NXo5Mlo4WTlQUEctTFVGSGd4NWEzT3J1VUpTdXY2dmVMc0tSM2JsaE0w?oc=5" target="_blank" rel="noopener">Disha Salian Death Case: 6 Years, Several Questions, And CBI Probe - ndtv.com</a>
+      <span class="badge md">medium</span>
+      <span class="why">Bombay HC orders CBI probe into Disha Salian death — 6 yrs after Sushant Singh Rajput's ex-manager died.</span>
+      <span class="src">ndtv.com  ·  18:29 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  3 items</span></h3>
+<div class="theme">Granite baron R Veeramani arrested for sexual abuse of minor; FSSAI suspends Hyderabad's Shadab hotel; UP woman found dead under bed; border 'unusual' cash deposits under scanner.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDdVUFY2VExPamh1RVRMWENzRW5rRkdPdHFwMEpzY2JOVDZiQ2V6bDA4TXMxMnVmNVI1T1dZYjVEZWZHTEktNW9XT2hoZGNfalpXQS1MQkhXVnF4Z3MxbmJyVDhuZ0toRk9nc1pWN1l2MkZaOXVsSHVRdFNlX2FGTlR1a2pEMU85SWRFVUtUQi1Xdk9UeXpfUUhXNlFrVzYwNjhNbF9RX2FxWmIyMFJoOHVSeEw2VTjSAb8BQVVfeXFMT0xxc2JNdTR1bEdhQzZ3bFZPMHZBcnp6R3Y2N08wd3pJUktPdmRmb3hIMDhJUVJ3Nk5vSWloM3lrTUlyNDg1SVowX0NWVFBZUjBkZW1qQ1BBbG82OElTM1FYMFBqaVdoZnpUSlVnZjFsTlBWaS1sZEZFOGwzUnhkNjE5MXVUblFTY3NfNEtZTGI4ZWxJZllUVlpIdWo5VGZhNDdxTWpKVjNUR3lXdlM2dzRZZjJtZUhTSzZ6NWVpQUk?oc=5" target="_blank" rel="noopener">Granite Baron R Veeramani Arrested In Case Related To Sexual Abuse Of Minor - ndtv.com</a>
+      <span class="badge md">medium</span>
+      <span class="why">Granite baron R Veeramani arrested in sexual abuse of minor case — high-profile arrest in TN.</span>
+      <span class="src">ndtv.com  ·  07:55 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdHZyRHRTcDlDVzFWcU50ZllKdDhfOXB5bFJ5blZfX2lZblhDM28wSHZBZ2JKRUNhM2QwTzQ3ZkZLeXFvTlVQNkZiRzNNb3FoejNhNlN6aFZ0X1FuUmxKbjhkMHgwWWlnejhBTVowc3pxemh0NjF3aWFweWw0WldKOU1yRGRkYXRiR2ZLOTk3YTZ6eC1ERFdFRE1hR0xrb2dfblBlZFlreU1FN09hbUlfRHZMRXVDRlhK0gG-AUFVX3lxTE1oZ1ZtZHNGeDctN3ZXYW03NEdXc3FmQmtNOUw1aGFGOUVvcW9Bb1d5YktCVmRuckZUZjM5MUM3QW5WTVFGV0VXLVRKSTc4aVdhVld2VGo3SEx0cFpnWHliVWRxU0g5eVF0MjZldlNRUE8ybkRERENxdXV5Mm1nMGJTMk9Qb3pLV1E1QXE0VXNTS183aUFlUU51cVhaUkdPODBhYmdybHd4YVFacWtJS0JLZVI5bUIzTXNwZlFNU1E?oc=5" target="_blank" rel="noopener">Ram Temple trust gets its first woman trustee | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  09:43 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMigAJBVV95cUxNa1VrcWVpVXprUDViRElVTkx0UnRLWXdUaDNWQ01ucllpVXplWkxPWFJSa0ZnbWxza3FrTzJpdnYyZEEtMW4xN0JobmlHcEVqUFdsWUkyS0hVeVVMaHAzOFFYa0pZMTBmd054NjludWcxNnktZHpfRktDYS1aUXhyY3NLOEw1RUtHT2RLZVBuaVYyUWtXaGYwb2Z2Mll5cFZyZ0VXTjUzcHJKczFFSWJBTkRfbVF0T3BEc1pQRXJvVlpZU2NxcGRPX2tfR3VDaFQzNG5TRE1pa0ZEYWVvclhXNEgycDVMSkJ4bEh4NS1iOEhRY2UzTEVEX0wxeFBRdWZY0gGGAkFVX3lxTE90QUE5SnUzOFFJYktOYUx1RjJqTHd6UDQ4dHVfUVBrQ1E2Sll4d0c1QnlZU3NRLTNWd3BfSmpuNEtyOWE1OU1IN3JqbWJ1cUVoWllZWF9Za21venQtcGdKU25wR0tSd09vOGc0c2k5Z0p5UnVEX29CckdUQnh4eHZlVzdxTG90d1FWTzhDOExPS24yTVhSbFhfa3R0X3VrV0FzbFUtQUtJbWlTTGFxVzI1cmFfQTRwa3M3YmRmN3lfelNVTGJBNDF1WUhVSENkaVE5WUdQX2ZFV1paZkl1Z0l5UnNFV2ZYRTgyWEJMZzQzZHEtM2RJbkEtSk9QNElORUdUQWN5bHc?oc=5" target="_blank" rel="noopener">'Need to learn from past, but...': New Ram Temple CEO Jeetendra Mishra on donation theft case | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Hindustan Times  ·  06:49 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">Sun Pharma agrees MFN pricing for US Medicaid programmes; Nipah virus alerts in Kerala plus water contamination concerns; new research on obesity.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.thehindu.com/business/Industry/sun-pharma-agrees-to-supply-at-mfn-pricing-to-us-medicaid-programmes/article71416574.ece" target="_blank" rel="noopener">Sun Pharma agrees to supply at MFN pricing to U.S. medicaid programmes</a>
+      <span class="badge lo">low</span>
+      <span class="why">Sun Pharma agrees MFN pricing for US Medicaid programmes — drug-pricing concession under trade-talks pressure.</span>
+      <span class="src">Unknown  ·  10:26 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://yourstory.com/2026/09/gem-without-trials" target="_blank" rel="noopener">A gem shines brighter after life’s hardest trials & friction</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  09:00 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFFSb3lhODBUR1RTSmRNcEtBNFZaa0NGSlBLTzlJTHpQcVB6NENPT29NVUF4Y012dlNkbFBfY28tMmtBOHkzTkR0OFdGWnNycjNZUU02R1Vwb3pTNGJaYmt3eDdYcWZYNFRlWWVGUkFJZk1sYjVSQ0RtWlhzbDluMjRfRnZpYXFBWC1sZi05WThmQjZkcEoxT0pRQXJKLWw0MFQ5a3ZNQUFEeG1vZGpFWlR6ONIBuwFBVV95cUxQMVNBQjZaYVpnYTdzNkhLQUs2U0s4VXYyQ2FTMHhfNUlJbUJiLWhXZ1llWDJ4ZDRqTGNvRkNLV3hzQW9sWU1XVlppcDlZYmpPQjJLNzk2UXZLRHpCZ0NfbnBXNWt4YXlwQlI3Nl9yc1JsMkpOVFNIbjFuTldkM0VxQXByaWl3eGRYbU5pM0ZMcWdRVnFsWXhpekFIbjM5TGFGenZQSzZlVFVXcmFSNnFuOHRveDh2dWNZRU1n?oc=5" target="_blank" rel="noopener">Cockpit To Ayodhya: The Op Sindoor Veteran Who Will Head Ram Temple Trust - ndtv.com</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">ndtv.com  ·  19:54 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  2 items</span></h3>
+<div class="theme">Rubio warns no country should help Iran after Modi-Pezeshkian meet; Trump floats renaming Hormuz as 'Trump Strait'; India-UK sign social security pact; India-Qatar ties reaffirmed.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRV82S0pBTHNlbWZvWW94RGZjQV9TbVFQZFJGOVpzMDBzRTExQ0RVX3VveldzTTJ4ZmJrZEpncWNmdlFKNlVBUFVPRFBGc2VDRElwY3hKSzNuMFowS0xLdUg3SElwbkg1YV9iSF9Gd0JFTUZKSmVPQk4yRkU0d0g5WDgxSGpTbldzN2VER1BKWlQwSFRmVEF4ZmlQSU9NYTZoeGlOcWdYOEJZU3J3T0VQa1lkNmxocEhjMHpIVkk2b0FGREg2MzlqeFhaZ0NaMG02ajNBR1lmaHVxeFNOQ000VUd5dGLSAeoBQVVfeXFMT19BbWRIc1AzRmhXQm9LLXNUemRsaUxXbDlZRDlaRGtyOGhHMmhEU3M0RnhsOUhWdkdQUS1MRXZkd0Y5NExkRUI0UThnNnd0dXhDNkhWOS1POTVkaTd5YkthcjRKN09nZ3pPVlRSOU1kaFpfSm9mWHVHOHd2bGxOVVlOcUlfOVdKRXVoRkdVRFkwUE9wbUVlUU01OXBQQVBiRzV4M1F3dDNRWFJpS0QxNjdJOUNlYURacEdjTzBYcW5kRzNmanBsczJKQjdrYlFPaVZZNGFnaVFkX1RMSy03eFgtRmRnZkR0Z2x3?oc=5" target="_blank" rel="noopener">As PM Modi pushes India-Iran trade at SCO, Rubio warns of sanctions for helping Tehran - The Economic Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">US Secy State warns 'no country should help Tehran' of sanctions after Modi-Iran bilateral — India walks Iran-US tightrope.</span>
+      <span class="src">The Economic Times  ·  07:50 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.ndtv.com/world-news/heads-or-tails-us-releases-special-1-coin-featuring-trump-11995173#publisher=newsstand" target="_blank" rel="noopener">Heads Or Tails? US Releases Special $1 Coin Featuring Trump</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:45 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-09-03T10:19:46.275949+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 32 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>

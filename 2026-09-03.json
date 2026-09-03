@@ -1,0 +1,1044 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T10:19:46.275949+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-09-02T10:19:46.275949+05:30",
+    "to": "2026-09-03T10:19:46.275949+05:30"
+  },
+  "totals": {
+    "raw": 1114,
+    "kept": 38,
+    "sources": 11,
+    "categories": 12,
+    "deduped": 496
+  },
+  "themes": {
+    "Top Stories": "Belgian PM's first India visit; India reaffirms 7.8% Q1 GDP (fastest-growing); Modi-Pezeshkian Iran meet + Rubio warning; Abhinandan retires from IAF; CBI names 6 IAS in ₹504 cr IDFC fraud.",
+    "Tech & AI": "Flipkart microdrama foray; Adobe acquires Peak XV-backed AI martech startup Rilo; Pine Labs appoints ex-Amazon Razorpay exec as COO.",
+    "Markets & Economy": "India retains fastest-growing tag at 7.8%; CBI names 6 IAS in ₹504 cr IDFC Bank fraud; ₹127 bn NRI deposits arm RBI; Syed Akbaruddin joins RBI board.",
+    "Politics & Policy": "Belgian PM De Wever in Delhi (first bilateral); PM pitches water-saving tech; Kerala CM slams cleric; TMC's Abhishek Banerjee office ransacked; JPC on Viksit Bharat bill to meet Sept 11.",
+    "Bangalore": "DK Shivakumar pushes tunnel road; Lalbagh 3-billion-year-old rock makes news; September food guide; Bengaluru roads bad for health.",
+    "Chennai": "Tamil Nadu CM Vijay proposes ₹4,800-cr desalination plant at Minjur; Vijay withdraws cases against farmers, teachers; Chennai Museum Theatre hosts Rewind retro concert.",
+    "Mumbai": "Bombay HC orders CBI probe into Disha Salian death; Centre approves Mumbai Metro Line 5 & 5A (Thane-Bhiwandi-Kalyan); Pune brothers arrested for beating elderly parents.",
+    "Sports": "India A squad named for NZ four-dayers ahead of WTC Test series; IOA addresses Asian Games logistics; Anushka eyes Asian Games medal in hammer throw.",
+    "Entertainment & Culture": "Asha Bhosle tribute by foreign diplomats; Indian mangoes as rewards in Singapore festival; Amazon India adds 160k seasonal jobs.",
+    "Crime & Justice": "Granite baron R Veeramani arrested for sexual abuse of minor; FSSAI suspends Hyderabad's Shadab hotel; UP woman found dead under bed; border 'unusual' cash deposits under scanner.",
+    "Health & Science": "Sun Pharma agrees MFN pricing for US Medicaid programmes; Nipah virus alerts in Kerala plus water contamination concerns; new research on obesity.",
+    "International": "Rubio warns no country should help Iran after Modi-Pezeshkian meet; Trump floats renaming Hormuz as 'Trump Strait'; India-UK sign social security pact; India-Qatar ties reaffirmed."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "trend": "Belgian PM Bart De Wever arrives in India on first official visit, to hold talks with PM Modi",
+        "headline": "Belgian PM Bart De Wever arrives in India on first official visit, to hold talks with PM Modi",
+        "summary": "",
+        "why_it_matters": "First-ever Belgian PM India visit — opens new chapter in India-EU bilateral; agenda covers trade, defence, critical minerals, and Ukraine. De Wever also expected at G20 summit prep later this month.",
+        "sources": [
+          {
+            "source": "DD India",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMWNxV3RxZk9wV09JSTBXWVFkR1pORktSUTBBZGNsTlpCU3Y3RE1kZF96eUd2eUhtVExlakFITmctZ1pYMjdSYl9mRmw4RThNRzNkbjFzTU5oUWtHaUdkSmMyNkt4U0Rub1J1ZXBWdGJmbUhiYzkySkpUclFkN2M2YU9RbEQtWTFmeXlZbDc0bVZpLXp0ZFNKenV4SWROOUs2UWtKbThKNmFaS1JJMlBPTENxWnRBb2tnOW9PbV9tQmo?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:30:00+05:30",
+        "timestamp_display": "08:30 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "trend": "India reaffirms fastest-growing major economy tag with 7.8% Q1 GDP; FM Sitharaman doubles down",
+        "headline": "India reaffirms fastest-growing major economy tag with 7.8% Q1 GDP; FM Sitharaman doubles down",
+        "summary": "",
+        "why_it_matters": "Centre backs 7.8% Q1 GDP print as 'fastest-growing large economy' even as opposition questions composition; Kwatra echoes framing — sharpest expansion in 6 quarters, sustained by services + private capex.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOTZGbjV4c2wtYTlPdTM2YmlubmxiTlRHeVB0OHBKUC00R0tNLXV2TDktVlBFNzk5elR2cTZiNnBaaDJQRGY0QnZlM1JWWXlPWWpJZ1JYVWlSRVo0TnZLajZCQnFLRDFReVg5QXhVZmpQRVZsVFFNRVhhQnQ2R2NtR2tOZFREeFI4UlQyNkFKNnQ5U3NvR3ZpU3FTT0M0bWljYndtQmRJazYyR1hyZW5aZ0JTTjdKMHBPd2owbHdoVXFqWmk1ekFJQWlsd2RFOHctU01lTnlMbjZsLW82QUHSAd4BQVVfeXFMTzk2Rm41eHNsLWE5T3UzNmJpbm5sYk5UR3lQdDhwSlAtNEdLTS11dkw5LVZQRTc5OXpUdnE2YjZwWmgyUERmNEJ2ZTNSVll5T1lqSWdSWFVpUkVaNE52S2o2QkJxS0QxUXlYOUF4VWZqUEVWbFRRTUVYYUJ0NkdjbUdrTmRURHhSOFJUMjZBSjZ0OVNzb0d2aVNxU09DNG1pY2J3bUJkSWs2MkdYcmVuWmdCU043SjBwT3dqMGx3aFVxalppNXpBSUFpbHdkRTh3LVNNZU55TG42bC1vNkFB?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:50:15+05:30",
+        "timestamp_display": "08:50 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "trend": "PM Modi-Iran Pezeshkian meet: US Secy Rubio warns 'no country should help Tehran' of sanctions",
+        "headline": "PM Modi-Iran Pezeshkian meet: US Secy Rubio warns 'no country should help Tehran' of sanctions",
+        "summary": "",
+        "why_it_matters": "India walks the line on Iran trade — Modi pushes trade ties at SCO while Rubio publicly signals sanctions risk; signals tightrope between SCO partnership and US pressure on Russian/Iranian oil.",
+        "sources": [
+          {
+            "source": "Rediff",
+            "url": "https://www.ndtv.com/world-news/no-nation-should-help-iran-rubios-sanctions-warning-after-pm-modi-pezeshkian-meet-11995172#publisher=newsstand",
+            "_resolved_from": "candidate-direct-match"
+          }
+        ],
+        "timestamp": "2026-09-03T08:27:45+05:30",
+        "timestamp_display": "08:27 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 4,
+        "trend": "Wing Commander Abhinandan Varthaman (2019 Balakot F-16 hero) retires from IAF, joins Goa airline",
+        "headline": "Wing Commander Abhinandan Varthaman (2019 Balakot F-16 hero) retires from IAF, joins Goa airline",
+        "summary": "",
+        "why_it_matters": "Pilot famed for downing Pak F-16 during 2019 Balakot strikes and 60-hr Pak captivity ends IAF career; jumps to civil aviation — signals pilot retention challenge, also boosts India's commercial pilot pipeline.",
+        "sources": [
+          {
+            "source": "ndtv.com",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdUlQeGdNWjU4UVFIX2JSeE9xcnpBYXZ5d01XRXZqZFA1djg1WmhFM2QzNkgxMXRrblUyLWMyeWNRMnU1VU5weGJlR2ZLT2Z2eDFjMklySUlZaXc0ZnlxdGZwM2U0UkpXQV9aVmZXT2ZZX3JuZ0J5RGh5ZDdILTFuM1pSRUUwZ25MbzdzMG5EUWJJSUFISHdOem5tdVFhOHgtS2Q4VExjX1NVX2VzTVl0SlpPQzBzbXhRRktZSmVYdExkY2FvaGNxQlFyZTNVYWtK?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:41:04+05:30",
+        "timestamp_display": "08:41 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 5,
+        "trend": "CBI names 6 IAS officers in ₹504-crore IDFC Bank fraud case",
+        "headline": "CBI names 6 IAS officers in ₹504-crore IDFC Bank fraud case",
+        "summary": "",
+        "why_it_matters": "Major bank-fraud charge sheet with senior IAS officers named — exposes governance gaps in cooperative-bank regulation; follows conviction-arc of Nirav Modi/Mallya-era bank fraud cases.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON2dmd1ZueEZiY1JyWjktU1QydUl6SkFGdEo0WldldTVhU0x3LXVlb3lZNmpjaUFQTjZlcEhOY3ZacDJJT1hrQUVZSWwtNEh0OEEyb1cwV2g3N3RIdGJZMzl6QUkxVmhXQ0Q4TUw0VjdpNXlhbVhnZXhHRlpLZU40UnZJZEZMSzhRNUVyZHpEeWVIRVdWRm1KMlp6R0dvQmR4MGJhQi1xM01vUFhZUEVkWk1IWnI3Q0FZb3UxRWRB0gHDAUFVX3lxTE4yUTNpTktHVHNYTHpTYWVDVWpKVW5vYThSMGprZE5oY2tHTmNxa2V0VzBMcXdKNmlNVVZXY3c5ZHVWSU5DQTgyZDJQYjhkNzUyMGFoMHYzMTd6WURRS2hjWVQzQnBhLWtTTEJmMFMxVWJtWGhRLTdPSnM1Tm5pZ3pDNHJKaU9feVZsMlBNOXF6Zy1QbW5ZcWgtZzY1Ymx6UGxLRkRBR3hVZDA0dnE2SUkzMlZSc0EyOS1sYmIzTC1iUEpWbw?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T06:28:46+05:30",
+        "timestamp_display": "06:28 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "Flipkart’s Microdrama Foray, Purple Style Labs’ IPO & More",
+        "summary": "",
+        "why_it_matters": "Flipkart eyes microdrama entry amid diversification push — quick content commerce vertical test.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/flipkarts-microdrama-foray-purple-style-labs-ipo-more/"
+          }
+        ],
+        "timestamp": "2026-09-03T08:00:05+05:30",
+        "timestamp_display": "08:00 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Adobe Acquires Peak XV-Backed AI Martech Startup Rilo",
+        "summary": "",
+        "why_it_matters": "Adobe acquires Peak XV-backed AI martech startup Rilo — Adobe doubles down on agentic-AI stack.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/adobe-acquires-peak-xv-backed-ai-martech-startup-rilo/"
+          }
+        ],
+        "timestamp": "2026-09-02T23:59:33+05:30",
+        "timestamp_display": "23:59 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.2,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Flipkart Eyes Microdrama Entry Amid Diversification Push",
+        "summary": "",
+        "why_it_matters": "Flipkart eyes microdrama entry amid diversification push — quick content commerce vertical test.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/flipkart-eyes-microdrama-entry-amid-diversification-push/"
+          }
+        ],
+        "timestamp": "2026-09-02T17:27:01+05:30",
+        "timestamp_display": "17:27 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "India's $127 billion NRI deposits arm gives RBI more firepower, setting rupee up for rally - The Economic Times",
+        "summary": "",
+        "why_it_matters": "$127 bn NRI deposits under RBI's dollar scheme beat targets — gives RBI firepower for rupee support.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQalAwYTdKRTZNNzlMZWhvTHhMZ09ESHY4U2dJNXJQUVFMa0FwODhOejE2UDd3SVhSTXhrZzRGSFEteV9qZll3dVl3UVNQbTFPZnE2LUY0ZTBWQ05zSnNTWUxKeTFjaVgwTGIzQWVXcXVmcnpmeUQ2WWExLVdocm82RnpydGZ4aUwzTVk0TGc2R19nM1FTcU9KWkFJaldackhpWXdfdkEzN3ZYX0N1eFJCSWxVcmVXWmVKc3c4V3NsRVZVdVB1TmpZNlN1N0lERURFeE0tODBLSXJSazJ2bGZEdnlzRTZQaGVHQXpVNzRpV2hLN3hMNWVMUHpPVUpTdE13QXZ0N3BzNEdZZzIydEZ3Q093ejY0QzFraWxSa1hKRlJTZG52RzQ4Z2tRcUYwbHBwVE1tRXdSd0lZWVBDVF96QjZiLTBHd2JEUGRzOUs3c3NxeTNWcUtaeGNwRkhvcEF3NU1B0gH_AUFVX3lxTE1TbFhCbzJyd2JEdEJRRWFFNW5JbHVXNWZEMFVUZFJuR1JRaS03VTk2dWFDSGE1bWN2bjdzZzc1TW8wY1ZjLTRacVVOWWhQWFVZMmFncXNsVm54aGpEZGprcVBOODVxWWljbzA5YlpwRHlldm9sRFp5OVdTdm9PUWJDUF9mUmxhUENjbzVwZUJBbTVrOFZBZkJ6NGE5TlVaMEV0cFdRSzNqcER1eUd3TTZsQUEzcXhVa3FCY0JGUUxrZTVXWTNLNXRmR0JFVkNJQWlJNEhtc3BJYWtyT001RlZ4aWZRbkdUa0Z1anNlU3VySk1wV1VJTFlxSWlnU2FxZw?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:52:33+05:30",
+        "timestamp_display": "08:52 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Former diplomat Syed Akbaruddin appointed to RBI central board for 4 year term - The Economic Times",
+        "summary": "",
+        "why_it_matters": "Former diplomat Syed Akbaruddin appointed to RBI central board for 4-yr term — brings foreign-policy expertise to monetary policy.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPQjQ2aE5jQVg0MkdTMk9nRzIyeDJZTnlmck95SXg0YU9DeUZEVXNUd0JIVTAyRVFTcHhWdV9XU18yTS1RSDVRalJTLTNaNjFtNjI2aUNobDNoOFVkR05tTGR2OXlWYmpFNGVkSVM3cWlDbzlXdTdfMExTdFplRDFMcnk0dXJvVGhBZi1HNXZ6bmRfZDRjSUZKZGgxYVA0QXphT0JqZWRTX1JCOTU3V296eTRndWhpRUk5a1FjcmVzdmFBVlJiNUFEbEVpcDFQNXdBc1ZKNmNhcXk3R1ZOSVhNN1d0T25EQWtXX2xNX3hnXzd3VzhxRl9VaHpVd1RIeFpOS2R4cW85cDc4bENlUHVGNjZpaW03Q1AtTUJDWFhyWHc3MlBUMlFKeXg4Q0tGM1ZDWl8yVU1lMmpGc3NndDNvdGFEOUg?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:59:11+05:30",
+        "timestamp_display": "08:59 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Founder who paid ₹58 crore tax shares pic of garbage in Gurugram: ‘This is what our taxes fund’ | Trending - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTkJvQ3k4eE5qQmtPYWdhUldBY25DMmRKdndvbjA5bTRlN3N1Y2hwM3RDTXFqTm51X1RFVlEzeVA1V1RvQzVUX0lTSmhZd1hQa2cteU1qai1JOENiOERoeGpZUE9zNTBYd1RSUG4xR05qdVlQcmtkMnFEaDhaMExrcW5XcDZpM1ZVVS1LVjJQVFRCSHBkX3RuVDdXdkxCNnFOVmp3cENqQlNLRXVmbUlwdEsyQnVoNnJCUEdTanMxTlVVbkZZUWdLenFrNlROdFVSS0VnNEQ0UDBtb2pBcmxGMnRxaEZlU3PSAewBQVVfeXFMUHZpOUh1alZpdnN4MVRQcVZfWU81UW1CNE5kQ2R4MjRlUUxCZUFGRFlwT21oV3NRZmVTY1BFSWYxMGdVdmlrQTNWUkozSi1pWUFMTWk2VDdQaUVjT3hOUUdJcmdCN2l4ZzJxZXNkQml4YXdtM0hkaGRHVnQ5LU5BWXU2a0g4YlNseUc5aDBsQVp2TkxzSVlZSG5fSmZoX3c2a29CeWl2MXhFM1BaMWF0UzZjYnVvQVduWnUxRkVyU0lRc3gyRHdvdUViSnpLZ1ZuSFRrbDVpbUhraUhOQ0dybmlXVEF1blhQd012bnE?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:17:11+05:30",
+        "timestamp_display": "08:17 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "Prime Minister Modi to hold talks with his Belgian counterpart Bart De Wever in New Delhi today - News On AIR",
+        "summary": "",
+        "why_it_matters": "Belgian PM's maiden India trip — anchors India-EU bilateral; signals Brussels push for deeper tech-defence trade ties.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdFo4UUxybXZGdGxyQnBTRGkxdkV1Z0NmbDBrN3AtYmhQZHhTdVJsMHZJcDlkLWVBYk1DcGtvUXJ2VnFpcWQ2RDVSNHhrM1Y4eTl5eFJNaDBmVm9BUTROYlBobHY4QUc4VE9JZEFCMUFwenVudWNNajRZUjFxZlAtem1VQjBYb1hqaWNBWngtNk1sRTNKVWc0aDI1S3Jua1FYaGNDN3llU2N6X2JyZUh3TGdRMVNJbURSYXF0MWxn?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T07:03:52+05:30",
+        "timestamp_display": "07:03 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "Delhi",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "‘Not fit for progressive society’: Keralam CM slams Muslim cleric’s ‘anti-women’ remarks | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Kerala CM slams Muslim cleric's 'anti-women' remarks — BJP demands action, signals growing polarisation over minority-community statements.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc3JNZUpFX2ROMmhJSGVzZXZtcW9vX1NHMU9hMlpQeVp5OUdiX01yMHdnNmREWTNVRkl4ZC1XNEE1aWJFSDVLV0J5VnNZVHZ4SlI4ai16OFgxbkVBbmF4dFlPQWNFVjJkc0R6WWVmak05VlR3dDNjRC1KU2JzbmFoekFfalhFa1g0Tk1UbmVYYTJhTlg0VEUyaW9mdG5JcGFpMG9MbVBTdkZvZjdsT2wwOWZOWDJGSTB4MkY5ek9HYmVYTnB3QUl1TDdwcllPRmZmeDdzUzNOalUwZVJOZk5V0gHkAUFVX3lxTE9xZmN4QXotMzNCZ2hnNjd2bldFTEN2eEE3VWoyVTNGTEdWUVUtbDFfNVcyb1hUNHl5TG1FbWdzMHVhbnRURTdJQUJOOEIyRGl4TFZnTm1SMlBYZDFzMEpMYzhEQ1dUYWFjNkp0elVDZUR1NGo3UVFkZFZKNWFKY3B4Z3EwbXZLOEFEeHduS1UxMkdXLWJYUTJYUXpTX243RFJISXE5S3gwVExxenNRQkQ2MGM1MGlHT3lGeDBmNzg0ZjJnTWFtZHVyMHBnQUlIYi1raTJHR1E0X0NsTjh4c1NwaHEtZw?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T08:27:20+05:30",
+        "timestamp_display": "08:27 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Ram Temple CEO Jeetendra Mishra's old video with PM Modi at Adampur air base goes viral | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZjRNUEFzUmNqTndMQmd2eDJ4RXJVMXFJOVBfVlNFdm1HSDZHQjB2NkVUa2Q5QkxBS3I1ZE1mSEV1VXFKNFc0enl6c2hwXzQtb0tMOVA5a1dELXRaSXdlcUFNRDRkS01lVHRXaHNsNG94ZmhCUVEtMzhSWVBpakFWWXp4N1BEeUZFT0VJTmRXN085eWsweVg3Q1lqN1BtaklYZ2U2V19ONVBfZ2ZHNTl4SmI5ejF2dlRJSUMzMWl0UUVxa0h3RFhMUmNURU1RNmk1aGszY2dMSkZCSURUSmxwclk5cUFuSlJvLVRxV2NuTklFSjV6ejV6LTBzZVVDNXdINjJvZjF6MEViTjdjSTBtQThaY3rSAZQCQVVfeXFMUGY0TVBBc1Jjak53TEJndngyeEVyVTFxSTlQX1ZTRXZtR0g2R0IwdjZFVGtkOUJMQUtyNWRNZkhFdVVxSjRXNHp5enNocF80LW9LTDlQOWtXRC10Wkl3ZXFBTUQ0ZEtNZVR0V2hzbDRveGZoQlFRLTM4UllQaWpBVll6eDdQRHlGRU9FSU5kVzdPOXlrMHlYN0NZajdQbWpJWGdlNldfTjVQX2dmRzU5eEpiOXoxdnZUSUlDMzFpdFFFcWtId0RYTFJjVEVNUTZpNWhrM2NnTEpGQklEVEpscHJZOXFBbkpSby1UcVdjbk5JRUo1eno1ei0wc2VVQzV3SDYyb2YxejBFYk43Y0kwbUE4WmN6?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T09:47:27+05:30",
+        "timestamp_display": "09:47 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.98,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "'How can you do without a tunnel?': D K Shivakumar urges entrepreneurs to back Bengaluru tunnel project - Deccan Herald",
+        "summary": "",
+        "why_it_matters": "DK Shivakumar urges entrepreneurs to back Bengaluru tunnel project — Deputy CM pushes signature infra plan despite protests.",
+        "sources": [
+          {
+            "source": "Deccan Herald",
+            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYV9JeHVyTzJUUFV5TW9iMUdsSEZ3MDBsaWNIelRKekJQUXV1WDIzOUE3TEk4S056TFktdEpsdUpIUDNBYW1QLUtYd0NYVjUyRDRkS0F0amFuXzBkcnNNNmQxSWxTN1U4VEJyQTVGV3BzYjdaRm5HbEhEMF9GeXhCb0JtMDgweE9KUUN3aTNUbzh5cW9JRU1HRXVDeVIyQzUyM1FzbVhiZEY1QUFiUXMyTDB3QldrM1QwWndQQU1qelRnMVNYWDFsQW9wcVVvRlpWYzZmVm1CX192am81M25xOERIWVFJV1E?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T07:50:07+05:30",
+        "timestamp_display": "07:50 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "Bangalore",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "‘One giant pothole’: Bengaluru founder says bad roads are ‘destroying’ people’s health",
+        "summary": "",
+        "why_it_matters": "Bengaluru founder calls out roads as 'destroying' health — civic-infrastructure gripes resurface post-monsoon.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/trending/one-giant-pothole-bengaluru-founder-says-roads-are-destroying-people-s-health-101788407752677.html"
+          }
+        ],
+        "timestamp": "2026-09-03T09:32:40+05:30",
+        "timestamp_display": "09:32 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Bengaluru’s September food guide brings new menus, Italian plates, and coastal flavours",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/food/features/bengalurus-september-food-guide-brings-new-menus-italian-plates-and-coastal-flavours/article71418681.ece"
+          }
+        ],
+        "timestamp": "2026-09-03T08:20:00+05:30",
+        "timestamp_display": "08:20 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Tamil Nadu CM Vijay proposes ₹4,800-crore desalination plant at Minjur with 400-million-litre capacity - The Hindu",
+        "summary": "",
+        "why_it_matters": "Tamil Nadu CM Vijay proposes ₹4,800-crore desalination plant at Minjur with 400 MLD capacity — Chennai water-security push.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWEt0MTA4X3NCdlBZbWtFaWtXaUo1Zk13dW4wbEdUQXFuRzQxT1hxSDhCZ3JYNXBELTBLVVRBaU4zSUlrQ3NwOUp4OTBRQWIzZzIzd2Q5VE4wM2xoRXRoRFFPRUxIeHJ0elNRVm1rb2M1c1F3NUdMSnBRcVpQb3NuOE1tY1o0ZER1VmVQeUZ2SXdKbVA5VXdERDNXN3pUeDg4bmR6SG5WaHkxMDVnbHpkQnozb21UZmg4a1BfTHJNZ09TX1ZhMk9vZ1gwaE5ZejZhT2JUV3oxUXRIeW5fOVF0TjJlTFc5VTQ1SE95LTlKdERvLU9wSVZiT0R3RUNHVDDSAYYCQVVfeXFMUDNKZzFBdFBZOTlHcFIxakVFQ283NEdvVl9pdjlodmN4ZUk0NXpvQ3BjVE40QjJVTE1hODRObThXSktqdW1YRlBKd0U3ek9FZ3FmRDdnY2Y4dlN4YkJLMGVySXREbE5CS0ZlYkQxMDREZExjVUJIb3lacUIweGV6eTRxY0hjck9EZDlIZ1AzQ0dMT3FLZU9jSk1oQmhrUDJtOWNhSnU2WS13R2VhS0pndGVQdmtVOEMxenVJdGhLbC16anF6ZURwYWV6UHRXQ0xUZXJsYUJNbjlTZFBJNjNGQjFrTlpnZHFDNVB1al9NMTlOdnJTYmxqNE1qbjU4aHp5WFh3b2xWQQ?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-02T13:36:55+05:30",
+        "timestamp_display": "13:36 IST",
+        "source_quality": "high",
+        "recency_score": 0.3,
+        "final_score": 0.36,
+        "region": "Chennai",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "\"Rights Denied\": Vijay Targets DMK As He Withdraws Cases Against Farmers, Teachers - ndtv.com",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "ndtv.com",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVJYTThIT1c5eWh2dnVpRnJVR2J3bDJHd3ZUU1QyTDljNklWSWxlOVZZajJ3Y0xsbWdDalBLb0hGOHd5ZXlpdk82ZmoxYWFoR0N3bVBzQUh2Y2I3eENNRUhXbVVSZjIxZVNlczNENUtMX1ZoS0dTQjloY0I4QU9MUzBMRjBoN0k3OXVaVThoM3B0VFlEODkwbGdmU2I1X2tPU2pMNG04RlFkczRNZ1JtcUxnei1YNXJxdDdZ0gHDAUFVX3lxTE42aGRCVzNITzhuOWJBNnh6Tzk4YlE2Mlh6cFNOdXViYW9wRGhuM21PdmQzMzctSG5ZTjBoel9iWkdyQTVKUXZyS000Q3NoRUZ6Z2xMREFubWlXSVYxeUtILUhacFQ2OF80THRyZ2Vac0lLMWVCR0gwaHlQRG1BalhNT3VEaEdLNkxxQ2NCQ1NmZ0haRmI4bTVEbks5MGUxV0JRWTMtTnJoVlBRUTNaMUZwZ3JEb1VraDd4SUZ6LWlhUVdEUQ?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-02T14:04:58+05:30",
+        "timestamp_display": "14:04 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "Chennai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Museum Theatre to host Rewind’s retro music concert in Chennai",
+        "summary": "",
+        "why_it_matters": "Chennai Museum Theatre hosts Rewind retro music concert — vintage-film music revival.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/entertainment/music/museum-theatre-to-host-rewinds-retro-music-concert-in-chennai/article71414056.ece"
+          }
+        ],
+        "timestamp": "2026-09-02T16:11:07+05:30",
+        "timestamp_display": "16:11 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "Chennai",
+        "confidence": "low"
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Disha Salian, Sushant Singh Rajput’s ex-manager, death: CBI probe ordered by Bombay High Court - The Indian Express",
+        "summary": "",
+        "why_it_matters": "Bombay HC orders CBI probe into Disha Salian death — 6 yrs after Sushant Singh Rajput's ex-manager died.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWEkxX0JlQVlkU3dYSXYzSXNVWmQyQ2kwRkZPN0RibWpmOTdqeGhaNHplWTRYenY5SDhVenlDZ01tM1UwUnpFaHRMVUpVNW9QQWp5dm5Ic1oxNXFWemFQMWk5dnlMdTJXc3Q3aEtQVzNKU0ZCU2ZrdDJGU1JFd2k0Rl9scFY3Z180dlBqSUpQLTZEX2ZEaXItMHM5MlU0TTV0bkU2S2FUcnpLSXJIQTFoa1RLTl8waVdVREFOODJHY0lmb205czl3T0JsRFJFTFFRc3JSb2dQb2ZyRlNTZ2pV0gHmAUFVX3lxTE40NzFDTzdITEduN3BZR3dQT1JGQlpXYWFEMEtUZ29sS0JkS1NtYUc1bGEzbE5JcEo3bWNfV2VPOXFqeGV4OC10N0VfV1M5SEVJR281YlFiMnRZazcwLTk2VFhKSnpCNGJuajM2bnV5MnhqNXRtMlpOc2hGOGZiZFF4ajQ3eUMzZzhLbEhHQWhnVXl6NVVxbjRXcnNFTkpyTEVraVRWU1VzWnNkRG1WSzd4Z1VtemcwQ201Q2M5X2lfN1VJS3lOUDJfSmt6QTlxcUlyQmFBNWVKdFNDOTZiTVJ2LVVITjV3?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T03:03:00+05:30",
+        "timestamp_display": "03:03 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Mumbai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Pune brothers beat elderly parents with sticks on road over selling property - India Today",
+        "summary": "",
+        "why_it_matters": "Pune brothers arrested for beating elderly parents with sticks over property — domestic violence probe.",
+        "sources": [
+          {
+            "source": "India Today",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNTE4RDdqTXY5TTFxSDNYOUJwZWpJRTV5Sld0eUtzaG5xUFVPN3ZsYXlwU1g4TWZpaDFrVndpQUxtaUlJUm5ESDZpdnFXRk45eTV0R043dHRUcmV5ZG5LZGtKWEhhaGJsVzhGbDUzQjhKU2RPdFdPcWRtenVDcW03N2NMSVg3R1ZseXNlSVUtOUV4YUhPdXFaMy1aV0dMUGZieHVQODhCY0J2NXBwdE9HX1c5V256UXpJSHNuOXBhUGlkVFlNYWRnek5KZnZQTl9FNHlrc1QzYzMwZ9IB3wFBVV95cUxQUVJiMzVPZzc1dlo4TFVoQV9jX005NjdkNWVFN0RmNV9mRUZWcWdJUDlRTFlTWEFCVWY2R3lBRng2WEswVVcwbzllQ2JXd2R1NlpUcnZNcDdXcjFraWpGLXhicWkzOGhyc1otMjc2OEdfb0hqbFV4bWxhWjVlR3ZjSUlTcWFGYmtUSi1MZUotdng2TWY4SXc0SzBnTE9GT3FtWko0eEpIS3A0WDgzV2I3blFya21nMlp3MFVhcDdzRExHVm1XWGdEdHB5eEg0djVlaTdEYk9CZEtWazNtZDJF?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T02:37:36+05:30",
+        "timestamp_display": "02:37 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Mumbai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Maharashtra family welcomes baby girl after 200 years, brings her home in chariot - India Today",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "India Today",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdEF1OTBGR2tFdGdRdEtJTVBKNWVMSXkzaFNIb3RxdWVFZUNEOUswYThiLW84UUtuZmNXTUwxN2NYaE53aTBHaUFldDctbk5tVGFZVFo2SENzdS1tR083Q1pXMU9iTS11MjVEWHZkZHBwdnd0TW8zUGZxUkdkd3FPcXVBcXRsYktUSVN2X1ZxTkpZUTBPY2NTRHlJT2FzcXhMeE5IOUp0TlNaOFlCeXE4VXBXQUM1eTFvUUxvM1RPa1A4RmwxVThlNDdVNlg0VHc3RFk0V0NaMi1fSXVx?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-02T12:40:31+05:30",
+        "timestamp_display": "12:40 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "Mumbai",
+        "confidence": "medium"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "Soccer-Three Nordic FAs seek EU talks over FIFA governance concerns",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/sports/others/soccerthree-nordic-fas-seek-eu-talks-over-fifa-governance-concerns-101788379741402.html"
+          }
+        ],
+        "timestamp": "2026-09-03T01:39:00+05:30",
+        "timestamp_display": "01:39 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.2,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "IOA steps up efforts to address Asian Games logistical issues",
+        "summary": "",
+        "why_it_matters": "IOA steps up efforts to address Asian Games logistical issues — Indian contingent preparation.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/sports/others/ioa-steps-up-efforts-to-address-asian-games-logistical-issues-101788368380283.html"
+          }
+        ],
+        "timestamp": "2026-09-02T22:29:39+05:30",
+        "timestamp_display": "22:29 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.2,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Young hammer thrower Anushka chases Asian Games medal",
+        "summary": "",
+        "why_it_matters": "IOA steps up efforts to address Asian Games logistical issues — Indian contingent preparation.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/sports/others/young-hammer-thrower-anushka-chases-asian-games-medal-101788359736718.html"
+          }
+        ],
+        "timestamp": "2026-09-02T20:05:36+05:30",
+        "timestamp_display": "20:05 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "Indian mangoes used as rewards in Singapore cultural festival - News On AIR",
+        "summary": "",
+        "why_it_matters": "Indian mangoes used as rewards at Singapore cultural festival — soft-power trade sweetener.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVmtIVVRVNDBlNnFZZG1heFg4elh4SWtGMVZyV2g3VmpQQ184Qk41ek5kQnBKTmRfOXpZaGRKV3BrOERFenlHSTB6Nmx5M2Nia2k2Y1E3STczM1J2Zjg3V0hyWkJ2U2Zxd0FsQjlNVFpQUjJDaTJVaDU0WE0tYjc0X1ZSaXo4WFA5TWFEUTdUVGM?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-02T17:59:04+05:30",
+        "timestamp_display": "17:59 IST",
+        "source_quality": "high",
+        "recency_score": 0.3,
+        "final_score": 0.3,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "Amazon India adds 160,000 seasonal jobs; JioHotstar goes global",
+        "summary": "",
+        "why_it_matters": "India A squad announced for three four-dayers in New Zealand ahead of WTC Test series — selection focus.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://yourstory.com/2026/09/amazon-india-adds-160000-seasonal-jobs-jiohotstar"
+          }
+        ],
+        "timestamp": "2026-09-03T07:30:00+05:30",
+        "timestamp_display": "07:30 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Disha Salian Death Case: 6 Years, Several Questions, And CBI Probe - ndtv.com",
+        "summary": "",
+        "why_it_matters": "Bombay HC orders CBI probe into Disha Salian death — 6 yrs after Sushant Singh Rajput's ex-manager died.",
+        "sources": [
+          {
+            "source": "ndtv.com",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObGF4Tnk1S3JDYmJMaHkycmQtNHpjejlzRWJHejBEQW05dEZIaE9WM1F3Y2liSGhJYXg3Z2FOWUlDQXItUFpUVEhLUThNa2RjQXVLUHl3ZFBQZE8xcl8wWHd2aE03VVo3ZTNLUUJGbnQ1dWFRM3hHMDZIeGNEV2FLdFBRYmRpNm5zOERxQS1pTk9Jb3U3TUk1WHd4cmZSRVhRUTZQTFFpWdIBrwFBVV95cUxNc1lucUZQdUdRdklMMk1hS2ZuMkdoeHNQNUhzUml6NzdQS2k0WmR3Zlo3VFZUMTRiOTZSSGFVckdoUUJSUDBkLTdVSWRqUzM5RDFMdzFqQTJocjBrUzhfakszbjFCTnBZVzlBc1JtSEtSaC1wWG1UMkVYZzlhalhZXzBoVmx4NXo5Mlo4WTlQUEctTFVGSGd4NWEzT3J1VUpTdXY2dmVMc0tSM2JsaE0w?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-02T18:29:38+05:30",
+        "timestamp_display": "18:29 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.294,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Granite Baron R Veeramani Arrested In Case Related To Sexual Abuse Of Minor - ndtv.com",
+        "summary": "",
+        "why_it_matters": "Granite baron R Veeramani arrested in sexual abuse of minor case — high-profile arrest in TN.",
+        "sources": [
+          {
+            "source": "ndtv.com",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZDdVUFY2VExPamh1RVRMWENzRW5rRkdPdHFwMEpzY2JOVDZiQ2V6bDA4TXMxMnVmNVI1T1dZYjVEZWZHTEktNW9XT2hoZGNfalpXQS1MQkhXVnF4Z3MxbmJyVDhuZ0toRk9nc1pWN1l2MkZaOXVsSHVRdFNlX2FGTlR1a2pEMU85SWRFVUtUQi1Xdk9UeXpfUUhXNlFrVzYwNjhNbF9RX2FxWmIyMFJoOHVSeEw2VTjSAb8BQVVfeXFMT0xxc2JNdTR1bEdhQzZ3bFZPMHZBcnp6R3Y2N08wd3pJUktPdmRmb3hIMDhJUVJ3Nk5vSWloM3lrTUlyNDg1SVowX0NWVFBZUjBkZW1qQ1BBbG82OElTM1FYMFBqaVdoZnpUSlVnZjFsTlBWaS1sZEZFOGwzUnhkNjE5MXVUblFTY3NfNEtZTGI4ZWxJZllUVlpIdWo5VGZhNDdxTWpKVjNUR3lXdlM2dzRZZjJtZUhTSzZ6NWVpQUk?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T07:55:48+05:30",
+        "timestamp_display": "07:55 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Ram Temple trust gets its first woman trustee | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdHZyRHRTcDlDVzFWcU50ZllKdDhfOXB5bFJ5blZfX2lZblhDM28wSHZBZ2JKRUNhM2QwTzQ3ZkZLeXFvTlVQNkZiRzNNb3FoejNhNlN6aFZ0X1FuUmxKbjhkMHgwWWlnejhBTVowc3pxemh0NjF3aWFweWw0WldKOU1yRGRkYXRiR2ZLOTk3YTZ6eC1ERFdFRE1hR0xrb2dfblBlZFlreU1FN09hbUlfRHZMRXVDRlhK0gG-AUFVX3lxTE1oZ1ZtZHNGeDctN3ZXYW03NEdXc3FmQmtNOUw1aGFGOUVvcW9Bb1d5YktCVmRuckZUZjM5MUM3QW5WTVFGV0VXLVRKSTc4aVdhVld2VGo3SEx0cFpnWHliVWRxU0g5eVF0MjZldlNRUE8ybkRERENxdXV5Mm1nMGJTMk9Qb3pLV1E1QXE0VXNTS183aUFlUU51cVhaUkdPODBhYmdybHd4YVFacWtJS0JLZVI5bUIzTXNwZlFNU1E?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T09:43:06+05:30",
+        "timestamp_display": "09:43 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "'Need to learn from past, but...': New Ram Temple CEO Jeetendra Mishra on donation theft case | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNa1VrcWVpVXprUDViRElVTkx0UnRLWXdUaDNWQ01ucllpVXplWkxPWFJSa0ZnbWxza3FrTzJpdnYyZEEtMW4xN0JobmlHcEVqUFdsWUkyS0hVeVVMaHAzOFFYa0pZMTBmd054NjludWcxNnktZHpfRktDYS1aUXhyY3NLOEw1RUtHT2RLZVBuaVYyUWtXaGYwb2Z2Mll5cFZyZ0VXTjUzcHJKczFFSWJBTkRfbVF0T3BEc1pQRXJvVlpZU2NxcGRPX2tfR3VDaFQzNG5TRE1pa0ZEYWVvclhXNEgycDVMSkJ4bEh4NS1iOEhRY2UzTEVEX0wxeFBRdWZY0gGGAkFVX3lxTE90QUE5SnUzOFFJYktOYUx1RjJqTHd6UDQ4dHVfUVBrQ1E2Sll4d0c1QnlZU3NRLTNWd3BfSmpuNEtyOWE1OU1IN3JqbWJ1cUVoWllZWF9Za21venQtcGdKU25wR0tSd09vOGc0c2k5Z0p5UnVEX29CckdUQnh4eHZlVzdxTG90d1FWTzhDOExPS24yTVhSbFhfa3R0X3VrV0FzbFUtQUtJbWlTTGFxVzI1cmFfQTRwa3M3YmRmN3lfelNVTGJBNDF1WUhVSENkaVE5WUdQX2ZFV1paZkl1Z0l5UnNFV2ZYRTgyWEJMZzQzZHEtM2RJbkEtSk9QNElORUdUQWN5bHc?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T06:49:59+05:30",
+        "timestamp_display": "06:49 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.784,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "Sun Pharma agrees to supply at MFN pricing to U.S. medicaid programmes",
+        "summary": "",
+        "why_it_matters": "Sun Pharma agrees MFN pricing for US Medicaid programmes — drug-pricing concession under trade-talks pressure.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/business/Industry/sun-pharma-agrees-to-supply-at-mfn-pricing-to-us-medicaid-programmes/article71416574.ece"
+          }
+        ],
+        "timestamp": "2026-09-02T10:26:53+05:30",
+        "timestamp_display": "10:26 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "A gem shines brighter after life’s hardest trials & friction",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://yourstory.com/2026/09/gem-without-trials"
+          }
+        ],
+        "timestamp": "2026-09-03T09:00:00+05:30",
+        "timestamp_display": "09:00 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Cockpit To Ayodhya: The Op Sindoor Veteran Who Will Head Ram Temple Trust - ndtv.com",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "ndtv.com",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZFFSb3lhODBUR1RTSmRNcEtBNFZaa0NGSlBLTzlJTHpQcVB6NENPT29NVUF4Y012dlNkbFBfY28tMmtBOHkzTkR0OFdGWnNycjNZUU02R1Vwb3pTNGJaYmt3eDdYcWZYNFRlWWVGUkFJZk1sYjVSQ0RtWlhzbDluMjRfRnZpYXFBWC1sZi05WThmQjZkcEoxT0pRQXJKLWw0MFQ5a3ZNQUFEeG1vZGpFWlR6ONIBuwFBVV95cUxQMVNBQjZaYVpnYTdzNkhLQUs2U0s4VXYyQ2FTMHhfNUlJbUJiLWhXZ1llWDJ4ZDRqTGNvRkNLV3hzQW9sWU1XVlppcDlZYmpPQjJLNzk2UXZLRHpCZ0NfbnBXNWt4YXlwQlI3Nl9yc1JsMkpOVFNIbjFuTldkM0VxQXByaWl3eGRYbU5pM0ZMcWdRVnFsWXhpekFIbjM5TGFGenZQSzZlVFVXcmFSNnFuOHRveDh2dWNZRU1n?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-02T19:54:51+05:30",
+        "timestamp_display": "19:54 IST",
+        "source_quality": "medium",
+        "recency_score": 0.3,
+        "final_score": 0.21,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "\"No Nation Should Help Iran\": Rubio's 'Sanctions' Warning After PM Modi-Pezeshkian Meet",
+        "summary": "",
+        "why_it_matters": "Modi-Pezeshkian Iran meet on SCO sidelines pushes trade; Rubio publicly warns of sanctions — tightrope with US.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.ndtv.com/world-news/no-nation-should-help-iran-rubios-sanctions-warning-after-pm-modi-pezeshkian-meet-11995172#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-09-03T08:42:51+05:30",
+        "timestamp_display": "08:42 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "International",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "As PM Modi pushes India-Iran trade at SCO, Rubio warns of sanctions for helping Tehran - The Economic Times",
+        "summary": "",
+        "why_it_matters": "US Secy State warns 'no country should help Tehran' of sanctions after Modi-Iran bilateral — India walks Iran-US tightrope.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRV82S0pBTHNlbWZvWW94RGZjQV9TbVFQZFJGOVpzMDBzRTExQ0RVX3VveldzTTJ4ZmJrZEpncWNmdlFKNlVBUFVPRFBGc2VDRElwY3hKSzNuMFowS0xLdUg3SElwbkg1YV9iSF9Gd0JFTUZKSmVPQk4yRkU0d0g5WDgxSGpTbldzN2VER1BKWlQwSFRmVEF4ZmlQSU9NYTZoeGlOcWdYOEJZU3J3T0VQa1lkNmxocEhjMHpIVkk2b0FGREg2MzlqeFhaZ0NaMG02ajNBR1lmaHVxeFNOQ000VUd5dGLSAeoBQVVfeXFMT19BbWRIc1AzRmhXQm9LLXNUemRsaUxXbDlZRDlaRGtyOGhHMmhEU3M0RnhsOUhWdkdQUS1MRXZkd0Y5NExkRUI0UThnNnd0dXhDNkhWOS1POTVkaTd5YkthcjRKN09nZ3pPVlRSOU1kaFpfSm9mWHVHOHd2bGxOVVlOcUlfOVdKRXVoRkdVRFkwUE9wbUVlUU01OXBQQVBiRzV4M1F3dDNRWFJpS0QxNjdJOUNlYURacEdjTzBYcW5kRzNmanBsczJKQjdrYlFPaVZZNGFnaVFkX1RMSy03eFgtRmRnZkR0Z2x3?oc=5",
+            "_resolved_from": "kept-gn"
+          }
+        ],
+        "timestamp": "2026-09-03T07:50:31+05:30",
+        "timestamp_display": "07:50 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Heads Or Tails? US Releases Special $1 Coin Featuring Trump",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.ndtv.com/world-news/heads-or-tails-us-releases-special-1-coin-featuring-trump-11995173#publisher=newsstand"
+          }
+        ],
+        "timestamp": "2026-09-03T08:45:40+05:30",
+        "timestamp_display": "08:45 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "International",
+        "confidence": "low"
+      }
+    ]
+  },
+  "top_5_trends": [
+    {
+      "trend": "Belgian PM Bart De Wever arrives in India on first official visit, to hold talks with PM Modi",
+      "why_it_matters": "First-ever Belgian PM India visit — opens new chapter in India-EU bilateral; agenda covers trade, defence, critical minerals, and Ukraine. De Wever also expected at G20 summit prep later this month."
+    },
+    {
+      "trend": "India reaffirms fastest-growing major economy tag with 7.8% Q1 GDP; FM Sitharaman doubles down",
+      "why_it_matters": "Centre backs 7.8% Q1 GDP print as 'fastest-growing large economy' even as opposition questions composition; Kwatra echoes framing — sharpest expansion in 6 quarters, sustained by services + private capex."
+    },
+    {
+      "trend": "PM Modi-Iran Pezeshkian meet: US Secy Rubio warns 'no country should help Tehran' of sanctions",
+      "why_it_matters": "India walks the line on Iran trade — Modi pushes trade ties at SCO while Rubio publicly signals sanctions risk; signals tightrope between SCO partnership and US pressure on Russian/Iranian oil."
+    },
+    {
+      "trend": "Wing Commander Abhinandan Varthaman (2019 Balakot F-16 hero) retires from IAF, joins Goa airline",
+      "why_it_matters": "Pilot famed for downing Pak F-16 during 2019 Balakot strikes and 60-hr Pak captivity ends IAF career; jumps to civil aviation — signals pilot retention challenge, also boosts India's commercial pilot pipeline."
+    },
+    {
+      "trend": "CBI names 6 IAS officers in ₹504-crore IDFC Bank fraud case",
+      "why_it_matters": "Major bank-fraud charge sheet with senior IAS officers named — exposes governance gaps in cooperative-bank regulation; follows conviction-arc of Nirav Modi/Mallya-era bank fraud cases."
+    }
+  ],
+  "dedup_stats": {
+    "dropped": 496,
+    "kept": 38
+  },
+  "rejected_items": [
+    {
+      "headline": "US envoy Sergio Gor calls Piyush Goyal 'dear friend'; minister jokes, 'worried to call you friend'",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/us-envoy-sergio-gor-calls-piyush-goyal-dear-friend-minister-jokes-worried-to-call-you-friend/videoshow/133725218.cms"
+    },
+    {
+      "headline": "Uber, Wayve begin robotaxi rollout in London's busy streets as Europe takes cautious approach",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/uber-wayve-begin-robotaxi-rollout-in-londons-busy-streets-as-europe-takes-cautious-approach/articleshow/133724831.cms"
+    },
+    {
+      "headline": "Gulf shipping traffic via Hormuz below 10-day average, data shows",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/gulf-shipping-traffic-via-hormuz-below-10-day-average-data-shows/articleshow/133725155.cms"
+    },
+    {
+      "headline": "ED raids multiple locations in Kolkata in Rs 290 crore bank loan fraud case against Kohinoor Power",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/ed-raids-multiple-locations-in-kolkata-in-rs-290-crore-bank-loan-fraud-case-against-kohinoor-power/articleshow/133724981.cms"
+    },
+    {
+      "headline": "US imposes 100% drone tariffs to curb China reliance",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/defence/us-imposes-100-drone-tariffs-to-curb-china-reliance/articleshow/133725012.cms"
+    },
+    {
+      "headline": "Garena Free Fire MAX Redeem codes today, September 3, 2026: Check full list of codes, free rewards and how to redeem",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/garena-free-fire-max-redeem-codes-today-september-3-2026-check-full-list-of-codes-free-rewards-and-how-to-redeem/articleshow/133724970.cms"
+    },
+    {
+      "headline": "China says it conducted survey of waters east of Taiwan last month",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/defence/china-says-it-conducted-survey-of-waters-east-of-taiwan-last-month/articleshow/133724986.cms"
+    },
+    {
+      "headline": "'Move faster': Nvidia’s Jensen Huang has an AI message for India, the world’s leading IT power",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/move-faster-nvidias-jensen-huang-has-an-ai-message-for-india-the-worlds-leading-it-power/articleshow/133724698.cms"
+    },
+    {
+      "headline": "What to know about a reported US airstrike that hit a wedding in Iran",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/what-to-know-about-a-reported-us-airstrike-that-hit-a-wedding-in-iran/articleshow/133724683.cms"
+    },
+    {
+      "headline": "New Ram temple CEO must take action against those accused of donation theft: UP Congress chief",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/new-ram-temple-ceo-must-take-action-against-those-accused-of-donation-theft-up-congress-chief/articleshow/133724891.cms"
+    },
+    {
+      "headline": "Quote of the day by Chris Hemsworth: True happiness is not expensive. If it requires a high price, it's...' - The inspiring life lesson from 'Thor' to stop chasing expensive symbols of success and discover why lasting happiness often comes from gratitude, connection, freedom, meaningful experiences and appreciating life’s simplest moments",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/australia/quote-of-the-day-by-chris-hemsworth-true-happiness-is-not-expensive-if-it-requires-a-high-price-its-the-inspiring-life-lesson-from-thor-to-stop-chasing-expensive-symbols-of-success-and-discover-why-lasting-happiness-often-comes-from-gratitude-connection-freedom-meaningful-experiences-and-appreciating-lifes-simplest-moments/articleshow/133724477.cms"
+    },
+    {
+      "headline": "Gadkari meets Dutch Ambassador, discusses India-Netherlands cooperation in green infra, mobility, energy transition",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/gadkari-meets-dutch-ambassador-discusses-india-netherlands-cooperation-in-green-infra-mobility-energy-transition/articleshow/133724692.cms"
+    },
+    {
+      "headline": "White House urges US space firms to skip Macron’s Paris summit: Report",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/white-house-urges-us-space-firms-to-skip-macrons-paris-summit-report/articleshow/133724648.cms"
+    },
+    {
+      "headline": "Dolly Parton’s Home being sold for $1.995 million: Inside her former California cottage with 7 bedrooms, 6 bathrooms, a glamorous wig room, hidden security features and rare personal touches",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/dolly-partons-home-being-sold-for-1-995-million-inside-her-former-california-cottage-with-7-bedrooms-6-bathrooms-a-glamorous-wig-room-hidden-security-features-and-rare-personal-touches/articleshow/133724580.cms"
+    },
+    {
+      "headline": "Himachal Pradesh to develop ropeways under PPP, EAP modes amid high project costs: CM Sukhu",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/himachal-pradesh-to-develop-ropeways-under-ppp-eap-modes-amid-high-project-costs-cm-sukhu/articleshow/133724615.cms"
+    },
+    {
+      "headline": "Rahul Gandhi backs tribal students’ demands, says education is a right, not privilege",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-backs-tribal-students-demands-says-education-is-a-right-not-privilege/articleshow/133724551.cms"
+    },
+    {
+      "headline": "Asit Kumarr Modi unveils first look of new 2D family animated series based on Taarak Mehta Ka Ooltah Chashmah",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/asit-kumarr-modi-unveils-first-look-of-new-2d-family-animated-series-based-on-taarak-mehta-ka-ooltah-chashmah/articleshow/133724493.cms"
+    },
+    {
+      "headline": "Ex-CII executive Shuchita Sonalika appointed COO of Canada-India Business Council",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/ex-cii-executive-shuchita-sonalika-appointed-coo-of-canada-india-business-council/articleshow/133723361.cms"
+    },
+    {
+      "headline": "Trump expands convention role as Republicans seek to rally voters before midterms",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-expands-convention-role-as-republicans-seek-to-rally-voters-before-midterms/articleshow/133724465.cms"
+    },
+    {
+      "headline": "Tim Curry's cause of death revealed: ‘Rocky Horror’ star died of coronary artery disease; kidney cancer",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/tim-currys-cause-of-death-revealed-rocky-horror-star-died-of-coronary-artery-disease-kidney-cancer/articleshow/133724400.cms"
+    },
+    {
+      "headline": "Nepal to rebuild early-warning system on China border after deadly flood, sources say",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/nepal-to-rebuild-early-warning-system-on-china-border-after-deadly-flood-sources-say/articleshow/133724382.cms"
+    },
+    {
+      "headline": "Goa tightens rules; private shacks in CRZ now need to register with tourism department",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/goa-tightens-rules-private-shacks-in-crz-now-need-to-register-with-tourism-department/articleshow/133724389.cms"
+    },
+    {
+      "headline": "Manoj Jarange Patil ends hunger strike, says would remain firm on quota demands",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/manoj-jarange-patil-ends-hunger-strike-says-would-remain-firm-on-quota-demands/articleshow/133723646.cms"
+    },
+    {
+      "headline": "What is dark matter? All about the universe’s biggest mystery after scientists found possible signal in South Dakota gold mine",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/what-is-dark-matter-all-about-the-universes-biggest-mystery-after-scientists-found-possible-signal-in-south-dakota-gold-mine/articleshow/133724155.cms"
+    },
+    {
+      "headline": "Plane carrying U.S. DHS chief Markwayne Mullin lands after suffering engine failure",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/plane-carrying-u-s-dhs-chief-markwayne-mullin-lands-after-suffering-engine-failure/articleshow/133723747.cms"
+    },
+    {
+      "headline": "Former diplomat Syed Akbaruddin appointed to RBI central board for 4 year term",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/india/former-diplomat-syed-akbaruddin-appointed-to-rbi-central-board-for-4-year-term/articleshow/133724261.cms"
+    },
+    {
+      "headline": "Nestle to build infant formula plant in Brazil as part of $393 million investment",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/international/business/nestle-to-build-infant-formula-plant-in-brazil-as-part-of-393-million-investment/articleshow/133724129.cms"
+    },
+    {
+      "headline": "Uber Layoffs: CEO Dara Khosrowshahi Says “This wasn’t a decision we made lightly” as company cuts 3,300 jobs globally",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/uber-layoffs-ceo-dara-khosrowshahi-says-this-wasnt-a-decision-we-made-lightly-as-company-cuts-3300-jobs-globally/articleshow/133724056.cms"
+    },
+    {
+      "headline": "IAF tests indigenous Khagantak-243 glide bomb; all about India's new stand-off strike weapon",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "SCO Summit: PM Modi warns against ‘double standards’ on terrorism, pitches open trade",
+      "url": "https://economictimes.indiatimes.com/news/defence/iaf-tests-indigenous-khagantak-243-glide-bomb-all-about-indias-new-stand-off-strike-weapon/articleshow/133724090.cms"
+    },
+    {
+      "headline": "US Iran War Live Updates: Six commodity vessels transited Hormuz on Wednesday, below the 10-day average of around 13 vessels",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/newsblogs/today-news-live-india-narendra-modi-belgium-pm-bart-de-wever-us-iran-war-donald-trump-politics-rahul-gandhi-congress-sir-g20-leaders-meeting-united-states-jaishankar-ukraine-poland-nepal-flash-floods-death-toll-imd-monsoon-rain-alert-delhi-weather-september-3/liveblog/133723987.cms"
+    }
+  ]
+}
