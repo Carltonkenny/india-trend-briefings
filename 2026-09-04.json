@@ -1,0 +1,903 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T09:20:52.262821+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-09-03T09:20:52.262821+05:30",
+    "to": "2026-09-04T09:20:52.262821+05:30"
+  },
+  "totals": {
+    "raw": 1084,
+    "kept": 38,
+    "sources": 12,
+    "categories": 12,
+    "deduped": 17
+  },
+  "themes": {
+    "Top Stories": "ISRO GSLV-F17 launches India's first geosynchronous imaging sat EOS-05; BRICS summit kicks off in Delhi; RBI holds repo, projects 6.9% GDP; Jaishankar defends Russian oil; India women storm Asia Cup semis.",
+    "Tech & AI": "Belgium-India defence & semiconductor cooperation formalised; PayPal India layoffs hit 220; BYJU's asset sale stays on hold; Cradlewise raises $12M Series A.",
+    "Markets & Economy": "RBI keeps repo unchanged, projects FY26-27 real GDP at 6.9%; India secures 70% of crude oil imports outside Strait of Hormuz; CAG flags Himachal debt.",
+    "Politics & Policy": "PM Modi's 7-point swadeshi pitch for economic self-reliance; 31-member JPC to review FCRA bill (BJP MP chairs); UK MP defends RSS chief's London visit post-US backlash; Ladakh gets 5 new districts with elected councils.",
+    "Bangalore": "Karnataka rolls back Parks amendment bill amid BJP + citizen protests; IAS officer arrested in KPSC recruitment scam; Bengal-Mumbai-style medical shop owner hacked to death; BMRCL Pink Line likely opens this month.",
+    "Chennai": "Madras HC dismisses Stalin's plea to declare him elected from Kolathur; IIT-Madras + CMC Vellore build AI tools for early kidney-disease detection; TNsells onions at ₹35/kg via fair-price shops; CM Vijay pitches Olympic-standard sports complex.",
+    "Mumbai": "38 rescued after ferry breaks down near Gateway of India; Pune man's anti-noise drive slapped on camera during Ganeshotsav; BMC evicts 600+ shopkeepers after SC order on Orchid City Centre; UN flags Mumbai at risk of permanent inundation.",
+    "Sports": "Mandhana's record 124 powers India women into Asia Cup semis (137-run win over Hong Kong); BCCI Devajit Saikia admits overseas struggles; Bumrah fitness test before AFG T20Is; Vaibhav Sooryavanshi tipped to 'serve like Sachin'.",
+    "Entertainment & Culture": "BRICS Summit: Delhi declares Sept 11 a holiday, security review on; Bollywood Khans remain ageless with distinct brand promises; Dulquer Salmaan's 'I'm Game' review.",
+    "Crime & Justice": "Supreme Court to host BRICS Chief Justices' Forum in Delhi; Janmashtami celebrated countrywide; India sends relief to Nepal; 2 NDMC workers killed in Delhi Cantt accident; J&K Pirpanjal encounter underway.",
+    "Health & Science": "ISRO's GSLV-F17 'Naughty Boy' delivers India's first geosynchronous imaging sat EOS-05 — sharpest earth-observation satellite yet.",
+    "International": "Russian envoy Alipov: Russia-India 'on same page' on Ukraine peace ahead of BRICS summit; Jaishankar defends Russian oil trade; Foreign Secy Misri hosts Quad Sherpas in Delhi; India offers to extend 'any help' to end Russia-Ukraine war."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "trend": "ISRO's GSLV-F17 'Naughty Boy' launches EOS-05 — India's first imaging satellite in geosynchronous orbit",
+        "headline": "ISRO's GSLV-F17 'Naughty Boy' launches EOS-05 — India's first imaging satellite in geosynchronous orbit",
+        "summary": "",
+        "why_it_matters": "Sharpest earth-observation satellite yet — real-time space surveillance for strategic and civilian use; PM Modi calls it a reflection of India's growing space capabilities.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONWR1OUR6OVVVWnJlWWc2THpvYWFaa05XTHk1V2U0N2U5ajdpclhINzFSM0swNmhuamdqa1FwSDFmWXRBbTdzLU4yY1lKZ243Y2dDWXVZRTNpRHEyQmM1QjVDX21vQm1PSUtuVWVPY3ZvY282RjBDcVlqVUNMZXVtcGhraE9STm8wV01DcnVPbjdITWNnZkh1cEdNdFFZZk1nckFWbmF1dlVVMk1Od2JjNTZ3VDZoLTd5MXNmVnVGV1NyUzhhczZ6bGtZX1Myc0trSjBvdNIB2gFBVV95cUxQMGdyRFdxNi1GX1MzYm9TV09ReHBXczJ4MTZpS19JWHZiTzZ2M2dVNzlJU0xFZGF6LWhUMkpCSzlHZEE1ZU9iNTNkNWU4Q3cxZWp0SmhrRDJaVEk5NDZlUUhlSVo4aWJETEV0RS16ZG95YXgyWGVGYWN4al9HdG1EQ0ZRRGx6OGdXbk00RXdteE5EeXhTSml5aHl1ZHlVUkU3ZGpaTjhEVjBmbTMwajBlTXNtMW83WHlIdUtRcENDbWxGTTUzYmUyOFpsbnd2YW9zaW52MTZzRlltUQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:48:05+05:30",
+        "timestamp_display": "08:48 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "trend": "BRICS Summit kicks off in New Delhi; Russian envoy Alipov says Russia-India 'on same page' on Ukraine peace",
+        "headline": "BRICS Summit kicks off in New Delhi; Russian envoy Alipov says Russia-India 'on same page' on Ukraine peace",
+        "summary": "",
+        "why_it_matters": "High-stakes summit with PM Modi hosting Putin-envoy amid Trump sanctions pressure on Russia; Delhi declares Sept 11 a holiday, Quad Sherpas meet in parallel.",
+        "sources": [
+          {
+            "source": "ANI News",
+            "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQd1R2RXdWY09SWDNlc3JTOXN5MUNpTXFCNEFPUldFSUg0azNUZ0NoNzd2OWdld3paTnVHd1FsM3Jic2dkNE84eHhrZk1iYjU1aHNPdVBud0pfUmtWanBtUDJSc25paXJwWk9xMFd0Nk1EbUVqT3BvbnQ1Q2J3czAzb1hUZmlYbFo1b29waWROVEtpUTY1SjVZRUk4TGJkQWFVTVlMUHhaVjlmQUgzYmd2a045YzJLcDBNMFVvQWgya2phTE1lY2NhZHRhejdkN005NUtKcHpUWGFJWjNSbUs1VWJkME9Zd3VhN19QMjRsVGxoTXR0TG1zalhjR3lrR3FpejVJ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:25:00+05:30",
+        "timestamp_display": "08:25 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "Delhi",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "trend": "RBI keeps repo rate unchanged; projects India's real GDP growth at 6.9% for current fiscal",
+        "headline": "RBI keeps repo rate unchanged; projects India's real GDP growth at 6.9% for current fiscal",
+        "summary": "",
+        "why_it_matters": "Status-quo policy stance as MPC balances growth-inflation; 6.9% projection is a downgrade from 7.8% Q1 print — softens the 'fastest-growing' narrative ahead of festive season.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGFSNzg0VzlJdnMwYWh2TzliX3libXhnd0pFajdsbW05R3dZU3Y5V3BjRU5uV2Q0aDVOZWZNX3dDdHpvNXpGOXRTQlNnQVRScklzNU5QdjVmV2YzOWlFVWZXMXFSZWxscFJIdFY0UHhleHZreWhkRmhqNGpCeTBYTVlpZ3AxcFN5X0h6SkFqSHJzSTBhWER6N1lkQXB3cnlLRXU4TF95ZjNWdC01XzBkTm0zOGN3RmpXc1lQSkdR?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T05:20:18+05:30",
+        "timestamp_display": "05:20 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 4,
+        "trend": "S Jaishankar defends India's Russian oil trade: 'It won't affect Ukraine war'",
+        "headline": "S Jaishankar defends India's Russian oil trade: 'It won't affect Ukraine war'",
+        "summary": "",
+        "why_it_matters": "Sharpest articulation yet of India's energy-independence line — Delhi publicly refuses to bend to Western pressure ahead of BRICS; coincides with Ukraine thanking India for peace push.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV3pQckZUc2w3UEIwbS13M1FEUkM3MW5HdlA5VE9kdzdxbF92QUg2dXRQQlYzaWNnUG9kTXA0M0hjcnp2bjBoQUpHbnVaMXcwNENSaE00QUg0OUlFbTNKRzdoa3Z3c2dyT2o3UDVyVUhpSVROTEJKUkRUaURla19FTExHckc0elFGelFIcEZpRi1LV1NVUFlLZ25WNmlaRTh2ZFRtMDZGQkhxZ1MxWmF6YlJ1VGh5alU?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T06:32:59+05:30",
+        "timestamp_display": "06:32 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 5,
+        "trend": "India women storm into Asia Cup semifinal as Mandhana's record 124 powers 137-run win over Hong Kong",
+        "headline": "India women storm into Asia Cup semifinal as Mandhana's record 124 powers 137-run win over Hong Kong",
+        "summary": "",
+        "why_it_matters": "Mandhana surpasses Mithali Raj as highest run-scorer in women's cricket; dominant win sets up a marquee semifinal, plus T20I format prep ahead of World Cup.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNUzVYbUxEMzU0SU8wQWIxUVZicGtwcjJzTElYNWhjSjNUaVBlVE50SlVYaXN4WXREQ0hBQ3FGaW5oRmFCWmF5Wl9xX2RkNlJ3MmJ3eEt0UUIzNFpaWk83VGszdVE1aC1DTUU4QnBaZWNwWTV6el9iV05ReHZxVC1nS3hvcjZYUmRWXy1vb2h6czB0OWJ2Q2Z1NWVvYkJVQjRTM1N0TElWYlJTZExDY0NKeTJKNWtfazZ0bmlObm9kUjNMM0dkaVhPMHo0NUp0QzMwYl9rcDdlUkxfamF1LWVPSVY0SDR1c1h2a1JYMnVhMlFIRUVaMjdMLUxxbzFrM1NibER6N3k4UlVqLWU1OEFjYTZOenc5RXRJemxva0ZtVGk4S1du0gGqAkFVX3lxTE92c3RwN0V4SlhOTGM5dDJHMWYyRjVzQl9zQk5nVk5SdHpfNkFwMFBDMXhnSzgwUHZyVVZoQXA3RDhldmFiUFRMU24xTnpoNURYUDRod3ptaFVUNnlzM1lpcUJ0bWx0N1Q4cjNQcEVkMlZtU0phVzF4TGZfTk9mWVJ4aWVRTlJNSVozMkplN1ZWWnRDQl9aNGNsSmFsOUw0N1NkdUwxUGFMZ1M5QUFuSXRtVkZOR3BCcW8wU1lMbnR1ZFJKcE9CUmU3eUxPbGFIWHpjZllNTjgwQ0lpcW9zZUt0VnItMzJpSTVOcWJzQmJib0gtcWs4VTIzM3dKT2FhcDFXSG1odEEwY2c1eFc1amMyMXRlVzM2YkRoUjhRUnlOUG1vZjA3RXkzSnc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T06:30:00+05:30",
+        "timestamp_display": "06:30 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "PayPal’s Global Mass Layoffs Impact 220 Indian Employees",
+        "summary": "",
+        "why_it_matters": "PayPal's global mass layoffs hit 220 Indian employees — tech sector contraction continues.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/paypals-global-mass-layoffs-impact-220-indian-employees/"
+          }
+        ],
+        "timestamp": "2026-09-03T20:43:32+05:30",
+        "timestamp_display": "20:43 IST",
+        "source_quality": "low",
+        "recency_score": 0.3,
+        "final_score": 0.12,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "From defence to fintech, India & Belgium give ties a major boost - The Indian Express",
+        "summary": "",
+        "why_it_matters": "India-Belgium formalise Defence Attache appointments; cooperation expands in defence, semiconductors, fintech.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1J3M29PanQxQ3VDdHJUaHlaREs2OWJld2pLWlF1S2pycnVoRVFlMnpjNmNPUGcwbEZzOFJtM21Db2VBaHJ6UDdCNG9MWkJyMlFGd2lPTEk4UUw1TGV5NWFyWFg5N1duQUZsOGJILTRtMnZlQTM0U1Q0eHJveVBtOFU3Qmlxb1A0d0pTanlsUWgxc3MxQ1lFRmZTWi1LdndjeTRMZFlWS0MzRkV0LVQzMdIBtwFBVV95cUxPUE9DYW1QckVuMkZ5OEtEa0FjLVdTaTgtdUxBWWRqenNmdmwxZWlEZHdQcUJ2ZWlRM2o5SUdpM3FhdGxhN0Q2ZXlFUVN1bjNzUTRzMXdCcEZOemowRjc3Z3RGRVRSY1RFLWliTkhWSlpFV3M5cGtoX1BvM1JEVURXRFpxckVHbVh6S0lqVlJtbmxMT1FOWFd4X1BoVEV0LVhsMG1aMVlQcVhwR2kxZWNFT2p4WGgwckk?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T05:20:46+05:30",
+        "timestamp_display": "05:20 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Woman pays bond to quit TCS after husband’s phone call, starts two ventures with him",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/trending/woman-pays-bond-to-quit-tcs-after-husband-s-phone-call-starts-two-ventures-with-him-101788488030618.html"
+          }
+        ],
+        "timestamp": "2026-09-04T08:07:53+05:30",
+        "timestamp_display": "08:07 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "India secures 70% of crude oil imports Outside Strait of Hormuz: Petroleum Ministry - News On AIR",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTC0xTTV4aEJ1RFlJekJreVA2YkVDZmVOWVAxSkI4VDd0VjBGZmM2QTdJZjZUMjRVRXpzZGZCb21UaFE5YnRoVjVPN0FOQmpDYl9nV2d5WE5pUF9qekxWUm1Xd2Q0U0NWSDNNRmNVXzhndGRTcVBYcEdZdWRnUkRmZlREWjNaNExWZHFucnNVREFaTlQ0eEtxNC1RY0dIMEhpN0RuU25NSXB5djQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T06:20:32+05:30",
+        "timestamp_display": "06:20 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "Economy in a tight spot and inflation rising, but government is ignoring real problems, says Sharad Pawar - Mid-Day",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Mid-Day",
+            "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOYTMyc3NQc0hENlVPSjVabGlzWHpMV2dzajRHLWpCZWZwUHprZERGaVhuZFgyVVBQM0diRjVta1JwSHdpdGZIT0xDT1RkYXdDS1RVRU80b1VORV9ZdDNvQ0M4UTY5NE1UT29XV1NvdDZidzdvcVY1R1NiSzl6R1NYUWVvOU1aTG1tRGxOT3BlZUVKdlM0djRDNVV6ZGcwRXZ5bXpBVDZhN0hFa3B4YkY0aVhQVlAtSzFHV0VBNkJEcHpod1NFdFpnU3RhamFmY29SbEwtSmtqLUo1dkt0LXBzS2NPcTAtdW1nMHVTY0lXeEpWRE44QmNR0gH3AUFVX3lxTE5hMzJzc1BzSEQ2VU9KNVpsaXNYekxXZ3NqNEctakJlZnBQemtkREZpWG5kWDJVUFAzR2JGNW1rUnBId2l0ZkhPTENPVGRhd0NLVFVFTzRvVU5FX1l0M29DQzhRNjk0TVRPb1dXU290NmJ3N29xVjVHU2JLOXpHU1hRZW85TVpMbW1EbE5PcGVlRUp2UzR2NEM1VXpkZzBFdnltekFUNmE3SEVrcHhiRjRpWFBWUC1LMUdXRUE2QkRwemh3U0V0WmdTdGFqYWZjb1JsTC1Ka2otSjV2S3QtcHNLY09xMC11bWcwdVNjSVd4SlZETjhCY1E?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:08:00+05:30",
+        "timestamp_display": "08:08 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Stock recommendations for 4 September from MarketSmith India - Livemint",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Livemint",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0RaVVkwYUVabGc0R3FmSDh5bnNyUGFqNmsxdUFjbHZIbU9TTlhTTDhVN0VBbkpOV0I2MGxCRWQ3eTYtbWVVY0R6aUE3QkdGVDJVNVJVSTZGM3VXak9xczcteGRidW9qcjgyNUg3NW5OWm9OTy1JV1NQQWpZZWNhT3h5SlJTYmtrMVBYTEI3ZFBxc0ZRWERBU2dtbWlrUmhiMlpSSWJISEc0aEZyMXlaU242Uk1YMlZoVnFDTjg3aEpaUUJKSTRkWXJpYWE2YkHSAc8BQVVfeXFMUEdEWlVZMGFFWmxnNEdxZkg4eW5zclBhajZrMXVBY2x2SG1PU05YU0w4VTdFQW5KTldCNjBsQkVkN3k2LW1lVWNEemlBN0JHRlQyVTVSVUk2RjN1V2pPcXM3LXhkYnVvanI4MjVINzVuTlpvTk8tSVdTUEFqWWVjYU94eUpSU2JrazFQWExCN2RQcXNGUVhEQVNnbW1pa1JoYjJaUkliSEhHNGhGcjF5WlNuNlJNWDJWaFZxQ044N2hKWlFCSkk0ZFlyaWFhNmJB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T06:00:34+05:30",
+        "timestamp_display": "06:00 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "Prime Minister Narendra Modi makes seven appeals for economic self-reliance - News On AIR",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSnJuSTUyVGJyY2tKa1hrXzVXN0JBVnphY2xnY1J2RlZiWmd1QjlzS205VFk5aVg5NF9RdVdscVREczFvY0thdS1OQUItbVItMlU5bTBHTWRMY3FDNTZNU0l1SWRKRXhGRFFqZlUxb0ZZQ1BMYU9QcVRoT3FQUnRNWDNyOXNXcVJPYndjZ0tXT2k1M0JCUG9SSEVYQldBY1dqcnhwTVl3QVp2b2tOeUdhelIyYjNycXk2QUJWeldXeUxxM25VY0xoWDExQWFvYjdqQk1aT3lrT2wxcWRLZTdwRjVpMWxUQQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T06:20:21+05:30",
+        "timestamp_display": "06:20 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "After US backlash, UK MP defends RSS chief's London visit: ‘Pleased to listen to his thoughts and ideas’ | India News - hindustantimes.com",
+        "summary": "",
+        "why_it_matters": "Big relief for Karnataka teachers suspended for taking part in RSS March; UK MP defends RSS chief's London visit post-US backlash.",
+        "sources": [
+          {
+            "source": "hindustantimes.com",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWXNRX1pXZEtHU2lURVhvRlczdS1iakhxbnpCc3BqYVRNZXh1N0FkMWZGNTNhRmE3ZXpNQUJVRV9CRmZwRkdqaEVNb1d1VmlsV21LYXBEVWFoWlFDakJDakpxaE5VYkZSTTVrSW0tdWU2ZkNvWXhHUXNPQlZqSW1hbmp2R2FOZFRVTHJmYUdLTG5UMGF2ZWVmZzVZN21RRUZCVlAzbjAwZ0VRa2dsNHAxY0kxazZDc2s2blBKcDFZYWtXaEdBaFlMWGlKS09NYlF1LUx6MEJuMlphSl9BT1czREV5WTAwbEhJ0gHuAUFVX3lxTE9wVmhPLUVKeEdST2FpLUdrd0xreEkxVVdjZmNJSVJMZzVhcVJxck5fU1F3aXNEU1J2eTFxWG53S0dEaGszSzBTbjREQjBvcDQ0MTRDYkY2MWxXVWdGbW02aV9jU2wyUW9oME9xUDVJcUxNYng4bGYtcjBUeW1WeDBiNGlQeGNiN0YwWENyeDNEZTE1LTRkNExTV2c3WEZHUktLalg2WnFrMk1SNzRnMDd5cUtCamVZVVRSNS1yU29LdVdiR3hGNUxIelo1VmtFdngwdVJ1QWtFcGFlekVhT0pZeGFOUWxKQW0zdTJOaXc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:47:53+05:30",
+        "timestamp_display": "08:47 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "31-member joint parliamentary committee formed to review FCRA bill; BJP MP to chair | India News - hindustantimes.com",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "hindustantimes.com",
+            "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSUpxcjE3Z0lBeFpzYnp2dFlvRVhNRXJUYTFZX0lNVjB3T19BRGpJb2dMampHWnNRMzRNYXBTa0lYS1F1NlRlZVJBS01yWDFjUnplWDZ1RzdfSWZHT1VyWkxPanZQN1ZveGtudmo5ay1EU3lCM1VDS19OZkpzNWcxTTVqdGkxMGZabXFQYzNubGZFWnBocVpSRU1hQTNzNUptWWNoU0lVX2dudkVWSkgtMzAxMEhMT0lXNTBXVzc5dlpoWjQxT3dkN3oteDRPLUVzMXpzaHU1anl0X0xjSWRzLWVWczRMdTdEbk1JddIB8gFBVV95cUxPc0NhR1NDS2VkT09rR0xDMklzdVBVMWpKSmxFZFNmSDljeEdUN0ZDVnhLQldSX2FjMzBCQWdxaG5tandEWDhyd05OSTg5dXI5cEN6RmRMU3RqSi1LZ013X3VnQ0NvTTlUR20zNTJnNURZa1hET0s0ZVl4LU9HWHoyNXljNmFORXZXd2szSlh1bW9JQk5lQzVFQUVBS3FNNGp2NDZ6aUFmamhGX0FqdU5VVjAyYVQ4bkRWZXBjQTVRYlEyT24xRVdfQW95SjhMa0NEWl9fdS1QQ2M3cG1lemwtaVdrcV9wMHJMX2pEMFg0LWZqdw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T07:53:31+05:30",
+        "timestamp_display": "07:53 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "Big Relief For Karnataka Teachers Suspended For Taking Part In RSS March - NDTV",
+        "summary": "",
+        "why_it_matters": "Big relief for Karnataka teachers suspended for taking part in RSS March; UK MP defends RSS chief's London visit post-US backlash.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLUprT1I0dTNBQmhfT083dXZuX1JsMXR2VU1xSURGZUI1UXI3dExwVWRYV2NmWkloTlRVOG14akYtbWdMUDJkVC1KUUpPcFY3Nms2NWx2WW5iNXktYTR4VmszbWQzd05aRl9PdkZUQWNTY0Q0aDBvenRKTnllZjFqRmVOdkg0UjNOWF9RVDZQNlpFNnQ2Szl0ZE52VE55b0oxeWl0WmUxWnNDVkpPWVBHTjl5SdIBuwFBVV95cUxNaXBQN3N1YWZzUWFEX2VBSlVYV2F6Y0x4aS1XQWhhcVpMbjBhZnpqbmlnbVJVWXc3ek9XNU4zVmk0Y2NLaVU0YkVwUVVfZ0x0QzdBc2hjSmpJS0lCclNyLUpvZVpJMUQteHpGOFVBbE1pRGdWei1iczZWMlI0Q2phN3ZoQ2lIZUItd1hLbGZxeXhsVUdybG5WRFNOSlE4cm1rQXNldGtkUUk2d0RoOE4zR2NXa2czYkRuNlpr?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T00:48:42+05:30",
+        "timestamp_display": "00:48 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.42,
+        "region": "Bangalore",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Blinkit facility inspected in Karnataka after consumer claims worm seen in egg",
+        "summary": "",
+        "why_it_matters": "Blinkit facility inspected in Karnataka after consumer claims worm seen in egg — food-safety crackdown.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/blinkit-facility-inspected-in-karnataka-after-consumer-claims-worm-seen-in-egg-mangaluru-101788491723869.html"
+          }
+        ],
+        "timestamp": "2026-09-04T08:51:02+05:30",
+        "timestamp_display": "08:51 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Jailed IAS officer suspended in Karnataka’s veterinarian recruitment scam - The Indian Express",
+        "summary": "",
+        "why_it_matters": "IAS officer suspended after arrest over KPSC recruitment exam row in Karnataka — civil services integrity test.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcWlqLWJkRG9IYzFnSG93aGVoQmRBMWc1NHdRamRCdXZGbXdzS1RmOVlYem1vMmt4MlRWSm94dkc0cUwwQm1LTmNLc3dJOG5CZ2xxLUxlZVVuQnA5Rnd2UUhwRG1SRnM4M0ltMC1uem1zdFpNM0JWTGNhMUo4NUV2Wk5vZDFCanV5RUgteHFhelZFcV94RXJ2OEtIZlU5SFg3dWoydkF5SU80WENhOVQ5Y2oyQlA2TE5mcFhielRMY9IBxgFBVV95cUxNQjNDN3J0M2d3T2NzcjF4eFhJcjItVlJ2RmMzcFYxTTE4MWtuWjQzVTF6Y3dOU3lpaEF1X01EOHMxN01fbmM0aWU5T3hBX3lGaWpoTGdYbzBjeHRrRm1XVV9rYndURDdQSTFTR0VYejZMc1RTcjF2M2pUQjNfTnl2VkJCSVBDWW1fZW5jTTFKYWhjZ0pZYVppTkdSMVVEQ3h1NTlXYlBUY3pxa1BNckRNOWhyU21sRklDcml5SjNtckNaRmt0cnc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-03T23:42:04+05:30",
+        "timestamp_display": "23:42 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Bangalore",
+        "confidence": "medium"
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "Madras High Court dismisses Stalin’s challenge to Kolathur defeat, says remedy lies in election petition",
+        "summary": "",
+        "why_it_matters": "Madras High Court dismisses Stalin's plea to declare him elected from Kolathur constituency — election petition is the only remedy.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://indianexpress.com/article/cities/chennai/madras-high-court-dismisses-stalins-challenge-to-kolathur-defeat-says-remedy-lies-in-election-petition-10861981/"
+          }
+        ],
+        "timestamp": "2026-09-04T06:30:49+05:30",
+        "timestamp_display": "06:30 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "mk stalin kolathur",
+        "summary": "",
+        "why_it_matters": "Madras High Court dismisses Stalin's plea to declare him elected from Kolathur constituency — election petition is the only remedy.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://trends.google.com/trending/rss?geo=IN"
+          }
+        ],
+        "timestamp": "2026-09-04T09:00:00+05:30",
+        "timestamp_display": "09:00 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Sale of onions at ₹35 per kg via fair price shops launched in Tamil Nadu",
+        "summary": "",
+        "why_it_matters": "Tamil Nadu launches sale of onions at ₹35/kg via fair-price shops — price-control move amid festival demand.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/national/tamil-nadu/sale-of-onions-at-35-per-kg-via-fair-price-shops-launched-in-tamil-nadu/article71422320.ece"
+          }
+        ],
+        "timestamp": "2026-09-03T22:48:43+05:30",
+        "timestamp_display": "22:48 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.24,
+        "region": "Chennai",
+        "confidence": "low"
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "38 People Rescued After Boat Breaks Down Off Gateway Of India In Mumbai - NDTV",
+        "summary": "",
+        "why_it_matters": "38 people rescued after ferry breaks down off Gateway of India in Mumbai after rope entanglement — coast guard response.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdTRLc1hNQmM3RjA2bnZrbVpzcE8xblVrZ25oS2tLZ3JJT0E2c3dUeGhMRjV2cHhCeGY5WGtRTmdzN1hSaU5wOTkwcTlHZ1ZMMDRCWjZMdU1ucTJhcUVZeVVIYWZxdDFfN1d0MkNOdXdpQkNMUk9VbWRlSzB3WjNQNUgxZ1dzVTFHaEdaUjlqSHE0T1BjZ0VKcEVSSUx2ckI5WldPWjA1Sk9zTlp2MkFsbnRNWdIBuwFBVV95cUxQVHpXNktWc1MzNnhhWDdETVlMZjE0ZHpUTUZ2TC0wVGNHcmcxTzBlRmVVT3FzbG9oR1JiaGdyOTctVzUzQXNvRmNzUmlCc29jakVvSmNPMGlHbG4ya0ktTnlrZmRudFVsTkY2UFJTaHF2ZU1TemRxTlpTM25nYWxsclRtNmFLaE1INXRyazVNZXM1NDFWRGJQM21PYUt3emJqUUg2REptMDNoNzRRMVpCTFBBbmFzaHRCYjlV?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T05:23:49+05:30",
+        "timestamp_display": "05:23 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 1.008,
+        "region": "Mumbai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "38 rescued after ferry breaks down near Mumbai’s Gateway of India | Mumbai news - hindustantimes.com",
+        "summary": "",
+        "why_it_matters": "38 people rescued after ferry breaks down off Gateway of India in Mumbai after rope entanglement — coast guard response.",
+        "sources": [
+          {
+            "source": "hindustantimes.com",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN2R5b0FzTEpVWTlJZ1BSeTJZMWZRZmtrbGNZQTB2ci1aYVk3akJHWkR0R0tQVjJDWjdEYmdSYTJ4VGVTUGJfRFhUZ3NrYXdnbUc1Y0pWLTJDOFFBbDdxMXpyYk00Sm9vVVQzRzRoazNLU0RPRUdOQVNRRk9LWVJQcHBnUDh1dWM5V1ZiR05qeno0Y3ByYjVrUVlxZ2cyU2JMQ2NPV09YRmszcnFTVW94UDF3WXAtTTFUQ1RIQnNWRFh4WUw5dnJDYmxNbXNJeVFTbGfSAdcBQVVfeXFMT2tBS2VwU1l4QzFfV1FuSGVKeVBGRUZKUkV0UWhsOUlmRC1WVzFRaWNlaG5TWVFlMmlQdE9EOUp4XzhTbjF2bGh3Ui1YWWhpTEF0d01SdUZGYVBDdXJUeDc3d2xfZTVIejU3TmVMNEJFZGZLR1pRMGpGOFFmYnpvNnJQNFF1Qmg3NVhMRXBVckNWUWpPa0EwQjNHQWNtSzQ0eDh6U2ltRzl0ZEo1VXFNX2xCWnlDb3JwRENYSWpEVEllNmRkRTdfUjBvR2hzOUF5UnNILUJTVFk?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T07:54:00+05:30",
+        "timestamp_display": "07:54 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.72,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Ferry breaks down near Mumbai’s Gateway of India after rope gets entangled, 38 rescued",
+        "summary": "",
+        "why_it_matters": "38 people rescued after ferry breaks down off Gateway of India in Mumbai after rope entanglement — coast guard response.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/38-rescued-after-ferry-breaks-down-near-mumbai-s-gateway-of-india-101788462007882.html"
+          }
+        ],
+        "timestamp": "2026-09-04T07:54:00+05:30",
+        "timestamp_display": "07:54 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.72,
+        "region": "Mumbai",
+        "confidence": "low"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "Asia Cup: India storm into semis as Mandhana’s record 124, spin blitz crush Hong Kong",
+        "summary": "",
+        "why_it_matters": "Smriti Mandhana's record 124 powers India women into Asia Cup semifinals with 137-run win over Hong Kong — surpasses Mithali Raj as highest run-scorer in women's cricket.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/womens-asia-cup/news/womens-asia-cup-india-storm-into-semis-as-mandhanas-record-124-spin-blitz-crush-hong-kong-to-seal-big-win/articleshow/133743044.cms"
+          }
+        ],
+        "timestamp": "2026-09-03T23:12:57+05:30",
+        "timestamp_display": "23:12 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.2,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Women’s Cricket: India storm into semifinal of T-20 Asia Cup beating Hong Kong - News On AIR",
+        "summary": "",
+        "why_it_matters": "India women storm into Asia Cup semifinal with Mandhana record 124 vs Hong Kong — sets up marquee match; dominant form ahead of T20 World Cup.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQnB0M0FsYmJfX2tVeTdiZ3RjS2drcEk4Y3VWRmdlcjNlMGVQMTNuXzJfaUxCOXkySTF3TG1KNExmWDctQm9uVE1aYnRTSDhtWjgtS0Z4RkJyTy13VEJQWlBZVklRcE9ySWczSF9jX2tweTZXVldvdGpudVR1Nk5kZnBqZVJUNnlCbThhUTZtNlhvZ1lWZV9mN2lFRUxrNjhQWFhmbw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:19:00+05:30",
+        "timestamp_display": "08:19 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "65m boundaries, hybrid pitch: Inside the new venue for India’s Asian Games campaign - The Times of India",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMEFxYURRSFFibldQOGtYSFpoYUo4UzFRSUJNRklCZzEyS25MU3hDc3VxRmsyY0xTaXBmLXBGZkRsUHlydl9iVi1PRlI2eklHOVFMV0dzNDR2MjZTMHJDNXN3ZGhkdjBpUWdqSXdsaHRwM2psRTVxUTVRUUdlWnFxdjhFZmNvaFpOc3NnWmVMbUR4SklPTnZGbVgyQnVBVFpHX3J2SGFGb3RiRnduZUpjRlpTQTNHQ1dyNUZtUVJldUV4aU4yTWJZT25VUnVadFJtZHB1TTlhMHpDWkRzNkRxS01GR2s4dFBRSDdTQmNNblFXdmp10gH6AUFVX3lxTE9WY3pjYnZPS29BZmhRcEkwRlhiWUxHYTJjTXBIbHg0b3JzUGU2N2VOQmdRTlJYajNrdEE4dENlSjZ4RDlkM09fWE5GRTVfRi02QURTWF9kYjRSWHpOc3IzcVlSRF84ZkdvcVhCQ3E5OVNlLUNENDFSS3g2d2p5WkxTaEdteXNFb3U1UlJGcmczSHphYTFvQXo2TkNIakNnSEdfV1JTcUFIY3d1VEZXVlByOVhxN2dDMk1ROUMtTmNqZnEwQkZRUkQ0dlh3MkJ6NHlRelNpMnVmUkNvRWhWb3dHcENqTmM4dnVLcVk5cG9zcm9LbnJ0RHBTeUE?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:16:00+05:30",
+        "timestamp_display": "08:16 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "BRICS Summit: police review security cover; Sept. 11 to be a holiday",
+        "summary": "",
+        "why_it_matters": "BRICS Summit kicks off in New Delhi with Russian envoy Alipov hailing India's leadership; Russia-India 'on same page' on Ukraine peace — Delhi declares Sept 11 a holiday.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/cities/Delhi/brics-summit-police-review-security-coverepsept-11-to-be-a-holiday/article71425557.ece"
+          }
+        ],
+        "timestamp": "2026-09-04T07:17:15+05:30",
+        "timestamp_display": "07:17 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Why Bollywood’s Khans remain ageless with distinct brand promises",
+        "summary": "",
+        "why_it_matters": "Why Bollywood's Khans remain ageless with distinct brand promises — Shah Rukh, Salman, Aamir stay culturally relevant.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/why-bollywood-s-khans-remain-ageless-with-distinct-brand-promises-101788461767935.html"
+          }
+        ],
+        "timestamp": "2026-09-04T07:52:00+05:30",
+        "timestamp_display": "07:52 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Delhi Government Announces Holiday On September 11 Ahead Of BRICS Summit - NDTV",
+        "summary": "",
+        "why_it_matters": "BRICS Summit kicks off in New Delhi with Russian envoy Alipov hailing India's leadership; Russia-India 'on same page' on Ukraine peace — Delhi declares Sept 11 a holiday.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdE9zRGtseDhzQlEtbzRoTTVVUXc1a29vWldKaDVETjVHY1RxQTBJNC04TzhaWmFjcnJ1eWJCTUtyaFJfVlBac2V2NzZNR0pFaWFfTjk2TmZrQkE1QzVicVJHeGN4Y0g1OUdMblZWdG5RV0pNTHVrWEVLakRCNnFUQWdxUERmaUxSbU9GclNGcEFOcXkzLTRNaHlrT1RBLWRLWjhUUHNjRm9JWUlXYjRjU1MwY9IBuwFBVV95cUxOYW9ySVY5dmlFNHZyQnl6aW5aRkZhMlljR1FqaEFMd0s5dkVzWmdULWFZUVAyU2d1RTYwRzE5VF82VXNEVHlhdnZLeDdET2FpZ2p2OC1mZXdjaGdoRjdXcnZHcGo1R0FaOFA5NEdRd2dtSGJHcEVXdUx1QkdVcFAyM0RMcDA3TFdtZVRUczBWWkh1Sk5rdTZrdEZwQTg3MjBYUXhKbk9XWnBNLWVqY0lBNUhyVUxad0xSYlRJ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-03T22:53:47+05:30",
+        "timestamp_display": "22:53 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Delhi",
+        "confidence": "medium"
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Supreme Court of India to host BRICS Chief Justices’ Forum in New Delhi beginning today - News On AIR",
+        "summary": "",
+        "why_it_matters": "Supreme Court of India to host BRICS Chief Justices' Forum in New Delhi from today — judicial diplomacy milestone.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZEp3ZHZsbV9QY2JPLVl2ZjJyUzgydlMtVUVfNzF6cXFRWkFnR2RMT1pWUHN6V0Q3cjJXeTh6VHdjRUZvci1WYWhsT2I3QnFJaWhZTm1taUtHcWpjd0VrUGZIdDYtOEdmaFNCX2NzUWVPWVdDUk1PaVE5X3ZsbkN1RVNMYUE1VzFvQjl3aG1DWmNRTWVVVG9XQzRrYldySFBSUFJQQUNkVVVZUXA3Y2NMaWxR?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:36:00+05:30",
+        "timestamp_display": "08:36 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.0,
+        "region": "Delhi",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "Two NDMC workers killed after speeding Thar hits motorcycle in Delhi Cantonment",
+        "summary": "",
+        "why_it_matters": "Two NDMC workers killed after speeding Thar hits motorcycle in Delhi Cantonment — road-safety concern.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/delhi-news/two-ndmc-workers-killed-after-speeding-thar-hits-motorcycle-in-delhi-cantonment-101788458501022.html"
+          }
+        ],
+        "timestamp": "2026-09-04T07:37:10+05:30",
+        "timestamp_display": "07:37 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.56,
+        "region": "Delhi",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Encounter Underway In J&K's Pirpanjal, 2 Terrorists Suspected To Be Hiding - NDTV",
+        "summary": "",
+        "why_it_matters": "Encounter underway in J&K's Pirpanjal, 2 terrorists suspected to be hiding — counter-terror operation.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNamhydGIzWDktMnZnSVN1c215ZjRpMk9ocDJ2LU9mYXFBa2hheHhwSllEdVJpWjlrN012U0dxOHJYX2ZLRUtJUlZsa3RCRTRuX3lhMDBqRS1EWUlFWExTNTZaOTJwS1d0TElxZDh4RFo4T2V1Rlh3NVdwMnZnOTJZOHBGOGR0RHRzUnVvejk4dVlKYUpKeDBYQWM1dVlBa0I2aEtvaFBfcHZCNDNnenJJMDN3RdIBuwFBVV95cUxNTVZLOW9KTE5uRTg2RmxhazAyenFrQXBqU3hkaFBJZkptcjNXSlV1VHdjWXoyVWdyb3NCbWltOEtXSmhqcjdmMWpWME9pR1J6VGlzSVRhX0IzTmJDMUFOaXJsLTdTaWdhbjNuZGZnNk5CZ3A4ZDlDem5ZLVZPMF9zanhWb2M4MTVPblY3SWc1SG5Ta1hfWW9YYS03SkUwUmNDeVNXQkQ4VnJWY1hfSlZScUx2bGtvTnU5bEtB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T00:30:35+05:30",
+        "timestamp_display": "00:30 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.42,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "How ISRO's 'Naughty Boy' Rocket Delivered A Big Win For India - NDTV",
+        "summary": "",
+        "why_it_matters": "ISRO's 'Naughty Boy' GSLV-F17 rocket delivers India's first geosynchronous imaging satellite EOS-05 — advanced earth-observation for strategic data.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdW10T3ZwYmVSczhaQUtaY055U0FxamZkbl9aWmdzSEV0bEFaLXhuSV93d051dUpBaTR5QlR3UlUzTERHRG9BM2Y5bEg3UTg5dXpsVlo2MlQxaXVSQkxvdDNPZHg3VG5LbWp6ZVFselY1a1RROGJaZEdKcnl0M3Z1d3dIb1lwUEQ3OElxRmFtdjdhVkhLbk5zWTd2S05SSHRremZXR3dnX296VWRUN2JVYW1ZRmFsQdIBvgFBVV95cUxNdmJsS3JFejRFZjZnVmE4Y3VrNVRsMlUyYW1kcThmYmRDTEgyVkMtc20zNWQ1TGNBWF9EMGVxalNBVUxGdjF2a2tDTkwxWm1OekF1ZmZoaVFtaFV2WHpIVHFQNEFmYV9BZUFaQ3dMZ3M5SW15VEdzbmpaWjM0dmIwRnN2NEF1MWI4ZkZ3dkRHS042c2txbjhFZURjZmhhT1dvT2NHUDloYUdTYWpYRjQwZmFoZk5vMWpXVUQwYkJ3?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T07:50:36+05:30",
+        "timestamp_display": "07:50 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "GSLV launches EOS-05 to boost India’s real-time space surveillance - BusinessLine",
+        "summary": "",
+        "why_it_matters": "ISRO's GSLV-F17 launches EOS-05, India's first imaging satellite in geosynchronous orbit — sharpest earth-observation satellite yet, real-time space surveillance for strategic + civilian use.",
+        "sources": [
+          {
+            "source": "BusinessLine",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUktuNS02ZGZqNUV6VlBrWC0zVVNPcU1JT0xod0Uyd193cGpmLVliTzFlUTdRWm4ycFlDdzFSenFTQTlSZVZpSFRZZE9RNXdhNkwwZUFvQmRUYUdfdThvRlk0LXU2eElVRmVLV2dxeDZKcG1iMUh3aTQxUGR0UmJLN0huZjdsek9uMUNRUDFZY1BMc3ZGeWNjZHJ4R3d5UVhzUS1MR3JELXNPWDNTNkdNay1uSHFmSjE2OXBZQmJUT0dxWDBnYnFRT1REM3EzVTdib1lTcnJtWXR1RzdDdmNnaUpWYUxyQW9WVE4wc3dpZ1otbzjSAfoBQVVfeXFMUFhoc3RrbTQ4U3JULTNIekdsUXJzaF9IOGl2X1V3UzFQd3REQW1DV3lVWGlPVVhtRk5IaEE0NnZHZENjdkdaQlZ0VklOWm1SaDVJQVhvX3p0bWk5WnFzVmZiODJ3WVdwWFR0YWloanNFUmVlN240UGUwZ1Z2VHUtM21fNGNmSU9OS2N4M1U3dUhFNzBmVENBMXd2ejFVVFdEUEVQV0tnYlJVcmZqa0FpNkdKaXY4VE1RbHltUUVzU0J0R29vT0xHdDJrUXNkMzFqWUVfdzN3R1RtTUlkQ2lLR1BXUlJYejdDbUsyZExTbXhoSmhtTWFFUWF1dw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T04:50:15+05:30",
+        "timestamp_display": "04:50 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "headline": "ISRO Successfully Launches GSLV F17 Rocket Carrying Imaging Satellite EOS-05 - NDTV",
+        "summary": "",
+        "why_it_matters": "ISRO's GSLV-F17 launches EOS-05, India's first imaging satellite in geosynchronous orbit — sharpest earth-observation satellite yet, real-time space surveillance for strategic + civilian use.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXB0RGtKZGhyTHdmMm5EbWw5UktTVVBFVGFBTEhsQUl0ZEo0M3l3LS1BMmRJb0ZKcVZEZTE2RFFEaUJqVmNxYlBRQTJjSXNnS05EQ2ljNXRZTHVMUjJLMFo5b2xtM3pEOTlhenNOWk5aWFhQdjJ4YktIX1JlazRkcUw2RzlvN3QwYzRRUjk0RFNwZUtGdnUzX2ZTbW9ZQnZYNTZ2Rld3akrSAbABQVVfeXFMT2ZfLWkwUWN6TWR5TS14bURBbGhMS2xTTVM2S1N0ZG9WRHAwNHNKUnBKN0FIN2FjRDVqSEx0WHI5UFQ5MkFYMkQ0MzZ0bWJOaDJEeEdpVW1xTXpLZ2VoVVhFNWNlZ0M1dnRZTHd2aE9MVXpJMlZ1azg5N0YwTmZGUWdvVng3VURZYlY3SlVicGNfZUpGVEFIMDh4a3loNWE2d05oam9aN0FXNl9PLXZhbGo?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T06:17:53+05:30",
+        "timestamp_display": "06:17 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.784,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "Russian Ambassador Alipov hails India’s ‘huge success’ in leading BRICS ahead of summit - The Economic Times",
+        "summary": "",
+        "why_it_matters": "Russian Ambassador Denis Alipov: Russia-India 'on same page' on Ukraine peace; BRICS summit in India set for success — signals warmth ahead of Modi-Putin meet.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNX0hVOXFVUGViUnNHaWs0S3BkMEFEd3NzZ09hWkdEbzdZeXVNaFBpRWRPTDMtSjJEUXdWSWJoaGRqRXFXbG9fenl6NEZxQ2JiREkxZ21JN0U0clRmOEtWR29kZTB0aUJqbjBodWVpR092VE1IODBYeGVJVHc3LTRpT3pTLWRGUGJnNW5vSDB0OUJKWXJvT3BiR3pUOFRQYjQ3Z21XWEptNnI1c1o0cTVnOEdXcDluOTB2cmNkX2ZFVzJxSkRrRXVwMjFZYjRGcGp3VnV0aDNtZVRXanZ6QzNpSXBCUFY4QjZVRWE3OFFrNNIB6AFBVV95cUxOSFBoREVLVWZfNjhBclRCdFo0NEZHNGNnUnNRR2FjT3cwbU5qR3NXaWtQMHdDZzhuS3N6czVPVmZ1eUV6Z3JmdFc4SEEzUkFnLXlLeEJfblZ1eF9Ka2dxNFR2Y18yZG1yck5FcFBqbEdzRDQzVndkNlc1TktkWXc1OVNseXB0WEVNd3NKMlZ2OHpPOEVrZlFXc0pLSU4tQ1hBbGRSeFRjUUdkd1F5dDNWcmJCQjVORVZHbnVxSU9lb2twMEJYS1hsWlBGaFYwM2NzTjZlaFJ5WG9Cakt1SzBCSU43Yzg3ZHMt?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:32:08+05:30",
+        "timestamp_display": "08:32 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "S Jaishankar Defends India's Russian Oil Trade: \"It Won't Affect Ukraine War' - NDTV",
+        "summary": "",
+        "why_it_matters": "EAM S Jaishankar defends India's Russian oil trade: 'won't affect Ukraine war' — sharpest articulation of energy-independence line ahead of BRICS.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeG93TVVkdS13cUxaNTNBdTZrT0N1WFJYVEJ4enMza21IZ2pJS0Fnek53RmR6WklOQ21JOHd6ZThDT2VfQUM2UjRxV011RkMzRkFEMVRrTlQ5dkN6ME9LeXhZcEtJRUdSa2hMVkpCUjJEdnJqUmhUQnluMlZGR2dHeXVrWDQyZlZkYjFFMHZkM2JKcUVsNnRrSk5RZDVKQllqSFNoOHR3VWUxTmRSX3NzaERWUdIBuwFBVV95cUxQNXZ2cjE0RDRWNXd4VVZ0OVlNM2NYc2IxbzZOZjVDc0xCajRRdmtQaFROS3FYVl9IVDJWSmptWWNlVC1IaDhZZVBNcGNITWZJTklqdnR0OUNwMUd6czlaYTAxRGVQaFR4dWJ4YmNfNDdINEN2bkxheF92c0RxUHRUSWE1M1I0VGc2a2IweExBT1NLa1lBTndFM1dCOXVPY2ZuTkM4QWs2NTdJRkRYMFBGeUkwTW9Bd0c0MlYw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T08:45:09+05:30",
+        "timestamp_display": "08:45 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "In Kyiv, Jaishankar offers India’s help to stop Ukraine-Russia war - The Hindu",
+        "summary": "",
+        "why_it_matters": "EAM S Jaishankar defends India's Russian oil trade: 'won't affect Ukraine war' — sharpest articulation of energy-independence line ahead of BRICS.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcl8zTVRTNlFWZzVhajFfY1JVNjVUZHM0c1Y0bVd5MzIydzZBY04wNTJlUXU1eE5xa05Vc3ZObE42UEZnb2VHTW9wQW1fTnFHaW11aFctekF3VWowQ2xfN0N3Y3JCRm9QTWEyeFQ2WHlmb3BkRGcyUkRyS2U0bmI1NkNVMUdoODBIZ3ZLUDItcFYtSkJIV1NtRWphZGpBc2VxZWY5WlhB0gGsAUFVX3lxTFBTaHExakhhMDRsa05WVC1jdTdXSFk2cDAxZVFkTkRiSWlfN0FJcGxpcnE1QUxqQWpoeE5ORDRlUDdMRU5iRmd1YzBwVHFEUUFMUkV5WjF2NENxdzBDZW01Mm8wc0ZoVmhqMEJGY2NYaktBeUpEbS1BYnRYblVfWmRyaS14U1JSeTdxN0w5cnR2dWNybnZ2MFI1c2V4SkVDZ0lmWUx5cE1DMlJzM1I?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-03T17:04:35+05:30",
+        "timestamp_display": "17:04 IST",
+        "source_quality": "high",
+        "recency_score": 0.3,
+        "final_score": 0.6,
+        "region": "International",
+        "confidence": "high"
+      }
+    ]
+  },
+  "top_5_trends": [
+    {
+      "trend": "ISRO's GSLV-F17 'Naughty Boy' launches EOS-05 — India's first imaging satellite in geosynchronous orbit",
+      "why_it_matters": "Sharpest earth-observation satellite yet — real-time space surveillance for strategic and civilian use; PM Modi calls it a reflection of India's growing space capabilities."
+    },
+    {
+      "trend": "BRICS Summit kicks off in New Delhi; Russian envoy Alipov says Russia-India 'on same page' on Ukraine peace",
+      "why_it_matters": "High-stakes summit with PM Modi hosting Putin-envoy amid Trump sanctions pressure on Russia; Delhi declares Sept 11 a holiday, Quad Sherpas meet in parallel."
+    },
+    {
+      "trend": "RBI keeps repo rate unchanged; projects India's real GDP growth at 6.9% for current fiscal",
+      "why_it_matters": "Status-quo policy stance as MPC balances growth-inflation; 6.9% projection is a downgrade from 7.8% Q1 print — softens the 'fastest-growing' narrative ahead of festive season."
+    },
+    {
+      "trend": "S Jaishankar defends India's Russian oil trade: 'It won't affect Ukraine war'",
+      "why_it_matters": "Sharpest articulation yet of India's energy-independence line — Delhi publicly refuses to bend to Western pressure ahead of BRICS; coincides with Ukraine thanking India for peace push."
+    },
+    {
+      "trend": "India women storm into Asia Cup semifinal as Mandhana's record 124 powers 137-run win over Hong Kong",
+      "why_it_matters": "Mandhana surpasses Mithali Raj as highest run-scorer in women's cricket; dominant win sets up a marquee semifinal, plus T20I format prep ahead of World Cup."
+    }
+  ],
+  "dedup_stats": {
+    "dropped": 17,
+    "kept": 38
+  },
+  "rejected_items": [
+    {
+      "headline": "Breaking news live updates: ISRO chief V Narayanan says Earth observation satellites are not ‘spy satellites’, scan India for citizen safety",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/newsblogs/isro-eos-05-india-satellite-pm-modi-janmashthami-2026-strait-of-hormuz-iran-us-war-middle-east-ukraine-russia-trump-tariffs-nepal-floods/liveblog/133749695.cms"
+    },
+    {
+      "headline": "GSLV-F17 mission LIVE | India’s ‘Eye in the Sky’! ISRO launches satellite to watch borders 24/7",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/videos/gslv-f17-mission-live-indias-eye-in-the-sky-isro-launches-satellite-to-watch-its-borders-24/7/videoshow/133745988.cms"
+    },
+    {
+      "headline": "GSLV-F17 mission LIVE | India’s ‘Eye in the Sky’! ISRO launches satellite to watch borders 24/7",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/india/gslv-f17-mission-live-indias-eye-in-the-sky-isro-launches-satellite-to-watch-its-borders-24/7/videoshow/133745987.cms"
+    },
+    {
+      "headline": "HT Morning Brief Sept 4: ISRO launches EOS-05; India-US trade deal in focus; Rohit Sharma gets BCCI boost | India News - hindustantimes.com",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOMzVNVGZ0YVZ6NENiQWVnSUpxdV83aTczRUlwOGtVY0JLLWNWV3dCX3Nrc3RnZnVpU09YNmk4OWREXzVpdHpOaFlSSjduT1FfLTdJN0drT1BQeFNGVnpvZlVNS0RMelh6cFJIa1h0akYtN2lqbkxLQlEwWFlYaGFIbE5YZ3NxZTBFYXZwTFJYUmNRY3JOWEdhckUteHAteWxBeWx1X2U2d2gxczAzMkJDb29XWVU5RkQ3M3Rra2IwNUZJYktTdmU4TlRxVjVHLXpxUGpZdmFmQVRBUHdKQ2FuaC1jd1l0WFJodFU2c1VPVkRoQVIxTkpPeEttbXlrNjFOS3RvZXNnTmrSAY4CQVVfeXFMUEZKSzMtSjlWUkQzYWJWTlpnaEVGZnMtRm1weGU0R3FPVWU4XzlYVkE4UUZ6SEpsY0VwNm01SWtLQ1dsZ0hWaGc5TEVDZmhSYXNMRUwxWV9XN0lJWGNsVXFESjhSMWF1cld2cVhMMlhuS1pVVUxGYXFGZ2pldG10V1VmWkt0YVg4UzctUG1abGh5UlJRekQ3ZWREQ1dtUy1GR3d1LU9rbWwzazdsMFotSUNwRWh4YXlSYWl5eTZRZS1vUGJtN3RiY3dZNkRRSkl1eHN6RkpyTEc3T0NQN093bnQ1Z3Z2Wk9jM1NYNWhWalozTEpXV0tEeG9EWl9BNEVuLUM0UnhoUC1meFV3WENB?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 04 Sep 2026, 4 AM - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFQ1Z3c2TUtUYnNOMm44TjJhcXR4SE1XckZlMWNkQkZtLXJyc3R6eW9NZGVTTzM1QmFLeWxHbm5JYnN0RUlwVHByS3d5Ynlsbk52VDh6XzA1ZWRiN2ZDb040Qi13RzlvNXlnTzNNcUl0UDh4ZGZRUXBZNnl2RUVpZFRxREZwR2I4bVo4N2UzZ1Y1cDBtQklpTHlYdExZLUpoazhoV0pFZ1R4c0dpMHBxdG1lMNIBuAFBVV95cUxOVFpUWDNYWmg2V01udHNwTHhOSUs4U21SUXhIV1JwU1dINFYwUno4XzFDWHBadVNBQmhlajQ4VlhtTFNlN2x3dG82SmVRNG0zbGRGdE9lbjIzVldVTkh4bnlhLTdOWGtBd3lYV2l0SklhTklCUTVqUEZjaFp5MmNlOUE5Y05qUVFYeDd5UnpjaFVaT0VfVHI4cjhJTFp1Y2ozdlViSHgyQzFXd3hKU05oNHR6VERpY1p2?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 04 Sep 2026, 12 AM - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWGF0bWRlcW5sV3huY0dPUE1QVzF2eTVSYnZjSzNUSzNydE04c2o2dWRZZnNpeW0wZzNUUmJIaHFMQ3JXZEYwdk9OcWc5ekl2U0FsRGhBcnJ1R2Q5WjRPTU8xQ0ZXOVdkM2NnRlhVM1dVT0UwOFBESGRvVkdRdTQ4ald2Zy00ajNGOUZaS29qTGxfRXlNc0lVbFFJS21zNWdSVE9WTGd1OERkVElrS1RHSWxiT0_SAboBQVVfeXFMTzB2S0ZZcVdaVl95dzFFZk4xT2FiSDRGQktTTFNRMGtzeklBNk5fZVZqZExJamtxWlVIa3RvdXk4WkhlWElNd3Q0eWNlN1o0bDE4cmpnTFd0QmVaNDdXRG82WXZ0dWp3UDI5U3NhdkJycTBqc1ozeGJibE8tbnhhaFZCY01TS1A5OTdVcUF0aGk1dTd5aEFqbXBuQWxNckIwRzgzSldKOFcwV1h2SmdSOGcyUXM4M1RPelJR?oc=5"
+    },
+    {
+      "headline": "Video: 7-year-old girl mauled by stray dogs in Ghaziabad residential society - India Today",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOR3ZUMmFla2VlQUZ4ZU5yTGlmLTFWdUNydXBuVnZyNm9PUmZZWENzaEpiUGlnd1VTcEV4SkRFUnpKLTlwX09DbjFvLWwyRkNjY0JHV1FBMGNCZ25CUEVzZWwyQXhLZzhCOWNWc2R0bTRhUkFpM0xQdHRoX1NDOFJLLXVXbHM1bEJOLUdEUC1jTWtWSFdkaHJ1YXpzdjFGRmdqYzN0T292VHo4dzBhQ0x2VEE5YWplSGFUazlfeWYySEszakNZeEFKZmxlcEFvdnFRNFBiNUdMSEFwSzhmd2hzcFBNWTIzQdIB6wFBVV95cUxOZGJmYlNHQkdHajVvSU9Pck84VDdmOU1odGdockI1aEtaQXItOE8xSXRCUG5wUVFZWlF3RmZBVDlhUGt3VkJKWkV1NjlhM2JBZTVLZ0ZQV0RkVmVsSEoxeHEtRlZjNURYYmE3S0JPdlIzXzJmOHVaV0JPZW92clk1QW02U2draGZYTlhFVXFIRWt2cnFKQ1RaZU5NdkRDdkhQTjBrR3U1VGwybjhQNGpXNERTUFNQMHQ1U2hEX2RPXzRtMDYxNXBYUEY1UWlYd3hibTBjNGNXVUZEZUNZUnFLTGwxdHFyTzJ0cENJ?oc=5"
+    },
+    {
+      "headline": "Vijay Steps On Formula 1 Gas, Announces Mega Olympic City In Chennai - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaFhBQ0QwMUdDTmwyU1Iyck1rQ0piU2dlb2xRR3JUY21wcHpNa1NQR3IyTTFmQUJ2cDRsUzBEdTIxU3VWTDk2VkdkakdZQmpGYUVvaDhubzlBbFpQN3ljaWNZb2NvTjdqcUlWRENCeWRKRHQtTlExelZHNU1jenM2R2hJMm9oSnMzQW54WW9wMnVxdWZDS2pZN0o2TF9iQXFhUlo4UXRMQ3hmNXRmOE1QcEFWN0d4aUg3SnhYNHd4bGtOQXB2eTJjb1V6UHowTHc?oc=5"
+    },
+    {
+      "headline": "Video: Moment MG Windsor Hit Scooter, Autos, Killing Woman In Mumbai - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUV2alpxdjQ5Z1VfbEgwOXR3MTd2b21OUkVKU2x6QXZPYUNtd2tyQkFjT3pWU3FzNHNhX2RkTDdsNjRocERoV09RUXNkWFNpMlZ1clNKOUY5cXUwN1pBLWdTLWI1NjBucF85UkV3YWxvS2FqN1dWTWRZNEkyOFgwVkRTTW81eTVuVmQzeWRGVmlNRVY4bTdvY2dxNlFTajduSU0zUmNFSnVEQQ?oc=5"
+    },
+    {
+      "headline": "stock market today",
+      "reason": "blacklist",
+      "url": "https://trends.google.com/trending/rss?geo=IN"
+    },
+    {
+      "headline": "HT Evening Brief Sept 3: India 'ready to help end' Ukraine war; Taapsee Pannu's Gandhari movie review in",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/india-news/ht-evening-brief-sept-3-india-ready-to-help-end-ukraine-war-taapsee-pannu-gandhari-movie-review-in-top-news-today-101788436336855.html"
+    },
+    {
+      "headline": "Ram Temple CEO Jeetendra Mishra's old video with PM Modi at Adampur air base goes viral",
+      "reason": "carryover_dup",
+      "matched_in": "Politics & Policy",
+      "matched_headline": "Ram Temple CEO Jeetendra Mishra's old video with PM Modi at Adampur air base goes viral | India News - Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/jeetendra-mishra-s-old-video-with-pm-modi-at-adampur-base-resurfaces-after-ram-temple-ceo-appointment-operation-sindoor-101788407285967.html"
+    },
+    {
+      "headline": "Ram Temple trust gets its first woman trustee",
+      "reason": "carryover_dup",
+      "matched_in": "Crime & Justice",
+      "matched_headline": "Ram Temple trust gets its first woman trustee | India News - Hindustan Times",
+      "url": "https://www.hindustantimes.com/india-news/ram-temple-trust-gets-its-first-woman-trustee-ceo-news-101788406539803.html"
+    },
+    {
+      "headline": "Paula Badosa: 5 things to know about her parents, boyfriend, height and friendship with Sabalenka",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/tennis/paula-badosa-5-things-to-know-about-her-parents-boyfriend-height-and-friendship-with-aryna-sabalenka-101788479807411.html"
+    },
+    {
+      "headline": "East Bengal FC drawn with Hwacheon KSPO, Ho Chi Minh City, 4.25 SC in AFC Women's Champions League",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/football/east-bengal-fc-drawn-with-hwacheon-kspo-ho-chi-minh-city-4-25-sc-in-afc-women-s-champions-league-101788424978588.html"
+    },
+    {
+      "headline": "Watch: Chahal’s magical delivery leaves Ben Stokes stunned in County game",
+      "reason": "blacklist",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/news/clean-bowled-yuzvendra-chahals-magical-delivery-leaves-ben-stokes-stunned-in-county-championship-watch/articleshow/133738110.cms"
+    },
+    {
+      "headline": "Adobe acquires Indian AI startup Rilo",
+      "reason": "carryover_dup",
+      "matched_in": "Tech & AI",
+      "matched_headline": "Adobe Acquires Peak XV-Backed AI Martech Startup Rilo",
+      "url": "https://yourstory.com/2026/09/adobe-acquires-indian-ai-startup-rilo"
+    }
+  ]
+}

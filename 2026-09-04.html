@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-09-04</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Friday, 04 September 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 04 September 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">ISRO's GSLV-F17 'Naughty Boy' launches EOS-05 — India's first imaging satellite in geosynchronous orbit</a>
+      <span class="item-why">Sharpest earth-observation satellite yet — real-time space surveillance for strategic and civilian use; PM Modi calls it a reflection of India's growing space capabilities.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">BRICS Summit kicks off in New Delhi; Russian envoy Alipov says Russia-India 'on same page' on Ukraine peace</a>
+      <span class="item-why">High-stakes summit with PM Modi hosting Putin-envoy amid Trump sanctions pressure on Russia; Delhi declares Sept 11 a holiday, Quad Sherpas meet in parallel.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">RBI keeps repo rate unchanged; projects India's real GDP growth at 6.9% for current fiscal</a>
+      <span class="item-why">Status-quo policy stance as MPC balances growth-inflation; 6.9% projection is a downgrade from 7.8% Q1 print — softens the 'fastest-growing' narrative ahead of festive season.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">S Jaishankar defends India's Russian oil trade: 'It won't affect Ukraine war'</a>
+      <span class="item-why">Sharpest articulation yet of India's energy-independence line — Delhi publicly refuses to bend to Western pressure ahead of BRICS; coincides with Ukraine thanking India for peace push.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">India women storm into Asia Cup semifinal as Mandhana's record 124 powers 137-run win over Hong Kong</a>
+      <span class="item-why">Mandhana surpasses Mithali Raj as highest run-scorer in women's cricket; dominant win sets up a marquee semifinal, plus T20I format prep ahead of World Cup.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  3 items</span></h3>
+<div class="theme">Belgium-India defence & semiconductor cooperation formalised; PayPal India layoffs hit 220; BYJU's asset sale stays on hold; Cradlewise raises $12M Series A.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/paypals-global-mass-layoffs-impact-220-indian-employees/" target="_blank" rel="noopener">PayPal’s Global Mass Layoffs Impact 220 Indian Employees</a>
+      <span class="badge lo">low</span>
+      <span class="why">PayPal's global mass layoffs hit 220 Indian employees — tech sector contraction continues.</span>
+      <span class="src">Unknown  ·  20:43 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ1J3M29PanQxQ3VDdHJUaHlaREs2OWJld2pLWlF1S2pycnVoRVFlMnpjNmNPUGcwbEZzOFJtM21Db2VBaHJ6UDdCNG9MWkJyMlFGd2lPTEk4UUw1TGV5NWFyWFg5N1duQUZsOGJILTRtMnZlQTM0U1Q0eHJveVBtOFU3Qmlxb1A0d0pTanlsUWgxc3MxQ1lFRmZTWi1LdndjeTRMZFlWS0MzRkV0LVQzMdIBtwFBVV95cUxPUE9DYW1QckVuMkZ5OEtEa0FjLVdTaTgtdUxBWWRqenNmdmwxZWlEZHdQcUJ2ZWlRM2o5SUdpM3FhdGxhN0Q2ZXlFUVN1bjNzUTRzMXdCcEZOemowRjc3Z3RGRVRSY1RFLWliTkhWSlpFV3M5cGtoX1BvM1JEVURXRFpxckVHbVh6S0lqVlJtbmxMT1FOWFd4X1BoVEV0LVhsMG1aMVlQcVhwR2kxZWNFT2p4WGgwckk?oc=5" target="_blank" rel="noopener">From defence to fintech, India & Belgium give ties a major boost - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">India-Belgium formalise Defence Attache appointments; cooperation expands in defence, semiconductors, fintech.</span>
+      <span class="src">The Indian Express  ·  05:20 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/trending/woman-pays-bond-to-quit-tcs-after-husband-s-phone-call-starts-two-ventures-with-him-101788488030618.html" target="_blank" rel="noopener">Woman pays bond to quit TCS after husband’s phone call, starts two ventures with him</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  08:07 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  3 items</span></h3>
+<div class="theme">RBI keeps repo unchanged, projects FY26-27 real GDP at 6.9%; India secures 70% of crude oil imports outside Strait of Hormuz; CAG flags Himachal debt.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTC0xTTV4aEJ1RFlJekJreVA2YkVDZmVOWVAxSkI4VDd0VjBGZmM2QTdJZjZUMjRVRXpzZGZCb21UaFE5YnRoVjVPN0FOQmpDYl9nV2d5WE5pUF9qekxWUm1Xd2Q0U0NWSDNNRmNVXzhndGRTcVBYcEdZdWRnUkRmZlREWjNaNExWZHFucnNVREFaTlQ0eEtxNC1RY0dIMEhpN0RuU25NSXB5djQ?oc=5" target="_blank" rel="noopener">India secures 70% of crude oil imports Outside Strait of Hormuz: Petroleum Ministry - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">News On AIR  ·  06:20 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxOYTMyc3NQc0hENlVPSjVabGlzWHpMV2dzajRHLWpCZWZwUHprZERGaVhuZFgyVVBQM0diRjVta1JwSHdpdGZIT0xDT1RkYXdDS1RVRU80b1VORV9ZdDNvQ0M4UTY5NE1UT29XV1NvdDZidzdvcVY1R1NiSzl6R1NYUWVvOU1aTG1tRGxOT3BlZUVKdlM0djRDNVV6ZGcwRXZ5bXpBVDZhN0hFa3B4YkY0aVhQVlAtSzFHV0VBNkJEcHpod1NFdFpnU3RhamFmY29SbEwtSmtqLUo1dkt0LXBzS2NPcTAtdW1nMHVTY0lXeEpWRE44QmNR0gH3AUFVX3lxTE5hMzJzc1BzSEQ2VU9KNVpsaXNYekxXZ3NqNEctakJlZnBQemtkREZpWG5kWDJVUFAzR2JGNW1rUnBId2l0ZkhPTENPVGRhd0NLVFVFTzRvVU5FX1l0M29DQzhRNjk0TVRPb1dXU290NmJ3N29xVjVHU2JLOXpHU1hRZW85TVpMbW1EbE5PcGVlRUp2UzR2NEM1VXpkZzBFdnltekFUNmE3SEVrcHhiRjRpWFBWUC1LMUdXRUE2QkRwemh3U0V0WmdTdGFqYWZjb1JsTC1Ka2otSjV2S3QtcHNLY09xMC11bWcwdVNjSVd4SlZETjhCY1E?oc=5" target="_blank" rel="noopener">Economy in a tight spot and inflation rising, but government is ignoring real problems, says Sharad Pawar - Mid-Day</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Mid-Day  ·  08:08 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0RaVVkwYUVabGc0R3FmSDh5bnNyUGFqNmsxdUFjbHZIbU9TTlhTTDhVN0VBbkpOV0I2MGxCRWQ3eTYtbWVVY0R6aUE3QkdGVDJVNVJVSTZGM3VXak9xczcteGRidW9qcjgyNUg3NW5OWm9OTy1JV1NQQWpZZWNhT3h5SlJTYmtrMVBYTEI3ZFBxc0ZRWERBU2dtbWlrUmhiMlpSSWJISEc0aEZyMXlaU242Uk1YMlZoVnFDTjg3aEpaUUJKSTRkWXJpYWE2YkHSAc8BQVVfeXFMUEdEWlVZMGFFWmxnNEdxZkg4eW5zclBhajZrMXVBY2x2SG1PU05YU0w4VTdFQW5KTldCNjBsQkVkN3k2LW1lVWNEemlBN0JHRlQyVTVSVUk2RjN1V2pPcXM3LXhkYnVvanI4MjVINzVuTlpvTk8tSVdTUEFqWWVjYU94eUpSU2JrazFQWExCN2RQcXNGUVhEQVNnbW1pa1JoYjJaUkliSEhHNGhGcjF5WlNuNlJNWDJWaFZxQ044N2hKWlFCSkk0ZFlyaWFhNmJB?oc=5" target="_blank" rel="noopener">Stock recommendations for 4 September from MarketSmith India - Livemint</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">Livemint  ·  06:00 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY  ·  3 items</span></h3>
+<div class="theme">PM Modi's 7-point swadeshi pitch for economic self-reliance; 31-member JPC to review FCRA bill (BJP MP chairs); UK MP defends RSS chief's London visit post-US backlash; Ladakh gets 5 new districts with elected councils.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSnJuSTUyVGJyY2tKa1hrXzVXN0JBVnphY2xnY1J2RlZiWmd1QjlzS205VFk5aVg5NF9RdVdscVREczFvY0thdS1OQUItbVItMlU5bTBHTWRMY3FDNTZNU0l1SWRKRXhGRFFqZlUxb0ZZQ1BMYU9QcVRoT3FQUnRNWDNyOXNXcVJPYndjZ0tXT2k1M0JCUG9SSEVYQldBY1dqcnhwTVl3QVp2b2tOeUdhelIyYjNycXk2QUJWeldXeUxxM25VY0xoWDExQWFvYjdqQk1aT3lrT2wxcWRLZTdwRjVpMWxUQQ?oc=5" target="_blank" rel="noopener">Prime Minister Narendra Modi makes seven appeals for economic self-reliance - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why"></span>
+      <span class="src">News On AIR  ·  06:20 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWXNRX1pXZEtHU2lURVhvRlczdS1iakhxbnpCc3BqYVRNZXh1N0FkMWZGNTNhRmE3ZXpNQUJVRV9CRmZwRkdqaEVNb1d1VmlsV21LYXBEVWFoWlFDakJDakpxaE5VYkZSTTVrSW0tdWU2ZkNvWXhHUXNPQlZqSW1hbmp2R2FOZFRVTHJmYUdLTG5UMGF2ZWVmZzVZN21RRUZCVlAzbjAwZ0VRa2dsNHAxY0kxazZDc2s2blBKcDFZYWtXaEdBaFlMWGlKS09NYlF1LUx6MEJuMlphSl9BT1czREV5WTAwbEhJ0gHuAUFVX3lxTE9wVmhPLUVKeEdST2FpLUdrd0xreEkxVVdjZmNJSVJMZzVhcVJxck5fU1F3aXNEU1J2eTFxWG53S0dEaGszSzBTbjREQjBvcDQ0MTRDYkY2MWxXVWdGbW02aV9jU2wyUW9oME9xUDVJcUxNYng4bGYtcjBUeW1WeDBiNGlQeGNiN0YwWENyeDNEZTE1LTRkNExTV2c3WEZHUktLalg2WnFrMk1SNzRnMDd5cUtCamVZVVRSNS1yU29LdVdiR3hGNUxIelo1VmtFdngwdVJ1QWtFcGFlekVhT0pZeGFOUWxKQW0zdTJOaXc?oc=5" target="_blank" rel="noopener">After US backlash, UK MP defends RSS chief's London visit: ‘Pleased to listen to his thoughts and ideas’ | India News - hindustantimes.com</a>
+      <span class="badge lo">low</span>
+      <span class="why">Big relief for Karnataka teachers suspended for taking part in RSS March; UK MP defends RSS chief's London visit post-US backlash.</span>
+      <span class="src">hindustantimes.com  ·  08:47 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSUpxcjE3Z0lBeFpzYnp2dFlvRVhNRXJUYTFZX0lNVjB3T19BRGpJb2dMampHWnNRMzRNYXBTa0lYS1F1NlRlZVJBS01yWDFjUnplWDZ1RzdfSWZHT1VyWkxPanZQN1ZveGtudmo5ay1EU3lCM1VDS19OZkpzNWcxTTVqdGkxMGZabXFQYzNubGZFWnBocVpSRU1hQTNzNUptWWNoU0lVX2dudkVWSkgtMzAxMEhMT0lXNTBXVzc5dlpoWjQxT3dkN3oteDRPLUVzMXpzaHU1anl0X0xjSWRzLWVWczRMdTdEbk1JddIB8gFBVV95cUxPc0NhR1NDS2VkT09rR0xDMklzdVBVMWpKSmxFZFNmSDljeEdUN0ZDVnhLQldSX2FjMzBCQWdxaG5tandEWDhyd05OSTg5dXI5cEN6RmRMU3RqSi1LZ013X3VnQ0NvTTlUR20zNTJnNURZa1hET0s0ZVl4LU9HWHoyNXljNmFORXZXd2szSlh1bW9JQk5lQzVFQUVBS3FNNGp2NDZ6aUFmamhGX0FqdU5VVjAyYVQ4bkRWZXBjQTVRYlEyT24xRVdfQW95SjhMa0NEWl9fdS1QQ2M3cG1lemwtaVdrcV9wMHJMX2pEMFg0LWZqdw?oc=5" target="_blank" rel="noopener">31-member joint parliamentary committee formed to review FCRA bill; BJP MP to chair | India News - hindustantimes.com</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">hindustantimes.com  ·  07:53 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">Karnataka rolls back Parks amendment bill amid BJP + citizen protests; IAS officer arrested in KPSC recruitment scam; Bengal-Mumbai-style medical shop owner hacked to death; BMRCL Pink Line likely opens this month.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxOLUprT1I0dTNBQmhfT083dXZuX1JsMXR2VU1xSURGZUI1UXI3dExwVWRYV2NmWkloTlRVOG14akYtbWdMUDJkVC1KUUpPcFY3Nms2NWx2WW5iNXktYTR4VmszbWQzd05aRl9PdkZUQWNTY0Q0aDBvenRKTnllZjFqRmVOdkg0UjNOWF9RVDZQNlpFNnQ2Szl0ZE52VE55b0oxeWl0WmUxWnNDVkpPWVBHTjl5SdIBuwFBVV95cUxNaXBQN3N1YWZzUWFEX2VBSlVYV2F6Y0x4aS1XQWhhcVpMbjBhZnpqbmlnbVJVWXc3ek9XNU4zVmk0Y2NLaVU0YkVwUVVfZ0x0QzdBc2hjSmpJS0lCclNyLUpvZVpJMUQteHpGOFVBbE1pRGdWei1iczZWMlI0Q2phN3ZoQ2lIZUItd1hLbGZxeXhsVUdybG5WRFNOSlE4cm1rQXNldGtkUUk2d0RoOE4zR2NXa2czYkRuNlpr?oc=5" target="_blank" rel="noopener">Big Relief For Karnataka Teachers Suspended For Taking Part In RSS March - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Big relief for Karnataka teachers suspended for taking part in RSS March; UK MP defends RSS chief's London visit post-US backlash.</span>
+      <span class="src">NDTV  ·  00:48 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/blinkit-facility-inspected-in-karnataka-after-consumer-claims-worm-seen-in-egg-mangaluru-101788491723869.html" target="_blank" rel="noopener">Blinkit facility inspected in Karnataka after consumer claims worm seen in egg</a>
+      <span class="badge lo">low</span>
+      <span class="why">Blinkit facility inspected in Karnataka after consumer claims worm seen in egg — food-safety crackdown.</span>
+      <span class="src">Unknown  ·  08:51 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNcWlqLWJkRG9IYzFnSG93aGVoQmRBMWc1NHdRamRCdXZGbXdzS1RmOVlYem1vMmt4MlRWSm94dkc0cUwwQm1LTmNLc3dJOG5CZ2xxLUxlZVVuQnA5Rnd2UUhwRG1SRnM4M0ltMC1uem1zdFpNM0JWTGNhMUo4NUV2Wk5vZDFCanV5RUgteHFhelZFcV94RXJ2OEtIZlU5SFg3dWoydkF5SU80WENhOVQ5Y2oyQlA2TE5mcFhielRMY9IBxgFBVV95cUxNQjNDN3J0M2d3T2NzcjF4eFhJcjItVlJ2RmMzcFYxTTE4MWtuWjQzVTF6Y3dOU3lpaEF1X01EOHMxN01fbmM0aWU5T3hBX3lGaWpoTGdYbzBjeHRrRm1XVV9rYndURDdQSTFTR0VYejZMc1RTcjF2M2pUQjNfTnl2VkJCSVBDWW1fZW5jTTFKYWhjZ0pZYVppTkdSMVVEQ3h1NTlXYlBUY3pxa1BNckRNOWhyU21sRklDcml5SjNtckNaRmt0cnc?oc=5" target="_blank" rel="noopener">Jailed IAS officer suspended in Karnataka’s veterinarian recruitment scam - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">IAS officer suspended after arrest over KPSC recruitment exam row in Karnataka — civil services integrity test.</span>
+      <span class="src">The Indian Express  ·  23:42 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI  ·  3 items</span></h3>
+<div class="theme">Madras HC dismisses Stalin's plea to declare him elected from Kolathur; IIT-Madras + CMC Vellore build AI tools for early kidney-disease detection; TNsells onions at ₹35/kg via fair-price shops; CM Vijay pitches Olympic-standard sports complex.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://indianexpress.com/article/cities/chennai/madras-high-court-dismisses-stalins-challenge-to-kolathur-defeat-says-remedy-lies-in-election-petition-10861981/" target="_blank" rel="noopener">Madras High Court dismisses Stalin’s challenge to Kolathur defeat, says remedy lies in election petition</a>
+      <span class="badge lo">low</span>
+      <span class="why">Madras High Court dismisses Stalin's plea to declare him elected from Kolathur constituency — election petition is the only remedy.</span>
+      <span class="src">Unknown  ·  06:30 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://trends.google.com/trending/rss?geo=IN" target="_blank" rel="noopener">mk stalin kolathur</a>
+      <span class="badge lo">low</span>
+      <span class="why">Madras High Court dismisses Stalin's plea to declare him elected from Kolathur constituency — election petition is the only remedy.</span>
+      <span class="src">Unknown  ·  09:00 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/national/tamil-nadu/sale-of-onions-at-35-per-kg-via-fair-price-shops-launched-in-tamil-nadu/article71422320.ece" target="_blank" rel="noopener">Sale of onions at ₹35 per kg via fair price shops launched in Tamil Nadu</a>
+      <span class="badge lo">low</span>
+      <span class="why">Tamil Nadu launches sale of onions at ₹35/kg via fair-price shops — price-control move amid festival demand.</span>
+      <span class="src">Unknown  ·  22:48 IST  ·  Chennai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">38 rescued after ferry breaks down near Gateway of India; Pune man's anti-noise drive slapped on camera during Ganeshotsav; BMC evicts 600+ shopkeepers after SC order on Orchid City Centre; UN flags Mumbai at risk of permanent inundation.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQdTRLc1hNQmM3RjA2bnZrbVpzcE8xblVrZ25oS2tLZ3JJT0E2c3dUeGhMRjV2cHhCeGY5WGtRTmdzN1hSaU5wOTkwcTlHZ1ZMMDRCWjZMdU1ucTJhcUVZeVVIYWZxdDFfN1d0MkNOdXdpQkNMUk9VbWRlSzB3WjNQNUgxZ1dzVTFHaEdaUjlqSHE0T1BjZ0VKcEVSSUx2ckI5WldPWjA1Sk9zTlp2MkFsbnRNWdIBuwFBVV95cUxQVHpXNktWc1MzNnhhWDdETVlMZjE0ZHpUTUZ2TC0wVGNHcmcxTzBlRmVVT3FzbG9oR1JiaGdyOTctVzUzQXNvRmNzUmlCc29jakVvSmNPMGlHbG4ya0ktTnlrZmRudFVsTkY2UFJTaHF2ZU1TemRxTlpTM25nYWxsclRtNmFLaE1INXRyazVNZXM1NDFWRGJQM21PYUt3emJqUUg2REptMDNoNzRRMVpCTFBBbmFzaHRCYjlV?oc=5" target="_blank" rel="noopener">38 People Rescued After Boat Breaks Down Off Gateway Of India In Mumbai - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">38 people rescued after ferry breaks down off Gateway of India in Mumbai after rope entanglement — coast guard response.</span>
+      <span class="src">NDTV  ·  05:23 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN2R5b0FzTEpVWTlJZ1BSeTJZMWZRZmtrbGNZQTB2ci1aYVk3akJHWkR0R0tQVjJDWjdEYmdSYTJ4VGVTUGJfRFhUZ3NrYXdnbUc1Y0pWLTJDOFFBbDdxMXpyYk00Sm9vVVQzRzRoazNLU0RPRUdOQVNRRk9LWVJQcHBnUDh1dWM5V1ZiR05qeno0Y3ByYjVrUVlxZ2cyU2JMQ2NPV09YRmszcnFTVW94UDF3WXAtTTFUQ1RIQnNWRFh4WUw5dnJDYmxNbXNJeVFTbGfSAdcBQVVfeXFMT2tBS2VwU1l4QzFfV1FuSGVKeVBGRUZKUkV0UWhsOUlmRC1WVzFRaWNlaG5TWVFlMmlQdE9EOUp4XzhTbjF2bGh3Ui1YWWhpTEF0d01SdUZGYVBDdXJUeDc3d2xfZTVIejU3TmVMNEJFZGZLR1pRMGpGOFFmYnpvNnJQNFF1Qmg3NVhMRXBVckNWUWpPa0EwQjNHQWNtSzQ0eDh6U2ltRzl0ZEo1VXFNX2xCWnlDb3JwRENYSWpEVEllNmRkRTdfUjBvR2hzOUF5UnNILUJTVFk?oc=5" target="_blank" rel="noopener">38 rescued after ferry breaks down near Mumbai’s Gateway of India | Mumbai news - hindustantimes.com</a>
+      <span class="badge lo">low</span>
+      <span class="why">38 people rescued after ferry breaks down off Gateway of India in Mumbai after rope entanglement — coast guard response.</span>
+      <span class="src">hindustantimes.com  ·  07:54 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/38-rescued-after-ferry-breaks-down-near-mumbai-s-gateway-of-india-101788462007882.html" target="_blank" rel="noopener">Ferry breaks down near Mumbai’s Gateway of India after rope gets entangled, 38 rescued</a>
+      <span class="badge lo">low</span>
+      <span class="why">38 people rescued after ferry breaks down off Gateway of India in Mumbai after rope entanglement — coast guard response.</span>
+      <span class="src">Unknown  ·  07:54 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS  ·  1 item</span></h3>
+<div class="theme">Mandhana's record 124 powers India women into Asia Cup semis (137-run win over Hong Kong); BCCI Devajit Saikia admits overseas struggles; Bumrah fitness test before AFG T20Is; Vaibhav Sooryavanshi tipped to 'serve like Sachin'.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMEFxYURRSFFibldQOGtYSFpoYUo4UzFRSUJNRklCZzEyS25MU3hDc3VxRmsyY0xTaXBmLXBGZkRsUHlydl9iVi1PRlI2eklHOVFMV0dzNDR2MjZTMHJDNXN3ZGhkdjBpUWdqSXdsaHRwM2psRTVxUTVRUUdlWnFxdjhFZmNvaFpOc3NnWmVMbUR4SklPTnZGbVgyQnVBVFpHX3J2SGFGb3RiRnduZUpjRlpTQTNHQ1dyNUZtUVJldUV4aU4yTWJZT25VUnVadFJtZHB1TTlhMHpDWkRzNkRxS01GR2s4dFBRSDdTQmNNblFXdmp10gH6AUFVX3lxTE9WY3pjYnZPS29BZmhRcEkwRlhiWUxHYTJjTXBIbHg0b3JzUGU2N2VOQmdRTlJYajNrdEE4dENlSjZ4RDlkM09fWE5GRTVfRi02QURTWF9kYjRSWHpOc3IzcVlSRF84ZkdvcVhCQ3E5OVNlLUNENDFSS3g2d2p5WkxTaEdteXNFb3U1UlJGcmczSHphYTFvQXo2TkNIakNnSEdfV1JTcUFIY3d1VEZXVlByOVhxN2dDMk1ROUMtTmNqZnEwQkZRUkQ0dlh3MkJ6NHlRelNpMnVmUkNvRWhWb3dHcENqTmM4dnVLcVk5cG9zcm9LbnJ0RHBTeUE?oc=5" target="_blank" rel="noopener">65m boundaries, hybrid pitch: Inside the new venue for India’s Asian Games campaign - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">The Times of India  ·  08:16 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE  ·  3 items</span></h3>
+<div class="theme">BRICS Summit: Delhi declares Sept 11 a holiday, security review on; Bollywood Khans remain ageless with distinct brand promises; Dulquer Salmaan's 'I'm Game' review.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.thehindu.com/news/cities/Delhi/brics-summit-police-review-security-coverepsept-11-to-be-a-holiday/article71425557.ece" target="_blank" rel="noopener">BRICS Summit: police review security cover; Sept. 11 to be a holiday</a>
+      <span class="badge lo">low</span>
+      <span class="why">BRICS Summit kicks off in New Delhi with Russian envoy Alipov hailing India's leadership; Russia-India 'on same page' on Ukraine peace — Delhi declares Sept 11 a holiday.</span>
+      <span class="src">Unknown  ·  07:17 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/mumbai-news/why-bollywood-s-khans-remain-ageless-with-distinct-brand-promises-101788461767935.html" target="_blank" rel="noopener">Why Bollywood’s Khans remain ageless with distinct brand promises</a>
+      <span class="badge lo">low</span>
+      <span class="why">Why Bollywood's Khans remain ageless with distinct brand promises — Shah Rukh, Salman, Aamir stay culturally relevant.</span>
+      <span class="src">Unknown  ·  07:52 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNdE9zRGtseDhzQlEtbzRoTTVVUXc1a29vWldKaDVETjVHY1RxQTBJNC04TzhaWmFjcnJ1eWJCTUtyaFJfVlBac2V2NzZNR0pFaWFfTjk2TmZrQkE1QzVicVJHeGN4Y0g1OUdMblZWdG5RV0pNTHVrWEVLakRCNnFUQWdxUERmaUxSbU9GclNGcEFOcXkzLTRNaHlrT1RBLWRLWjhUUHNjRm9JWUlXYjRjU1MwY9IBuwFBVV95cUxOYW9ySVY5dmlFNHZyQnl6aW5aRkZhMlljR1FqaEFMd0s5dkVzWmdULWFZUVAyU2d1RTYwRzE5VF82VXNEVHlhdnZLeDdET2FpZ2p2OC1mZXdjaGdoRjdXcnZHcGo1R0FaOFA5NEdRd2dtSGJHcEVXdUx1QkdVcFAyM0RMcDA3TFdtZVRUczBWWkh1Sk5rdTZrdEZwQTg3MjBYUXhKbk9XWnBNLWVqY0lBNUhyVUxad0xSYlRJ?oc=5" target="_blank" rel="noopener">Delhi Government Announces Holiday On September 11 Ahead Of BRICS Summit - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">BRICS Summit kicks off in New Delhi with Russian envoy Alipov hailing India's leadership; Russia-India 'on same page' on Ukraine peace — Delhi declares Sept 11 a holiday.</span>
+      <span class="src">NDTV  ·  22:53 IST  ·  Delhi</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  3 items</span></h3>
+<div class="theme">Supreme Court to host BRICS Chief Justices' Forum in Delhi; Janmashtami celebrated countrywide; India sends relief to Nepal; 2 NDMC workers killed in Delhi Cantt accident; J&K Pirpanjal encounter underway.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPZEp3ZHZsbV9QY2JPLVl2ZjJyUzgydlMtVUVfNzF6cXFRWkFnR2RMT1pWUHN6V0Q3cjJXeTh6VHdjRUZvci1WYWhsT2I3QnFJaWhZTm1taUtHcWpjd0VrUGZIdDYtOEdmaFNCX2NzUWVPWVdDUk1PaVE5X3ZsbkN1RVNMYUE1VzFvQjl3aG1DWmNRTWVVVG9XQzRrYldySFBSUFJQQUNkVVVZUXA3Y2NMaWxR?oc=5" target="_blank" rel="noopener">Supreme Court of India to host BRICS Chief Justices’ Forum in New Delhi beginning today - News On AIR</a>
+      <span class="badge hi">high</span>
+      <span class="why">Supreme Court of India to host BRICS Chief Justices' Forum in New Delhi from today — judicial diplomacy milestone.</span>
+      <span class="src">News On AIR  ·  08:36 IST  ·  Delhi</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/delhi-news/two-ndmc-workers-killed-after-speeding-thar-hits-motorcycle-in-delhi-cantonment-101788458501022.html" target="_blank" rel="noopener">Two NDMC workers killed after speeding Thar hits motorcycle in Delhi Cantonment</a>
+      <span class="badge lo">low</span>
+      <span class="why">Two NDMC workers killed after speeding Thar hits motorcycle in Delhi Cantonment — road-safety concern.</span>
+      <span class="src">Unknown  ·  07:37 IST  ·  Delhi</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNamhydGIzWDktMnZnSVN1c215ZjRpMk9ocDJ2LU9mYXFBa2hheHhwSllEdVJpWjlrN012U0dxOHJYX2ZLRUtJUlZsa3RCRTRuX3lhMDBqRS1EWUlFWExTNTZaOTJwS1d0TElxZDh4RFo4T2V1Rlh3NVdwMnZnOTJZOHBGOGR0RHRzUnVvejk4dVlKYUpKeDBYQWM1dVlBa0I2aEtvaFBfcHZCNDNnenJJMDN3RdIBuwFBVV95cUxNTVZLOW9KTE5uRTg2RmxhazAyenFrQXBqU3hkaFBJZkptcjNXSlV1VHdjWXoyVWdyb3NCbWltOEtXSmhqcjdmMWpWME9pR1J6VGlzSVRhX0IzTmJDMUFOaXJsLTdTaWdhbjNuZGZnNk5CZ3A4ZDlDem5ZLVZPMF9zanhWb2M4MTVPblY3SWc1SG5Ta1hfWW9YYS03SkUwUmNDeVNXQkQ4VnJWY1hfSlZScUx2bGtvTnU5bEtB?oc=5" target="_blank" rel="noopener">Encounter Underway In J&K's Pirpanjal, 2 Terrorists Suspected To Be Hiding - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Encounter underway in J&K's Pirpanjal, 2 terrorists suspected to be hiding — counter-terror operation.</span>
+      <span class="src">NDTV  ·  00:30 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">ISRO's GSLV-F17 'Naughty Boy' delivers India's first geosynchronous imaging sat EOS-05 — sharpest earth-observation satellite yet.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPdW10T3ZwYmVSczhaQUtaY055U0FxamZkbl9aWmdzSEV0bEFaLXhuSV93d051dUpBaTR5QlR3UlUzTERHRG9BM2Y5bEg3UTg5dXpsVlo2MlQxaXVSQkxvdDNPZHg3VG5LbWp6ZVFselY1a1RROGJaZEdKcnl0M3Z1d3dIb1lwUEQ3OElxRmFtdjdhVkhLbk5zWTd2S05SSHRremZXR3dnX296VWRUN2JVYW1ZRmFsQdIBvgFBVV95cUxNdmJsS3JFejRFZjZnVmE4Y3VrNVRsMlUyYW1kcThmYmRDTEgyVkMtc20zNWQ1TGNBWF9EMGVxalNBVUxGdjF2a2tDTkwxWm1OekF1ZmZoaVFtaFV2WHpIVHFQNEFmYV9BZUFaQ3dMZ3M5SW15VEdzbmpaWjM0dmIwRnN2NEF1MWI4ZkZ3dkRHS042c2txbjhFZURjZmhhT1dvT2NHUDloYUdTYWpYRjQwZmFoZk5vMWpXVUQwYkJ3?oc=5" target="_blank" rel="noopener">How ISRO's 'Naughty Boy' Rocket Delivered A Big Win For India - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">ISRO's 'Naughty Boy' GSLV-F17 rocket delivers India's first geosynchronous imaging satellite EOS-05 — advanced earth-observation for strategic data.</span>
+      <span class="src">NDTV  ·  07:50 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUktuNS02ZGZqNUV6VlBrWC0zVVNPcU1JT0xod0Uyd193cGpmLVliTzFlUTdRWm4ycFlDdzFSenFTQTlSZVZpSFRZZE9RNXdhNkwwZUFvQmRUYUdfdThvRlk0LXU2eElVRmVLV2dxeDZKcG1iMUh3aTQxUGR0UmJLN0huZjdsek9uMUNRUDFZY1BMc3ZGeWNjZHJ4R3d5UVhzUS1MR3JELXNPWDNTNkdNay1uSHFmSjE2OXBZQmJUT0dxWDBnYnFRT1REM3EzVTdib1lTcnJtWXR1RzdDdmNnaUpWYUxyQW9WVE4wc3dpZ1otbzjSAfoBQVVfeXFMUFhoc3RrbTQ4U3JULTNIekdsUXJzaF9IOGl2X1V3UzFQd3REQW1DV3lVWGlPVVhtRk5IaEE0NnZHZENjdkdaQlZ0VklOWm1SaDVJQVhvX3p0bWk5WnFzVmZiODJ3WVdwWFR0YWloanNFUmVlN240UGUwZ1Z2VHUtM21fNGNmSU9OS2N4M1U3dUhFNzBmVENBMXd2ejFVVFdEUEVQV0tnYlJVcmZqa0FpNkdKaXY4VE1RbHltUUVzU0J0R29vT0xHdDJrUXNkMzFqWUVfdzN3R1RtTUlkQ2lLR1BXUlJYejdDbUsyZExTbXhoSmhtTWFFUWF1dw?oc=5" target="_blank" rel="noopener">GSLV launches EOS-05 to boost India’s real-time space surveillance - BusinessLine</a>
+      <span class="badge hi">high</span>
+      <span class="why">ISRO's GSLV-F17 launches EOS-05, India's first imaging satellite in geosynchronous orbit — sharpest earth-observation satellite yet, real-time space surveillance for strategic + civilian use.</span>
+      <span class="src">BusinessLine  ·  04:50 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWXB0RGtKZGhyTHdmMm5EbWw5UktTVVBFVGFBTEhsQUl0ZEo0M3l3LS1BMmRJb0ZKcVZEZTE2RFFEaUJqVmNxYlBRQTJjSXNnS05EQ2ljNXRZTHVMUjJLMFo5b2xtM3pEOTlhenNOWk5aWFhQdjJ4YktIX1JlazRkcUw2RzlvN3QwYzRRUjk0RFNwZUtGdnUzX2ZTbW9ZQnZYNTZ2Rld3akrSAbABQVVfeXFMT2ZfLWkwUWN6TWR5TS14bURBbGhMS2xTTVM2S1N0ZG9WRHAwNHNKUnBKN0FIN2FjRDVqSEx0WHI5UFQ5MkFYMkQ0MzZ0bWJOaDJEeEdpVW1xTXpLZ2VoVVhFNWNlZ0M1dnRZTHd2aE9MVXpJMlZ1azg5N0YwTmZGUWdvVng3VURZYlY3SlVicGNfZUpGVEFIMDh4a3loNWE2d05oam9aN0FXNl9PLXZhbGo?oc=5" target="_blank" rel="noopener">ISRO Successfully Launches GSLV F17 Rocket Carrying Imaging Satellite EOS-05 - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">ISRO's GSLV-F17 launches EOS-05, India's first imaging satellite in geosynchronous orbit — sharpest earth-observation satellite yet, real-time space surveillance for strategic + civilian use.</span>
+      <span class="src">NDTV  ·  06:17 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  2 items</span></h3>
+<div class="theme">Russian envoy Alipov: Russia-India 'on same page' on Ukraine peace ahead of BRICS summit; Jaishankar defends Russian oil trade; Foreign Secy Misri hosts Quad Sherpas in Delhi; India offers to extend 'any help' to end Russia-Ukraine war.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxNX0hVOXFVUGViUnNHaWs0S3BkMEFEd3NzZ09hWkdEbzdZeXVNaFBpRWRPTDMtSjJEUXdWSWJoaGRqRXFXbG9fenl6NEZxQ2JiREkxZ21JN0U0clRmOEtWR29kZTB0aUJqbjBodWVpR092VE1IODBYeGVJVHc3LTRpT3pTLWRGUGJnNW5vSDB0OUJKWXJvT3BiR3pUOFRQYjQ3Z21XWEptNnI1c1o0cTVnOEdXcDluOTB2cmNkX2ZFVzJxSkRrRXVwMjFZYjRGcGp3VnV0aDNtZVRXanZ6QzNpSXBCUFY4QjZVRWE3OFFrNNIB6AFBVV95cUxOSFBoREVLVWZfNjhBclRCdFo0NEZHNGNnUnNRR2FjT3cwbU5qR3NXaWtQMHdDZzhuS3N6czVPVmZ1eUV6Z3JmdFc4SEEzUkFnLXlLeEJfblZ1eF9Ka2dxNFR2Y18yZG1yck5FcFBqbEdzRDQzVndkNlc1TktkWXc1OVNseXB0WEVNd3NKMlZ2OHpPOEVrZlFXc0pLSU4tQ1hBbGRSeFRjUUdkd1F5dDNWcmJCQjVORVZHbnVxSU9lb2twMEJYS1hsWlBGaFYwM2NzTjZlaFJ5WG9Cakt1SzBCSU43Yzg3ZHMt?oc=5" target="_blank" rel="noopener">Russian Ambassador Alipov hails India’s ‘huge success’ in leading BRICS ahead of summit - The Economic Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Russian Ambassador Denis Alipov: Russia-India 'on same page' on Ukraine peace; BRICS summit in India set for success — signals warmth ahead of Modi-Putin meet.</span>
+      <span class="src">The Economic Times  ·  08:32 IST  ·  International</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNcl8zTVRTNlFWZzVhajFfY1JVNjVUZHM0c1Y0bVd5MzIydzZBY04wNTJlUXU1eE5xa05Vc3ZObE42UEZnb2VHTW9wQW1fTnFHaW11aFctekF3VWowQ2xfN0N3Y3JCRm9QTWEyeFQ2WHlmb3BkRGcyUkRyS2U0bmI1NkNVMUdoODBIZ3ZLUDItcFYtSkJIV1NtRWphZGpBc2VxZWY5WlhB0gGsAUFVX3lxTFBTaHExakhhMDRsa05WVC1jdTdXSFk2cDAxZVFkTkRiSWlfN0FJcGxpcnE1QUxqQWpoeE5ORDRlUDdMRU5iRmd1YzBwVHFEUUFMUkV5WjF2NENxdzBDZW01Mm8wc0ZoVmhqMEJGY2NYaktBeUpEbS1BYnRYblVfWmRyaS14U1JSeTdxN0w5cnR2dWNybnZ2MFI1c2V4SkVDZ0lmWUx5cE1DMlJzM1I?oc=5" target="_blank" rel="noopener">In Kyiv, Jaishankar offers India’s help to stop Ukraine-Russia war - The Hindu</a>
+      <span class="badge hi">high</span>
+      <span class="why">EAM S Jaishankar defends India's Russian oil trade: 'won't affect Ukraine war' — sharpest articulation of energy-independence line ahead of BRICS.</span>
+      <span class="src">The Hindu  ·  17:04 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-09-04T09:20:52.262821+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 30 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>
