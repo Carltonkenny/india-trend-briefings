@@ -8,10 +8,31 @@
     "categories": 12,
     "deduped": 15
   },
-  "delivered_at": "2026-09-05T09:52:08.383855+05:30",
+  "delivered_at": "2026-09-05T09:56:45.147576+05:30",
   "telegram_message_chars": 3362,
   "success": true,
   "schema_version": "v2",
   "validation_passed": true,
-  "delivery_channel": "telegram_cron_inline"
+  "previous_day_status": "ok",
+  "publish_ok": true,
+  "publish_artifacts": {
+    "day_page": "https://carltonkenny.github.io/Daily_briefings-/2026-09-05.html",
+    "dashboard": "https://carltonkenny.github.io/Daily_briefings-/dashboard.html",
+    "by_topic": "https://carltonkenny.github.io/Daily_briefings-/by-topic.html",
+    "index": "https://carltonkenny.github.io/Daily_briefings-/"
+  },
+  "publish_verified": true,
+  "publish_http_status": 200,
+  "publish_verified_at": "2026-09-05T04:11:00+05:30",
+  "delivery_failed": false,
+  "delivery_channel": "telegram_cron_inline",
+  "telegram_message_id": 17,
+  "git_push": "Pushed briefing for 2026-09-05",
+  "top_5_trends": [
+    "Jaishankar: India in continuous touch with Ukraine & Russia to help end conflict",
+    "India-Poland ties see 'solid' report card; new agreements finalised by EAM Jaishankar",
+    "BRICS Summit: Delhi govt to inspect Bharat Mandapam → IGI route; city braces for more rain",
+    "Belgian PM De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit",
+    "T20 Asia Cup: India vs arch-rivals Pakistan in final Group A clash in Dubai today"
+  ]
 }

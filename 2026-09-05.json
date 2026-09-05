@@ -1,11 +1,11 @@
 {
   "date": "2026-09-05",
-  "generated_at": "2026-09-05T09:52:00.267730+05:30",
+  "generated_at": "2026-09-05T09:57:56.208425+05:30",
   "tz": "Asia/Kolkata",
   "schema_version": "v2",
   "window": {
-    "from": "2026-09-04T09:52:00.267730+05:30",
-    "to": "2026-09-05T09:52:00.267730+05:30"
+    "from": "2026-09-04T09:57:56.208425+05:30",
+    "to": "2026-09-05T09:57:56.208425+05:30"
   },
   "totals": {
     "raw": 814,
@@ -566,25 +566,6 @@
       },
       {
         "rank": 2,
-        "headline": "vibe movie release date",
-        "summary": "",
-        "why_it_matters": "",
-        "sources": [
-          {
-            "source": "Unknown",
-            "url": "https://trends.google.com/trending/rss?geo=IN"
-          }
-        ],
-        "timestamp": "2026-09-05T09:10:00+05:30",
-        "timestamp_display": "09:10 IST",
-        "source_quality": "low",
-        "recency_score": 1.0,
-        "final_score": 0.4,
-        "region": "National",
-        "confidence": "low"
-      },
-      {
-        "rank": 3,
         "headline": "DAG’s ‘City as a Museum’ festival to showcase Delhi’s printmaking legacy",
         "summary": "",
         "why_it_matters": "",
@@ -600,6 +581,25 @@
         "recency_score": 0.8,
         "final_score": 0.32,
         "region": "Delhi",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Government cannot implement revenue-sharing system for film industry: APSFTVTDC chairman",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.thehindu.com/news/national/andhra-pradesh/government-cannot-implement-revenue-sharing-system-for-film-industry-apsftvtdc-chairman/article71429640.ece"
+          }
+        ],
+        "timestamp": "2026-09-04T23:32:12+05:30",
+        "timestamp_display": "23:32 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.2,
+        "region": "National",
         "confidence": "low"
       }
     ],
