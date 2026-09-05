@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>India Daily Briefing &mdash; 2026-09-05</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    --paper: #fbfaf5;        /* off-white paper */
+    --ink: #1a1a1a;          /* primary text */
+    --mut: #4a4a4a;          /* secondary text */
+    --rule: #d8d2c4;         /* hairline rule */
+    --saffron: #ff8a1a;      /* accent — top strip + bullet */
+    --navy: #10366a;         /* accent — byline + section ids */
+    --hi: #2c2c2c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, system-ui, 'Segoe UI', sans-serif;
+    line-height: 1.5;
+  }
+  /* Masthead */
+  .masthead {
+    border-top: 4px solid var(--saffron);
+    border-bottom: 2px solid var(--ink);
+    padding: 1.1rem 1rem 0.7rem;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .masthead .nameplate {
+    font-family: 'Playfair Display', 'Source Serif Pro', Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+  }
+  .masthead .tagline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    color: var(--mut);
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  .masthead .dateline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mut);
+    border-top: 1px solid var(--rule);
+    margin-top: 0.7rem;
+    padding-top: 0.45rem;
+  }
+  .masthead .dateline .nav a {
+    color: var(--mut);
+    text-decoration: none;
+    margin-right: 0.9rem;
+    border-bottom: 1px dotted transparent;
+  }
+  .masthead .dateline .nav a:hover { border-bottom-color: var(--ink); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.4rem 1rem 3rem;
+  }
+
+  /* Top Stories — hero block */
+  .top-hero {
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 1rem 0 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .top-hero .kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--saffron);
+    font-weight: 700;
+  }
+  .top-hero h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.65rem;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0.2rem 0 0.9rem;
+  }
+  .top-hero ol {
+    list-style: none;
+    counter-reset: topc;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+  .top-hero ol li {
+    counter-increment: topc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 28px 1fr;
+    gap: 0.55rem;
+    align-items: baseline;
+  }
+  .top-hero ol li::before {
+    content: counter(topc) ".";
+    color: var(--saffron);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .top-hero ol li .item-link {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  .top-hero ol li .item-link:hover { text-decoration: underline; }
+  .top-hero ol li .item-why {
+    color: var(--mut);
+    font-size: 0.88rem;
+    display: block;
+    margin-top: 0.18rem;
+  }
+
+  /* Sections */
+  section.cat {
+    border-top: 2px solid var(--ink);
+    margin-top: 1.5rem;
+    padding-top: 0.7rem;
+  }
+  section.cat h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  section.cat h3 .count {
+    color: var(--mut);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+  }
+  section.cat .theme {
+    color: var(--mut);
+    font-style: italic;
+    border-bottom: 1px dotted var(--rule);
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  /* Items inside a category */
+  ol.items {
+    list-style: none;
+    counter-reset: itemc;
+    margin: 0;
+    padding: 0;
+  }
+  ol.items li {
+    counter-increment: itemc;
+    border-bottom: 1px dotted var(--rule);
+    padding: 0.55rem 0;
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  ol.items li:last-child { border-bottom: 0; }
+  ol.items li::before {
+    content: counter(itemc) ".";
+    color: var(--navy);
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  ol.items li .hl {
+    color: var(--ink);
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  ol.items li .hl:hover { text-decoration: underline; }
+  ol.items li .why {
+    color: var(--mut);
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.18rem;
+    font-style: italic;
+  }
+  ol.items li .src {
+    font-size: 0.75rem;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.18rem;
+    display: block;
+  }
+  ol.items li .badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--mut);
+    vertical-align: middle;
+  }
+  ol.items li .badge.hi { background: var(--saffron); color: white; border-color: var(--saffron); }
+  ol.items li .badge.md { background: var(--paper); color: var(--mut); }
+  ol.items li .badge.lo { background: #fff0e6; color: var(--saffron); border-color: var(--saffron); }
+
+  .empty {
+    color: var(--mut);
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin: 2rem auto 0;
+    padding: 1rem;
+    max-width: 880px;
+    font-size: 0.78rem;
+    color: var(--mut);
+    text-align: center;
+  }
+
+  @media (max-width: 720px) {
+    .masthead .nameplate { font-size: 1.8rem; }
+    .top-hero h2 { font-size: 1.3rem; }
+    section.cat h3 { font-size: 1.15rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="nameplate">The India Daily Briefing</div>
+  <div class="tagline">Daily edition &middot; 12 categories &middot; auto-edited</div>
+  <div class="dateline">
+    <span>Saturday, 05 September 2026</span>
+    <span class="nav"><a href="#top-stories">Top Stories</a> &middot; <a href="#tech">Tech & AI</a> &middot; <a href="#markets">Markets & Economy</a> &middot; <a href="#politics">Politics & Policy</a> &middot; <a href="#bangalore">Bangalore</a> &middot; <a href="#chennai">Chennai</a> &middot; <a href="#mumbai">Mumbai</a> &middot; <a href="#sports">Sports</a> &middot; <a href="#culture">Entertainment & Culture</a> &middot; <a href="#crime">Crime & Justice</a> &middot; <a href="#health">Health & Science</a> &middot; <a href="#international">International</a></span>
+  </div>
+</header>
+
+<main>
+
+<section class="top-hero" id="top-stories-block">
+  <div class="kicker">⚡ Top 5 of the Day</div>
+  <h2>Cross-cutting stories shaping India on 05 September 2026</h2>
+  <ol>
+    <li>
+      <a class="item-link" href="#top-1">Jaishankar: India in continuous touch with Ukraine & Russia to help end conflict</a>
+      <span class="item-why">EAM lays out India's mediation posture ahead of UN General Assembly (Jaishankar addresses UNGA on Sept 26); sharpest articulation yet of New Delhi's push to facilitate Russia-Ukraine peace.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-2">India-Poland ties see 'solid' report card; new agreements finalised by EAM Jaishankar</a>
+      <span class="item-why">Concrete deliverables from Warsaw visit beyond BRICS optics; signals diversification of EU engagement as Brussels weighs India position on Russian oil.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-3">BRICS Summit: Delhi govt to inspect Bharat Mandapam → IGI route; city braces for more rain</a>
+      <span class="item-why">Delhi declares all-of-govt readiness for the BRICS Summit (PM Modi hosting); waterlogging at IGI airport underscores monsoon-festival-season operational stress ahead of heads-of-state arrivals.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-4">Belgian PM De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit</a>
+      <span class="item-why">EU leader publicly echoes India's tariff grievance on Indian soil — anchors the EU-India reset ahead of an FTA push and complicates US trade posture mid-BRICS week.</span>
+    </li>
+    <li>
+      <a class="item-link" href="#top-5">T20 Asia Cup: India vs arch-rivals Pakistan in final Group A clash in Dubai today</a>
+      <span class="item-why">Group-stage decider — India already through; Pakistan must win to keep semifinal hopes alive; marquee fixture of the Women's Asia Cup window.</span>
+    </li>
+  </ol>
+</section>
+
+
+<section class="cat" id="tech">
+  <h3>Tech & AI <span class="count">TECH & AI  ·  3 items</span></h3>
+<div class="theme">Indian startups raised $177M this week; KRAFTON commits $250M to AI/deeptech; Flipkart plans 1,000 dark stores by mid-2027; WhatsApp rolls out bill payments.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/krafton-to-invest-250-mn-in-indian-ai-deeptech-startups/" target="_blank" rel="noopener">KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups</a>
+      <span class="badge lo">low</span>
+      <span class="why">KRAFTON commits $250M investment in Indian AI & deeptech startups — global gaming giant bets on India's deeptech stack.</span>
+      <span class="src">Unknown  ·  01:15 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/pune-news/startup-mantra-changing-the-face-of-redevelopment-101788548127575.html" target="_blank" rel="noopener">Startup Mantra: Changing the face of redevelopment</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  07:43 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://inc42.com/buzz/from-ultrahuman-to-comet-indian-startups-raised-over-177-mn-this-week/" target="_blank" rel="noopener">From Ultrahuman To Comet — Indian Startups Raised Over $177 Mn This Week</a>
+      <span class="badge lo">low</span>
+      <span class="why">From Ultrahuman to Comet, Indian startups raised over $177M this week — investor appetite stays intact despite global uncertainty.</span>
+      <span class="src">Unknown  ·  09:00 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="markets">
+  <h3>Markets & Economy <span class="count">MARKETS & ECONOMY  ·  1 item</span></h3>
+<div class="theme">Sebi clears NSE IPO — likely India's biggest listing; Forex reserves hit record $740.8B lifting the rupee; Coal stock 'critical' at 50 thermal plants.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaXBUQ3NRREhkWnNxeURqbnFOQ0tyUU12TXA2R3BJdk9hekRBcnl2c2U3SjFyQkN5MGtxRF9XalVvc2tFXzBYUElGYUdzMDR0RFE3Wl83M19hVmFtOXA1MmlWXzBrdUk5SjJnWmpCNXhQM1VRM2djRkFxRVNTNEJreElvMEdJT3oweVR6UVJIcXhmVlNUVklWOUlNcFZNWFA0V1B3Qi04V2FneUVLU0RZYzBkdnYyRTVxY25FLUtGNUJ2UV9OZEJBNkJjNHNZSXpXT0llN3JvQ1fSAd4BQVVfeXFMTlVQTW5UZE0xTDBFRVUxb1FqQTFqVHN0X3dNSzFSbGlfamp4VnpVQld0WkV3Ynl4Q3RrUkFuU05rQ1JYUHZEWkozdjIwZ0t1QlJfVGVWSG9vdGNXdFRCenBLOUxjajdKV05LdldwLTRaRjBSb1YxbWpfWTl5YTl0b0hBQ0FuUUVUejhNV0hDRVhUMWRReXNqNksyS3ZMYko3SF9iQlBhM1JGR1pQQ2dFTWVMNmtHdmlFUkpVVHRPbTJFaFJxeHdzb0JLME5XeFlsSGY0ZS1sWUE4X1RfR3lB?oc=5" target="_blank" rel="noopener">Sebi clears NSE's IPO papers, to be India's biggest so far - The Times of India</a>
+      <span class="badge md">medium</span>
+      <span class="why">Sebi clears NSE IPO papers — likely India's biggest listing ever; sets the stage for a marquee domestic floatation.</span>
+      <span class="src">The Times of India  ·  03:52 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="politics">
+  <h3>Politics & Policy <span class="count">POLITICS & POLICY  ·  2 items</span></h3>
+<div class="theme">Delhi govt inspects Bharat Mandapam → IGI route ahead of BRICS; ED seeks fugitive tag for ex-TMC youth leader Vinay Mishra; Congress MP attacks Modi over Dwarka cost.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMijgJBVV95cUxPbndydDlKaW9QRVNTNFlSNG9JeWJSOE9fUGdyX2NTR2VZTTZSU0JRQTdUVkZ5ZURNV081R2Nwel94dUs3Q0JkSDZoWU82blNyY3VOVTYwaTUtZXZQNU5VYzlqaEZLZklvR0psMy1PX1g2aUNhbWpVMk9Wdk50S2tLUDNHX3NCUWlqWXNEdFFjSXJTSjJNaVNZMjdWVElQMHgyS1VITGNBSk91OS1kWjZsSkVKR2lHR1ZtVHlPWmt1Q05BY2ZURTQxZHhNS3EyQnpNSHhLUUViZ3JETDRpRDBWRVdDYm1xcGpSQ3hxSkJqYi1zaE16aEdEZTdLTVdzcnJ0Y0tmRGRmbWNXeGFZeWfSAZMCQVVfeXFMTTl4RDFfWm1SWXNLUHdIMEZYT0hfS050UVFVeEV0Q3RSTHl4Y1VJQTVsWDdYazdrSmdESEpBdTd1ankyRXkyRXBrNXNySVNmeHBOOEVXVm5FVFFTRlFYVWlvTTdjUkhDRWg2QmszdmNOTWMzc255T1poU09RYkl6Y24xSnRteUtpNVJRUDdocFdsTWQ0cUc3bjl0ODI2ZkFpSUdua3paejhoOGRBVW93WnBkS3NRYXZacC1pakFjX1lVWDZhU2M4UzlEM3lpa0FrcGw2eW5MUER6anNQV2NZVWZRQXFnd0ZZOEY5ZmRJejBKSm52NEdYU1dCcERPbUdodjViUU1qSmdLamtib25pVmEtWkk?oc=5" target="_blank" rel="noopener">‘ ₹250 crore per km’: Congress MP stuck on Dwarka Expressway amid Delhi rain, hits out at Modi government | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Congress MP stuck on Dwarka Expressway amid Delhi rain hits out at Modi govt's '₹250 crore per km' cost — opposition pivots on infra narrative.</span>
+      <span class="src">Hindustan Times  ·  08:15 IST  ·  Delhi</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxQUlVudW93THJWYVdqeG5TS3NQV1psdDlwN05MdzNjOXlnV3V0U3BjSnVuOVBWMVdtZzFKM3ZHUjJCeGlVdGNISjAyN3k1MGdselFLaExUTlotalc0aVZBLWhUUGJsaGM5OXJuV1hSSTlzOFZiNzR4V1p0Z3hWNlNOSDZaRzdsRmF1dDhJSmtYVDVoZUdVV2RuMmYtb2Jub0N1QUhCU3FZNXFPMGg0dEFsVk54TWNuWWpnenNJVFFaYjVBblpPdGRERGJn0gHPAUFVX3lxTE9iR2dBU1JzN2k2dHVLRGFSSk5FY3pSb3U5SDBaM3p4Z2c1TFYwcVZaaDN1OEQ0bVNSeXFGMlY5b0VOM0RRZ2VLTjd6c3RwajQ4UzhRT3lacV9VRmcxX2o3cDc4azBlczNKQkRTMTlMRHpYeDNGTTA1cVQ1NWpzSjR5YjM2ZlFrM3MtLS14cDRuNDBObWlTUTh2RjN1UlEzUGduRVJwYTNfREwyc0VROU4yVWFWeW1KSFBYRWFobVVzd2FtaUF5ZTh4R3hTZVUxcw?oc=5" target="_blank" rel="noopener">ED seeks fugitive tag for former TMC youth wing leader Vinay Mishra | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">ED seeks fugitive economic offender tag for ex-TMC youth wing leader Vinay Mishra — PMLA escalation.</span>
+      <span class="src">Hindustan Times  ·  07:13 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="bangalore">
+  <h3>Bangalore <span class="count">BENGALURU  ·  3 items</span></h3>
+<div class="theme">Bengaluru Chairman's Club resort kitchen sealed over 40 kg expired chilli + colours; CA receives full month's salary after quitting; raids expose PG food safety.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/bengaluru-news/40-kg-expired-chilli-artificial-colours-bengaluru-chairman-s-club-resort-kitchen-sealed-over-food-safety-violations-101788576740512.html" target="_blank" rel="noopener">40 kg expired chilli, artificial colours: Bengaluru Chairman’s Club resort kitchen sealed over food safety violations</a>
+      <span class="badge lo">low</span>
+      <span class="why">Bengaluru Chairman's Club resort kitchen sealed over 40 kg expired chilli and artificial colours — food-safety crackdown.</span>
+      <span class="src">Unknown  ·  08:49 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/trending/bengaluru-ca-receives-full-month-s-salary-after-quitting-i-hadnt-shown-up-in-a-month-101788574669635.html" target="_blank" rel="noopener">Bengaluru CA receives full month’s salary after quitting: ‘I hadn't shown up in a month’</a>
+      <span class="badge lo">low</span>
+      <span class="why">Bengaluru Chairman's Club resort kitchen sealed over 40 kg expired chilli and artificial colours — food-safety crackdown.</span>
+      <span class="src">Unknown  ·  08:03 IST  ·  Bangalore</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTlZM3d2MlJta0pHT1d1VkNzOG1tZ3lzYkZEZUNOQmpzcVUwYU1BRC1SR2hzOHR2SVFLZ1B6VjNrUXdCem5vMGYxQUxvTjZjX0pHeFE0aTV1Z3ZHZXhNUDN1dzgzYzRCVi1UVnRnQU1EaHJzb0F5dWlseVZ4empTYmVGUmEtekNlaE1Cb09wanFQdkQ5d2lzZzkwd2dUck9zT2RYZDcyU1pJRDMyeGQ1LW5SNNIBuwFBVV95cUxOWUJzTEMxRk5tY0NEQlV5VlhVRDhEWG1KWDEwRlU4aWRERy1wM01RN0lMZ0YyQzBDbVh1Vi1Relc5dzhmaURjRzNlUFlNOW9QdVNQZlIzRTNidEc4NVNpRnhzdnFucG1rQlF6YTdRdzVkX0JyeVdOU0t4MGJjY2loeUx0Vmp1TG9sSkVaeGNvNm5yX2tZdTlDXzdXVm1qZmZ5SWxxd1BfWjN3c2VwZVNDOVJDQW5TWDE5RHdZ?oc=5" target="_blank" rel="noopener">Wanted In 16 Cases, Karnataka Man Hid In Pond To Dodge Cops. It Didn't Work - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">ED seeks fugitive economic offender tag for ex-TMC youth leader Vinay Mishra — ED crackdown continues.</span>
+      <span class="src">NDTV  ·  23:11 IST  ·  Bangalore</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="chennai">
+  <h3>Chennai <span class="count">CHENNAI  ·  3 items</span></h3>
+<div class="theme">8 Tamil Nadu engineering students killed as car rams parked lorry in Kerala; Rahul Gandhi will be 2029 PM candidate, says TN minister; CM Vijay pushes Tamil in Madras HC.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/eight-students-tamil-nadu-killed-as-car-rams-into-parked-lorry-in-keralams-thrissur-101788575573741.html" target="_blank" rel="noopener">8 Tamil Nadu engineering students killed in Kerala, their car rammed into parked lorry</a>
+      <span class="badge lo">low</span>
+      <span class="why">8 Tamil Nadu engineering students killed as car rams parked lorry in Kerala's Thrissur — student-safety concern.</span>
+      <span class="src">Unknown  ·  08:17 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNbFR5UkxidDk2VWtnZms4STVLNzBpSTBURllHOGVseWZPSEV0RVp6QjN5UkhqTExtU1VJQUZGY2RncjVfQ21QbXJGT0xHTUFjYks0X193TlU4M2VGdE9uRjM4eGJWc0hUODhMZF9DMlFwcERVTlFiUXhiN1FtQXJhVEMydmtpSEdDSmhlaGpQaldRU3hBbEo0MHlkNFQ1TkpNQ1Q1WmRXZ9IBrwFBVV95cUxONVluZWdpR0h0WHJrWGZhcDJXYk53M0lVcm1ZTzN2a2R0bDhtS2JuWDRta0hnOEIzQzhhdDZRUE1JazVkMVgzcjNmMFpTTGpsVzROWW9QbVhqaXZxMHJyT0dsWVlSajB6Y3FzWkp3TXRoWmVZTE5jSE54QnZZRlpQWnoybGRKUllrdW1BbkZWSmVFa1daeXdRZTlGbUVVeW95Zks5Z0tzb2c5eWl0MGpr?oc=5" target="_blank" rel="noopener">Assam Signs MoUs With 6 Firms, IIT Madras To Bring AI To Schools - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why"></span>
+      <span class="src">NDTV  ·  23:47 IST  ·  Chennai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-will-be-pm-candidate-in-2029-says-tamil-nadu-minister-p-viswanathan/articleshow/133783413.cms" target="_blank" rel="noopener">Rahul Gandhi will be PM candidate in 2029, says Tamil Nadu minister P Viswanathan</a>
+      <span class="badge lo">low</span>
+      <span class="why">8 Tamil Nadu engineering students killed as car rams parked lorry in Kerala's Thrissur — student-safety concern.</span>
+      <span class="src">Unknown  ·  06:43 IST  ·  Chennai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="mumbai">
+  <h3>Mumbai <span class="count">MUMBAI  ·  3 items</span></h3>
+<div class="theme">Maharashtra woman + 2 kids die jumping off fort; family alleges dowry; Pune police bust fake sports certificates racket; 10% water cut stays as BMC awaits rain.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxORy1ZV0VySURTbkhwUUtZbHdmamVnNGxJdEtZNnJGUmFSMFozaVdTS1BjcnZrN05RWVAtMmpDcTcyWWlmUHhaV1VtbWl6aUw1WUsxU2FZTDk4THZ6RVJPNkhiZFZKblR1VjdqV0x2N1BobjFEa0NhQ1A2a21SRXFReUg0NXl6YmZ2d251TXdWTFM5bFFvZE1QTlVMQkJmaHVFN01OdGNzQ1Y5UlhQVDdPXzE0cjRrdTZlT21NcUNXTndTQdIBygFBVV95cUxQUEpCdEl4TWpDSnJ3Qy1hUkR1T0VwUzY1VGUzOFZXTDRWbVBIYjhnMkNCeVU1OVdJbHFCakl6Vm9IVnFHV285M1ZWSmRtaDFCcWVOLWZQOEZqcVRjek15RjlhVmZjV0pURWVLZ25JUGhZX0xyRzlkRF9uZV82b0hXTHZLWlBXNER5bTBGVnhGR0ZzQUZKS0Jjc002WG5SNkVzeXRGNmowdWR6ZXh4SXIxUDd3bnFjMTgxeWVvMkdYMXFYdFV6QzQ2U25R?oc=5" target="_blank" rel="noopener">Maharashtra Woman, 2 Kids Die After Jumping Off Fort, Family Alleges Dowry Harassment - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">Maharashtra woman + 2 kids die jumping off fort, family alleges dowry harassment — dowry-death investigation opens.</span>
+      <span class="src">NDTV  ·  05:59 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/pune-news/punehadapsar-line-work-42-trains-cancelled-25-diverted-101788550767560.html" target="_blank" rel="noopener">Pune-Hadapsar line work: 42 trains cancelled, 25 diverted</a>
+      <span class="badge lo">low</span>
+      <span class="why">Pune police bust fake sports certificates racket; Fadnavis admits infra failed to keep pace with urbanisation — Maharashtra governance spotlight.</span>
+      <span class="src">Unknown  ·  07:47 IST  ·  Mumbai</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/pune-news/pune-police-bust-fake-sports-certificates-racket-101788548787602.html" target="_blank" rel="noopener">Pune police bust fake sports certificates racket</a>
+      <span class="badge lo">low</span>
+      <span class="why">Pune police bust fake sports certificates racket; Fadnavis admits infra failed to keep pace with urbanisation — Maharashtra governance spotlight.</span>
+      <span class="src">Unknown  ·  07:45 IST  ·  Mumbai</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="sports">
+  <h3>Sports <span class="count">SPORTS  ·  2 items</span></h3>
+<div class="theme">T20 Asia Cup: India vs arch-rivals Pakistan in Dubai today; BCCI reveals plan to nurture Vaibhav Sooryavanshi; Ponting pitches radical T20 for US fans.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://timesofindia.indiatimes.com/sports/cricket/news/dont-call-it-cricket-ricky-ponting-makes-radical-t20-pitch-to-win-over-us-fans/articleshow/133784781.cms" target="_blank" rel="noopener">‘Don’t call it cricket’: Ponting makes radical T20 pitch to win over US fans</a>
+      <span class="badge lo">low</span>
+      <span class="why">Ricky Ponting makes radical T20 pitch to win over US fans: 'Don't call it cricket' — global-format debate.</span>
+      <span class="src">Unknown  ·  08:02 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://timesofindia.indiatimes.com/sports/cricket/news/want-him-to-become-a-legend-bcci-reveals-plan-to-nurture-vaibhav-sooryavanshi-like-sachin-tendulkar/articleshow/133786181.cms" target="_blank" rel="noopener">'Want him to become a legend’: BCCI reveals plan to nurture Vaibhav Sooryavanshi</a>
+      <span class="badge lo">low</span>
+      <span class="why">BCCI reveals plan to nurture Vaibhav Sooryavanshi: 'serve like Sachin, not be a one-year wonder' — talent-development pathway.</span>
+      <span class="src">Unknown  ·  08:58 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="culture">
+  <h3>Entertainment & Culture <span class="count">CULTURE  ·  3 items</span></h3>
+<div class="theme">Netflix co-CEO Ted Sarandos: 'Netflix is both classy and massy' at Express Adda; DAG's 'City as a Museum' festival opens in Delhi.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmJIR1NNU1lSLTlYbU80cWlnOHl4OC15aW1acFM5ZHNUd2lsdTZkSVhnejhKQ2R0VHdicTlvcDhtWm56eWRka2dqcU9aX0tVTFlCNkMtT2ZmYm9OQjhnWGx0WnlkWW5tdmd5TElQTzhKeFhNcDJvWGdLcUpzUjZGT0lWNnBCTDhIV2x6eGlHNk1MMnZKQnk2ZGxMUUg2UTlzcXk0cGpXMl9XWFJhOG5CWQ?oc=5" target="_blank" rel="noopener">Ted Sarandos at Express Adda: ‘Netflix is both classy and massy’ - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">Netflix co-CEO Ted Sarandos at Express Adda: 'Netflix is both classy and massy' — India content strategy reaffirmed.</span>
+      <span class="src">The Indian Express  ·  05:21 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://trends.google.com/trending/rss?geo=IN" target="_blank" rel="noopener">vibe movie release date</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  09:10 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/delhi-news/dags-city-as-a-museum-festival-to-showcase-delhi-s-printmaking-legacy-101788545127842.html" target="_blank" rel="noopener">DAG’s ‘City as a Museum’ festival to showcase Delhi’s printmaking legacy</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  07:34 IST  ·  Delhi</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="crime">
+  <h3>Crime & Justice <span class="count">CRIME & JUSTICE  ·  3 items</span></h3>
+<div class="theme">Air India terminates Phuket-Delhi pilot after psychoactive-substance test; FBI-wanted fraudster arrested in Jalandhar over $600K US scam; pizza-outlet drug-trafficking charge.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxOLTdWM01mc293SU50VmVPd1kzakdxVDM2NnBDRzdPTnVvMEduMnE3bG1pajY2Q05ZMlhJd29lVGtMX1NmQ2JxZFMwTXZwNXhlN0I2QjllaHRfQTVxNUVKVFBLaTdNdUVkeXpMLW0ycF8zRm1BWUFaWXdSRnRwYlNPNUctMU9FQ2ptczB0N3lnZlZqSmZVeVBsQXBlSEJqNzI2clRvTVFLdHhOaVk2RkZlbW8tZnBFdjJfTWJRVXdYVk8zcGlNeGNHb29falJ5WkFrWDBaMzVYeDIzdTVaZjJEWk56OVU2TnlOb1luYVpJOHZLTUHSAfgBQVVfeXFMT3dJT2lfTVNpNTdtaUZicG5lczNUdHFjWDRLLVlFLURtbG5pbVlvM3hWbzhZTDJVM1FyLTlUQ3FpSGN6a2ZIdmNSWWlHWXpGOUdhNmdWbm5FTlVkUE5oZGNndktGLVZ5ZjVGS0lQak9NMldrd3VpcTc4c0RYc0pTZHhXZjIxT2NwVlAwWHFKblZIMV8zOE13eGdZMGNjNVRfYkdsZFIyS0hwVkd1TEV5aWMwc2RHTkJKWWUyZGc5czdBdjI3cGtWZWViN2JzdHFMWElhX01mNUV0NVRqRDYzNjRaTFVaSEF5d2hldWxucXhzeGxVd2VCZ2c?oc=5" target="_blank" rel="noopener">Air India terminates Phuket-Delhi pilot after AAIB confirms ‘non-negative’ psychoactive substance test | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Air India terminates Phuket-Delhi pilot after AAIB confirms 'non-negative' psychoactive substance test; airline initiates 100% voluntary pilot testing.</span>
+      <span class="src">Hindustan Times  ·  06:43 IST  ·  Delhi</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkRxZ19tbnNYWXN2V3RPY0MtNEp0MFhzcEpWYmttZzJnRS10Q2FqMWo0dThvU1czVjN0bE5jMjZ4cU5JVFdwLU51OGx5ZVZMa3g2YzdvR2psMG5MMk54YnpieFpST2cyMkl0Z2o3NmlOZkZVTWljeDhaTWtNRDh4Wng2Wmp0YjhrYzFIWGJZdUdQaVBBczdLMUVqSmk1MS1OT2E0NUZpeno0eDJZXzhoNU1aTXloZ9IBvgFBVV95cUxPaVVpNVc4Rm9PRUZseDRaY3IybGxWUGhYTUZiSngzY2IyYkpKeEVhR3lIV0luZ2hkQ2Y3Y2lWUThQaEc2aU5xUVFmZTIyTWRWM0JvWFoxeExjRXVhbXI0Z1dDZXdRR2FoTEtrUTNReTlZUHlyRHJSOG5BMUhxRjRfYjZTSHV6TEYwMkxwR3UxbHo2bVVqUnRxbUp5dXZ2VHVUQUtIcmNxT3FjS1J6WGpHNTE2emY3T3dKWnVXS0lB?oc=5" target="_blank" rel="noopener">FBI-Wanted Fraudster Arrested In Jalandhar Over $6,00,000 Scam In US - NDTV</a>
+      <span class="badge md">medium</span>
+      <span class="why">FBI-wanted fraudster arrested in Jalandhar over a $600,000 scam in the US — cross-border law-enforcement win.</span>
+      <span class="src">NDTV  ·  08:45 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMigAJBVV95cUxNMHU3ME9ocFpOMnlnYjZKYkp6OEhkZkVocUpjMjVNQ2xGU1R2S1gxY3dWNjZSTzE0Z3FIUmRtSXNZajBsWXBFYTNQWnNpeV9UaGRYblZTdmFpeGxBRDBwNEtlRGNtcDh1NHc0WjQzOThKLU92WnAwMkhPdFpwQV9oLWxjWFJ3bXdDYkhocGhOalB4RzU0LUFhUHZLWlVSZUlxVThpcVNwXzF3Vld4RDI3M2cxUUNSX3VRWVhTLU1CS21hTDN2X1g1VE5mQ2tPa1JmUlotSklqZm81ZDF3Q1hCZmJubDhlanBOLVk2ZjRsY2ZlQUFYbkxZcFhhUTdQWG820gGGAkFVX3lxTE9jazA0dmo4M1pIOVZCUEE2ZEdGRjlSX3QtTWEtbUlmOFpwUDF6V3paWHNFdHdRLUMtaUpLbmNIcm9wV1dSdnhZYk1xVzN5Mmg5M3VwbWZVMWNwVEJpaUF2Vm5GRjNrQlhMNzdnT3hlSFBpVXB2UkNuRXdhV0xoaHlLR2NnYUdBTTRWY0tIS05LdGhBVlFtMUZkYnF1b1VRZjE4YzVCcC1mMExNYkFwQ09hcmVmLXlsTmM5Y0tlaVAyUF94Mk44R1EtVmF3X1RWeENheUtVVDBhWUczbkpxdFpZT0Y1OUNZQXllWUhkTHM3Xy1hNHo1M3BIY1FlQ2ZVY2ZtWXFfTnc?oc=5" target="_blank" rel="noopener">Belgian PM's veiled dig at Trump tariffs during India visit: 'Decide something on Monday, revoke it on Wednesday' | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">Belgian PM Bart De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit — EU leader publicly echoes India's trade grievance on Indian soil ahead of an FTA push.</span>
+      <span class="src">Hindustan Times  ·  08:01 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="health">
+  <h3>Health & Science <span class="count">HEALTH & SCIENCE  ·  3 items</span></h3>
+<div class="theme">India flags Abhayrab rabies vaccine batch as substandard, probes if spurious; Needle found inside 1-yr-old in Kerala NICU; Gurugram dengue tally crosses 50.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWmU3bUlOZ0k3OUpNeUVLdlAwQmF4ZU5VMWl3c0ZTbkZER1RZYkU5dTZHY3NTd2ljOTRpRlVCWVVRXzcySHVMejhnV1ZnMVdxQVFwSG1nREVfOFpESENVN3pYamV2cG9yYl9UNFRlLVdWMC1vMFFOSG5DeElSRDV1UzRkNEZSQm9mS2lIZUZMZDlIQ2pVeVR6ZjBJVmlpME82X3gxd0VlRjVVNFZFR3IydTdVMnVTZUhGS3NVcWRoZjZaNnMwM2ZQMG5ESWRQS3BFZ3Z4UDNveFlkVG9tbnRGT3c2bm1tN1VHczF1b1czLUt2Ry0x0gH6AUFVX3lxTE9pd3JFRXBnRWo2cnlCLUxaY1A4U3JlNExGd0VRNWRrdlRBOU90YXFHTC0wQllYX2hCenh5RzV3dk5vdEdvaE5QNE1QYjJvektWdjRJTUpSampjNDZ2S3p0MFNrRmJ3b3hWV2FlS2VPNWl4RnV0bWxWaDFrajVZMWxTYkw4MG0zTVMyZkpoSHJfTXp6NG9BZnB0ZzNvVlh0Y3IteG1Ea3F0ZWZEQnYzRElsY3pIbXVuU3hiTWswbk11alU2OVNjUy1oT0JBMWdmMHNDb19aWFRwUnh1RFA4QkRIOXd5MU1WV21aa3FGRVBMWGtxTTMwbXhsMWc?oc=5" target="_blank" rel="noopener">Exclusive-India flags Abhayrab rabies vaccine batch as substandard, probes if spurious, document shows | India News - Hindustan Times</a>
+      <span class="badge md">medium</span>
+      <span class="why">India flags Abhayrab rabies vaccine batch as substandard, probes if spurious — pharma-quality watchdog action.</span>
+      <span class="src">Hindustan Times  ·  01:00 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/india-news/needle-found-inside-1-yr-old-s-body-in-kerala-parents-allege-medical-negligence-at-nicu-kozhikode-kottayam-101788578031123.html" target="_blank" rel="noopener">Needle found inside 1-yr-old’s body in Kerala, parents allege medical negligence at NICU</a>
+      <span class="badge lo">low</span>
+      <span class="why">Needle found inside 1-yr-old's body in Kerala, parents allege medical negligence at NICU — hospital safety spotlight.</span>
+      <span class="src">Unknown  ·  09:11 IST  ·  National</span>
+    </li>
+    <li>
+      <a class="hl" href="https://www.hindustantimes.com/cities/gurugram-news/gurugram-dengue-tally-crosses-50-mark-after-three-fresh-cases-101788544729990.html" target="_blank" rel="noopener">Gurugram dengue tally crosses 50-mark after three fresh cases</a>
+      <span class="badge lo">low</span>
+      <span class="why"></span>
+      <span class="src">Unknown  ·  07:31 IST  ·  National</span>
+    </li>
+  </ol>
+</section>
+<section class="cat" id="international">
+  <h3>International <span class="count">INTERNATIONAL  ·  1 item</span></h3>
+<div class="theme">Jaishankar on Ukraine-Russia mediation; India-China Corps Commander talks in NE after Doval-Wang meeting; India-Poland ties 'solid' as new agreements finalised.</div>
+  <ol class="items">
+    <li>
+      <a class="hl" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPYjNzaVJPMWlvVUQ2OF9DRjJVUHF3VDhGS3BTd1FIc212a3AxZndpNHRCd0ZRQ1Q0ck1yaWZXbUFCNFQ1SmpyZFVpaEhKNThUWXg5UGVxN1JjLUdVSUJ0X2JfX1hMcXBxQ2loVndQVFJkd0I1djUxS01fQTJVUWs5YzVXN0JrN2FZZFpGTjdoQ0tCdUI3OXlJ0gGeAUFVX3lxTE5pYVNnNktvWnhwdFJoNlBsMzBwdnRjRXV5NGFKZllMOWQ1T3lQX0pPbnQyRnNtQWR0TzROTDVMVUM3ZHcxVzFWT1Rra2Vmb2tXTTU4OHBkaUpfUUZnTEl4NTc5eWhFeDBia29RQ0xDR09fREJwVEZmOVl1WGcwX0NtTnJnSjJrMVZTY0s2NlNuRnZZSENrcHk4ZVFtZDl3?oc=5" target="_blank" rel="noopener">Daily Briefing: India-China to hold Corps Commander talks in Northeast after Doval-Wang boundary meet - The Indian Express</a>
+      <span class="badge md">medium</span>
+      <span class="why">India-China to hold Corps Commander talks in Northeast after Doval-Wang boundary meeting in Beijing — LAC de-escalation step.</span>
+      <span class="src">The Indian Express  ·  09:10 IST  ·  International</span>
+    </li>
+  </ol>
+</section>
+
+
+</main>
+
+<footer>
+  Generated 2026-09-05T09:52:00.267730+05:30 &middot; Asia/Kolkata &middot;
+  <em>India Daily Briefing v4 (option B, India-press serif)</em>
+  &middot; 27 non-Top items today &middot; 5 Top picks deduplicated
+</footer>
+</body>
+</html>

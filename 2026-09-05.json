@@ -1,0 +1,887 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T09:52:00.267730+05:30",
+  "tz": "Asia/Kolkata",
+  "schema_version": "v2",
+  "window": {
+    "from": "2026-09-04T09:52:00.267730+05:30",
+    "to": "2026-09-05T09:52:00.267730+05:30"
+  },
+  "totals": {
+    "raw": 814,
+    "kept": 38,
+    "sources": 10,
+    "categories": 12,
+    "deduped": 15
+  },
+  "themes": {
+    "Top Stories": "Jaishankar on Ukraine-Russia mediation; India-Poland ties 'solid'; BRICS Delhi prep; Belgian PM swipes at Trump tariffs; T20 Asia Cup India vs Pakistan today.",
+    "Tech & AI": "Indian startups raised $177M this week; KRAFTON commits $250M to AI/deeptech; Flipkart plans 1,000 dark stores by mid-2027; WhatsApp rolls out bill payments.",
+    "Markets & Economy": "Sebi clears NSE IPO — likely India's biggest listing; Forex reserves hit record $740.8B lifting the rupee; Coal stock 'critical' at 50 thermal plants.",
+    "Politics & Policy": "Delhi govt inspects Bharat Mandapam → IGI route ahead of BRICS; ED seeks fugitive tag for ex-TMC youth leader Vinay Mishra; Congress MP attacks Modi over Dwarka cost.",
+    "Bangalore": "Bengaluru Chairman's Club resort kitchen sealed over 40 kg expired chilli + colours; CA receives full month's salary after quitting; raids expose PG food safety.",
+    "Chennai": "8 Tamil Nadu engineering students killed as car rams parked lorry in Kerala; Rahul Gandhi will be 2029 PM candidate, says TN minister; CM Vijay pushes Tamil in Madras HC.",
+    "Mumbai": "Maharashtra woman + 2 kids die jumping off fort; family alleges dowry; Pune police bust fake sports certificates racket; 10% water cut stays as BMC awaits rain.",
+    "Sports": "T20 Asia Cup: India vs arch-rivals Pakistan in Dubai today; BCCI reveals plan to nurture Vaibhav Sooryavanshi; Ponting pitches radical T20 for US fans.",
+    "Entertainment & Culture": "Netflix co-CEO Ted Sarandos: 'Netflix is both classy and massy' at Express Adda; DAG's 'City as a Museum' festival opens in Delhi.",
+    "Crime & Justice": "Air India terminates Phuket-Delhi pilot after psychoactive-substance test; FBI-wanted fraudster arrested in Jalandhar over $600K US scam; pizza-outlet drug-trafficking charge.",
+    "Health & Science": "India flags Abhayrab rabies vaccine batch as substandard, probes if spurious; Needle found inside 1-yr-old in Kerala NICU; Gurugram dengue tally crosses 50.",
+    "International": "Jaishankar on Ukraine-Russia mediation; India-China Corps Commander talks in NE after Doval-Wang meeting; India-Poland ties 'solid' as new agreements finalised."
+  },
+  "categories": {
+    "Top Stories": [
+      {
+        "rank": 1,
+        "trend": "Jaishankar: India in continuous touch with Ukraine & Russia to help end conflict",
+        "headline": "Jaishankar: India in continuous touch with Ukraine & Russia to help end conflict",
+        "summary": "",
+        "why_it_matters": "EAM lays out India's mediation posture ahead of UN General Assembly (Jaishankar addresses UNGA on Sept 26); sharpest articulation yet of New Delhi's push to facilitate Russia-Ukraine peace.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZHYwRUZMM2RfaUlVeEQ4blkxNjdyOU03dmFKNVBJaXNlWGQ0cWVPRXpibjJOY3JLUEVrel9qdm9jVE5ySUVOQy1kUTBDN3otUVZYVDhQdUNFbDhtZ1hCVFBOZm5VM0Q0UG9jZXJYa1lSUENkSEZUTklJQXFCVG9ycmZEV2plX2dreGNpV0I3Y2ZWeUMwMUFsUXJKMVp0UHg1NzVoN2J1eTdVM0Vud3VJLXlST1ktSm1uMGc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T08:08:00+05:30",
+        "timestamp_display": "08:08 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.4,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "trend": "India-Poland ties see 'solid' report card; new agreements finalised by EAM Jaishankar",
+        "headline": "India-Poland ties see 'solid' report card; new agreements finalised by EAM Jaishankar",
+        "summary": "",
+        "why_it_matters": "Concrete deliverables from Warsaw visit beyond BRICS optics; signals diversification of EU engagement as Brussels weighs India position on Russian oil.",
+        "sources": [
+          {
+            "source": "ANI News",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU2pXUXBEa1dQUFJWVFItbWJObHI1dURXTm0tWHlLRW1yOWFnUG5kdEhLdzAzWnd3WmxCTXRCR0xSUmVPNHFubzdzMU40NlFic1ZPUmUyMG5Qd0x6dElMWmprZS1hb1lBZ0t1UFhWVFFSTjNtZDJ1U1RtalVKMXVMVnJkZHFMcDFlV2tRd3NseVY5dnVVRW5STmZMYnJ3aGppcDAycER1dTVka0J6cXBwU2g2R216VElfemdERkl0U3lRY04wZUh1YlVVdFlEV1RERThrWWx6Q0pVRzFWZmpZUVJB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T02:53:00+05:30",
+        "timestamp_display": "02:53 IST",
+        "source_quality": "high",
+        "recency_score": 0.5,
+        "final_score": 0.6,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 3,
+        "trend": "BRICS Summit: Delhi govt to inspect Bharat Mandapam → IGI route; city braces for more rain",
+        "headline": "BRICS Summit: Delhi govt to inspect Bharat Mandapam → IGI route; city braces for more rain",
+        "summary": "",
+        "why_it_matters": "Delhi declares all-of-govt readiness for the BRICS Summit (PM Modi hosting); waterlogging at IGI airport underscores monsoon-festival-season operational stress ahead of heads-of-state arrivals.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNMkZ4RDlvXzV4VXlmemtBcWNzOEs1NWxXc0RXVjdVYi10YTg5c0V6dDNVRnhMRFJhWl9VOURidnpWMUFnYWxiUTMyZFM0RGlzaUZHd2E3d3VPUGF6R29YSFA1aTg3SGczQnZsdjlQSlRXNktGVzFMdVd2RDZzMXRKT2hiM0JZcXc1TGFsekVPeS13WUpoS2I5OG1hY2k5LUszM092b213RndKZ3NxcWdPOFhOVGUyallvSFJva2c5UmVvWjBUTFRQMjdrMHpVNHJGcXVtNjdfS2F3dzZSQngzSVBBamtwUmtSOURsQ0NMRUlzZmF4QnpYT1loWDRYeWhmLTdZdS15TnVpWF8yZ053VDQ5LXV2WVZvMDJaQVZ0eE5jTTFkUHhTQXV2UlF4dXVXeHhmWU5oYXgtWlNBbWlHNlZQVDFPTW0wNnlqV2h1d0dOMGpOMGRZTnE0a1kxdGhnaWg40gH_AUFVX3lxTE5wb21Ca3JfdExwZDhXWFdmQ29FemRKaHp2dDVyZFdyX2RvNmZKNkVPdlh5c2ZXdmhlMlRlS25OYlJqVkZQbHdhZ3ZzYlVRUFBLOVdWb0xYMFB4bmhWeUpIdndmQ0QzNFVXRUJSWlAyN3ZETm5QTHg3UjdPUTVLTl9vSVRHUU1jeVotU1VUR19nYzBEZGg5NzVReUFDaF9BLW5IREU5cmdoMXZFRDdPcDc5UEFqQTI5MThwSEFaTTJkcmx1YVhfbFdVWllGZXlhMGhwWkRzNVRoZkJwd3MzQVJ0bC1Kc2haWm12UEtDdGI2ckdLeVQ0cE5XTTV1Xzc5aw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T09:05:16+05:30",
+        "timestamp_display": "09:05 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "Delhi",
+        "confidence": "medium"
+      },
+      {
+        "rank": 4,
+        "trend": "Belgian PM De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit",
+        "headline": "Belgian PM De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit",
+        "summary": "",
+        "why_it_matters": "EU leader publicly echoes India's tariff grievance on Indian soil — anchors the EU-India reset ahead of an FTA push and complicates US trade posture mid-BRICS week.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMHU3ME9ocFpOMnlnYjZKYkp6OEhkZkVocUpjMjVNQ2xGU1R2S1gxY3dWNjZSTzE0Z3FIUmRtSXNZajBsWXBFYTNQWnNpeV9UaGRYblZTdmFpeGxBRDBwNEtlRGNtcDh1NHc0WjQzOThKLU92WnAwMkhPdFpwQV9oLWxjWFJ3bXdDYkhocGhOalB4RzU0LUFhUHZLWlVSZUlxVThpcVNwXzF3Vld4RDI3M2cxUUNSX3VRWVhTLU1CS21hTDN2X1g1VE5mQ2tPa1JmUlotSklqZm81ZDF3Q1hCZmJubDhlanBOLVk2ZjRsY2ZlQUFYbkxZcFhhUTdQWG820gGGAkFVX3lxTE9jazA0dmo4M1pIOVZCUEE2ZEdGRjlSX3QtTWEtbUlmOFpwUDF6V3paWHNFdHdRLUMtaUpLbmNIcm9wV1dSdnhZYk1xVzN5Mmg5M3VwbWZVMWNwVEJpaUF2Vm5GRjNrQlhMNzdnT3hlSFBpVXB2UkNuRXdhV0xoaHlLR2NnYUdBTTRWY0tIS05LdGhBVlFtMUZkYnF1b1VRZjE4YzVCcC1mMExNYkFwQ09hcmVmLXlsTmM5Y0tlaVAyUF94Mk44R1EtVmF3X1RWeENheUtVVDBhWUczbkpxdFpZT0Y1OUNZQXllWUhkTHM3Xy1hNHo1M3BIY1FlQ2ZVY2ZtWXFfTnc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T08:01:59+05:30",
+        "timestamp_display": "08:01 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 5,
+        "trend": "T20 Asia Cup: India vs arch-rivals Pakistan in final Group A clash in Dubai today",
+        "headline": "T20 Asia Cup: India vs arch-rivals Pakistan in final Group A clash in Dubai today",
+        "summary": "",
+        "why_it_matters": "Group-stage decider — India already through; Pakistan must win to keep semifinal hopes alive; marquee fixture of the Women's Asia Cup window.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVIyaFhXVlNfUmdieVdCYmhpcHl2OGhGWGwyanZ6Y3pWWHh4Y0Y3RFg0bmZScU9tUDhoZzNXZU02QkdGQkE2TFhmaERQcHBKOWxteC1xTzB1aHJodEEwMnROMERCelZFSXp1c2JETzZIWVNCdDNkeVBhSHhmeTBOQlRjNFNnN29zWVNGWTB6SnY1Y1podXRZSXVZYW0wY1ZvcjNSSDh0SmRZYW1Ya3ctQXFpOHQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T07:32:35+05:30",
+        "timestamp_display": "07:32 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      }
+    ],
+    "Tech & AI": [
+      {
+        "rank": 1,
+        "headline": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups",
+        "summary": "",
+        "why_it_matters": "KRAFTON commits $250M investment in Indian AI & deeptech startups — global gaming giant bets on India's deeptech stack.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/krafton-to-invest-250-mn-in-indian-ai-deeptech-startups/"
+          }
+        ],
+        "timestamp": "2026-09-05T01:15:47+05:30",
+        "timestamp_display": "01:15 IST",
+        "source_quality": "low",
+        "recency_score": 0.5,
+        "final_score": 0.2,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Startup Mantra: Changing the face of redevelopment",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/pune-news/startup-mantra-changing-the-face-of-redevelopment-101788548127575.html"
+          }
+        ],
+        "timestamp": "2026-09-05T07:43:10+05:30",
+        "timestamp_display": "07:43 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "From Ultrahuman To Comet — Indian Startups Raised Over $177 Mn This Week",
+        "summary": "",
+        "why_it_matters": "From Ultrahuman to Comet, Indian startups raised over $177M this week — investor appetite stays intact despite global uncertainty.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://inc42.com/buzz/from-ultrahuman-to-comet-indian-startups-raised-over-177-mn-this-week/"
+          }
+        ],
+        "timestamp": "2026-09-05T09:00:51+05:30",
+        "timestamp_display": "09:00 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Markets & Economy": [
+      {
+        "rank": 1,
+        "headline": "Sebi clears NSE's IPO papers, to be India's biggest so far - The Times of India",
+        "summary": "",
+        "why_it_matters": "Sebi clears NSE IPO papers — likely India's biggest listing ever; sets the stage for a marquee domestic floatation.",
+        "sources": [
+          {
+            "source": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaXBUQ3NRREhkWnNxeURqbnFOQ0tyUU12TXA2R3BJdk9hekRBcnl2c2U3SjFyQkN5MGtxRF9XalVvc2tFXzBYUElGYUdzMDR0RFE3Wl83M19hVmFtOXA1MmlWXzBrdUk5SjJnWmpCNXhQM1VRM2djRkFxRVNTNEJreElvMEdJT3oweVR6UVJIcXhmVlNUVklWOUlNcFZNWFA0V1B3Qi04V2FneUVLU0RZYzBkdnYyRTVxY25FLUtGNUJ2UV9OZEJBNkJjNHNZSXpXT0llN3JvQ1fSAd4BQVVfeXFMTlVQTW5UZE0xTDBFRVUxb1FqQTFqVHN0X3dNSzFSbGlfamp4VnpVQld0WkV3Ynl4Q3RrUkFuU05rQ1JYUHZEWkozdjIwZ0t1QlJfVGVWSG9vdGNXdFRCenBLOUxjajdKV05LdldwLTRaRjBSb1YxbWpfWTl5YTl0b0hBQ0FuUUVUejhNV0hDRVhUMWRReXNqNksyS3ZMYko3SF9iQlBhM1JGR1pQQ2dFTWVMNmtHdmlFUkpVVHRPbTJFaFJxeHdzb0JLME5XeFlsSGY0ZS1sWUE4X1RfR3lB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T03:52:00+05:30",
+        "timestamp_display": "03:52 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Belgian PM takes swipe at Trump's 'arbitrary' tariffs during India visit - Business Standard",
+        "summary": "",
+        "why_it_matters": "Belgian PM Bart De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit — EU leader publicly echoes India's trade grievance on Indian soil ahead of an FTA push.",
+        "sources": [
+          {
+            "source": "Business Standard",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTnF6bE93SDBrcFpTVWdJbk0yZFZxSm9uSkUxUmNHaUs1UFR5VzUxSEpyRjZiWTEteWEwUGRHeloxQjhZQUhpbm5UY2stdFpacHl6dHdxZmhaM3ltNFpjYmIxMjQ3Q25uY2FKMmNTNVVaY3hGb0YwQmxuUmNiSFkySV9qZXZJd0JtemF6bXA5X2xwa2dmMFJ0T05RWm1zN3RhUWxXMkozQi1BbHVZa2J5XzdDMHZiR3FfN2RpQ2o1aDVpWndDMnNvV0lyVVU2UkE40gHWAUFVX3lxTE5uR1R6ZGtIaFVPVHVjRDJEVG1JcGdwcGVDclVubjlVNzU1eVBrN2sxME5MZVBRNGpVeUZfS3F6aHA0cks0MmdWTGlkLXljc0NrSnBKcTlud1pFZE9XNVFidE9SRHVsUnprc3NKMkdpZWs2eU5aS1J4YlExdmlTd2Z1VEYtMUpfbjJkcHZkS0xJMmxjaHZBWlVXQXdBbmZkb3hpREJ4Slo0TUp0Yk1EbVdyVVV6cTRheTlLSFdreFNBN3FWMy1IMmgyUHd0SE9KaUNfX0thNXc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T07:55:56+05:30",
+        "timestamp_display": "07:55 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Belgian PM Bart De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit",
+        "summary": "",
+        "why_it_matters": "Belgian PM Bart De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit — EU leader publicly echoes India's trade grievance on Indian soil ahead of an FTA push.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/belgian-pm-bart-de-wever-takes-swipe-at-trumps-arbitrary-tariffs-during-india-visit/videoshow/133785850.cms"
+          }
+        ],
+        "timestamp": "2026-09-05T08:42:33+05:30",
+        "timestamp_display": "08:42 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.48,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Politics & Policy": [
+      {
+        "rank": 1,
+        "headline": "BRICS Summit: Delhi govt to inspect key route from Bharat Mandapam to IGI airport, spruce up city parts - The Economic Times",
+        "summary": "",
+        "why_it_matters": "BRICS Summit kicks off in New Delhi; Delhi govt to inspect Bharat Mandapam → IGI route, spruce up city parts — all-of-govt readiness with heads of state arriving.",
+        "sources": [
+          {
+            "source": "The Economic Times",
+            "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNMkZ4RDlvXzV4VXlmemtBcWNzOEs1NWxXc0RXVjdVYi10YTg5c0V6dDNVRnhMRFJhWl9VOURidnpWMUFnYWxiUTMyZFM0RGlzaUZHd2E3d3VPUGF6R29YSFA1aTg3SGczQnZsdjlQSlRXNktGVzFMdVd2RDZzMXRKT2hiM0JZcXc1TGFsekVPeS13WUpoS2I5OG1hY2k5LUszM092b213RndKZ3NxcWdPOFhOVGUyallvSFJva2c5UmVvWjBUTFRQMjdrMHpVNHJGcXVtNjdfS2F3dzZSQngzSVBBamtwUmtSOURsQ0NMRUlzZmF4QnpYT1loWDRYeWhmLTdZdS15TnVpWF8yZ053VDQ5LXV2WVZvMDJaQVZ0eE5jTTFkUHhTQXV2UlF4dXVXeHhmWU5oYXgtWlNBbWlHNlZQVDFPTW0wNnlqV2h1d0dOMGpOMGRZTnE0a1kxdGhnaWg40gH_AUFVX3lxTE5wb21Ca3JfdExwZDhXWFdmQ29FemRKaHp2dDVyZFdyX2RvNmZKNkVPdlh5c2ZXdmhlMlRlS25OYlJqVkZQbHdhZ3ZzYlVRUFBLOVdWb0xYMFB4bmhWeUpIdndmQ0QzNFVXRUJSWlAyN3ZETm5QTHg3UjdPUTVLTl9vSVRHUU1jeVotU1VUR19nYzBEZGg5NzVReUFDaF9BLW5IREU5cmdoMXZFRDdPcDc5UEFqQTI5MThwSEFaTTJkcmx1YVhfbFdVWllGZXlhMGhwWkRzNVRoZkJwd3MzQVJ0bC1Kc2haWm12UEtDdGI2ckdLeVQ0cE5XTTV1Xzc5aw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T09:05:16+05:30",
+        "timestamp_display": "09:05 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "Delhi",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "‘ ₹250 crore per km’: Congress MP stuck on Dwarka Expressway amid Delhi rain, hits out at Modi government | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Congress MP stuck on Dwarka Expressway amid Delhi rain hits out at Modi govt's '₹250 crore per km' cost — opposition pivots on infra narrative.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbndydDlKaW9QRVNTNFlSNG9JeWJSOE9fUGdyX2NTR2VZTTZSU0JRQTdUVkZ5ZURNV081R2Nwel94dUs3Q0JkSDZoWU82blNyY3VOVTYwaTUtZXZQNU5VYzlqaEZLZklvR0psMy1PX1g2aUNhbWpVMk9Wdk50S2tLUDNHX3NCUWlqWXNEdFFjSXJTSjJNaVNZMjdWVElQMHgyS1VITGNBSk91OS1kWjZsSkVKR2lHR1ZtVHlPWmt1Q05BY2ZURTQxZHhNS3EyQnpNSHhLUUViZ3JETDRpRDBWRVdDYm1xcGpSQ3hxSkJqYi1zaE16aEdEZTdLTVdzcnJ0Y0tmRGRmbWNXeGFZeWfSAZMCQVVfeXFMTTl4RDFfWm1SWXNLUHdIMEZYT0hfS050UVFVeEV0Q3RSTHl4Y1VJQTVsWDdYazdrSmdESEpBdTd1ankyRXkyRXBrNXNySVNmeHBOOEVXVm5FVFFTRlFYVWlvTTdjUkhDRWg2QmszdmNOTWMzc255T1poU09RYkl6Y24xSnRteUtpNVJRUDdocFdsTWQ0cUc3bjl0ODI2ZkFpSUdua3paejhoOGRBVW93WnBkS3NRYXZacC1pakFjX1lVWDZhU2M4UzlEM3lpa0FrcGw2eW5MUER6anNQV2NZVWZRQXFnd0ZZOEY5ZmRJejBKSm52NEdYU1dCcERPbUdodjViUU1qSmdLamtib25pVmEtWkk?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T08:15:25+05:30",
+        "timestamp_display": "08:15 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "Delhi",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "ED seeks fugitive tag for former TMC youth wing leader Vinay Mishra | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "ED seeks fugitive economic offender tag for ex-TMC youth wing leader Vinay Mishra — PMLA escalation.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUlVudW93THJWYVdqeG5TS3NQV1psdDlwN05MdzNjOXlnV3V0U3BjSnVuOVBWMVdtZzFKM3ZHUjJCeGlVdGNISjAyN3k1MGdselFLaExUTlotalc0aVZBLWhUUGJsaGM5OXJuV1hSSTlzOFZiNzR4V1p0Z3hWNlNOSDZaRzdsRmF1dDhJSmtYVDVoZUdVV2RuMmYtb2Jub0N1QUhCU3FZNXFPMGg0dEFsVk54TWNuWWpnenNJVFFaYjVBblpPdGRERGJn0gHPAUFVX3lxTE9iR2dBU1JzN2k2dHVLRGFSSk5FY3pSb3U5SDBaM3p4Z2c1TFYwcVZaaDN1OEQ0bVNSeXFGMlY5b0VOM0RRZ2VLTjd6c3RwajQ4UzhRT3lacV9VRmcxX2o3cDc4azBlczNKQkRTMTlMRHpYeDNGTTA1cVQ1NWpzSjR5YjM2ZlFrM3MtLS14cDRuNDBObWlTUTh2RjN1UlEzUGduRVJwYTNfREwyc0VROU4yVWFWeW1KSFBYRWFobVVzd2FtaUF5ZTh4R3hTZVUxcw?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T07:13:57+05:30",
+        "timestamp_display": "07:13 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.784,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Bangalore": [
+      {
+        "rank": 1,
+        "headline": "40 kg expired chilli, artificial colours: Bengaluru Chairman’s Club resort kitchen sealed over food safety violations",
+        "summary": "",
+        "why_it_matters": "Bengaluru Chairman's Club resort kitchen sealed over 40 kg expired chilli and artificial colours — food-safety crackdown.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/bengaluru-news/40-kg-expired-chilli-artificial-colours-bengaluru-chairman-s-club-resort-kitchen-sealed-over-food-safety-violations-101788576740512.html"
+          }
+        ],
+        "timestamp": "2026-09-05T08:49:21+05:30",
+        "timestamp_display": "08:49 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Bengaluru CA receives full month’s salary after quitting: ‘I hadn't shown up in a month’",
+        "summary": "",
+        "why_it_matters": "Bengaluru Chairman's Club resort kitchen sealed over 40 kg expired chilli and artificial colours — food-safety crackdown.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/trending/bengaluru-ca-receives-full-month-s-salary-after-quitting-i-hadnt-shown-up-in-a-month-101788574669635.html"
+          }
+        ],
+        "timestamp": "2026-09-05T08:03:07+05:30",
+        "timestamp_display": "08:03 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Bangalore",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Wanted In 16 Cases, Karnataka Man Hid In Pond To Dodge Cops. It Didn't Work - NDTV",
+        "summary": "",
+        "why_it_matters": "ED seeks fugitive economic offender tag for ex-TMC youth leader Vinay Mishra — ED crackdown continues.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTlZM3d2MlJta0pHT1d1VkNzOG1tZ3lzYkZEZUNOQmpzcVUwYU1BRC1SR2hzOHR2SVFLZ1B6VjNrUXdCem5vMGYxQUxvTjZjX0pHeFE0aTV1Z3ZHZXhNUDN1dzgzYzRCVi1UVnRnQU1EaHJzb0F5dWlseVZ4empTYmVGUmEtekNlaE1Cb09wanFQdkQ5d2lzZzkwd2dUck9zT2RYZDcyU1pJRDMyeGQ1LW5SNNIBuwFBVV95cUxOWUJzTEMxRk5tY0NEQlV5VlhVRDhEWG1KWDEwRlU4aWRERy1wM01RN0lMZ0YyQzBDbVh1Vi1Relc5dzhmaURjRzNlUFlNOW9QdVNQZlIzRTNidEc4NVNpRnhzdnFucG1rQlF6YTdRdzVkX0JyeVdOU0t4MGJjY2loeUx0Vmp1TG9sSkVaeGNvNm5yX2tZdTlDXzdXVm1qZmZ5SWxxd1BfWjN3c2VwZVNDOVJDQW5TWDE5RHdZ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T23:11:45+05:30",
+        "timestamp_display": "23:11 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.35,
+        "region": "Bangalore",
+        "confidence": "medium"
+      }
+    ],
+    "Chennai": [
+      {
+        "rank": 1,
+        "headline": "8 Tamil Nadu engineering students killed in Kerala, their car rammed into parked lorry",
+        "summary": "",
+        "why_it_matters": "8 Tamil Nadu engineering students killed as car rams parked lorry in Kerala's Thrissur — student-safety concern.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/eight-students-tamil-nadu-killed-as-car-rams-into-parked-lorry-in-keralams-thrissur-101788575573741.html"
+          }
+        ],
+        "timestamp": "2026-09-05T08:17:10+05:30",
+        "timestamp_display": "08:17 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Chennai",
+        "confidence": "low"
+      },
+      {
+        "rank": 2,
+        "headline": "Assam Signs MoUs With 6 Firms, IIT Madras To Bring AI To Schools - NDTV",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbFR5UkxidDk2VWtnZms4STVLNzBpSTBURllHOGVseWZPSEV0RVp6QjN5UkhqTExtU1VJQUZGY2RncjVfQ21QbXJGT0xHTUFjYks0X193TlU4M2VGdE9uRjM4eGJWc0hUODhMZF9DMlFwcERVTlFiUXhiN1FtQXJhVEMydmtpSEdDSmhlaGpQaldRU3hBbEo0MHlkNFQ1TkpNQ1Q1WmRXZ9IBrwFBVV95cUxONVluZWdpR0h0WHJrWGZhcDJXYk53M0lVcm1ZTzN2a2R0bDhtS2JuWDRta0hnOEIzQzhhdDZRUE1JazVkMVgzcjNmMFpTTGpsVzROWW9QbVhqaXZxMHJyT0dsWVlSajB6Y3FzWkp3TXRoWmVZTE5jSE54QnZZRlpQWnoybGRKUllrdW1BbkZWSmVFa1daeXdRZTlGbUVVeW95Zks5Z0tzb2c5eWl0MGpr?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-04T23:47:46+05:30",
+        "timestamp_display": "23:47 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.42,
+        "region": "Chennai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Rahul Gandhi will be PM candidate in 2029, says Tamil Nadu minister P Viswanathan",
+        "summary": "",
+        "why_it_matters": "8 Tamil Nadu engineering students killed as car rams parked lorry in Kerala's Thrissur — student-safety concern.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-will-be-pm-candidate-in-2029-says-tamil-nadu-minister-p-viswanathan/articleshow/133783413.cms"
+          }
+        ],
+        "timestamp": "2026-09-05T06:43:57+05:30",
+        "timestamp_display": "06:43 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "Chennai",
+        "confidence": "low"
+      }
+    ],
+    "Mumbai": [
+      {
+        "rank": 1,
+        "headline": "Maharashtra Woman, 2 Kids Die After Jumping Off Fort, Family Alleges Dowry Harassment - NDTV",
+        "summary": "",
+        "why_it_matters": "Maharashtra woman + 2 kids die jumping off fort, family alleges dowry harassment — dowry-death investigation opens.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORy1ZV0VySURTbkhwUUtZbHdmamVnNGxJdEtZNnJGUmFSMFozaVdTS1BjcnZrN05RWVAtMmpDcTcyWWlmUHhaV1VtbWl6aUw1WUsxU2FZTDk4THZ6RVJPNkhiZFZKblR1VjdqV0x2N1BobjFEa0NhQ1A2a21SRXFReUg0NXl6YmZ2d251TXdWTFM5bFFvZE1QTlVMQkJmaHVFN01OdGNzQ1Y5UlhQVDdPXzE0cjRrdTZlT21NcUNXTndTQdIBygFBVV95cUxQUEpCdEl4TWpDSnJ3Qy1hUkR1T0VwUzY1VGUzOFZXTDRWbVBIYjhnMkNCeVU1OVdJbHFCakl6Vm9IVnFHV285M1ZWSmRtaDFCcWVOLWZQOEZqcVRjek15RjlhVmZjV0pURWVLZ25JUGhZX0xyRzlkRF9uZV82b0hXTHZLWlBXNER5bTBGVnhGR0ZzQUZKS0Jjc002WG5SNkVzeXRGNmowdWR6ZXh4SXIxUDd3bnFjMTgxeWVvMkdYMXFYdFV6QzQ2U25R?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T05:59:35+05:30",
+        "timestamp_display": "05:59 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "Mumbai",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Pune-Hadapsar line work: 42 trains cancelled, 25 diverted",
+        "summary": "",
+        "why_it_matters": "Pune police bust fake sports certificates racket; Fadnavis admits infra failed to keep pace with urbanisation — Maharashtra governance spotlight.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/pune-news/punehadapsar-line-work-42-trains-cancelled-25-diverted-101788550767560.html"
+          }
+        ],
+        "timestamp": "2026-09-05T07:47:20+05:30",
+        "timestamp_display": "07:47 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Pune police bust fake sports certificates racket",
+        "summary": "",
+        "why_it_matters": "Pune police bust fake sports certificates racket; Fadnavis admits infra failed to keep pace with urbanisation — Maharashtra governance spotlight.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/pune-news/pune-police-bust-fake-sports-certificates-racket-101788548787602.html"
+          }
+        ],
+        "timestamp": "2026-09-05T07:45:00+05:30",
+        "timestamp_display": "07:45 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "Mumbai",
+        "confidence": "low"
+      }
+    ],
+    "Sports": [
+      {
+        "rank": 1,
+        "headline": "T20 Asia Cup: India to take on arch-rivals Pakistan in final Group A clash in Dubai today - News On AIR",
+        "summary": "",
+        "why_it_matters": "T20 Asia Cup: India vs arch-rivals Pakistan in final Group A clash in Dubai today — marquee fixture of the women's tournament.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVIyaFhXVlNfUmdieVdCYmhpcHl2OGhGWGwyanZ6Y3pWWHh4Y0Y3RFg0bmZScU9tUDhoZzNXZU02QkdGQkE2TFhmaERQcHBKOWxteC1xTzB1aHJodEEwMnROMERCelZFSXp1c2JETzZIWVNCdDNkeVBhSHhmeTBOQlRjNFNnN29zWVNGWTB6SnY1Y1podXRZSXVZYW0wY1ZvcjNSSDh0SmRZYW1Ya3ctQXFpOHQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T07:32:35+05:30",
+        "timestamp_display": "07:32 IST",
+        "source_quality": "high",
+        "recency_score": 0.8,
+        "final_score": 0.8,
+        "region": "National",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "‘Don’t call it cricket’: Ponting makes radical T20 pitch to win over US fans",
+        "summary": "",
+        "why_it_matters": "Ricky Ponting makes radical T20 pitch to win over US fans: 'Don't call it cricket' — global-format debate.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/dont-call-it-cricket-ricky-ponting-makes-radical-t20-pitch-to-win-over-us-fans/articleshow/133784781.cms"
+          }
+        ],
+        "timestamp": "2026-09-05T08:02:00+05:30",
+        "timestamp_display": "08:02 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "'Want him to become a legend’: BCCI reveals plan to nurture Vaibhav Sooryavanshi",
+        "summary": "",
+        "why_it_matters": "BCCI reveals plan to nurture Vaibhav Sooryavanshi: 'serve like Sachin, not be a one-year wonder' — talent-development pathway.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/want-him-to-become-a-legend-bcci-reveals-plan-to-nurture-vaibhav-sooryavanshi-like-sachin-tendulkar/articleshow/133786181.cms"
+          }
+        ],
+        "timestamp": "2026-09-05T08:58:57+05:30",
+        "timestamp_display": "08:58 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "Entertainment & Culture": [
+      {
+        "rank": 1,
+        "headline": "Ted Sarandos at Express Adda: ‘Netflix is both classy and massy’ - The Indian Express",
+        "summary": "",
+        "why_it_matters": "Netflix co-CEO Ted Sarandos at Express Adda: 'Netflix is both classy and massy' — India content strategy reaffirmed.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmJIR1NNU1lSLTlYbU80cWlnOHl4OC15aW1acFM5ZHNUd2lsdTZkSVhnejhKQ2R0VHdicTlvcDhtWm56eWRka2dqcU9aX0tVTFlCNkMtT2ZmYm9OQjhnWGx0WnlkWW5tdmd5TElQTzhKeFhNcDJvWGdLcUpzUjZGT0lWNnBCTDhIV2x6eGlHNk1MMnZKQnk2ZGxMUUg2UTlzcXk0cGpXMl9XWFJhOG5CWQ?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T05:21:38+05:30",
+        "timestamp_display": "05:21 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.56,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "vibe movie release date",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://trends.google.com/trending/rss?geo=IN"
+          }
+        ],
+        "timestamp": "2026-09-05T09:10:00+05:30",
+        "timestamp_display": "09:10 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "DAG’s ‘City as a Museum’ festival to showcase Delhi’s printmaking legacy",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/delhi-news/dags-city-as-a-museum-festival-to-showcase-delhi-s-printmaking-legacy-101788545127842.html"
+          }
+        ],
+        "timestamp": "2026-09-05T07:34:00+05:30",
+        "timestamp_display": "07:34 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "Delhi",
+        "confidence": "low"
+      }
+    ],
+    "Crime & Justice": [
+      {
+        "rank": 1,
+        "headline": "Air India terminates Phuket-Delhi pilot after AAIB confirms ‘non-negative’ psychoactive substance test | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Air India terminates Phuket-Delhi pilot after AAIB confirms 'non-negative' psychoactive substance test; airline initiates 100% voluntary pilot testing.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOLTdWM01mc293SU50VmVPd1kzakdxVDM2NnBDRzdPTnVvMEduMnE3bG1pajY2Q05ZMlhJd29lVGtMX1NmQ2JxZFMwTXZwNXhlN0I2QjllaHRfQTVxNUVKVFBLaTdNdUVkeXpMLW0ycF8zRm1BWUFaWXdSRnRwYlNPNUctMU9FQ2ptczB0N3lnZlZqSmZVeVBsQXBlSEJqNzI2clRvTVFLdHhOaVk2RkZlbW8tZnBFdjJfTWJRVXdYVk8zcGlNeGNHb29falJ5WkFrWDBaMzVYeDIzdTVaZjJEWk56OVU2TnlOb1luYVpJOHZLTUHSAfgBQVVfeXFMT3dJT2lfTVNpNTdtaUZicG5lczNUdHFjWDRLLVlFLURtbG5pbVlvM3hWbzhZTDJVM1FyLTlUQ3FpSGN6a2ZIdmNSWWlHWXpGOUdhNmdWbm5FTlVkUE5oZGNndktGLVZ5ZjVGS0lQak9NMldrd3VpcTc4c0RYc0pTZHhXZjIxT2NwVlAwWHFKblZIMV8zOE13eGdZMGNjNVRfYkdsZFIyS0hwVkd1TEV5aWMwc2RHTkJKWWUyZGc5czdBdjI3cGtWZWViN2JzdHFMWElhX01mNUV0NVRqRDYzNjRaTFVaSEF5d2hldWxucXhzeGxVd2VCZ2c?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T06:43:28+05:30",
+        "timestamp_display": "06:43 IST",
+        "source_quality": "medium",
+        "recency_score": 0.8,
+        "final_score": 0.672,
+        "region": "Delhi",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "FBI-Wanted Fraudster Arrested In Jalandhar Over $6,00,000 Scam In US - NDTV",
+        "summary": "",
+        "why_it_matters": "FBI-wanted fraudster arrested in Jalandhar over a $600,000 scam in the US — cross-border law-enforcement win.",
+        "sources": [
+          {
+            "source": "NDTV",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVkRxZ19tbnNYWXN2V3RPY0MtNEp0MFhzcEpWYmttZzJnRS10Q2FqMWo0dThvU1czVjN0bE5jMjZ4cU5JVFdwLU51OGx5ZVZMa3g2YzdvR2psMG5MMk54YnpieFpST2cyMkl0Z2o3NmlOZkZVTWljeDhaTWtNRDh4Wng2Wmp0YjhrYzFIWGJZdUdQaVBBczdLMUVqSmk1MS1OT2E0NUZpeno0eDJZXzhoNU1aTXloZ9IBvgFBVV95cUxPaVVpNVc4Rm9PRUZseDRaY3IybGxWUGhYTUZiSngzY2IyYkpKeEVhR3lIV0luZ2hkQ2Y3Y2lWUThQaEc2aU5xUVFmZTIyTWRWM0JvWFoxeExjRXVhbXI0Z1dDZXdRR2FoTEtrUTNReTlZUHlyRHJSOG5BMUhxRjRfYjZTSHV6TEYwMkxwR3UxbHo2bVVqUnRxbUp5dXZ2VHVUQUtIcmNxT3FjS1J6WGpHNTE2emY3T3dKWnVXS0lB?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T08:45:27+05:30",
+        "timestamp_display": "08:45 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "Belgian PM's veiled dig at Trump tariffs during India visit: 'Decide something on Monday, revoke it on Wednesday' | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "Belgian PM Bart De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit — EU leader publicly echoes India's trade grievance on Indian soil ahead of an FTA push.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMHU3ME9ocFpOMnlnYjZKYkp6OEhkZkVocUpjMjVNQ2xGU1R2S1gxY3dWNjZSTzE0Z3FIUmRtSXNZajBsWXBFYTNQWnNpeV9UaGRYblZTdmFpeGxBRDBwNEtlRGNtcDh1NHc0WjQzOThKLU92WnAwMkhPdFpwQV9oLWxjWFJ3bXdDYkhocGhOalB4RzU0LUFhUHZLWlVSZUlxVThpcVNwXzF3Vld4RDI3M2cxUUNSX3VRWVhTLU1CS21hTDN2X1g1VE5mQ2tPa1JmUlotSklqZm81ZDF3Q1hCZmJubDhlanBOLVk2ZjRsY2ZlQUFYbkxZcFhhUTdQWG820gGGAkFVX3lxTE9jazA0dmo4M1pIOVZCUEE2ZEdGRjlSX3QtTWEtbUlmOFpwUDF6V3paWHNFdHdRLUMtaUpLbmNIcm9wV1dSdnhZYk1xVzN5Mmg5M3VwbWZVMWNwVEJpaUF2Vm5GRjNrQlhMNzdnT3hlSFBpVXB2UkNuRXdhV0xoaHlLR2NnYUdBTTRWY0tIS05LdGhBVlFtMUZkYnF1b1VRZjE4YzVCcC1mMExNYkFwQ09hcmVmLXlsTmM5Y0tlaVAyUF94Mk44R1EtVmF3X1RWeENheUtVVDBhWUczbkpxdFpZT0Y1OUNZQXllWUhkTHM3Xy1hNHo1M3BIY1FlQ2ZVY2ZtWXFfTnc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T08:01:59+05:30",
+        "timestamp_display": "08:01 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.84,
+        "region": "National",
+        "confidence": "medium"
+      }
+    ],
+    "Health & Science": [
+      {
+        "rank": 1,
+        "headline": "Exclusive-India flags Abhayrab rabies vaccine batch as substandard, probes if spurious, document shows | India News - Hindustan Times",
+        "summary": "",
+        "why_it_matters": "India flags Abhayrab rabies vaccine batch as substandard, probes if spurious — pharma-quality watchdog action.",
+        "sources": [
+          {
+            "source": "Hindustan Times",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQWmU3bUlOZ0k3OUpNeUVLdlAwQmF4ZU5VMWl3c0ZTbkZER1RZYkU5dTZHY3NTd2ljOTRpRlVCWVVRXzcySHVMejhnV1ZnMVdxQVFwSG1nREVfOFpESENVN3pYamV2cG9yYl9UNFRlLVdWMC1vMFFOSG5DeElSRDV1UzRkNEZSQm9mS2lIZUZMZDlIQ2pVeVR6ZjBJVmlpME82X3gxd0VlRjVVNFZFR3IydTdVMnVTZUhGS3NVcWRoZjZaNnMwM2ZQMG5ESWRQS3BFZ3Z4UDNveFlkVG9tbnRGT3c2bm1tN1VHczF1b1czLUt2Ry0x0gH6AUFVX3lxTE9pd3JFRXBnRWo2cnlCLUxaY1A4U3JlNExGd0VRNWRrdlRBOU90YXFHTC0wQllYX2hCenh5RzV3dk5vdEdvaE5QNE1QYjJvektWdjRJTUpSampjNDZ2S3p0MFNrRmJ3b3hWV2FlS2VPNWl4RnV0bWxWaDFrajVZMWxTYkw4MG0zTVMyZkpoSHJfTXp6NG9BZnB0ZzNvVlh0Y3IteG1Ea3F0ZWZEQnYzRElsY3pIbXVuU3hiTWswbk11alU2OVNjUy1oT0JBMWdmMHNDb19aWFRwUnh1RFA4QkRIOXd5MU1WV21aa3FGRVBMWGtxTTMwbXhsMWc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T01:00:19+05:30",
+        "timestamp_display": "01:00 IST",
+        "source_quality": "medium",
+        "recency_score": 0.5,
+        "final_score": 0.49,
+        "region": "National",
+        "confidence": "medium"
+      },
+      {
+        "rank": 2,
+        "headline": "Needle found inside 1-yr-old’s body in Kerala, parents allege medical negligence at NICU",
+        "summary": "",
+        "why_it_matters": "Needle found inside 1-yr-old's body in Kerala, parents allege medical negligence at NICU — hospital safety spotlight.",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/india-news/needle-found-inside-1-yr-old-s-body-in-kerala-parents-allege-medical-negligence-at-nicu-kozhikode-kottayam-101788578031123.html"
+          }
+        ],
+        "timestamp": "2026-09-05T09:11:31+05:30",
+        "timestamp_display": "09:11 IST",
+        "source_quality": "low",
+        "recency_score": 1.0,
+        "final_score": 0.4,
+        "region": "National",
+        "confidence": "low"
+      },
+      {
+        "rank": 3,
+        "headline": "Gurugram dengue tally crosses 50-mark after three fresh cases",
+        "summary": "",
+        "why_it_matters": "",
+        "sources": [
+          {
+            "source": "Unknown",
+            "url": "https://www.hindustantimes.com/cities/gurugram-news/gurugram-dengue-tally-crosses-50-mark-after-three-fresh-cases-101788544729990.html"
+          }
+        ],
+        "timestamp": "2026-09-05T07:31:20+05:30",
+        "timestamp_display": "07:31 IST",
+        "source_quality": "low",
+        "recency_score": 0.8,
+        "final_score": 0.32,
+        "region": "National",
+        "confidence": "low"
+      }
+    ],
+    "International": [
+      {
+        "rank": 1,
+        "headline": "EAM S Jaishankar says India in continuous touch with Ukraine & Russia to help end the conflict - News On AIR",
+        "summary": "",
+        "why_it_matters": "EAM S Jaishankar says India is in continuous touch with both Ukraine and Russia to help end the conflict — sharpest articulation yet of New Delhi's mediation push ahead of his UNGA address on Sept 26.",
+        "sources": [
+          {
+            "source": "News On AIR",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZHYwRUZMM2RfaUlVeEQ4blkxNjdyOU03dmFKNVBJaXNlWGQ0cWVPRXpibjJOY3JLUEVrel9qdm9jVE5ySUVOQy1kUTBDN3otUVZYVDhQdUNFbDhtZ1hCVFBOZm5VM0Q0UG9jZXJYa1lSUENkSEZUTklJQXFCVG9ycmZEV2plX2dreGNpV0I3Y2ZWeUMwMUFsUXJKMVp0UHg1NzVoN2J1eTdVM0Vud3VJLXlST1ktSm1uMGc?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T08:08:00+05:30",
+        "timestamp_display": "08:08 IST",
+        "source_quality": "high",
+        "recency_score": 1.0,
+        "final_score": 1.4,
+        "region": "International",
+        "confidence": "high"
+      },
+      {
+        "rank": 2,
+        "headline": "Daily Briefing: India-China to hold Corps Commander talks in Northeast after Doval-Wang boundary meet - The Indian Express",
+        "summary": "",
+        "why_it_matters": "India-China to hold Corps Commander talks in Northeast after Doval-Wang boundary meeting in Beijing — LAC de-escalation step.",
+        "sources": [
+          {
+            "source": "The Indian Express",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYjNzaVJPMWlvVUQ2OF9DRjJVUHF3VDhGS3BTd1FIc212a3AxZndpNHRCd0ZRQ1Q0ck1yaWZXbUFCNFQ1SmpyZFVpaEhKNThUWXg5UGVxN1JjLUdVSUJ0X2JfX1hMcXBxQ2loVndQVFJkd0I1djUxS01fQTJVUWs5YzVXN0JrN2FZZFpGTjdoQ0tCdUI3OXlJ0gGeAUFVX3lxTE5pYVNnNktvWnhwdFJoNlBsMzBwdnRjRXV5NGFKZllMOWQ1T3lQX0pPbnQyRnNtQWR0TzROTDVMVUM3ZHcxVzFWT1Rra2Vmb2tXTTU4OHBkaUpfUUZnTEl4NTc5eWhFeDBia29RQ0xDR09fREJwVEZmOVl1WGcwX0NtTnJnSjJrMVZTY0s2NlNuRnZZSENrcHk4ZVFtZDl3?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T09:10:07+05:30",
+        "timestamp_display": "09:10 IST",
+        "source_quality": "medium",
+        "recency_score": 1.0,
+        "final_score": 0.7,
+        "region": "International",
+        "confidence": "medium"
+      },
+      {
+        "rank": 3,
+        "headline": "India in continuous touch with Ukraine and Russia to help end the conflict: Jaishankar - The Hindu",
+        "summary": "",
+        "why_it_matters": "EAM S Jaishankar says India is in continuous touch with both Ukraine and Russia to help end the conflict — sharpest articulation yet of New Delhi's mediation push ahead of his UNGA address on Sept 26.",
+        "sources": [
+          {
+            "source": "The Hindu",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX3g1cDBWUThtWUM1SmcwdllpQU5RemlyUm9vdkVuNm11blVOVVRaTUpRMzQ0U2x6aUJaOVJJTHRBN1NLbE9IaXZrWWxROXl0WTdQZWd0MnpHakhWZ3JJQnNPU1NLSTBHOE1zcEM1NnRnc3QxQmRxUDRqMy1ValNUMWE4TG1fUjhlYlBMQjRXYnZTczU0VEZhYzdWaF94bW5zSDl5WkR3ZE5rb002cjVpbWpYbjhwem54RzZCYlVGekVZeXVkaFl4aWIyQ2t4UTBwMXo1eE9DRHctNVlq0gHjAUFVX3lxTE1DdmVyelZPZ1l4WFNSMmJEUzhyR1R4Vm8zdGV4WjNuRy1ub2NTYjNzMUhvX2ZtZTFfdHVmRXVZTHhTYWw0LTY2VTczMzZ3WVZSVS1LUzB1cWZiUmpseEF3RmtxYkhVNmpiWGFRVnRjNVo0RmxfaFgzX01YbTZMVkdpOVVjTDRjRUI0NmlKdUpWNmF3OUlzcXpqZnM0UUo5b3Y5bktCNjRSX3FVVDNnNi1faExzUk5UVnJhemRoZGdpU1JTWUlCdGNCMjF2UXJBU2pILWxCS2ZBNWNVX3dSMTU2UG9r?oc=5"
+          }
+        ],
+        "timestamp": "2026-09-05T02:20:00+05:30",
+        "timestamp_display": "02:20 IST",
+        "source_quality": "high",
+        "recency_score": 0.5,
+        "final_score": 0.7,
+        "region": "International",
+        "confidence": "high"
+      }
+    ]
+  },
+  "top_5_trends": [
+    {
+      "trend": "Jaishankar: India in continuous touch with Ukraine & Russia to help end conflict",
+      "why_it_matters": "EAM lays out India's mediation posture ahead of UN General Assembly (Jaishankar addresses UNGA on Sept 26); sharpest articulation yet of New Delhi's push to facilitate Russia-Ukraine peace."
+    },
+    {
+      "trend": "India-Poland ties see 'solid' report card; new agreements finalised by EAM Jaishankar",
+      "why_it_matters": "Concrete deliverables from Warsaw visit beyond BRICS optics; signals diversification of EU engagement as Brussels weighs India position on Russian oil."
+    },
+    {
+      "trend": "BRICS Summit: Delhi govt to inspect Bharat Mandapam → IGI route; city braces for more rain",
+      "why_it_matters": "Delhi declares all-of-govt readiness for the BRICS Summit (PM Modi hosting); waterlogging at IGI airport underscores monsoon-festival-season operational stress ahead of heads-of-state arrivals."
+    },
+    {
+      "trend": "Belgian PM De Wever takes swipe at Trump's 'arbitrary' tariffs during India visit",
+      "why_it_matters": "EU leader publicly echoes India's tariff grievance on Indian soil — anchors the EU-India reset ahead of an FTA push and complicates US trade posture mid-BRICS week."
+    },
+    {
+      "trend": "T20 Asia Cup: India vs arch-rivals Pakistan in final Group A clash in Dubai today",
+      "why_it_matters": "Group-stage decider — India already through; Pakistan must win to keep semifinal hopes alive; marquee fixture of the Women's Asia Cup window."
+    }
+  ],
+  "dedup_stats": {
+    "dropped": 15,
+    "kept": 38
+  },
+  "rejected_items": [
+    {
+      "headline": "Weather today September 5: Will it rain today in Haryana, Rajasthan, Jammu &amp; Kashmir, Uttarakhand, Punjab, West Bengal,  and other states? Check IMD forecast",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-september-5-will-it-rain-today-in-haryana-rajasthan-jammu-kashmir-uttarakhand-punjab-west-bengal-and-other-states-check-imd-forecast/articleshow/133784744.cms"
+    },
+    {
+      "headline": "Breaking News Live Updates: Rain lashes parts of Delhi-NCR as IMD issues yellow warning",
+      "reason": "blacklist",
+      "url": "https://economictimes.indiatimes.com/news/newsblogs/breaking-news-live-india-pm-modi-jaishankar-ukraine-poland-us-president-donald-trump-iran-war-bolivia-explosion-politics-congress-rahul-gandhi-teachers-day-2026-september-5-delhi-weather-today-rain-alert-imd/liveblog/133784044.cms"
+    },
+    {
+      "headline": "India News Live Updates, 5 September 2026: S Jaishankar to address UN General Assembly session on September 26 - The Indian Express",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPclh1QkM4WHdJQ1FHbENZR2h2Sl85djZqa1R3bnhzR1NnOUlvUzhTT2tfcThzc0Q0alJOQXRyREhTZVhWNFBBTklXZmgzUV92bnZxdno0eFRUVGsyNllreklpaGtzZVk1RTYwTFNiY2NQSThqRzZOem5ielVkNEc3aWpjV2FWS1hhZXRwdkNwX2ZGMDVnNU55VHdiWkQ0UmU5SHluUFVJMDFmWEl5ZDZ1eldyeEJ1bHZaSHRreHdnVXJra2ZHbDNEWHdySFJqRkXSAdYBQVVfeXFMUE00ai1HWjRsdk9ZTFFINlF2eE1lcHFRR2wtZEU3SHhXZndhejlOamJpVlVQSE9Cc3FvWnpqY1duNjh6Si0yVTJZLTExZnE3NjFIQlhtZjBnR3FPZjFxd25YVlByNkhTYlBOMUpmTjU2R1AxUGRhcC1EamxsNlROaFhLTzl6SXYzcHZFWTZqZGJlUlp6b2c4bGdfdVNHREFTQkZWWThveXN4QU1LcldYTWlBM3VUNmNLVFlCRjJCY3NING01SFI2dmxVelgyaWh2cXAzZ1BrQQ?oc=5"
+    },
+    {
+      "headline": "Video: Waterlogging At Delhi International Airport After Heavy Rain - NDTV",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGZxeUxLa01Fc3FGQXhudHdqSDByMjFPVVl6YThLNjlEZDBWNmhLQm43X2JfQjR3M1V3SS1QcDNlQVJtZmROQVZKMG53dmNhLS00b21SZmlKMUsxTEFQVkVlUXBJNmxQV3d2MFl4Qm1ZeUxCbzZCTTBIVEZaQjk2TTJza0RSa0xwLWc3Q3kxYVltZWVfdVBlNGYtQ0U0Q2tFQzNqS3Nob1p3a0pEMDlCWtIBuAFBVV95cUxNRGdpalljN1JibTBaampybXVSRl9rbmw4SUFyZzFpR3hCX1BZYkItX1hCczRJdHZSYnRjVFl4WV9kd1k4R3pSaG1QNmZDLS11ZGxuUGFEbXhENVdTcjkxNzZpSkVVc1hzaVR6NGhDdU9LZklTZ0pxZGh6anJtVTlxWDFnR1d5R3NGamNncER4SGxjWFAwWGwwU253ZXYycXBrdEt0MnJ6QzVlYjlVa2ZOUkZ3azZxQkZS?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 05 Sep 2026, 6 AM - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWUxPcmdqTmZOOFJudHItNUtDTjU0X05kZlp3NnhfTko2dTdvdVA0U0NVRVJkWHM1VENtemZjLS10VjhLV3BfMks1MzB1RG9QM1BEcEJlZnRQTWc1SmRHamkxdVFRN25PdXE1TVFlcWNhM25xdzdQOGFGamFIM0xXb3dvSXh6a29QZEZUYnJLc2Vid1hIbUxkVEtQSzVjTjFzUGFJMFdkcW0zOUY1V19oX3BfWdIBuAFBVV95cUxNTmgzMHJSemN5LS15RWs1c1p5TkRoM3F3ODFkV3o1blFrTWlSNXZVSlJkN0hncjNRX0VlRGJiSnQwNmkxa1RfTW1FdXNNdG1UQW9UZEJTeFNYTklwZ0J4NW5CN0dTeHNqR3dEejVwR1pYS2NwN2tYZFdXRkNRNGpZOGpqS1A2REZxYTVmQVJNSlBMY3E0VXdfSG4xOERHWVl4YmhOb2VMWjhKY25pUXZxVEdPUWxJNDFJ?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 05 Sep 2026, 4 AM - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY0JKcnNYQzZxOFBLYWtoT0U3eHUxaUREYlNIZElUOWxMWnBXR2Q3Wm1TaVhUMW1RZTkyQkhkTDkyeDY1QVJxX2ZMTTFoRkhQSDJjcXg1R0xYTVNBZkxpamtjZXRxYkhOd25XazZpeVVmam9NMWhxRnppSlZWUHJ4Q2hIaGdEUVZaTmo0bU54cHBkeGhPRHluazlMRTZqclhmSGdDb1JUVUFQd1lodXE5MGY5Y9IBuAFBVV95cUxNM2xvNzViSGFrUk1EZ2JCcGhUU3RGVFJUOVZOcjd0NF9qb3hLdTJnaHlzOFcwY08yMFI4emJVeUItMnB3X3JDSEdjVnoydXM5cHZ4aW0xbkVjWkRUTjl1R0N5MElMY2ZOVldMS1lqd3RMTk9iamtiNXA5VmZUc2FvVTc1Zms0cXVmckhJR0FVZjM2UDRiU3dvUm1ocTFYWnFxNUZxdXFGMlRlczJSaG51ZUE5bEtFNUpP?oc=5"
+    },
+    {
+      "headline": "India tour of Japan, 2026 schedule, live scores and results - Cricbuzz",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmc1THFic0JLWk5KdXcwRmprbHNuSlg2MVNobEp0SFYyaXVHNHB1RlNDY2xhSTNOM3I3R1doYVlYaWVyX3lZR0xiR3EzWjJqUEZ2eHQyS3hkenFEQmVySGdFTWNxbVNzT3g2Tko4emxzbnV1ZVFZLXhCbFhfYXhrNndpckc?oc=5"
+    },
+    {
+      "headline": "India vs Pakistan live streaming: When and where to watch Women’s Asia Cup 2026 clash? Check head-to-head - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNX2xZamtfZ1lvRkh3VGltTHluQmtIV2xzN2VxNUJVQzBOeVE5b2RyMGo4RS04YkJXMFU4bDM4eVhvLUFvNl82TERIU241dHBobHFhaXplbjJ2ZFBRMFo1ZE1OcFJkZUVpUW1Jb1ZtckxqeVpCMVJJOVVsTHRhbHZjaXMyX2ZINlNFaHdteC1VNW9JVnA3Ykc2d1VTZm1XMGlxem5PR3RlWW1YMTRrLTNLbURVZS1fMThYTlJ3TnlqU21ZeVhPb01KMHdxMHRGdXI1R3Fmd01Oa0NEeTd4Umx4Mm5KZFRheF9LcEhIVk5fRC1vYVVRdjZRZE1VaUFHdXNMZ3B0ZzVvWndhWmQ0cnNsOTA1VXZXTEdwMEJ6Qmd4cF9Vd0o4T3NGWjV1WFVodU1zZ3VkQlQ3VzJRQ204RTIxZWdCWXJNZEnSAcwCQVVfeXFMTUJlampNY0Nud3FnWDFOd21TWDR2MThzYnVsWHZlYlhnV3NIVENFWFM2T01vTkpqM1djb2dfYjVCczhMX0FzUTJ4NUN2SEk5NUNFb3pGdDhmTEhhdXJNS2hCdDkzakV3MTNYeHMzZ1o3SUlKRXU1bzU5LW92QkdJRlhKckNoQ2hWdVBaa2ZzNS1YelhnOEpCWmFiTnJrX2xna0ptaVhnZ09ZOXdTWEJ1b0xzUkQzSmxFZEUtaVBjcnBVblRiVWxUV2hrMmt2eUg4enNRUDg2MXdoMElOb2Z3WHNXRUtaQ3IwZERGaEQ1SEtDX0d3UXRGck9WZVhfaV9kRUR0ZzNEOHQ2c1hMNV9QT2lDV0hUNmx5MEk4SktidXp2cTNTZDVIcDFfUW9nRmRveWhILWRIeEVKWUNQREdxaXNKOHNmbjdEQWhsdTE?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 05 Sep 2026, 2 AM - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd0NKNzliSm1PaGNFbVp2VU5JQ3c3UDNWa0ZxdlprVlRiNDBKZlRVWjNDZl9JaERXUjRQczRoR3JhVzhMSGpsMmlFSUJIVkN4YlU0UFIxVUJKUXJyOVp6bndwT0gzck5yM0hPczROQnVmdkFkcm1fVXZxRENyUmFPUm9CNW1adlZBLTVTYnE2SjFldzRoRmtPVTdQVjFtZXE4OWp2RUEtdHdpVnZoTThtS0tzdDdEbGJy0gG4AUFVX3lxTE93Q0o3OWJKbU9oY0VtWnZVTklDdzdQM1ZrRnF2WmtWVGI0MEpmVFVaM0NmX0loRFdSNFBzNGhHcmFXOExIamwyaUVJQkhWQ3hiVTRQUjFVQkpRcnI5Wnpud3BPSDNyTnIzSE9zNE5CdWZ2QWRybV9VdnFEQ3JSYU9Sb0I1bVp2VkEtNVNicTZKMWV3NGhGa09VN1BWMW1lcTg5anZFQS10d2lWdmhNOG1LS3N0N0RsYnI?oc=5"
+    },
+    {
+      "headline": "Top News Audio Briefing - 04 Sep 2026, 11 PM - The Times of India",
+      "reason": "blacklist",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZmJ0bGNJdllRVThfbVJWbUJJekp2MWZZVXpmZTVYb3dqRldzWXVrd200cWphSVdHaXBmOHZqN3hqdU9MRnlYLXE0b3VneldKTDhkeGpjcDB0VXlvNVViT1VvLTd3YlVaOU84R1o1WEtSeWtONmFrNFZ2ekVFakhsblEtV0d4bFVLYV9jTEtkbGRSTkY1V1ppSkV4NEI5aFhpdElOTXVGWHRMcHQ2SGhubG5MR0bSAboBQVVfeXFMTl9malMwUmoyNWpzSkFPYldaNnF6TDZaN25NbHNTcUEtQ3RQc3FZcTQyM1U5eHpyMVlwQzExeG1LYmZvN205S1RlZ3ZqZFhuT0dfZmxaNzhhSHFqdWVMVTN3d0NocjluRXg1OXJtNUFObmNnY01FX0l0Qy04Q3F2aWJJdk9aSlpfS0NIYzBjRklBYWdaeGtHa091WFhYRHItS08zLXFzanp3TnRIaml6ODQxcDBPRGRSQnRB?oc=5"
+    },
+    {
+      "headline": "Explained: The unused constitutional clause on Supreme Court appointments",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/ht-explainers/explained-the-unused-constitutional-clause-on-supreme-court-appointments-101788527095961.html"
+    },
+    {
+      "headline": "Kylian Mbappe misses penalty as Betis beats Real Madrid in La Liga",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/football/kylian-mbappe-misses-penalty-as-betis-beats-real-madrid-in-la-liga-101788575054829.html"
+    },
+    {
+      "headline": "Aaron Rodgers makes rare ‘mystery wife’ Brittani admission as fatherhood becomes part of his post-NFL plans",
+      "reason": "blacklist",
+      "url": "https://www.hindustantimes.com/sports/us-sports/aaron-rodgers-makes-rare-mystery-wife-brittani-admission-as-fatherhood-becomes-part-of-his-post-nfl-plans-101788561737894.html"
+    },
+    {
+      "headline": "Nepal Floods LIVE Updates: 3 More Indians, Including 5-Year-Old, Rescued From Flood-Hit Nepal",
+      "reason": "blacklist",
+      "url": "https://www.ndtv.com/world-news/nepal-flash-floods-live-updates-india-sends-5th-relief-shipment-to-flood-hit-nepal-amid-massive-rescue-effort-11990118#publisher=newsstand"
+    },
+    {
+      "headline": "One fight left on UFC deal, but Page knows his title route: ‘It's middleweight’",
+      "reason": "blacklist",
+      "url": "https://timesofindia.indiatimes.com/sports/mma/news/one-fight-left-on-ufc-deal-but-michael-page-knows-his-title-route-its-gonna-be-middleweight/articleshow/133762404.cms"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T09:52:00.267730+05:30",
+  "totals": {
+    "raw": 814,
+    "kept": 38,
+    "sources": 10,
+    "categories": 12,
+    "deduped": 15
+  },
+  "delivered_at": "2026-09-05T09:52:08.383855+05:30",
+  "telegram_message_chars": 3362,
+  "success": true,
+  "schema_version": "v2",
+  "validation_passed": true,
+  "delivery_channel": "telegram_cron_inline"
+}
